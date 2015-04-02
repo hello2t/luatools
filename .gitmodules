@@ -1,0 +1,18 @@
+[submodule "3rd/luasvn"]
+	path = 3rd/luasvn
+	url = https://github.com/amery/luasvn.git
+[submodule "3rd/lfs"]
+	path = 3rd/lfs
+	url = https://github.com/keplerproject/luafilesystem.git
+[submodule "3rd/lpack"]
+	path = 3rd/lpack
+	url = https://github.com/yingnierxiao/lpack.git
+[submodule "3rd/luasocket"]
+	path = 3rd/luasocket
+	url = https://github.com/diegonehab/luasocket.git
+[submodule "3rd/lpeg"]
+	path = 3rd/lpeg
+	url = https://github.com/lua/lpeg.git
+[submodule "3rd/cjson"]
+	path = 3rd/cjson
+	url = https://github.com/mpx/lua-cjson.git
