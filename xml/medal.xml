@@ -1,0 +1,7 @@
+<Group id='medal'>
+  <ItemSpec achievement='9202' icon_base='medal_1' icon_sub='chenjiu08' icon_main='medal_1' name='137310' id='9250'/>
+  <ItemSpec achievement='9215' icon_base='medal_2' icon_sub='chenjiu08' icon_main='medal_2' name='137300' id='9251'/>
+  <ItemSpec achievement='9221' icon_base='medal_3' icon_sub='chenjiu08' icon_main='medal_3' name='137314' id='9252'/>
+  <ItemSpec achievement='9226' icon_base='medal_4' icon_sub='chenjiu08' icon_main='medal_4' name='137301' id='9253'/>
+  <ItemSpec achievement='9231' icon_base='medal_1' icon_sub='chenjiu08' icon_main='medal_1' name='137303' id='9254'/>
+</Group>

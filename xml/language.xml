@@ -1,0 +1,34 @@
+<Group id='language'>
+  <ItemSpec lang_id='115608' lang_ma='zh' mark='1' id='9500'/>
+  <ItemSpec lang_id='115601' lang_ma='en' mark='1' id='9501'/>
+  <ItemSpec lang_id='115605' lang_ma='de' mark='1' id='9502'/>
+  <ItemSpec lang_ma='ar' lang_id='115602' id='9503'/>
+  <ItemSpec lang_id='115603' lang_ma='fr' mark='1' id='9504'/>
+  <ItemSpec lang_id='115615' lang_ma='ja' mark='1' id='9505'/>
+  <ItemSpec lang_id='115617' lang_ma='nl' mark='1' id='9506'/>
+  <ItemSpec lang_id='115609' lang_ma='it' mark='1' id='9507'/>
+  <ItemSpec lang_id='115602' lang_ma='es' mark='1' id='9508'/>
+  <ItemSpec lang_id='115607' lang_ma='ko' mark='1' id='9509'/>
+  <ItemSpec lang_id='115604' lang_ma='pt' mark='1' id='9510'/>
+  <ItemSpec lang_id='115611' lang_ma='da' mark='1' id='9511'/>
+  <ItemSpec lang_id='115613' lang_ma='fi' mark='1' id='9512'/>
+  <ItemSpec lang_id='115616' lang_ma='nb' mark='1' id='9513'/>
+  <ItemSpec lang_id='115621' lang_ma='sv' mark='1' id='9514'/>
+  <ItemSpec lang_id='115606' lang_ma='ru' mark='1' id='9515'/>
+  <ItemSpec lang_id='115618' lang_ma='pl' mark='1' id='9516'/>
+  <ItemSpec lang_id='115622' lang_ma='tr' mark='1' id='9517'/>
+  <ItemSpec lang_id='115627' lang_ma='uk' mark='1' id='9518'/>
+  <ItemSpec lang_id='115628' lang_ma='hr' mark='1' id='9519'/>
+  <ItemSpec lang_id='115610' lang_ma='cs' mark='1' id='9520'/>
+  <ItemSpec lang_id='115612' lang_ma='el' mark='1' id='9521'/>
+  <ItemSpec lang_id='115624' lang_ma='he' mark='1' id='9522'/>
+  <ItemSpec lang_id='115619' lang_ma='ro' mark='1' id='9523'/>
+  <ItemSpec lang_id='115620' lang_ma='sk' mark='1' id='9524'/>
+  <ItemSpec lang_id='115629' lang_ma='th' mark='1' id='9525'/>
+  <ItemSpec lang_id='115625' lang_ma='id' mark='1' id='9526'/>
+  <ItemSpec lang_id='115626' lang_ma='ms' mark='1' id='9527'/>
+  <ItemSpec lang_id='115623' lang_ma='ca' mark='1' id='9528'/>
+  <ItemSpec lang_id='115614' lang_ma='hu' mark='1' id='9529'/>
+  <ItemSpec lang_id='115630' lang_ma='vi' mark='1' id='9530'/>
+  <ItemSpec lang_id='115600' mark='1' id='9531'/>
+</Group>

@@ -1,0 +1,9 @@
+<Group id='position_unlock'>
+  <ItemSpec wood='1' unlock='1' food='1' pos='6' lv='1' id='9990' position='17;18;19;20;21'/>
+  <ItemSpec wood='5000' unlock='1' food='5000' pos='7' lv='1' id='9991' position='22;23;24;25;26'/>
+  <ItemSpec wood='200000' stone='5000' iron='50000' pos='1' lv='15' food='200000' position='27;28;29;30;31' id='9992'/>
+  <ItemSpec wood='100000' food='100000' iron='2000' pos='2' lv='10' id='9993' position='32;33;34;35;36'/>
+  <ItemSpec wood='60000' food='60000' pos='3' lv='5' id='9994' position='37;38;39;40;41'/>
+  <ItemSpec wood='30000' food='30000' pos='4' lv='2' id='9995' position='42;43;44;45;46'/>
+  <ItemSpec wood='10000' unlock='1' food='10000' pos='5' lv='1' id='9996' position='47;48;49;50;51'/>
+</Group>

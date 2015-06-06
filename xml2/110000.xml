@@ -1,0 +1,48 @@
+<Group id='信息'>
+  <ItemSpec position='15,48' area='3,3' id='国库' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100003'/>
+  <ItemSpec position='25,37' area='3,3' id='利斧' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='8,33' area='3,3' id='轮耕制度' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100003'/>
+  <ItemSpec position='2,29' area='3,3' id='地窖' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-R-Three dogs' army_id='300000' background='xuedi' name='100006'/>
+  <ItemSpec position='4,7' area='3,3' id='双人锯' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='Castle' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='20,6' area='3,3' id='兽耕' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100003'/>
+  <ItemSpec position='32,5' area='3,3' id='鼓风炉' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100006'/>
+  <ItemSpec position='42,4' area='3,3' id='矿车' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='Prison' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='39,12' area='3,3' id='铁镐' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100003'/>
+  <ItemSpec position='43,21' area='3,3' id='秘银提炼' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-L-Three dogs' army_id='300000' background='xuedi' name='100006'/>
+  <ItemSpec position='29,29' area='3,3' id='黄金提炼' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-R-Three dogs' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='35,57' area='3,3' id='高级国库' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='S-R-Three dogs' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='45,63' area='3,3' id='高级利斧' silver='500' exp='500' wood='500' fb_type='1' food='500' icon='Lair' army_id='300000' background='xuedi' name='100009'/>
+  <ItemSpec position='17,48' fb_type='2' area='1,1' id='120500' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='17,47' area='1,1' id='120501' wood='3000' food='3000' icon='Chest' name='100006' fb_type='3'/>
+  <ItemSpec position='24,44' area='1,1' id='120502' wood='3000' food='3000' icon='Chest' name='100003' fb_type='3'/>
+  <ItemSpec position='28,38' fb_type='2' area='1,1' id='120503' icon='Chest' wood='2000' name='100006'/>
+  <ItemSpec position='9,31' fb_type='2' area='1,1' id='120504' icon='Chest' wood='2000' name='100009'/>
+  <ItemSpec position='8,31' fb_type='2' area='1,1' id='120505' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='0,29' fb_type='2' area='1,1' id='120506' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='0,28' area='1,1' id='120507' wood='3000' food='3000' icon='Chest' name='100006' fb_type='3'/>
+  <ItemSpec position='13,2' area='1,1' id='120508' wood='3000' food='3000' icon='Chest' name='100009' fb_type='3'/>
+  <ItemSpec position='28,5' fb_type='2' area='1,1' id='120509' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='31,7' fb_type='2' area='1,1' id='120510' icon='Chest' wood='2000' name='100006'/>
+  <ItemSpec position='32,7' fb_type='2' area='1,1' id='120511' icon='Chest' wood='2000' name='100009'/>
+  <ItemSpec position='41,11' area='1,1' id='120512' wood='3000' food='3000' icon='Chest' name='100003' fb_type='3'/>
+  <ItemSpec position='30,15' fb_type='2' area='1,1' id='120513' icon='Chest' wood='2000' name='100006'/>
+  <ItemSpec position='30,16' fb_type='2' area='1,1' id='120514' icon='Chest' wood='2000' name='100009'/>
+  <ItemSpec position='30,17' fb_type='2' area='1,1' id='120515' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='30,18' fb_type='2' area='1,1' id='120516' icon='Chest' wood='2000' name='100006'/>
+  <ItemSpec position='45,21' area='1,1' id='120517' wood='3000' food='3000' icon='Chest' name='100003' fb_type='3'/>
+  <ItemSpec position='27,30' fb_type='2' area='1,1' id='120518' icon='Chest' wood='2000' name='100003'/>
+  <ItemSpec position='27,29' fb_type='2' area='1,1' id='120519' icon='Chest' wood='2000' name='100006'/>
+  <ItemSpec position='28,31' fb_type='2' area='1,1' id='120520' icon='Chest' wood='2000' name='100009'/>
+  <ItemSpec position='29,31' fb_type='2' area='1,1' id='120521' icon='Chest' wood='2000' name='100012'/>
+  <ItemSpec position='27,31' fb_type='2' area='1,1' id='120522' icon='Chest' wood='2000' name='100015'/>
+  <ItemSpec position='26,31' fb_type='2' area='1,1' id='120523' icon='Chest' wood='2000' name='100018'/>
+  <ItemSpec position='28,32' fb_type='2' area='1,1' id='120524' icon='Chest' wood='2000' name='100021'/>
+  <ItemSpec position='29,32' fb_type='2' area='1,1' id='120525' icon='Chest' wood='2000' name='100024'/>
+  <ItemSpec position='26,29' fb_type='2' area='1,1' id='120526' icon='Chest' wood='2000' name='100027'/>
+  <ItemSpec position='26,30' fb_type='2' area='1,1' id='120527' icon='Chest' wood='2000' name='100030'/>
+  <ItemSpec position='25,30' fb_type='2' area='1,1' id='120528' icon='Chest' wood='2000' name='100033'/>
+  <ItemSpec position='25,29' fb_type='2' area='1,1' id='120529' icon='Chest' wood='2000' name='100036'/>
+  <ItemSpec position='33,57' area='1,1' id='120530' wood='3000' food='3000' icon='Chest' name='100006' fb_type='3'/>
+  <ItemSpec position='33,58' fb_type='2' area='1,1' id='120531' icon='Chest' wood='2000' name='100009'/>
+  <ItemSpec position='43,54' area='1,1' id='120532' wood='3000' food='3000' icon='Chest' name='100009' fb_type='3'/>
+</Group>

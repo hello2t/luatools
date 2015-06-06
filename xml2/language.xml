@@ -1,0 +1,34 @@
+<Group id='language'>
+  <ItemSpec id='9500' lang_ma='zh' lang_id='中文' mark='1'/>
+  <ItemSpec id='9501' lang_ma='en' lang_id='英语' mark='1'/>
+  <ItemSpec id='9502' lang_ma='de' lang_id='德语' mark='1'/>
+  <ItemSpec lang_id='西班牙语' lang_ma='ar' id='9503'/>
+  <ItemSpec id='9504' lang_ma='fr' lang_id='法语' mark='1'/>
+  <ItemSpec id='9505' lang_ma='ja' lang_id='日语' mark='1'/>
+  <ItemSpec id='9506' lang_ma='nl' lang_id='荷兰语' mark='1'/>
+  <ItemSpec id='9507' lang_ma='it' lang_id='意大利语' mark='1'/>
+  <ItemSpec id='9508' lang_ma='es' lang_id='西班牙语' mark='1'/>
+  <ItemSpec id='9509' lang_ma='ko' lang_id='韩语' mark='1'/>
+  <ItemSpec id='9510' lang_ma='pt' lang_id='葡萄牙语' mark='1'/>
+  <ItemSpec id='9511' lang_ma='da' lang_id='丹麦语' mark='1'/>
+  <ItemSpec id='9512' lang_ma='fi' lang_id='芬兰语' mark='1'/>
+  <ItemSpec id='9513' lang_ma='nb' lang_id='挪威语' mark='1'/>
+  <ItemSpec id='9514' lang_ma='sv' lang_id='瑞典语' mark='1'/>
+  <ItemSpec id='9515' lang_ma='ru' lang_id='俄语' mark='1'/>
+  <ItemSpec id='9516' lang_ma='pl' lang_id='波兰语' mark='1'/>
+  <ItemSpec id='9517' lang_ma='tr' lang_id='土耳其语' mark='1'/>
+  <ItemSpec id='9518' lang_ma='uk' lang_id='乌克兰语' mark='1'/>
+  <ItemSpec id='9519' lang_ma='hr' lang_id='克罗地亚语' mark='1'/>
+  <ItemSpec id='9520' lang_ma='cs' lang_id='捷克语' mark='1'/>
+  <ItemSpec id='9521' lang_ma='el' lang_id='希腊语' mark='1'/>
+  <ItemSpec id='9522' lang_ma='he' lang_id='希伯来语' mark='1'/>
+  <ItemSpec id='9523' lang_ma='ro' lang_id='罗马尼亚语' mark='1'/>
+  <ItemSpec id='9524' lang_ma='sk' lang_id='斯洛伐克语' mark='1'/>
+  <ItemSpec id='9525' lang_ma='th' lang_id='泰语' mark='1'/>
+  <ItemSpec id='9526' lang_ma='id' lang_id='印度尼西亚' mark='1'/>
+  <ItemSpec id='9527' lang_ma='ms' lang_id='马来语' mark='1'/>
+  <ItemSpec id='9528' lang_ma='ca' lang_id='加泰罗尼亚语' mark='1'/>
+  <ItemSpec id='9529' lang_ma='hu' lang_id='匈牙利语' mark='1'/>
+  <ItemSpec id='9530' lang_ma='vi' lang_id='越南语' mark='1'/>
+  <ItemSpec mark='1' lang_id='全部语言' id='9531'/>
+</Group>

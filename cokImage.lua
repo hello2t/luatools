@@ -14,6 +14,8 @@ local plistExt = ".plist"
 local pngExt = ".png"
 local xmlExt =".local.xml"
 
+local lang = util.language("text_zh_CN.ini")
+
 function pvr2pngFile( filePath )
 	local fileinfo = util.pathinfo(filePath)
 	if fileinfo.extname == pvrExt then 
@@ -80,19 +82,22 @@ end
 
 function splitXml( filePath )
 	local fileinfo = util.pathinfo(filePath)
-	print(fileinfo.extname)
 	if fileinfo.extname == xmlExt then 
 		local xmlData = xml.loadpath(filePath)
-		-- util.trace(xmlData[1])
 		for i,v in ipairs(xmlData) do
-			print("\n")
-			util.trace(v,v["id"])
+			local xmlstr = xml.dump(v)
+			for k,v in pairs(lang) do
+				xmlstr = xmlstr:gsub(k,v)
+			end
+			util.savefile(fileinfo.dirname.."xml2/"..v["id"]..".xml",xmlstr,"w")
 		end
 	end
 end
 
 
 
+
+
 -- util.scanDir("/Users/zj/Desktop/cok",10,filterFile)
 -- util.scanDir("/Users/zj/Desktop/cok",10,splitPlist2Images)
-splitXml("/Users/zj/Desktop/cok/local/database.local.xml")
+splitXml("database.local.xml")

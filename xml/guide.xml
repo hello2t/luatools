@@ -1,0 +1,116 @@
+<Group id='guide'>
+  <ItemSpec cartoon='begin1' enforce='1' mark='1' next='3070200' id='3070100'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3070210' next='3070300' id='3070200'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3070310' next='3070400' id='3070300'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3070410' next='3070500' id='3070400'/>
+  <ItemSpec area='plot_continue' arrow='5' enforce='1' plot='3070510' next='3070600' id='3070500'/>
+  <ItemSpec cartoon='begin2' enforce='1' next='3070700' id='3070600'/>
+  <ItemSpec explanation='3070710' enforce='1' mark='1' next='3010100' id='3070700'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3010110' next='3070900' id='3010100'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3070910' next='3071000' id='3070900'/>
+  <ItemSpec area='MC_26' arrow='2' enforce='1' next='3071100' id='3071000'/>
+  <ItemSpec area='LI_413000' arrow='5' next='3071200' id='3071100'/>
+  <ItemSpec area='LI_build' arrow='2' enforce='1' next='3071300' id='3071200'/>
+  <ItemSpec area='BC_413000_build' arrow='2' enforce='1' mark='1' next='3071400' id='3071300'/>
+  <ItemSpec mark='1' id='3071400' next='3071800' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3071510' next='3071600' id='3071500'/>
+  <ItemSpec area='BU_413000_collect' arrow='5' enforce='1' mark='1' next='3071700' id='3071600'/>
+  <ItemSpec id='3071700' lag='3'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3071810' next='3071900' id='3071800'/>
+  <ItemSpec area='MC_11' arrow='2' enforce='1' next='3072000' id='3071900'/>
+  <ItemSpec area='LI_424000' arrow='2' enforce='1' next='3072100' id='3072000'/>
+  <ItemSpec area='LI_build' arrow='2' enforce='1' next='3072200' id='3072100'/>
+  <ItemSpec area='BC_424000_build' arrow='2' enforce='1' next='3072300' id='3072200'/>
+  <ItemSpec mark='1' id='3072300' next='3072400' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3072410' next='3072500' id='3072400'/>
+  <ItemSpec area='MC_21' arrow='2' enforce='1' next='3072600' id='3072500'/>
+  <ItemSpec area='LI_build' arrow='2' enforce='1' next='3072700' id='3072600'/>
+  <ItemSpec area='BC_415000_build' arrow='2' enforce='1' next='3072800' id='3072700'/>
+  <ItemSpec mark='1' id='3072800' next='3073200' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3073010' next='3073000' id='3072900'/>
+  <ItemSpec area='BU_415000_collect' arrow='5' enforce='1' mark='1' next='3073100' id='3073000'/>
+  <ItemSpec id='3073100' lag='3'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3073310' next='3073300' id='3073200'/>
+  <ItemSpec area='MC_424000' arrow='3' enforce='1' next='3073400' id='3073300'/>
+  <ItemSpec area='BU_424000_soldier' arrow='1' enforce='1' next='3073500' id='3073400'/>
+  <ItemSpec area='SO_train' arrow='2' enforce='1' next='3073600' id='3073500'/>
+  <ItemSpec mark='1' id='3073600' next='3073700' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3073810' next='3073800' id='3073700'/>
+  <ItemSpec area='MC_424000' arrow='3' enforce='1' next='3073900' id='3073800'/>
+  <ItemSpec area='BU_424000_cd' arrow='1' enforce='1' next='3074000' id='3073900'/>
+  <ItemSpec area='BU_424000_troop' arrow='4' enforce='1' mark='1' next='3074100' id='3074000'/>
+  <ItemSpec mark='1' id='3074100' next='3074200' lag='9'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3074410' next='3074300' id='3074200'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3074510' next='3074400' id='3074300'/>
+  <ItemSpec area='MC_10' arrow='2' enforce='1' next='3074500' id='3074400'/>
+  <ItemSpec area='LI_423000' arrow='2' enforce='1' next='3074600' id='3074500'/>
+  <ItemSpec area='LI_build' arrow='2' enforce='1' next='3074700' id='3074600'/>
+  <ItemSpec area='BC_423000_build' arrow='2' enforce='1' next='3074800' id='3074700'/>
+  <ItemSpec mark='1' id='3074800' next='3075900' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3075110' next='3075000' id='3074900'/>
+  <ItemSpec area='MC_423000' arrow='3' enforce='1' next='3075100' id='3075000'/>
+  <ItemSpec area='BU_423000_soldier' arrow='1' enforce='1' next='3075200' id='3075100'/>
+  <ItemSpec area='SO_train' arrow='4' enforce='1' next='3075300' id='3075200'/>
+  <ItemSpec id='3075300' next='3075400' lag='3'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3075610' next='3075500' id='3075400'/>
+  <ItemSpec area='MC_423000' arrow='3' enforce='1' next='3075600' id='3075500'/>
+  <ItemSpec area='BU_423000_cd' arrow='1' enforce='1' next='3075700' id='3075600'/>
+  <ItemSpec area='BU_423000_troop' arrow='4' enforce='1' mark='1' next='3075800' id='3075700'/>
+  <ItemSpec id='3075800' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3076110' next='3076000' id='3075900'/>
+  <ItemSpec area='UI_achievement' arrow='2' enforce='1' next='3076900' id='3076000'/>
+  <ItemSpec area='AC_reward' arrow='1' enforce='1' next='3076100' id='3076900'/>
+  <ItemSpec id='3076100' next='3076200' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3076410' next='3076300' id='3076200'/>
+  <ItemSpec area='AC_back' arrow='1' enforce='1' mark='1' next='3077000' id='3076300'/>
+  <ItemSpec area='UI_target' arrow='2' enforce='1' mark='1' id='3077000'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3076610' next='3076500' id='3076400'/>
+  <ItemSpec area='UI_achievement' arrow='2' enforce='1' next='3076600' id='3076500'/>
+  <ItemSpec area='AC_reward' arrow='1' enforce='1' next='3076700' id='3076600'/>
+  <ItemSpec id='3076700' next='3076800' lag='4'/>
+  <ItemSpec area='AC_back' arrow='1' enforce='1' mark='1' id='3076800'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3030110' next='3030200' id='3030100'/>
+  <ItemSpec area='UI_world_go' arrow='2' enforce='1' next='3031300' id='3030200'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3031310' next='3031400' id='3031300'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3031410' next='3031200' id='3031400'/>
+  <ItemSpec cartoon='songbing1' enforce='1' next='3030300' id='3031200'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3030310' next='3030400' id='3030300'/>
+  <ItemSpec area='WL_wood' explanation='3030401' enforce='1' arrow='1' next='3030500' id='3030400'/>
+  <ItemSpec area='WR_attack' arrow='1' enforce='1' next='3030700' id='3030500'/>
+  <ItemSpec area='ED_attack' arrow='2' enforce='1' next='3030800' id='3030700'/>
+  <ItemSpec enforce='1' id='3030800' next='3030900' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3030810' next='3031000' id='3030900'/>
+  <ItemSpec area='UI_world_back' arrow='2' enforce='1' next='3080100' id='3031000'/>
+  <ItemSpec area='plot_continue' arrow='5' mark='1' enforce='1' plot='3080110' next='3080200' id='3080100'/>
+  <ItemSpec cartoon='fengshou1' enforce='1' mark='1' id='3080200'/>
+  <ItemSpec id='3080300' next='3031100' lag='4'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' mark='1' plot='3030910' id='3031100'/>
+  <ItemSpec arrow='0' enforce='1' para1='403001' area='plot_continue' mark='1' open='1' plot='3040110' next='3040200' id='3040100'/>
+  <ItemSpec area='MC_403000' arrow='4' enforce='1' next='3040300' id='3040200'/>
+  <ItemSpec area='BU_403000_science' arrow='1' enforce='1' next='3040400' id='3040300'/>
+  <ItemSpec area='SC1_229990' arrow='3' enforce='1' next='3040500' id='3040400'/>
+  <ItemSpec area='SC2_700100' arrow='4' enforce='1' next='3040600' id='3040500'/>
+  <ItemSpec area='SC3_700100_research' arrow='1' enforce='1' next='3040700' id='3040600'/>
+  <ItemSpec area='SC2_out' arrow='1' enforce='1' mark='1' next='3040800' id='3040700'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' mark='1' plot='3040710' id='3040800'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3000110' next='3000200' id='3000100'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' mark='1' plot='3000111' id='3000200'/>
+  <ItemSpec arrow='0' enforce='1' para1='427002' area='plot_continue' mark='1' open='1' plot='3090110' next='3090200' id='3090100'/>
+  <ItemSpec area='UI_achievement' arrow='2' enforce='1' next='3090300' id='3090200'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' plot='3090310' next='3090400' id='3090300'/>
+  <ItemSpec area='AC_normal' arrow='5' enforce='1' id='3090400' mark='1' lag='3'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3100110' next='3100200' id='3100100'/>
+  <ItemSpec area='UI_goods' arrow='2' enforce='1' next='3100300' id='3100200'/>
+  <ItemSpec area='GD_first' arrow='1' enforce='1' next='3100400' id='3100300'/>
+  <ItemSpec area='GD_use' arrow='1' enforce='1' mark='1' id='3100400'/>
+  <ItemSpec arrow='0' enforce='1' para1='429001' area='plot_continue' mark='1' open='1' plot='3110110' next='3110200' id='3110100'/>
+  <ItemSpec area='MC_429000' arrow='4' enforce='1' next='3110300' id='3110200'/>
+  <ItemSpec area='BU_429000_forge' arrow='1' enforce='1' next='3110500' id='3110300'/>
+  <ItemSpec area='plot_continue' arrow='0' enforce='1' mark='1' plot='3110410' id='3110400'/>
+  <ItemSpec area='FR1_1' arrow='1' enforce='1' next='3110600' id='3110500'/>
+  <ItemSpec area='FR2_1' arrow='1' enforce='1' next='3110700' id='3110600'/>
+  <ItemSpec area='FR3_1' explanation='3110113' enforce='1' arrow='2' next='3110800' id='3110700'/>
+  <ItemSpec area='FR3_2' explanation='3110114' enforce='1' arrow='2' next='3110900' id='3110800'/>
+  <ItemSpec area='plot_continue' arrow='0' mark='1' enforce='1' plot='3110910' next='3111000' id='3110900'/>
+  <ItemSpec area='FR3_3' arrow='2' enforce='1' mark='1' id='3111000'/>
+</Group>

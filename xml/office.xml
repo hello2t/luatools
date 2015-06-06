@@ -1,0 +1,19 @@
+<Group id='office'>
+  <ItemSpec tips='110054;110055;110056' param='15; 15; 10' para1='1010;1030;8' icon='icon_216000' para2='15;15;10' name='110037' id='216000'/>
+  <ItemSpec tips='110058;110063' param='15; 20' para1='50;51;52;53;38' icon='icon_216001' para2='15;15;15;15;20' name='110038' id='216001'/>
+  <ItemSpec tips='110059;110060;110061' param='5; 5; 5' para1='68;66;69' icon='icon_216002' para2='5;5;5' name='110039' id='216002'/>
+  <ItemSpec tips='110058;110060' param='10; 5' para1='50;51;52;53;66' icon='icon_216003' para2='10;10;10;10;5' name='110040' id='216003'/>
+  <ItemSpec tips='110058;110062' param='5;-10' para1='50;51;52;53;64' icon='icon_216004' para2='5;5;5;5;10' name='110129' id='216004'/>
+  <ItemSpec tips='110054;110057' param='5; 10' para1='1010;60' icon='icon_216005' para2='5;10' name='110042' id='216005'/>
+  <ItemSpec tips='110054;110055' param='5; 5' para1='1010;1030' icon='icon_216006' para2='5;5' name='110043' id='216006'/>
+  <ItemSpec tips='110061' param='10' para1='69' icon='icon_216007' para2='10' name='110044' id='216007'/>
+  <ItemSpec tips='110059' param='10' para1='68' icon='icon_216008' para2='10' name='110045' id='216008'/>
+  <ItemSpec tips='110054;110058' param='-10;-5' para1='1010;50;51;52;53' icon='icon_216009' para2='-10;-5;-5;-5;-5' name='110046' id='216009'/>
+  <ItemSpec tips='110058;110062' param='-5; 10' para1='50;51;52;53;64' icon='icon_216010' para2='-5;-5;-5;-5;-10' name='110047' id='216010'/>
+  <ItemSpec tips='110057;110060' param='-5;-10' para1='60;66' icon='icon_216011' para2='-5;-10' name='110048' id='216011'/>
+  <ItemSpec tips='110055;110058' param='-5;-10' para1='1030;50;51;52;53' icon='icon_216012' para2='-5;-10;-10;-10;-10' name='110049' id='216012'/>
+  <ItemSpec tips='110054;110055' param='-8;-8' para1='1010;1030' icon='icon_216013' para2='-8;-8' name='110050' id='216013'/>
+  <ItemSpec tips='110063' param='-20' para1='38' icon='icon_216014' para2='-20' name='110051' id='216014'/>
+  <ItemSpec tips='110057' param='-15' para1='60' icon='icon_216015' para2='-15' name='110052' id='216015'/>
+  <ItemSpec tips='110061' param='-15' para1='69' icon='icon_216016' para2='-15' name='110053' id='216016'/>
+</Group>

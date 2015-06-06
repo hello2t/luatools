@@ -1,0 +1,53 @@
+<Group id='talkTips'>
+  <ItemSpec id='1000000' content='2000217' type='0'/>
+  <ItemSpec id='1000001' content='2000218' type='0'/>
+  <ItemSpec id='1000002' content='2000219' type='0'/>
+  <ItemSpec id='1000003' content='2000220' type='0'/>
+  <ItemSpec id='1000004' content='2000221' type='1'/>
+  <ItemSpec id='1000005' content='2000222' type='1'/>
+  <ItemSpec id='1000006' content='2000223' type='1'/>
+  <ItemSpec id='1000007' content='2000224' type='1'/>
+  <ItemSpec content='2000225' type='2' accept1='900' accept2='1800' id='1000008'/>
+  <ItemSpec content='2000226' type='2' accept1='1801' accept2='2400' id='1000009'/>
+  <ItemSpec content='2000227' type='2' accept1='2401' accept2='3000' id='1000010'/>
+  <ItemSpec content='2000228' type='2' accept1='3000' accept2='3701' id='1000011'/>
+  <ItemSpec content='2000229' type='2' accept1='3701' id='1000012'/>
+  <ItemSpec content='2000230' type='2' accept1='0' id='1000013'/>
+  <ItemSpec content='2000231' type='2' accept1='0' id='1000014'/>
+  <ItemSpec id='1000015' content='2000232' type='2'/>
+  <ItemSpec id='1000016' content='2000233' type='2'/>
+  <ItemSpec id='1000017' content='2000234' type='2'/>
+  <ItemSpec content='2000235' type='2' accept1='2000' accept2='5000' id='1000018'/>
+  <ItemSpec content='2000236' type='2' accept1='5000' accept2='10000' id='1000019'/>
+  <ItemSpec content='2000237' type='2' accept1='2000' accept2='5000' id='1000020'/>
+  <ItemSpec content='2000238' type='2' accept1='2000' accept2='5000' id='1000021'/>
+  <ItemSpec content='2000239' type='2' accept1='5000' accept2='10000' id='1000022'/>
+  <ItemSpec content='2000240' type='2' accept1='5000' accept2='10000' id='1000023'/>
+  <ItemSpec content='2000241' type='3' accept1='423000' id='1000024'/>
+  <ItemSpec content='2000242' type='3' accept1='424000' id='1000025'/>
+  <ItemSpec content='2000243' type='3' accept1='425000' id='1000026'/>
+  <ItemSpec content='2000244' type='3' accept1='426000' id='1000027'/>
+  <ItemSpec content='2000245' type='3' accept1='416000' id='1000028'/>
+  <ItemSpec content='2000246' type='4' accept1='400000' id='1000029'/>
+  <ItemSpec content='2000247' type='4' accept1='403000' id='1000030'/>
+  <ItemSpec content='2000248' type='4' accept1='401000' id='1000031'/>
+  <ItemSpec content='2000249' type='4' accept1='427000' id='1000032'/>
+  <ItemSpec content='2000250' type='4' accept1='419000' id='1000033'/>
+  <ItemSpec content='2000251' type='4' accept1='418000' id='1000034'/>
+  <ItemSpec content='2000252' type='4' accept1='417000' id='1000035'/>
+  <ItemSpec content='2000253' type='4' accept1='401000' id='1000036'/>
+  <ItemSpec content='2000254' type='4' accept1='402000' id='1000037'/>
+  <ItemSpec content='2000255' type='4' accept1='407000' id='1000038'/>
+  <ItemSpec content='2000256' type='4' accept1='415000' id='1000039'/>
+  <ItemSpec content='2000257' type='4' accept1='413000' id='1000040'/>
+  <ItemSpec content='2000258' type='4' accept1='414000' id='1000041'/>
+  <ItemSpec content='2000259' type='4' accept1='412000' id='1000042'/>
+  <ItemSpec content='2000260' type='4' accept1='410000' id='1000043'/>
+  <ItemSpec content='2000261' type='4' accept1='411000' id='1000044'/>
+  <ItemSpec content='2000262' type='4' accept1='423000' id='1000045'/>
+  <ItemSpec content='2000263' type='4' accept1='424000' id='1000046'/>
+  <ItemSpec content='2000264' type='4' accept1='425000' id='1000047'/>
+  <ItemSpec content='2000265' type='4' accept1='426000' id='1000048'/>
+  <ItemSpec content='2000266' type='4' accept1='416000' id='1000049'/>
+  <ItemSpec content='2000267' type='5' accept1='411000' id='1000050'/>
+</Group>

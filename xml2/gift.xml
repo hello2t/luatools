@@ -1,0 +1,8 @@
+<Group id='gift'>
+  <ItemSpec id='30000' icon='gift001' name='帮助' description='联盟名称修改成功'/>
+  <ItemSpec id='30100' icon='gift002' name='帮助所有' description='您需要有其他联盟成员才能使用资源帮助'/>
+  <ItemSpec id='30200' icon='gift003' name='帮助我研究{0}' description='点击这里进行修改'/>
+  <ItemSpec id='30300' icon='gift004' name='帮助我恢复伤兵' description='您的联盟盟主很懒，什么也没有写'/>
+  <ItemSpec id='30400' icon='gift005' name='帮助我建造{0}级{1}' description='您尚未开启这种资源，不能进行资源帮助'/>
+  <ItemSpec id='30500' icon='gift006' name='对方没有开启这种资源，不能进行帮助' description='资源帮助开始，您的商队已出发'/>
+</Group>

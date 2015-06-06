@@ -1,0 +1,33 @@
+<Group id='worldcastle'>
+  <ItemSpec lv='1' Basics='0' id='44100'/>
+  <ItemSpec lv='2' Basics='0' id='44101'/>
+  <ItemSpec lv='3' id='44102' Basics='0' addPic='100:-61,-42'/>
+  <ItemSpec lv='4' Basics='1' id='44103'/>
+  <ItemSpec lv='5' id='44104' Basics='1' addPic='200:-36,-47'/>
+  <ItemSpec lv='6' id='44105' Basics='1' addPic='201:-70,-46'/>
+  <ItemSpec lv='7' Basics='2' id='44106'/>
+  <ItemSpec lv='8' id='44107' Basics='2' addPic='300:-71,-51'/>
+  <ItemSpec lv='9' id='44108' Basics='2' addPic='300:-71,-51|301:-26,-25'/>
+  <ItemSpec lv='10' id='44109' Basics='2' addPic='300:-71,-51|302:-71,-25'/>
+  <ItemSpec lv='11' Basics='3' id='44110'/>
+  <ItemSpec lv='12' id='44111' Basics='3' addPic='400:-80,-29'/>
+  <ItemSpec lv='13' id='44112' Basics='3' addPic='401:-83,-43'/>
+  <ItemSpec lv='14' id='44113' Basics='3' addPic='402:-83,-43'/>
+  <ItemSpec lv='15' id='44114' Basics='4' addPic='500:-82,-53'/>
+  <ItemSpec lv='16' Basics='4' id='44115'/>
+  <ItemSpec lv='17' id='44116' Basics='4' addPic='501:-92,-62'/>
+  <ItemSpec lv='18' id='44117' Basics='4' addPic='502:-92,-62'/>
+  <ItemSpec lv='19' id='44118' Basics='4' addPic='502:-92,-62|503:-92,-49'/>
+  <ItemSpec lv='20' id='44119' Basics='4' addPic='502:-92,-62|504:-92,-50'/>
+  <ItemSpec lv='21' Basics='5' id='44120'/>
+  <ItemSpec lv='22' id='44121' Basics='5' addPic='600:-56,41|601:-92,-51'/>
+  <ItemSpec lv='23' id='44122' Basics='5' addPic='602:-65,11|603:-19,61|604:51,55|605:16,-41|606:66,-15'/>
+  <ItemSpec lv='24' id='44123' Basics='5' addPic='607:-19,105|608:-56,44|609:-139,-48|610:-92,-65|611:-1,140'/>
+  <ItemSpec lv='25' id='44124' Basics='6' addPic='700:55,46|705:0,140'/>
+  <ItemSpec lv='26' id='44125' Basics='6' addPic='701:-30,13|702:-126,-47|703:-88,-69|704:-30,-67|705:0,140'/>
+  <ItemSpec lv='27' id='44126' Basics='7' addPic='800:3,140'/>
+  <ItemSpec lv='28' Basics='8' id='44127'/>
+  <ItemSpec lv='29' Basics='8' id='44128'/>
+  <ItemSpec lv='30' Basics='8' id='44129'/>
+  <ItemSpec Basics='11' id='44999'/>
+</Group>

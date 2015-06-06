@@ -1,0 +1,405 @@
+<Group id='goods'>
+  <ItemSpec color='2' type='0' pages='1' lv_limit='1' description='104044' lv='1' page='1' price='500' store_order='101' price_all='100000' name='104036' order_num='801' price_hot='500' use='1' icon='item000' alliance_order='4' id='200001'/>
+  <ItemSpec color='5' type='0' pages='1' lv_limit='1' description='104045' lv='1' page='1' price='2000' store_order='102' price_all='400000' name='104037' order_num='901' price_hot='2000' use='0' icon='item001' alliance_order='5' id='200002'/>
+  <ItemSpec color='4' type='0' name='104038' order_num='701' lv_limit='1' description='104046' use='0' lv='1' page='1' icon='item002' id='200003'/>
+  <ItemSpec color='2' type='0' pages='1' lv_limit='1' description='104047' lv='1' page='1' price='50' store_order='105' price_all='10000' name='104039' order_num='1301' price_hot='50' use='0' icon='item005' alliance_order='11' id='200004'/>
+  <ItemSpec color='1' type='0' icon='item003' name='104182' order_num='601' lv_limit='1' description='104183' price_hot='2000' use='0' lv='1' page='1' is_gift='1' id='200005'/>
+  <ItemSpec color='4' version='1.0.84' type='0' name='104366' order_num='112' lv_limit='1' description='104367' use='1' lv='1' page='4' icon='item012' id='200010'/>
+  <ItemSpec id='200015' type='0'/>
+  <ItemSpec color='3' type='0' pages='1' sales='1;15|10;120|100;1100|1000;10000' lv_limit='1' description='104139' lv='7' page='4' price='15' store_order='107' name='104138' order_num='3701' use='0' price_hot='15' icon='item008' id='200016'/>
+  <ItemSpec type='0' name='104140' order_num='3901' lv_limit='1' description='104141' sales='1;30|2;71' lv='1' use='0' icon='temp_icon' id='200017'/>
+  <ItemSpec type='0' name='104142' order_num='4001' lv_limit='1' description='104143' sales='1;30|2;72' lv='1' use='0' icon='temp_icon' id='200018'/>
+  <ItemSpec type='0' name='104144' order_num='4101' lv_limit='1' description='104145' sales='1;30|2;73' lv='1' use='0' icon='temp_icon' id='200019'/>
+  <ItemSpec color='3' type='0' pages='1' sales='1;5|10;40|100;400|1000;4000' lv_limit='1' description='104149' lv='7' page='4' price='5' store_order='108' name='104148' order_num='3801' use='0' price_hot='5' icon='item009' id='200020'/>
+  <ItemSpec color='2' type='0' pages='4' lv_limit='1' description='104153' lv='1' page='4' price='200' store_order='409' price_all='40000' name='104152' order_num='4201' price_hot='200' use='1' icon='item006' alliance_order='16' id='200021'/>
+  <ItemSpec color='2' type='0' pages='4' lv_limit='1' description='104250' lv='1' page='4' price='400' store_order='410' price_all='80000' name='104249' order_num='4301' price_hot='400' use='1' icon='item007' alliance_order='17' id='200026'/>
+  <ItemSpec color='3' type='0' name='104265' order_num='2401' lv_limit='1' description='104266' price_hot='30' use='1' lv='1' page='3' icon='item508' id='200027'/>
+  <ItemSpec color='3' type='0' name='104267' order_num='2501' lv_limit='1' description='104268' price_hot='30' use='1' lv='1' page='3' icon='item511' id='200028'/>
+  <ItemSpec color='3' type='0' name='104269' order_num='2601' lv_limit='10' description='104270' price_hot='50' use='1' lv='1' page='3' icon='item510' id='200029'/>
+  <ItemSpec color='3' type='0' name='104271' order_num='2701' lv_limit='15' description='104272' price_hot='70' use='1' lv='1' page='3' icon='item509' id='200030'/>
+  <ItemSpec color='3' type='0' name='104306' order_num='2304' lv_limit='3' description='104307' price_hot='50' use='1' lv='1' page='4' icon='item011' id='200031'/>
+  <ItemSpec color='2' version='1.0.85' type='0' pages='4' lv_limit='1' description='104083' lv='1' page='4' price='500' store_order='411' price_all='100000' name='104082' order_num='4501' price_hot='500' use='1' icon='item411' alliance_order='6' id='200032'/>
+  <ItemSpec color='2' type='0' price_all='200000' price_hot='1000' name='104103' order_num='4401' lv_limit='1' description='104104' icon='item010' use='0' lv='1' page='4' alliance_order='8' id='200040'/>
+  <ItemSpec color='3' type='0' name='101451' lv_limit='1' description='101451' icon='icon_material' use='0' lv='1' page='4' is_gift='1' id='200041'/>
+  <ItemSpec color='1' type='1' price_hot='42' name='104017' order_num='401' lv_limit='1' description='104020' use='1' icon='item100' lv='1' page='4' type2='2' id='200101'/>
+  <ItemSpec color='2' type='2' pages='4' lv_limit='1' description='104008' lv='1' page='4' price='150' store_order='401' price_all='30000' icon='item200' para='1;1;3600' price_hot='150' type2='1' order_num='502' use='0' name='104000' alliance_order='2' id='200200'/>
+  <ItemSpec color='0' type='2' lv_limit='1' description='104009' lv='1' page='4' price_all='3000' icon='item200' para='1;1;300' price_hot='15' type2='1' order_num='501' use='0' name='104001' alliance_order='1' id='200201'/>
+  <ItemSpec color='3' type='2' lv_limit='1' description='104012' lv='1' page='4' price_all='190000' icon='item200' para='1;1;28800' price_hot='950' type2='1' order_num='503' use='0' name='104004' alliance_order='3' id='200202'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='504' name='104002' para='4;1;300' lv_limit='1' description='104010' use='0' icon='item203' lv='1' page='4' type2='4' id='200203'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='505' name='104003' para='4;1;7200' lv_limit='1' description='104011' use='0' icon='item203' lv='1' page='4' type2='4' id='200204'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='506' name='104005' para='6;1;300' lv_limit='1' description='104013' use='0' icon='item204' lv='1' page='4' type2='6' id='200205'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='507' name='104006' para='6;1;7200' lv_limit='1' description='104014' use='0' icon='item204' lv='1' page='4' type2='6' id='200206'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='508' name='104007' para='3;1;300' lv_limit='1' description='104015' use='0' icon='item205' lv='1' page='4' type2='3' id='200207'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='509' name='104016' para='3;1;7200' lv_limit='1' description='104019' use='0' icon='item205' lv='1' page='4' type2='3' id='200208'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='510' name='104358' para='8;1;300' lv_limit='1' description='104364' use='0' icon='item206' lv='1' page='4' type2='8' id='200213'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='511' name='104359' para='8;1;7200' lv_limit='1' description='104365' use='0' icon='item206' lv='1' page='4' type2='8' id='200214'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='512' name='104354' para='7;1;300' lv_limit='1' description='104360' use='0' icon='item207' lv='1' page='4' type2='7' id='200215'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='513' name='104355' para='7;1;7200' lv_limit='1' description='104361' use='0' icon='item207' lv='1' page='4' type2='7' id='200216'/>
+  <ItemSpec color='0' type='2' price_hot='15' order_num='514' name='104356' para='5;1;300' lv_limit='1' description='104362' use='0' icon='item208' lv='1' page='4' type2='5' id='200217'/>
+  <ItemSpec color='2' type='2' price_hot='280' order_num='515' name='104357' para='5;1;7200' lv_limit='1' description='104363' use='0' icon='item208' lv='1' page='4' type2='5' id='200218'/>
+  <ItemSpec color='2' type='2' pages='1' lv_limit='1' description='104048' lv='1' page='4' price='600' store_order='103' icon='item201' order_num='1401' price_hot='600' use='0' type2='2' name='104040' id='200220'/>
+  <ItemSpec color='4' type='2' pages='1' lv_limit='1' description='104049' lv='5' page='4' price='1000' store_order='104' icon='item201' order_num='1402' price_hot='1000' use='0' type2='2' name='104041' id='200221'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='105093' lv='1' page='3' price='40' store_order='310' icon='item400' para='10000' useall='1' price_hot='40' order_num='3004' use='1' name='104111' type2='0' id='200300'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='1' description='105093' lv='3' page='3' price='160' store_order='311' icon='item400' para='50000' useall='1' price_hot='160' order_num='3006' use='1' name='104112' type2='0' id='200301'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='1' description='105093' lv='5' page='3' price='400' store_order='312' icon='item400' para='150000' useall='1' price_hot='400' order_num='3007' use='1' name='104113' type2='0' id='200302'/>
+  <ItemSpec color='4' type='3' pages='3' lv_limit='1' description='105093' lv='10' page='3' price='1200' store_order='313' icon='item400' para='500000' useall='1' price_hot='1200' order_num='3008' use='1' name='104114' type2='0' id='200303'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='1' description='105093' lv='13' page='3' price='3300' store_order='314' icon='item400' para='1500000' useall='1' price_hot='3300' order_num='3009' use='1' name='104115' type2='0' id='200304'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='1' description='105093' lv='15' page='3' price='10000' store_order='315' icon='item400' para='5000000' useall='1' price_hot='10000' order_num='3010' use='1' name='104024' type2='0' id='200305'/>
+  <ItemSpec color='0' type='3' order_num='3001' useall='1' name='104191' para='1000' lv_limit='1' description='105093' use='1' icon='item400' lv='1' page='3' type2='0' id='200306'/>
+  <ItemSpec color='0' type='3' order_num='3002' useall='1' name='104192' para='2000' lv_limit='1' description='105093' use='1' icon='item400' lv='1' page='3' type2='0' id='200307'/>
+  <ItemSpec color='0' type='3' order_num='3003' useall='1' name='104193' para='4000' lv_limit='1' description='105093' use='1' icon='item400' lv='1' page='3' type2='0' id='200308'/>
+  <ItemSpec color='0' type='3' order_num='3005' useall='1' name='104216' para='30000' lv_limit='1' description='105093' use='1' icon='item400' lv='1' page='3' type2='0' id='200309'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='40' store_order='340' icon='item401' para='400' useall='1' price_hot='40' order_num='3304' use='1' name='104116' type2='1' id='200310'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='160' store_order='341' icon='item401' para='2000' useall='1' price_hot='160' order_num='3306' use='1' name='104117' type2='1' id='200311'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='400' store_order='342' icon='item401' para='6250' useall='1' price_hot='400' order_num='3307' use='1' name='104118' type2='1' id='200312'/>
+  <ItemSpec color='4' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='1200' store_order='343' icon='item401' para='20000' useall='1' price_hot='1200' order_num='3308' use='1' name='104119' type2='1' id='200313'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='3300' store_order='344' icon='item401' para='62500' useall='1' price_hot='3300' order_num='3309' use='1' name='104120' type2='1' id='200314'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='15' description='105094' lv='15' page='3' price='10000' store_order='345' icon='item401' para='200000' useall='1' price_hot='10000' order_num='3310' use='1' name='104025' type2='1' id='200315'/>
+  <ItemSpec color='0' type='3' order_num='3301' useall='1' name='104194' para='40' lv_limit='15' description='105094' use='1' icon='item401' lv='1' page='3' type2='1' id='200316'/>
+  <ItemSpec color='0' type='3' order_num='3302' useall='1' name='104195' para='80' lv_limit='15' description='105094' use='1' icon='item401' lv='1' page='3' type2='1' id='200317'/>
+  <ItemSpec color='0' type='3' order_num='3303' useall='1' name='104196' para='160' lv_limit='15' description='105094' use='1' icon='item401' lv='1' page='3' type2='1' id='200318'/>
+  <ItemSpec color='0' type='3' order_num='3305' useall='1' name='104217' para='1250' lv_limit='15' description='105094' use='1' icon='item401' lv='1' page='3' type2='1' id='200319'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='10' description='105095' lv='10' page='3' price='40' store_order='330' icon='item402' para='1600' useall='1' price_hot='40' order_num='3204' use='1' name='104121' type2='2' id='200320'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='10' description='105095' lv='10' page='3' price='160' store_order='331' icon='item402' para='8000' useall='1' price_hot='160' order_num='3206' use='1' name='104122' type2='2' id='200321'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='10' description='105095' lv='10' page='3' price='400' store_order='332' icon='item402' para='25000' useall='1' price_hot='400' order_num='3207' use='1' name='104123' type2='2' id='200322'/>
+  <ItemSpec color='4' type='3' pages='3' lv_limit='10' description='105095' lv='10' page='3' price='1200' store_order='333' icon='item402' para='80000' useall='1' price_hot='1200' order_num='3208' use='1' name='104124' type2='2' id='200323'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='10' description='105095' lv='13' page='3' price='3300' store_order='334' icon='item402' para='250000' useall='1' price_hot='3300' order_num='3209' use='1' name='104125' type2='2' id='200324'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='10' description='105095' lv='15' page='3' price='10000' store_order='335' icon='item402' para='800000' useall='1' price_hot='10000' order_num='3210' use='1' name='104026' type2='2' id='200325'/>
+  <ItemSpec color='0' type='3' order_num='3201' useall='1' name='104197' para='150' lv_limit='10' description='105095' use='1' icon='item402' lv='1' page='3' type2='2' id='200326'/>
+  <ItemSpec color='0' type='3' order_num='3202' useall='1' name='104198' para='300' lv_limit='10' description='105095' use='1' icon='item402' lv='1' page='3' type2='2' id='200327'/>
+  <ItemSpec color='0' type='3' order_num='3203' useall='1' name='104199' para='600' lv_limit='10' description='105095' use='1' icon='item402' lv='1' page='3' type2='2' id='200328'/>
+  <ItemSpec color='0' type='3' order_num='3205' useall='1' name='104218' para='5000' lv_limit='10' description='105095' use='1' icon='item402' lv='1' page='3' type2='2' id='200329'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='105096' lv='1' page='3' price='40' store_order='320' icon='item403' para='10000' useall='1' price_hot='40' order_num='3104' use='1' name='104126' type2='3' id='200330'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='1' description='105096' lv='3' page='3' price='160' store_order='321' icon='item403' para='50000' useall='1' price_hot='160' order_num='3106' use='1' name='104127' type2='3' id='200331'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='1' description='105096' lv='5' page='3' price='400' store_order='322' icon='item403' para='150000' useall='1' price_hot='400' order_num='3107' use='1' name='104128' type2='3' id='200332'/>
+  <ItemSpec color='4' type='3' pages='3' lv_limit='1' description='105096' lv='10' page='3' price='1200' store_order='323' icon='item403' para='500000' useall='1' price_hot='1200' order_num='3108' use='1' name='104129' type2='3' id='200333'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='1' description='105096' lv='13' page='3' price='3300' store_order='324' icon='item403' para='1500000' useall='1' price_hot='3300' order_num='3109' use='1' name='104130' type2='3' id='200334'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='1' description='105096' lv='15' page='3' price='10000' store_order='325' icon='item403' para='5000000' useall='1' price_hot='10000' order_num='3110' use='1' name='104027' type2='3' id='200335'/>
+  <ItemSpec color='0' type='3' order_num='3101' useall='1' name='104188' para='1000' lv_limit='1' description='105096' use='1' icon='item403' lv='1' page='3' type2='3' id='200336'/>
+  <ItemSpec color='0' type='3' order_num='3102' useall='1' name='104189' para='2000' lv_limit='1' description='105096' use='1' icon='item403' lv='1' page='3' type2='3' id='200337'/>
+  <ItemSpec color='0' type='3' order_num='3103' useall='1' name='104190' para='4000' lv_limit='1' description='105096' use='1' icon='item403' lv='1' page='3' type2='3' id='200338'/>
+  <ItemSpec color='0' type='3' order_num='3105' useall='1' name='104215' para='30000' lv_limit='1' description='105096' use='1' icon='item403' lv='1' page='3' type2='3' id='200339'/>
+  <ItemSpec color='1' price_hot='25' type='3' order_num='3404' useall='1' name='104330' para='100' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200340'/>
+  <ItemSpec color='2' price_hot='125' type='3' order_num='3406' useall='1' name='104331' para='500' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200341'/>
+  <ItemSpec color='3' price_hot='375' type='3' order_num='3407' useall='1' name='104332' para='1500' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200342'/>
+  <ItemSpec color='4' price_hot='1250' type='3' order_num='3408' useall='1' name='104333' para='5000' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200343'/>
+  <ItemSpec color='5' price_hot='3750' type='3' order_num='3409' useall='1' name='104334' para='15000' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200344'/>
+  <ItemSpec color='5' price_hot='12500' type='3' order_num='3410' useall='1' name='104335' para='50000' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200345'/>
+  <ItemSpec color='0' price_hot='2' type='3' order_num='3401' useall='1' name='104336' para='10' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200346'/>
+  <ItemSpec color='0' price_hot='5' type='3' order_num='3402' useall='1' name='104337' para='20' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200347'/>
+  <ItemSpec color='0' price_hot='10' type='3' order_num='3403' useall='1' name='104338' para='40' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200348'/>
+  <ItemSpec color='0' price_hot='75' type='3' order_num='3405' useall='1' name='104339' para='300' lv_limit='1' description='105097' use='1' icon='item408' lv='1' page='3' type2='4' id='200349'/>
+  <ItemSpec color='2' type='3' pages='4' lv_limit='1' description='104055' lv='1' page='4' price='150' store_order='403' price_all='30000' icon='item405' para='100' price_hot='150' useall='1' type2='11' order_num='1202' use='1' name='104054' alliance_order='15' id='200350'/>
+  <ItemSpec color='3' type='3' pages='4' lv_limit='1' description='104057' lv='1' page='4' price='400' store_order='404' icon='item405' para='300' useall='1' price_hot='400' order_num='1203' use='1' name='104056' type2='11' id='200351'/>
+  <ItemSpec color='4' type='3' pages='4' lv_limit='1' description='104059' lv='1' page='4' price='1000' store_order='405' icon='item405' para='1000' useall='1' price_hot='1000' order_num='1204' use='1' name='104058' type2='11' id='200352'/>
+  <ItemSpec color='1' price_hot='15' type='3' order_num='1201' useall='1' name='104263' para='10' lv_limit='1' description='104264' use='1' icon='item405' lv='1' page='4' type2='11' id='200353'/>
+  <ItemSpec color='1' type='3' order_num='201' useall='1' name='104203' para='5' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200360'/>
+  <ItemSpec color='2' type='3' order_num='202' useall='1' name='104204' para='10' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200361'/>
+  <ItemSpec color='2' type='3' order_num='203' useall='1' name='104205' para='20' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200362'/>
+  <ItemSpec color='2' type='3' order_num='204' useall='1' name='104206' para='50' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200363'/>
+  <ItemSpec color='3' type='3' order_num='205' useall='1' name='104207' para='100' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200364'/>
+  <ItemSpec color='3' type='3' order_num='206' useall='1' name='104208' para='200' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200365'/>
+  <ItemSpec color='4' type='3' order_num='207' useall='1' name='104029' para='1000' lv_limit='1' description='105098' use='1' icon='item406' lv='1' page='3' type2='10' id='200366'/>
+  <ItemSpec color='3' type='3' pages='4' lv_limit='1' description='104097' lv='1' page='4' price='250' store_order='406' icon='item513' order_num='1103' price_hot='250' use='1' type2='12' name='104096' id='200370'/>
+  <ItemSpec color='4' type='3' pages='4' lv_limit='1' description='104099' lv='1' page='4' price='1500' store_order='407' icon='item513' order_num='1104' price_hot='1500' use='1' type2='12' name='104098' id='200371'/>
+  <ItemSpec color='5' type='3' pages='4' lv_limit='1' description='104101' lv='1' page='4' price='4000' store_order='408' icon='item513' order_num='1105' price_hot='4000' use='1' type2='12' name='104100' id='200372'/>
+  <ItemSpec color='1' type='3' name='104184' order_num='1101' lv_limit='1' description='104185' use='1' icon='item513' lv='1' page='4' type2='12' id='200373'/>
+  <ItemSpec color='2' type='3' name='104186' order_num='1102' lv_limit='1' description='104187' use='1' icon='item513' lv='1' page='4' type2='12' id='200374'/>
+  <ItemSpec color='3' type='3' price_hot='40' order_num='2301' name='104922' para='10' lv_limit='1' description='105099' use='1' icon='item407' lv='1' page='4' type2='13' id='200380'/>
+  <ItemSpec color='4' type='3' pages='1' lv_limit='1' description='105099' lv='1' page='4' price='200' store_order='106' price_all='20000' icon='item407' para='50' price_hot='200' type2='13' order_num='2302' use='1' name='104923' alliance_order='9' id='200381'/>
+  <ItemSpec color='5' type='3' price_hot='400' order_num='2303' name='104924' para='100' lv_limit='1' description='105099' use='1' icon='item407' lv='1' page='4' type2='13' id='200382'/>
+  <ItemSpec color='2' price_hot='100' type='3' order_num='2202' useall='1' name='104297' para='5000' lv_limit='1' description='105100' use='1' icon='item505' lv='1' page='4' type2='14' id='200390'/>
+  <ItemSpec color='3' price_hot='400' type='3' order_num='2203' useall='1' name='104298' para='20000' lv_limit='1' description='105100' use='1' icon='item505' lv='1' page='4' type2='14' id='200391'/>
+  <ItemSpec color='4' price_hot='2000' type='3' order_num='2204' useall='1' name='104299' para='100000' lv_limit='1' description='105100' use='1' icon='item505' lv='1' page='4' type2='14' id='200392'/>
+  <ItemSpec color='0' price_hot='10' type='3' order_num='2201' useall='1' name='104321' para='500' lv_limit='1' description='105100' use='1' icon='item505' lv='1' page='4' type2='14' id='200393'/>
+  <ItemSpec color='1' type='4' name='104295' order_num='1501' lv_limit='1' description='104296' use='1' icon='item500' lv='1' page='1' type2='1' id='200409'/>
+  <ItemSpec color='2' type='4' pages='2' lv_limit='1' description='104050' lv='1' page='1' price='500' store_order='201' price_all='100000' icon='item500' order_num='1502' price_hot='500' type2='1' use='1' name='104042' alliance_order='12' id='200410'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104051' lv='5' page='1' price='1000' store_order='202' icon='item500' order_num='1503' price_hot='1000' use='1' type2='1' name='104043' id='200411'/>
+  <ItemSpec color='4' type='4' pages='2' lv_limit='1' description='104053' lv='10' page='1' price='2500' store_order='203' icon='item500' order_num='1504' price_hot='2500' use='1' type2='1' name='104052' id='200412'/>
+  <ItemSpec color='5' type='4' name='104146' order_num='1505' lv_limit='1' description='104147' use='1' icon='item500' lv='15' page='1' type2='1' id='200413'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104061' lv='5' page='1' price='250' store_order='206' price_all='50000' icon='item501' order_num='1901' price_hot='250' type2='2' use='1' name='104060' alliance_order='13' id='200414'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104063' lv='10' page='1' price='400' store_order='207' icon='item501' order_num='1902' price_hot='400' use='1' type2='2' name='104062' id='200415'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104065' lv='5' page='1' price='250' store_order='208' price_all='50000' icon='item502' order_num='1903' price_hot='250' type2='3' use='1' name='104064' alliance_order='14' id='200416'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104067' lv='10' page='1' price='400' store_order='209' icon='item502' order_num='1904' price_hot='400' use='1' type2='3' name='104066' id='200417'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104069' lv='4' page='1' price='500' store_order='210' icon='item503' order_num='2001' price_hot='500' use='1' type2='4' name='104068' id='200418'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104071' lv='5' page='1' price='2000' store_order='211' icon='item503' order_num='2002' price_hot='2000' use='1' type2='4' name='104070' id='200419'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104073' lv='10' page='1' price='2000' store_order='212' icon='item504' order_num='2003' price_hot='2000' use='1' type2='4' name='104072' id='200420'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104075' lv='15' page='1' price='8000' store_order='213' icon='item504' order_num='2004' price_hot='8000' use='1' type2='4' name='104074' id='200421'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104079' lv='5' page='1' price='600' store_order='214' icon='item506' order_num='1601' price_hot='600' use='1' type2='6' name='104078' id='200424'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104081' lv='10' page='1' price='3000' store_order='215' icon='item506' order_num='1602' price_hot='3000' use='1' type2='6' name='104080' id='200425'/>
+  <ItemSpec color='2' type='4' pages='2' lv_limit='1' description='104274' lv='1' page='1' price='200' store_order='216' icon='item514' order_num='1801' price_hot='200' use='1' type2='7' name='104273' id='200426'/>
+  <ItemSpec color='5' type='4' pages='2' lv_limit='1' description='104085' lv='1' page='3' price='600' store_order='204' price_all='120000' icon='item507' order_num='2102' price_hot='600' type2='8' use='1' name='104084' alliance_order='10' id='200427'/>
+  <ItemSpec color='3' type='4' name='104084' order_num='2101' lv_limit='1' description='104086' use='1' icon='item507' lv='1' page='3' type2='8' id='200428'/>
+  <ItemSpec color='3' type='4' pages='2' lv_limit='1' description='104276' lv='1' page='1' price='1500' store_order='205' icon='item515' order_num='1701' price_hot='1500' use='1' type2='14' name='104275' id='200450'/>
+  <ItemSpec color='4' type='4' name='104279' order_num='1702' lv_limit='1' description='104280' use='1' icon='item515' lv='1' page='1' type2='14' id='200451'/>
+  <ItemSpec color='3' type='5' name='104154' order_num='2901' lv_limit='1' description='104157' use='1' lv='3' page='3' icon='item603' id='200500'/>
+  <ItemSpec color='4' type='5' name='104155' order_num='2902' lv_limit='1' description='104158' use='1' lv='13' page='3' icon='item603' id='200501'/>
+  <ItemSpec color='5' type='5' name='104156' order_num='2903' lv_limit='1' description='104159' use='1' lv='17' page='3' icon='item603' id='200502'/>
+  <ItemSpec color='3' type='5' name='104313' order_num='109' lv_limit='1' description='104320' price_hot='100' use='1' lv='1' page='1' icon='item606' id='200510'/>
+  <ItemSpec color='4' type='5' name='104315' order_num='110' lv_limit='1' description='104314' price_hot='500' use='1' lv='1' page='1' icon='item606' id='200511'/>
+  <ItemSpec color='5' type='5' name='104319' order_num='111' lv_limit='1' description='104316' price_hot='1500' use='1' lv='1' page='1' icon='item607' id='200512'/>
+  <ItemSpec color='4' type='5' price_hot='4850' name='104171' para='200002;1|200415;1|200417;1|200220;3|200004;5' lv_limit='1' description='104173' order_num='105' use='1' lv='1' page='1' icon='item602' id='200550'/>
+  <ItemSpec color='4' type='5' price_hot='4300' name='104171' para='200002;1|200415;1|200417;1|200450;1' lv_limit='1' description='104173' order_num='106' use='1' lv='1' page='1' icon='item602' id='200551'/>
+  <ItemSpec color='4' type='5' price_hot='4500' name='104171' para='200002;1|200450;1|200220;3|200415;1' lv_limit='1' description='104173' order_num='107' use='1' lv='1' page='1' icon='item602' id='200552'/>
+  <ItemSpec color='4' type='5' price_hot='7050' name='104301' para='200200;15|200333;2|200303;2' lv_limit='1' description='104302' order_num='108' use='1' lv='1' page='1' icon='item601' id='200553'/>
+  <ItemSpec color='2' type='5' name='104251' order_num='2801' lv_limit='1' description='104255' use='1' lv='1' page='3' icon='item603' id='200560'/>
+  <ItemSpec color='3' type='5' name='104252' order_num='2802' lv_limit='10' description='104256' use='1' lv='1' page='3' icon='item603' id='200561'/>
+  <ItemSpec color='4' type='5' name='104253' order_num='2803' lv_limit='15' description='104257' use='1' lv='1' page='3' icon='item603' id='200562'/>
+  <ItemSpec color='5' type='5' name='104254' order_num='2804' lv_limit='15' description='104258' use='1' lv='1' page='3' icon='item603' id='200563'/>
+  <ItemSpec color='2' type='5' name='104251' order_num='2801' lv_limit='1' description='104259' useall='1' use='1' lv='1' page='3' icon='item603' id='200564'/>
+  <ItemSpec color='3' type='5' name='104252' order_num='2802' lv_limit='10' description='104260' useall='1' use='1' lv='1' page='3' icon='item603' id='200565'/>
+  <ItemSpec color='4' type='5' name='104253' order_num='2803' lv_limit='15' description='104261' useall='1' use='1' lv='1' page='3' icon='item603' id='200566'/>
+  <ItemSpec color='5' type='5' name='104254' order_num='2804' lv_limit='15' description='104262' useall='1' use='1' lv='1' page='3' icon='item603' id='200567'/>
+  <ItemSpec color='1' type='5' name='104914' order_num='301' lv_limit='1' description='104236' use='1' lv='1' page='4' icon='item605' id='200570'/>
+  <ItemSpec color='1' type='5' name='104915' order_num='302' lv_limit='1' description='104236' use='1' lv='1' page='4' icon='item605' id='200571'/>
+  <ItemSpec color='1' type='5' name='104916' order_num='303' lv_limit='1' description='104236' use='1' lv='1' page='4' icon='item605' id='200572'/>
+  <ItemSpec color='1' type='5' name='111079' order_num='1' lv_limit='1' description='111081' useall='1' use='1' lv='1' page='4' icon='item611' id='200580'/>
+  <ItemSpec color='1' type='5' name='111080' order_num='1' lv_limit='1' description='111082' useall='1' use='1' lv='1' page='4' icon='item612' id='200581'/>
+  <ItemSpec color='1' type='5' name='104303' order_num='0' lv_limit='2' description='104304' use='1' lv='1' page='1' icon='item605' id='200590'/>
+  <ItemSpec color='1' type='5' price_hot='200' name='104322' order_num='102' lv_limit='1' description='104326' useall='1' use='1' lv='1' page='4' icon='item608' id='200600'/>
+  <ItemSpec color='1' type='5' price_hot='200' name='104322' order_num='102' lv_limit='1' description='104326' useall='1' use='1' lv='1' page='4' icon='item608' id='200601'/>
+  <ItemSpec color='1' type='5' price_hot='200' name='104322' order_num='102' lv_limit='1' description='104326' useall='1' use='1' lv='1' page='4' icon='item608' id='200602'/>
+  <ItemSpec color='1' type='5' pages='4' lv_limit='1' description='104326' lv='1' page='4' price='200' store_order='402' name='104322' order_num='102' useall='1' use='1' price_hot='200' icon='item608' id='200603'/>
+  <ItemSpec color='3' price_hot='1200' type='5' pages='4' store_order='403' name='104323' order_num='102' lv_limit='1' description='104327' useall='1' use='1' lv='1' page='4' icon='item609' id='200610'/>
+  <ItemSpec color='0' type='5' name='105726' order_num='102' lv_limit='1' description='104368' useall='1' use='1' lv='1' page='4' icon='item622' id='200650'/>
+  <ItemSpec color='1' type='5' name='105727' order_num='102' lv_limit='1' description='104368' useall='1' use='1' lv='1' page='4' icon='item621' id='200651'/>
+  <ItemSpec color='2' type='5' name='105728' order_num='102' lv_limit='1' description='104368' useall='1' use='1' lv='1' page='4' icon='item623' id='200652'/>
+  <ItemSpec color='3' type='5' name='105729' order_num='102' lv_limit='1' description='104368' useall='1' use='1' lv='1' page='4' icon='item624' id='200653'/>
+  <ItemSpec color='4' type='5' name='105730' order_num='102' lv_limit='1' description='104368' useall='1' use='1' lv='1' page='4' icon='item625' id='200654'/>
+  <ItemSpec color='0' type='3' pages='3' lv_limit='1' description='104352' lv='1' page='4' price='5' store_order='350' icon='item409' para='500' useall='1' price_hot='5' order_num='3501' use='1' name='104342' type2='15' id='200700'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='104352' lv='1' page='4' price='15' store_order='351' icon='item409' para='1500' useall='1' price_hot='15' order_num='3502' use='1' name='104343' type2='15' id='200701'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='104352' lv='1' page='4' price='40' store_order='352' icon='item409' para='4000' useall='1' price_hot='40' order_num='3503' use='1' name='104344' type2='15' id='200702'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='1' description='104352' lv='1' page='4' price='80' store_order='353' icon='item409' para='8000' useall='1' price_hot='80' order_num='3504' use='1' name='104345' type2='15' id='200703'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='1' description='104352' lv='1' page='4' price='150' store_order='354' icon='item409' para='15000' useall='1' price_hot='150' order_num='3505' use='1' name='104346' type2='15' id='200704'/>
+  <ItemSpec color='0' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' price='20' store_order='360' icon='item410' para='1' useall='1' price_hot='20' order_num='3601' use='1' name='104347' type2='16' id='200710'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' price='60' store_order='361' icon='item410' para='3' useall='1' price_hot='60' order_num='3602' use='1' name='104348' type2='16' id='200711'/>
+  <ItemSpec color='1' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' price='120' store_order='362' icon='item410' para='6' useall='1' price_hot='120' order_num='3603' use='1' name='104349' type2='16' id='200712'/>
+  <ItemSpec color='2' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' price='300' store_order='363' icon='item410' para='15' useall='1' price_hot='300' order_num='3604' use='1' name='104350' type2='16' id='200713'/>
+  <ItemSpec color='3' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' price='1000' store_order='364' icon='item410' para='50' useall='1' price_hot='1000' order_num='3605' use='1' name='104351' type2='16' id='200714'/>
+  <ItemSpec color='4' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' store_order='365' icon='item410' para='200' useall='1' price_hot='4000' order_num='3606' use='1' name='104369' type2='16' id='200715'/>
+  <ItemSpec color='5' type='3' pages='3' lv_limit='1' description='104353' lv='1' page='4' store_order='366' icon='item410' para='1000' useall='1' price_hot='20000' order_num='3607' use='1' name='104370' type2='16' id='200716'/>
+  <ItemSpec color='0' type='8' price_all='40000' price_hot='200' name='104317' order_num='1001' lv_limit='10' description='104318' icon='item800' use='1' lv='1' page='1' alliance_order='7' id='200800'/>
+  <ItemSpec color='0' type='7' name='119201' price_hot='100' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201010'/>
+  <ItemSpec color='1' type='7' name='119202' price_hot='400' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201011'/>
+  <ItemSpec color='2' type='7' name='119203' price_hot='1600' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201012'/>
+  <ItemSpec color='3' type='7' name='119204' price_hot='6400' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201013'/>
+  <ItemSpec color='4' type='7' name='119205' price_hot='25600' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201014'/>
+  <ItemSpec color='5' type='7' name='119206' price_hot='102400' lv_limit='1' description='119200' use='0' lv='1' is_show='1' icon='item901' id='201015'/>
+  <ItemSpec color='0' type='7' name='119208' price_hot='100' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201020'/>
+  <ItemSpec color='1' type='7' name='119209' price_hot='400' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201021'/>
+  <ItemSpec color='2' type='7' name='119210' price_hot='1600' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201022'/>
+  <ItemSpec color='3' type='7' name='119211' price_hot='6400' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201023'/>
+  <ItemSpec color='4' type='7' name='119212' price_hot='25600' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201024'/>
+  <ItemSpec color='5' type='7' name='119213' price_hot='102400' lv_limit='1' description='119207' use='0' lv='1' is_show='1' icon='item902' id='201025'/>
+  <ItemSpec color='0' type='7' name='119215' price_hot='100' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201030'/>
+  <ItemSpec color='1' type='7' name='119216' price_hot='400' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201031'/>
+  <ItemSpec color='2' type='7' name='119217' price_hot='1600' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201032'/>
+  <ItemSpec color='3' type='7' name='119218' price_hot='6400' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201033'/>
+  <ItemSpec color='4' type='7' name='119219' price_hot='25600' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201034'/>
+  <ItemSpec color='5' type='7' name='119220' price_hot='102400' lv_limit='1' description='119214' use='0' lv='1' is_show='1' icon='item903' id='201035'/>
+  <ItemSpec color='0' type='7' name='119222' price_hot='100' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201040'/>
+  <ItemSpec color='1' type='7' name='119223' price_hot='400' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201041'/>
+  <ItemSpec color='2' type='7' name='119224' price_hot='1600' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201042'/>
+  <ItemSpec color='3' type='7' name='119225' price_hot='6400' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201043'/>
+  <ItemSpec color='4' type='7' name='119226' price_hot='25600' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201044'/>
+  <ItemSpec color='5' type='7' name='119227' price_hot='102400' lv_limit='1' description='119221' use='0' lv='1' is_show='1' icon='item904' id='201045'/>
+  <ItemSpec color='0' type='7' name='119229' price_hot='100' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201050'/>
+  <ItemSpec color='1' type='7' name='119230' price_hot='400' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201051'/>
+  <ItemSpec color='2' type='7' name='119231' price_hot='1600' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201052'/>
+  <ItemSpec color='3' type='7' name='119232' price_hot='6400' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201053'/>
+  <ItemSpec color='4' type='7' name='119233' price_hot='25600' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201054'/>
+  <ItemSpec color='5' type='7' name='119234' price_hot='102400' lv_limit='1' description='119228' use='0' lv='1' is_show='1' icon='item905' id='201055'/>
+  <ItemSpec color='0' type='7' name='119236' price_hot='100' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201060'/>
+  <ItemSpec color='1' type='7' name='119237' price_hot='400' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201061'/>
+  <ItemSpec color='2' type='7' name='119238' price_hot='1600' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201062'/>
+  <ItemSpec color='3' type='7' name='119239' price_hot='6400' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201063'/>
+  <ItemSpec color='4' type='7' name='119240' price_hot='25600' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201064'/>
+  <ItemSpec color='5' type='7' name='119241' price_hot='102400' lv_limit='1' description='119235' use='0' lv='1' is_show='1' icon='item906' id='201065'/>
+  <ItemSpec color='0' type='7' name='119243' price_hot='100' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201070'/>
+  <ItemSpec color='1' type='7' name='119244' price_hot='400' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201071'/>
+  <ItemSpec color='2' type='7' name='119245' price_hot='1600' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201072'/>
+  <ItemSpec color='3' type='7' name='119246' price_hot='6400' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201073'/>
+  <ItemSpec color='4' type='7' name='119247' price_hot='25600' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201074'/>
+  <ItemSpec color='5' type='7' name='119248' price_hot='102400' lv_limit='1' description='119242' use='0' lv='1' is_show='1' icon='item907' id='201075'/>
+  <ItemSpec color='0' type='7' name='119250' price_hot='100' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201080'/>
+  <ItemSpec color='1' type='7' name='119251' price_hot='400' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201081'/>
+  <ItemSpec color='2' type='7' name='119252' price_hot='1600' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201082'/>
+  <ItemSpec color='3' type='7' name='119253' price_hot='6400' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201083'/>
+  <ItemSpec color='4' type='7' name='119254' price_hot='25600' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201084'/>
+  <ItemSpec color='5' type='7' name='119255' price_hot='102400' lv_limit='1' description='119249' use='0' lv='1' is_show='1' icon='item908' id='201085'/>
+  <ItemSpec color='0' type='7' name='119257' price_hot='100' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201090'/>
+  <ItemSpec color='1' type='7' name='119258' price_hot='400' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201091'/>
+  <ItemSpec color='2' type='7' name='119259' price_hot='1600' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201092'/>
+  <ItemSpec color='3' type='7' name='119260' price_hot='6400' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201093'/>
+  <ItemSpec color='4' type='7' name='119261' price_hot='25600' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201094'/>
+  <ItemSpec color='5' type='7' name='119262' price_hot='102400' lv_limit='1' description='119256' use='0' lv='1' is_show='1' icon='item909' id='201095'/>
+  <ItemSpec color='0' type='7' name='119264' price_hot='100' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201100'/>
+  <ItemSpec color='1' type='7' name='119265' price_hot='400' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201101'/>
+  <ItemSpec color='2' type='7' name='119266' price_hot='1600' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201102'/>
+  <ItemSpec color='3' type='7' name='119267' price_hot='6400' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201103'/>
+  <ItemSpec color='4' type='7' name='119268' price_hot='25600' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201104'/>
+  <ItemSpec color='5' type='7' name='119269' price_hot='102400' lv_limit='1' description='119263' use='0' lv='1' is_show='1' icon='item910' id='201105'/>
+  <ItemSpec color='0' type='7' name='119271' price_hot='100' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201110'/>
+  <ItemSpec color='1' type='7' name='119272' price_hot='400' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201111'/>
+  <ItemSpec color='2' type='7' name='119273' price_hot='1600' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201112'/>
+  <ItemSpec color='3' type='7' name='119274' price_hot='6400' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201113'/>
+  <ItemSpec color='4' type='7' name='119275' price_hot='25600' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201114'/>
+  <ItemSpec color='5' type='7' name='119276' price_hot='102400' lv_limit='1' description='119270' use='0' lv='1' is_show='1' icon='item911' id='201115'/>
+  <ItemSpec color='0' type='7' name='119278' price_hot='100' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201120'/>
+  <ItemSpec color='1' type='7' name='119279' price_hot='400' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201121'/>
+  <ItemSpec color='2' type='7' name='119280' price_hot='1600' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201122'/>
+  <ItemSpec color='3' type='7' name='119281' price_hot='6400' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201123'/>
+  <ItemSpec color='4' type='7' name='119282' price_hot='25600' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201124'/>
+  <ItemSpec color='5' type='7' name='119283' price_hot='102400' lv_limit='1' description='119277' use='0' lv='1' is_show='1' icon='item912' id='201125'/>
+  <ItemSpec color='1' price_hot='1' type='3' order_num='1' useall='1' name='104308' para='10' lv_limit='1' description='104309' use='1' icon='item790' lv='1' page='1' type2='3' id='209000'/>
+  <ItemSpec color='1' type='5' price_hot='20' name='104310' para='209000;20' lv_limit='1' description='104305' order_num='2' use='1' lv='1' page='1' icon='item789' id='209001'/>
+  <ItemSpec color='2' type='5' price_hot='200' name='104311' para='209000;200' lv_limit='1' description='104305' order_num='3' use='1' lv='1' page='1' icon='item789' id='209002'/>
+  <ItemSpec color='3' type='5' price_hot='1000' name='104312' para='209000;1000' lv_limit='1' description='104305' order_num='4' use='1' lv='1' page='1' icon='item789' id='209003'/>
+  <ItemSpec color='3' type='3' name='104096' order_num='1103' lv_limit='1' description='104097' use='1' icon='item788' lv='1' page='1' type2='12' id='209170'/>
+  <ItemSpec color='2' type='2' order_num='502' name='104000' para='1;1;3600' lv_limit='1' description='104008' use='0' icon='item787' lv='1' page='1' type2='1' id='209200'/>
+  <ItemSpec color='4' type='3' name='104098' order_num='1104' lv_limit='1' description='104099' use='1' icon='item788' lv='1' page='1' type2='12' id='209171'/>
+  <ItemSpec color='4' type='5' name='104030' order_num='3' lv_limit='1' description='104031' useall='1' use='1' lv='1' page='1' icon='item606' id='209172'/>
+  <ItemSpec color='4' type='5' name='104340' order_num='4' lv_limit='1' description='104341' useall='1' use='1' lv='1' page='1' icon='item791' id='209173'/>
+  <ItemSpec color='1' price_hot='10' type='0' pages='4' sales='1;10|10;90|100;800' name='133064' order_num='1' lv_limit='1' description='133067' store_order='101' use='0' lv='1' page='4' icon='item300' id='209174'/>
+  <ItemSpec color='2' type='5' name='133065' order_num='1' lv_limit='1' description='133068' useall='1' use='1' lv='1' page='1' icon='item301' id='209175'/>
+  <ItemSpec color='3' type='5' name='133066' order_num='1' lv_limit='1' description='133069' useall='1' use='1' lv='1' page='1' icon='item302' id='209176'/>
+  <ItemSpec color='2' type='5' name='133078' order_num='1' lv_limit='1' description='133079' useall='1' use='1' lv='1' page='1' icon='item303' id='209177'/>
+  <ItemSpec color='1' type='3' order_num='3004' useall='1' name='104111' para='10000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='1' type2='0' id='209300'/>
+  <ItemSpec color='2' type='3' order_num='3006' useall='1' name='104112' para='50000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209301'/>
+  <ItemSpec color='3' type='3' order_num='3007' useall='1' name='104113' para='150000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209302'/>
+  <ItemSpec color='4' type='3' order_num='3008' useall='1' name='104114' para='500000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209303'/>
+  <ItemSpec color='5' type='3' order_num='3009' useall='1' name='104115' para='1500000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209304'/>
+  <ItemSpec color='5' type='3' order_num='3010' useall='1' name='104024' para='5000000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209305'/>
+  <ItemSpec color='0' type='3' order_num='3001' useall='1' name='104191' para='1000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209306'/>
+  <ItemSpec color='0' type='3' order_num='3002' useall='1' name='104192' para='2000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209307'/>
+  <ItemSpec color='0' type='3' order_num='3003' useall='1' name='104193' para='4000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209308'/>
+  <ItemSpec color='0' type='3' order_num='3005' useall='1' name='104216' para='30000' lv_limit='1' description='104281' use='1' icon='item703' lv='1' page='3' type2='0' id='209309'/>
+  <ItemSpec color='1' type='3' order_num='3304' useall='1' name='104116' para='400' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209310'/>
+  <ItemSpec color='2' type='3' order_num='3306' useall='1' name='104117' para='2000' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209311'/>
+  <ItemSpec color='3' type='3' order_num='3307' useall='1' name='104118' para='6250' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209312'/>
+  <ItemSpec color='4' type='3' order_num='3308' useall='1' name='104119' para='20000' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209313'/>
+  <ItemSpec color='5' type='3' order_num='3309' useall='1' name='104120' para='62500' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209314'/>
+  <ItemSpec color='5' type='3' order_num='3310' useall='1' name='104025' para='200000' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209315'/>
+  <ItemSpec color='0' type='3' order_num='3301' useall='1' name='104194' para='40' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209316'/>
+  <ItemSpec color='0' type='3' order_num='3302' useall='1' name='104195' para='80' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209317'/>
+  <ItemSpec color='0' type='3' order_num='3303' useall='1' name='104196' para='160' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209318'/>
+  <ItemSpec color='0' type='3' order_num='3305' useall='1' name='104217' para='1250' lv_limit='15' description='104281' use='1' icon='item705' lv='1' page='3' type2='1' id='209319'/>
+  <ItemSpec color='1' type='3' order_num='3204' useall='1' name='104121' para='1600' lv_limit='1' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209320'/>
+  <ItemSpec color='2' type='3' order_num='3206' useall='1' name='104122' para='8000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209321'/>
+  <ItemSpec color='3' type='3' order_num='3207' useall='1' name='104123' para='25000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209322'/>
+  <ItemSpec color='4' type='3' order_num='3208' useall='1' name='104124' para='80000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209323'/>
+  <ItemSpec color='5' type='3' order_num='3209' useall='1' name='104125' para='250000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209324'/>
+  <ItemSpec color='5' type='3' order_num='3210' useall='1' name='104026' para='800000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209325'/>
+  <ItemSpec color='0' type='3' order_num='3201' useall='1' name='104197' para='150' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209326'/>
+  <ItemSpec color='0' type='3' order_num='3202' useall='1' name='104198' para='300' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209327'/>
+  <ItemSpec color='0' type='3' order_num='3203' useall='1' name='104199' para='600' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209328'/>
+  <ItemSpec color='0' type='3' order_num='3205' useall='1' name='104218' para='5000' lv_limit='10' description='104281' use='1' icon='item704' lv='1' page='3' type2='2' id='209329'/>
+  <ItemSpec color='1' type='3' order_num='3104' useall='1' name='104126' para='10000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209330'/>
+  <ItemSpec color='2' type='3' order_num='3106' useall='1' name='104127' para='50000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209331'/>
+  <ItemSpec color='3' type='3' order_num='3107' useall='1' name='104128' para='150000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209332'/>
+  <ItemSpec color='4' type='3' order_num='3108' useall='1' name='104129' para='500000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209333'/>
+  <ItemSpec color='5' type='3' order_num='3109' useall='1' name='104130' para='1500000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209334'/>
+  <ItemSpec color='5' type='3' order_num='3110' useall='1' name='104027' para='5000000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209335'/>
+  <ItemSpec color='0' type='3' order_num='3101' useall='1' name='104188' para='1000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209336'/>
+  <ItemSpec color='0' type='3' order_num='3102' useall='1' name='104189' para='2000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209337'/>
+  <ItemSpec color='0' type='3' order_num='3103' useall='1' name='104190' para='4000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209338'/>
+  <ItemSpec color='0' type='3' order_num='3105' useall='1' name='104215' para='30000' lv_limit='1' description='104281' use='1' icon='item702' lv='1' page='3' type2='3' id='209339'/>
+  <ItemSpec color='1' type='3' order_num='3004' useall='1' name='104111' para='10000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209340'/>
+  <ItemSpec color='2' type='3' order_num='3006' useall='1' name='104112' para='50000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209341'/>
+  <ItemSpec color='3' type='3' order_num='3007' useall='1' name='104113' para='150000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209342'/>
+  <ItemSpec color='4' type='3' order_num='3008' useall='1' name='104114' para='500000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209343'/>
+  <ItemSpec color='5' type='3' order_num='3009' useall='1' name='104115' para='1500000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209344'/>
+  <ItemSpec color='5' type='3' order_num='3010' useall='1' name='104024' para='5000000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209345'/>
+  <ItemSpec color='0' type='3' order_num='3001' useall='1' name='104191' para='1000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209346'/>
+  <ItemSpec color='0' type='3' order_num='3002' useall='1' name='104192' para='2000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209347'/>
+  <ItemSpec color='0' type='3' order_num='3003' useall='1' name='104193' para='4000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209348'/>
+  <ItemSpec color='0' type='3' order_num='3005' useall='1' name='104216' para='30000' lv_limit='1' description='104300' use='1' icon='item753' lv='1' page='3' type2='0' id='209349'/>
+  <ItemSpec color='1' type='0' order_num='3104' useall='1' name='104126' para='10000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209350'/>
+  <ItemSpec color='2' type='3' order_num='3106' useall='1' name='104127' para='50000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209351'/>
+  <ItemSpec color='3' type='3' order_num='3107' useall='1' name='104128' para='150000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209352'/>
+  <ItemSpec color='4' type='3' order_num='3108' useall='1' name='104129' para='500000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209353'/>
+  <ItemSpec color='5' type='3' order_num='3109' useall='1' name='104130' para='1500000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209354'/>
+  <ItemSpec color='5' type='3' order_num='3110' useall='1' name='104027' para='5000000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209355'/>
+  <ItemSpec color='0' type='3' order_num='3101' useall='1' name='104188' para='1000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209356'/>
+  <ItemSpec color='0' type='3' order_num='3102' useall='1' name='104189' para='2000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209357'/>
+  <ItemSpec color='0' type='3' order_num='3103' useall='1' name='104190' para='4000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209358'/>
+  <ItemSpec color='0' type='3' order_num='3105' useall='1' name='104215' para='30000' lv_limit='1' description='104300' use='1' icon='item752' lv='1' page='3' type2='3' id='209359'/>
+  <ItemSpec color='1' type='3' order_num='201' useall='1' name='104203' para='5' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209360'/>
+  <ItemSpec color='2' type='3' order_num='202' useall='1' name='104204' para='10' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209361'/>
+  <ItemSpec color='2' type='3' order_num='203' useall='1' name='104205' para='20' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209362'/>
+  <ItemSpec color='2' type='3' order_num='204' useall='1' name='104206' para='50' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209363'/>
+  <ItemSpec color='3' type='3' order_num='205' useall='1' name='104207' para='100' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209364'/>
+  <ItemSpec color='3' type='3' order_num='206' useall='1' name='104208' para='200' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209365'/>
+  <ItemSpec color='4' type='3' order_num='207' useall='1' name='104029' para='1000' lv_limit='1' description='104281' use='1' icon='item701' lv='1' page='3' type2='10' id='209366'/>
+  <ItemSpec color='1' type='3' order_num='201' useall='1' name='104203' para='5' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209370'/>
+  <ItemSpec color='2' type='3' order_num='202' useall='1' name='104204' para='10' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209371'/>
+  <ItemSpec color='2' type='3' order_num='203' useall='1' name='104205' para='20' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209372'/>
+  <ItemSpec color='2' type='3' order_num='204' useall='1' name='104206' para='50' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209373'/>
+  <ItemSpec color='3' type='3' order_num='205' useall='1' name='104207' para='100' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209374'/>
+  <ItemSpec color='3' type='3' order_num='206' useall='1' name='104208' para='200' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209375'/>
+  <ItemSpec color='4' type='3' order_num='207' useall='1' name='104029' para='1000' lv_limit='1' description='104300' use='1' icon='item750' lv='1' page='3' type2='10' id='209376'/>
+  <ItemSpec color='3' type='3' order_num='2301' name='104922' para='10' lv_limit='1' description='104281' use='1' icon='item700' lv='1' page='1' type2='13' id='209380'/>
+  <ItemSpec color='4' type='3' order_num='2302' name='104923' para='50' lv_limit='1' description='104281' use='1' icon='item700' lv='1' page='1' type2='13' id='209381'/>
+  <ItemSpec color='5' type='3' order_num='2303' name='104924' para='100' lv_limit='1' description='104281' use='1' icon='item700' lv='1' page='1' type2='13' id='209382'/>
+  <ItemSpec color='2' type='3' order_num='2201' useall='1' name='104297' para='5000' lv_limit='1' description='104300' use='1' icon='item751' lv='1' page='4' type2='14' id='209390'/>
+  <ItemSpec color='3' type='3' order_num='2202' useall='1' name='104298' para='20000' lv_limit='1' description='104300' use='1' icon='item751' lv='1' page='4' type2='14' id='209391'/>
+  <ItemSpec color='4' type='3' order_num='2203' useall='1' name='104299' para='100000' lv_limit='1' description='104300' use='1' icon='item751' lv='1' page='4' type2='14' id='209392'/>
+  <ItemSpec color='1' type='3' order_num='3004' useall='1' name='104111' para='10000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209400'/>
+  <ItemSpec color='2' type='3' order_num='3006' useall='1' name='104112' para='50000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209401'/>
+  <ItemSpec color='3' type='3' order_num='3007' useall='1' name='104113' para='150000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209402'/>
+  <ItemSpec color='4' type='3' order_num='3008' useall='1' name='104114' para='500000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209403'/>
+  <ItemSpec color='5' type='3' order_num='3009' useall='1' name='104115' para='1500000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209404'/>
+  <ItemSpec color='5' type='3' order_num='3010' useall='1' name='104024' para='5000000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209405'/>
+  <ItemSpec color='0' type='3' order_num='3001' useall='1' name='104191' para='1000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209406'/>
+  <ItemSpec color='0' type='3' order_num='3002' useall='1' name='104192' para='2000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209407'/>
+  <ItemSpec color='0' type='3' order_num='3003' useall='1' name='104193' para='4000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209408'/>
+  <ItemSpec color='0' type='3' order_num='3005' useall='1' name='104216' para='30000' lv_limit='1' description='104305' use='1' icon='item781' lv='1' page='3' type2='0' id='209409'/>
+  <ItemSpec color='1' type='3' order_num='3304' useall='1' name='104116' para='400' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209410'/>
+  <ItemSpec color='2' type='3' order_num='3306' useall='1' name='104117' para='2000' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209411'/>
+  <ItemSpec color='3' type='3' order_num='3307' useall='1' name='104118' para='6250' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209412'/>
+  <ItemSpec color='4' type='3' order_num='3308' useall='1' name='104119' para='20000' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209413'/>
+  <ItemSpec color='5' type='3' order_num='3309' useall='1' name='104120' para='62500' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209414'/>
+  <ItemSpec color='5' type='3' order_num='3310' useall='1' name='104025' para='200000' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209415'/>
+  <ItemSpec color='0' type='3' order_num='3301' useall='1' name='104194' para='40' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209416'/>
+  <ItemSpec color='0' type='3' order_num='3302' useall='1' name='104195' para='80' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209417'/>
+  <ItemSpec color='0' type='3' order_num='3303' useall='1' name='104196' para='160' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209418'/>
+  <ItemSpec color='0' type='3' order_num='3305' useall='1' name='104217' para='1250' lv_limit='15' description='104305' use='1' icon='item783' lv='1' page='3' type2='1' id='209419'/>
+  <ItemSpec color='1' type='3' order_num='3204' useall='1' name='104121' para='1600' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209420'/>
+  <ItemSpec color='2' type='3' order_num='3206' useall='1' name='104122' para='8000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209421'/>
+  <ItemSpec color='3' type='3' order_num='3207' useall='1' name='104123' para='25000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209422'/>
+  <ItemSpec color='4' type='3' order_num='3208' useall='1' name='104124' para='80000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209423'/>
+  <ItemSpec color='5' type='3' order_num='3209' useall='1' name='104125' para='250000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209424'/>
+  <ItemSpec color='5' type='3' order_num='3210' useall='1' name='104026' para='800000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209425'/>
+  <ItemSpec color='0' type='3' order_num='3201' useall='1' name='104197' para='150' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209426'/>
+  <ItemSpec color='0' type='3' order_num='3202' useall='1' name='104198' para='300' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209427'/>
+  <ItemSpec color='0' type='3' order_num='3203' useall='1' name='104199' para='600' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209428'/>
+  <ItemSpec color='0' type='3' order_num='3205' useall='1' name='104218' para='5000' lv_limit='10' description='104305' use='1' icon='item782' lv='1' page='3' type2='2' id='209429'/>
+  <ItemSpec color='1' type='3' order_num='3104' useall='1' name='104126' para='10000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209430'/>
+  <ItemSpec color='2' type='3' order_num='3106' useall='1' name='104127' para='50000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209431'/>
+  <ItemSpec color='3' type='3' order_num='3107' useall='1' name='104128' para='150000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209432'/>
+  <ItemSpec color='4' type='3' order_num='3108' useall='1' name='104129' para='500000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209433'/>
+  <ItemSpec color='5' type='3' order_num='3109' useall='1' name='104130' para='1500000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209434'/>
+  <ItemSpec color='5' type='3' order_num='3110' useall='1' name='104027' para='5000000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209435'/>
+  <ItemSpec color='0' type='3' order_num='3101' useall='1' name='104188' para='1000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209436'/>
+  <ItemSpec color='0' type='3' order_num='3102' useall='1' name='104189' para='2000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209437'/>
+  <ItemSpec color='0' type='3' order_num='3103' useall='1' name='104190' para='4000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209438'/>
+  <ItemSpec color='0' type='3' order_num='3105' useall='1' name='104215' para='30000' lv_limit='1' description='104305' use='1' icon='item780' lv='1' page='3' type2='3' id='209439'/>
+  <ItemSpec color='1' type='3' order_num='201' useall='1' name='104203' para='5' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209460'/>
+  <ItemSpec color='2' type='3' order_num='202' useall='1' name='104204' para='10' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209461'/>
+  <ItemSpec color='2' type='3' order_num='203' useall='1' name='104205' para='20' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209462'/>
+  <ItemSpec color='2' type='3' order_num='204' useall='1' name='104206' para='50' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209463'/>
+  <ItemSpec color='3' type='3' order_num='205' useall='1' name='104207' para='100' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209464'/>
+  <ItemSpec color='3' type='3' order_num='206' useall='1' name='104208' para='200' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209465'/>
+  <ItemSpec color='4' type='3' order_num='207' useall='1' name='104029' para='1000' lv_limit='1' description='104305' use='1' icon='item784' lv='1' page='3' type2='10' id='209466'/>
+  <ItemSpec color='3' type='3' order_num='2301' name='104922' para='10' lv_limit='1' description='104305' use='1' icon='item786' lv='1' page='1' type2='13' id='209480'/>
+  <ItemSpec color='4' type='3' order_num='2302' name='104923' para='50' lv_limit='1' description='104305' use='1' icon='item786' lv='1' page='1' type2='13' id='209481'/>
+  <ItemSpec color='5' type='3' order_num='2303' name='104924' para='100' lv_limit='1' description='104305' use='1' icon='item786' lv='1' page='1' type2='13' id='209482'/>
+  <ItemSpec color='2' type='3' order_num='2201' useall='1' name='104297' para='5000' lv_limit='1' description='104305' use='1' icon='item785' lv='1' page='4' type2='14' id='209490'/>
+  <ItemSpec color='3' type='3' order_num='2202' useall='1' name='104298' para='20000' lv_limit='1' description='104305' use='1' icon='item785' lv='1' page='4' type2='14' id='209491'/>
+  <ItemSpec color='4' type='3' order_num='2203' useall='1' name='104299' para='100000' lv_limit='1' description='104305' use='1' icon='item785' lv='1' page='4' type2='14' id='209492'/>
+  <ItemSpec color='5' type='5' name='104287' order_num='208' lv_limit='1' description='104294' useall='1' use='1' lv='1' page='1' icon='item706' id='209500'/>
+  <ItemSpec color='2' type='5' name='104282' order_num='2801' lv_limit='1' description='104259' useall='1' use='1' lv='1' page='3' icon='item706' id='209564'/>
+  <ItemSpec color='3' type='5' name='104283' order_num='2802' lv_limit='10' description='104260' useall='1' use='1' lv='1' page='3' icon='item706' id='209565'/>
+  <ItemSpec color='4' type='5' name='104284' order_num='2803' lv_limit='15' description='104261' useall='1' use='1' lv='1' page='3' icon='item706' id='209566'/>
+  <ItemSpec color='5' type='5' name='104285' order_num='2804' lv_limit='15' description='104262' useall='1' use='1' lv='1' page='3' icon='item706' id='209567'/>
+</Group>

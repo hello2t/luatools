@@ -1,0 +1,11 @@
+<Group id='battle'>
+  <ItemSpec id='105000' lose='100'/>
+  <ItemSpec id='105001' lose='0'/>
+  <ItemSpec id='105002' lose='0'/>
+  <ItemSpec id='105003' lose='0'/>
+  <ItemSpec id='105004' lose='0'/>
+  <ItemSpec id='105005' lose='0'/>
+  <ItemSpec id='105006' lose='0'/>
+  <ItemSpec id='105007' lose='0'/>
+  <ItemSpec id='105008' lose='0'/>
+</Group>

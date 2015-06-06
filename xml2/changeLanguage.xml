@@ -1,0 +1,32 @@
+<Group id='changeLanguage'>
+  <ItemSpec type='en' name='英语' id='8100'/>
+  <ItemSpec type='zh-Hans' name='简体中文' id='8101'/>
+  <ItemSpec type='zh-Hant' name='繁体中文' id='8102'/>
+  <ItemSpec type='es' name='西班牙语' id='8103'/>
+  <ItemSpec type='fr' name='法语' id='8104'/>
+  <ItemSpec type='pt' name='葡萄牙语' id='8105'/>
+  <ItemSpec type='de' name='德语' id='8106'/>
+  <ItemSpec type='ru' name='俄语' id='8107'/>
+  <ItemSpec type='ko' name='韩语' id='8108'/>
+  <ItemSpec type='it' name='意大利语' id='8109'/>
+  <ItemSpec name='捷克语' open='1' id='8110'/>
+  <ItemSpec type='da' name='丹麦语' id='8111'/>
+  <ItemSpec type='el' name='希腊语' id='8112'/>
+  <ItemSpec type='fi' name='芬兰语' id='8113'/>
+  <ItemSpec name='匈牙利语' open='1' id='8114'/>
+  <ItemSpec type='ja' name='日语' id='8115'/>
+  <ItemSpec name='挪威语' open='1' id='8116'/>
+  <ItemSpec type='nl' name='荷兰语' id='8117'/>
+  <ItemSpec type='pl' name='波兰语' id='8118'/>
+  <ItemSpec name='罗马尼亚语' open='1' id='8119'/>
+  <ItemSpec name='斯洛伐克语' open='1' id='8120'/>
+  <ItemSpec type='sv' name='瑞典语' id='8121'/>
+  <ItemSpec type='th' name='泰语' id='8122'/>
+  <ItemSpec type='tr' name='土耳其语' id='8123'/>
+  <ItemSpec name='乌克兰语' open='1' id='8124'/>
+  <ItemSpec type='vi' name='越南语' id='8125'/>
+  <ItemSpec name='加泰罗尼亚语' open='1' id='8126'/>
+  <ItemSpec name='希伯来语' open='1' id='8127'/>
+  <ItemSpec name='印度尼西亚语' open='1' id='8128'/>
+  <ItemSpec type='ms' name='马来语' id='8129'/>
+</Group>

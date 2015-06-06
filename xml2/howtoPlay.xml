@@ -1,0 +1,12 @@
+<Group id='howtoPlay'>
+  <ItemSpec content='世界时间' level='2' id='9300'/>
+  <ItemSpec content='确认' level='1' id='9301'/>
+  <ItemSpec content='警告！' level='2' id='9302'/>
+  <ItemSpec content='再次警告！' id='9303' level='2' image='illustrator02'/>
+  <ItemSpec content='开始新游戏' level='2' id='9304'/>
+  <ItemSpec content='点击“已登录”按钮，可以切换账号或者登出账号。' level='1' id='9305'/>
+  <ItemSpec content='当心！如果当前游戏数据没有和Facebook或Google+账号绑定，开启新游戏将会造成当前游戏进度丢失！（如果城堡等级≤6级，将会失去在世界地图中的位置）' level='2' id='9306'/>
+  <ItemSpec content='登出' id='9307' level='2' image='illustrator01'/>
+  <ItemSpec content='如果你拥有一个旧的游戏进度，可以点击“切换账号”按钮，登录与旧的游戏进度绑定的{0}账号，来继续旧的游戏进度。' level='1' id='9308'/>
+  <ItemSpec content='登出账号，将解除此账号与当前游戏数据的关联，此游戏数据无法登录其他设备或被找回。如确定要登出，请点击“登出”按钮。' level='2' id='9309'/>
+</Group>

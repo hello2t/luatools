@@ -1,0 +1,8 @@
+<Group id='loadingTips'>
+  <ItemSpec level_range='1;10' description='在世界地图中找到资源点，采集后可以获得资源！;只有击败低等级怪，才能挑战更高等级的怪。;加入联盟，获得更多帮助！' id='1000'/>
+  <ItemSpec level_range='1;15' description='绑定帐号会保障您的记录不会丢失。;绑定帐号后，您可以在不同的设备登录您的游戏。' id='1001'/>
+  <ItemSpec level_range='1;100' description='您可以随时向MOD求助，不必担心语言问题。' id='1002'/>
+  <ItemSpec level_range='6;20' description='在联盟科技中进行捐献，会获得联盟积分和荣誉。;资源帮助是收税的，提高市场等级以降低税收比例！;提升仓库等级，可以保护您的资源不被掠夺。;提高行军帐篷的等级增加训练速度和训练量！' id='1003'/>
+  <ItemSpec level_range='6;100' description='月度礼包每天都会送您金币和道具，奖励在活动中心领取！' id='1004'/>
+  <ItemSpec level_range='11;100' description='每一任国王都会记载到名人堂;宫殿位于王国地图中心，占领宫殿的联盟有权利选举国王！;在联盟战争中查看正在进行的战争和历史记录;提升联盟科技，让您的联盟更加强大！;当部队经过黑土地，行军速度会变慢。' id='1005'/>
+</Group>

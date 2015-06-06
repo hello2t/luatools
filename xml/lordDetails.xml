@@ -1,0 +1,75 @@
+<Group id='lordDetails'>
+  <ItemSpec area='1' type='0' where='lord' icon='science_mil_a_2' name='105010' id='46350'/>
+  <ItemSpec type='1' show='1' name='105011' area='1' description='121061' effect='war_win' icon='science_mil_a_2' where='lord' id='46351'/>
+  <ItemSpec type='2' show='1' name='105012' area='1' description='121061' effect='war_lose' icon='science_mil_a_2' where='lord' id='46352'/>
+  <ItemSpec type='3' show='1' name='105013' area='1' description='121061' effect='attack_win' icon='science_mil_a_2' where='lord' id='46353'/>
+  <ItemSpec type='4' show='1' name='105014' area='1' description='121061' effect='attack_lose' icon='science_mil_a_2' where='lord' id='46354'/>
+  <ItemSpec type='5' show='1' name='105015' area='1' description='121061' effect='defense_win' icon='science_mil_a_2' where='lord' id='46355'/>
+  <ItemSpec type='6' show='0' name='105016' area='1' description='121061' effect='win_rate' icon='science_mil_a_2' where='lord' id='46356'/>
+  <ItemSpec type='7' show='1' name='105017' area='1' description='121061' effect='scout_num' icon='science_mil_a_2' where='lord' id='46357'/>
+  <ItemSpec type='8' show='1' name='105018' area='1' description='121061' effect='kill_troops' icon='science_mil_a_2' where='lord' id='46358'/>
+  <ItemSpec type='9' show='1' name='105019' area='1' description='121061' effect='loss_troops' icon='science_mil_a_2' where='lord' id='46359'/>
+  <ItemSpec type='10' show='1' name='105020' area='1' description='121061' effect='heal_troops' icon='science_mil_a_2' where='lord' id='46360'/>
+  <ItemSpec area='2' type='0' where='lord' icon='science_mil_a_2' id='46361'/>
+  <ItemSpec type='1' show='1' icon='science_mil_a_2' area='2' description='121061' effect='power_sum' where='lord' id='46362'/>
+  <ItemSpec type='2' show='1' name='105022' area='2' description='121061' effect='power_lord' icon='science_mil_a_2' where='lord' id='46363'/>
+  <ItemSpec type='3' show='1' name='105024' area='2' description='121061' effect='power_troops' icon='science_mil_a_2' where='lord' id='46364'/>
+  <ItemSpec type='4' show='1' name='105025' area='2' description='121061' effect='power_build' icon='science_mil_a_2' where='lord' id='46365'/>
+  <ItemSpec type='5' show='1' name='105026' area='2' description='121061' effect='power_science' icon='science_mil_a_2' where='lord' id='46366'/>
+  <ItemSpec type='6' show='1' name='105027' area='2' description='121061' effect='power_trap' icon='science_mil_a_2' where='lord' id='46367'/>
+  <ItemSpec area='3' type='0' where='lord' icon='science_mil_a_2' id='46368'/>
+  <ItemSpec area='3' description='121061' type='1' show='1' effect='55' icon='science_mil_a_2' id='46369'/>
+  <ItemSpec area='3' description='121061' type='2' show='1' effect='56' icon='science_mil_a_2' id='46370'/>
+  <ItemSpec area='3' description='121061' type='3' show='1' effect='131' icon='science_mil_a_2' id='46371'/>
+  <ItemSpec area='3' description='121061' type='4' show='0' effect='66' icon='science_mil_a_2' id='46372'/>
+  <ItemSpec area='3' description='121061' type='5' show='0' effect='60' icon='science_mil_a_2' id='46373'/>
+  <ItemSpec type='6' show='0' name='113927' area='3' description='121061' effect='1011;1012|1010' mail_order='1' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46374'/>
+  <ItemSpec type='7' show='0' name='113928' area='3' description='121061' effect='1031;1032|1030' mail_order='2' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46375'/>
+  <ItemSpec type='8' show='0' name='113929' area='3' description='121061' effect='1041;1042|1050' mail_order='3' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46376'/>
+  <ItemSpec type='9' show='0' area='3' effect='1071;1072' attack_defend='attack|defend' mail_order='4' where='mail' id='46377'/>
+  <ItemSpec type='10' show='0' name='113930' area='3' description='121061' effect='1013;1014|1010' mail_order='5' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46378'/>
+  <ItemSpec type='11' show='0' name='113931' area='3' description='121061' effect='1033;1034|1030' mail_order='6' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46379'/>
+  <ItemSpec type='12' show='0' name='113932' area='3' description='121061' effect='1043;1044|1050' mail_order='7' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46380'/>
+  <ItemSpec type='13' show='0' area='3' effect='101010;101011' attack_defend='attack|defend' mail_order='8' where='mail' id='46381'/>
+  <ItemSpec type='14' show='0' name='113933' area='3' description='121061' effect='1015;1016|1010' mail_order='9' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46382'/>
+  <ItemSpec type='15' show='0' name='113934' area='3' description='121061' effect='1035;1036|1030' mail_order='10' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46383'/>
+  <ItemSpec type='16' show='0' name='113935' area='3' description='121061' effect='1045;1046|1050' mail_order='11' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46384'/>
+  <ItemSpec type='17' show='0' area='3' effect='1065;1066' attack_defend='attack|defend' mail_order='12' where='mail' id='46385'/>
+  <ItemSpec type='18' show='0' name='113936' area='3' description='121061' effect='1017;1018|1010' mail_order='13' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46386'/>
+  <ItemSpec type='19' show='0' name='113937' area='3' description='121061' effect='1037;1038|1030' mail_order='14' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46387'/>
+  <ItemSpec type='20' show='0' name='113938' area='3' description='121061' effect='1047;1048|1050' mail_order='15' attack_defend='attack|defend' icon='science_mil_a_2' where='mail' id='46388'/>
+  <ItemSpec type='21' show='0' area='3' effect='1207;1208' attack_defend='attack' mail_order='16' where='mail' id='46389'/>
+  <ItemSpec area='4' type='0' icon='science_mil_a_2' id='46390'/>
+  <ItemSpec type='1' show='1' name='113939' area='4' description='121061' effect='125' mail_order='17' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46391'/>
+  <ItemSpec type='2' show='0' name='113940' area='4' description='121061' effect='1591;1592;1593;1594;1595;1596;1597;1598' mail_order='18' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46392'/>
+  <ItemSpec area='4' description='121061' type='3' show='0' effect='67' icon='science_mil_a_2' id='46393'/>
+  <ItemSpec area='4' description='121061' type='4' show='0' effect='88' icon='science_mil_a_2' id='46394'/>
+  <ItemSpec type='5' show='0' name='113943' area='4' description='121061' effect='1591;1592' mail_order='19' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46395'/>
+  <ItemSpec type='6' show='0' name='113944' area='4' description='121061' effect='1593;1594' mail_order='20' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46396'/>
+  <ItemSpec type='7' show='0' name='113945' area='4' description='121061' effect='1595;1596' mail_order='21' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46397'/>
+  <ItemSpec type='8' show='0' name='113946' area='4' description='121061' effect='1220' mail_order='22' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46398'/>
+  <ItemSpec type='9' show='0' name='113947' area='4' description='121061' effect='1230' mail_order='23' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46399'/>
+  <ItemSpec type='10' show='0' name='113948' area='4' description='121061' effect='1152' mail_order='24' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46400'/>
+  <ItemSpec type='11' show='0' name='113949' area='4' description='121061' effect='1153' mail_order='25' attack_defend='defend' icon='science_mil_a_2' where='mail' id='46401'/>
+  <ItemSpec area='5' type='0' icon='science_mil_a_2' id='46402'/>
+  <ItemSpec area='5' description='121061' type='1' show='0' effect='68' icon='science_mil_a_2' id='46403'/>
+  <ItemSpec area='5' description='121061' type='2' show='0' effect='69' icon='science_mil_a_2' id='46404'/>
+  <ItemSpec area='5' description='121061' type='3' show='0' effect='64' icon='science_mil_a_2' id='46405'/>
+  <ItemSpec area='5' description='121061' type='4' show='0' effect='78' icon='science_mil_a_2' id='46406'/>
+  <ItemSpec area='5' description='121061' type='5' show='1' effect='73|57' icon='science_mil_a_2' id='46407'/>
+  <ItemSpec area='5' description='121061' type='6' show='0' effect='121' icon='science_mil_a_2' id='46408'/>
+  <ItemSpec area='5' description='121061' type='7' show='0' effect='108' icon='science_mil_a_2' id='46409'/>
+  <ItemSpec area='5' description='121061' type='8' show='0' effect='59' icon='science_mil_a_2' id='46410'/>
+  <ItemSpec area='5' description='121061' type='9' show='0' effect='106' icon='science_mil_a_2' id='46411'/>
+  <ItemSpec area='6' type='0' icon='science_mil_a_2' id='46412'/>
+  <ItemSpec area='6' description='121061' type='1' show='0' effect='50' icon='science_mil_a_2' id='46413'/>
+  <ItemSpec area='6' description='121061' type='2' show='0' effect='153' icon='science_mil_a_2' id='46414'/>
+  <ItemSpec area='6' description='121061' type='3' show='0' effect='53' icon='science_mil_a_2' id='46415'/>
+  <ItemSpec area='6' description='121061' type='4' show='0' effect='154' icon='science_mil_a_2' id='46416'/>
+  <ItemSpec area='6' description='121061' type='5' show='0' effect='52' icon='science_mil_a_2' id='46417'/>
+  <ItemSpec area='6' description='121061' type='6' show='0' effect='155' icon='science_mil_a_2' id='46418'/>
+  <ItemSpec area='6' description='121061' type='7' show='0' effect='51' icon='science_mil_a_2' id='46419'/>
+  <ItemSpec area='6' description='121061' type='8' show='0' effect='156' icon='science_mil_a_2' id='46420'/>
+  <ItemSpec area='6' description='121061' type='9' show='0' effect='79' icon='science_mil_a_2' id='46421'/>
+  <ItemSpec area='6' description='121061' type='10' show='1' effect='72|38' icon='science_mil_a_2' id='46422'/>
+</Group>

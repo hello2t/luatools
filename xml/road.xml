@@ -1,0 +1,14 @@
+<Group id='road'>
+  <ItemSpec way='100;200|100;300' type='1' city1='216200' id='217000' city2='216201'/>
+  <ItemSpec way='100;500|100;600' type='2' city1='216201' id='217001' city2='216202'/>
+  <ItemSpec way='200;100|300;100' type='1' city1='216200' id='217002' city2='216203'/>
+  <ItemSpec way='200;400|300;400' type='2' city1='216201' id='217003' city2='216204'/>
+  <ItemSpec way='200;700|300;700' type='1' city1='216202' id='217004' city2='216205'/>
+  <ItemSpec way='400;200|400;300' type='2' city1='216203' id='217005' city2='216204'/>
+  <ItemSpec way='400;500|400;600' type='1' city1='216204' id='217006' city2='216205'/>
+  <ItemSpec way='500;100|600;100' type='2' city1='216203' id='217007' city2='216206'/>
+  <ItemSpec way='500;400|600;400' type='1' city1='216204' id='217008' city2='216207'/>
+  <ItemSpec way='500;700|600;700' type='2' city1='216205' id='217009' city2='216208'/>
+  <ItemSpec way='700;200|700;300' type='1' city1='216206' id='217010' city2='216207'/>
+  <ItemSpec way='700;500|700;600' type='2' city1='216207' id='217011' city2='216208'/>
+</Group>

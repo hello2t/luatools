@@ -1,0 +1,19 @@
+<Group id='office'>
+  <ItemSpec param='15; 15; 10' para1='1010;1030;8' id='216000' icon='icon_216000' name='国王' para2='15;15;10' tips='部队攻击{0}@;部队防御{0}@;行军上限{0}@'/>
+  <ItemSpec param='15; 20' para1='50;51;52;53;38' id='216001' icon='icon_216001' name='女王' para2='15;15;15;15;20' tips='全部资源产量{0}@;资源保护数量{0}@'/>
+  <ItemSpec param='5; 5; 5' para1='68;66;69' id='216002' icon='icon_216002' name='首相' para2='5;5;5' tips='建造速度{0}@;训练士兵速度{0}@;研究科技速度{0}@'/>
+  <ItemSpec param='10; 5' para1='50;51;52;53;66' id='216003' icon='icon_216003' name='大法官' para2='10;10;10;10;5' tips='全部资源产量{0}@;训练士兵速度{0}@'/>
+  <ItemSpec param='5;-10' para1='50;51;52;53;64' id='216004' icon='icon_216004' name='财政官' para2='5;5;5;5;10' tips='全部资源产量{0}@;粮食消耗{0}@'/>
+  <ItemSpec param='5; 10' para1='1010;60' id='216005' icon='icon_216005' name='骑士' para2='5;10' tips='部队攻击{0}@;行军速度{0}@'/>
+  <ItemSpec param='5; 5' para1='1010;1030' id='216006' icon='icon_216006' name='护卫队长' para2='5;5' tips='部队攻击{0}@;部队防御{0}@'/>
+  <ItemSpec param='10' para1='69' id='216007' icon='icon_216007' name='学士' para2='10' tips='研究科技速度{0}@'/>
+  <ItemSpec param='10' para1='68' id='216008' icon='icon_216008' name='铁匠' para2='10' tips='建造速度{0}@'/>
+  <ItemSpec param='-10;-5' para1='1010;50;51;52;53' id='216009' icon='icon_216009' name='女仆' para2='-10;-5;-5;-5;-5' tips='部队攻击{0}@;全部资源产量{0}@'/>
+  <ItemSpec param='-5; 10' para1='50;51;52;53;64' id='216010' icon='icon_216010' name='马夫' para2='-5;-5;-5;-5;-10' tips='全部资源产量{0}@;粮食消耗{0}@'/>
+  <ItemSpec param='-5;-10' para1='60;66' id='216011' icon='icon_216011' name='小丑' para2='-5;-10' tips='行军速度{0}@;训练士兵速度{0}@'/>
+  <ItemSpec param='-5;-10' para1='1030;50;51;52;53' id='216012' icon='icon_216012' name='平民' para2='-5;-10;-10;-10;-10' tips='部队防御{0}@;全部资源产量{0}@'/>
+  <ItemSpec param='-8;-8' para1='1010;1030' id='216013' icon='icon_216013' name='童军' para2='-8;-8' tips='部队攻击{0}@;部队防御{0}@'/>
+  <ItemSpec param='-20' para1='38' id='216014' icon='icon_216014' name='强盗' para2='-20' tips='资源保护数量{0}@'/>
+  <ItemSpec param='-15' para1='60' id='216015' icon='icon_216015' name='罪犯' para2='-15' tips='行军速度{0}@'/>
+  <ItemSpec param='-15' para1='69' id='216016' icon='icon_216016' name='傻瓜' para2='-15' tips='研究科技速度{0}@'/>
+</Group>

@@ -1,0 +1,242 @@
+<Group id='skill2'>
+  <ItemSpec type='1' id='602400' add='50|50' type_value='0' des_value='126117' base='50|50' para1='502240' description='125117' icon='skill2_602400' max_lv='20' name='124117'/>
+  <ItemSpec type='1' id='602401' add='200' des_value='126118' type_value='0' base='200' para1='502241' description='125118' condition_skill='602400;8' icon='skill2_602401' max_lv='9' name='124118'/>
+  <ItemSpec type='1' id='602402' add='100' des_value='126119' type_value='0' base='100' para1='502242' description='125119' condition_skill='602401;4' icon='skill2_602402' max_lv='6' name='124119'/>
+  <ItemSpec type='1' id='602403' add='200' des_value='126120' type_value='0' base='200' para1='502243' description='125120' condition_skill='602402;2' icon='skill2_602403' max_lv='6' name='124120'/>
+  <ItemSpec type='1' id='602404' add='100' des_value='126121' type_value='0' base='100' para1='502244' description='125121' condition_skill='602402;2' icon='skill2_602404' max_lv='6' name='124121'/>
+  <ItemSpec type='2' id='602405' add='800|100' des_value='126122' type_value='0' base='2000|1000' para1='[行军信息]会告知向你行军部队里所有领主的确切等级。' condition_point='40' description='125122' icon='skill2_602405' max_lv='3' name='124122'/>
+  <ItemSpec type='1' id='602500' add='100' type_value='0' des_value='126123' base='100' para1='502250' description='125123' icon='skill2_602500' max_lv='20' name='124123'/>
+  <ItemSpec type='1' id='602501' add='200' des_value='126124' type_value='0' base='200' para1='502251' description='125124' condition_skill='602500;8' icon='skill2_602501' max_lv='9' name='124124'/>
+  <ItemSpec type='1' id='602502' add='100' des_value='126125' type_value='0' base='100' para1='502252' description='125125' condition_skill='602501;4' icon='skill2_602502' max_lv='6' name='124125'/>
+  <ItemSpec type='1' id='602503' add='100' des_value='126126' type_value='0' base='100' para1='502253' description='125126' condition_skill='602502;2' icon='skill2_602503' max_lv='6' name='124126'/>
+  <ItemSpec type='1' id='602504' add='400' des_value='126127' type_value='0' base='400' para1='502254' description='125127' condition_skill='602502;2' icon='skill2_602504' max_lv='6' name='124127'/>
+  <ItemSpec type='2' id='602505' add='800|100' des_value='126128' type_value='0' base='2000|1000' para1='[行军信息]会告知向你行军部队拥有者的科技。' condition_point='40' description='125128' icon='skill2_602505' max_lv='3' name='124128'/>
+  <ItemSpec type='1' id='602600' add='100' type_value='0' des_value='126129' base='100' para1='502260' description='125129' icon='skill2_602600' max_lv='20' name='124129'/>
+  <ItemSpec type='1' id='602601' add='200' des_value='126130' type_value='0' base='200' para1='502261' description='125130' condition_skill='602600;8' icon='skill2_602601' max_lv='9' name='124130'/>
+  <ItemSpec type='1' id='602602' add='100' des_value='126131' type_value='0' base='100' para1='502262' description='125131' condition_skill='602601;4' icon='skill2_602602' max_lv='6' name='124131'/>
+  <ItemSpec type='1' id='602603' add='300' des_value='126132' type_value='0' base='300' para1='502263' description='125132' condition_skill='602602;2' icon='skill2_602603' max_lv='6' name='124132'/>
+  <ItemSpec type='1' id='602604' add='100' des_value='126133' type_value='0' base='100' para1='502264' description='125133' condition_skill='602602;2' icon='skill2_602604' max_lv='6' name='124133'/>
+  <ItemSpec type='2' id='602605' add='800|100' des_value='126134' type_value='0' base='2000|1000' para1='攻速提升' condition_point='40' description='125134' icon='skill2_602605' max_lv='3' name='124134'/>
+  <ItemSpec type='1' id='602700' add='100' type_value='0' des_value='126135' base='100' para1='502270' description='125135' icon='skill2_602700' max_lv='20' name='124135'/>
+  <ItemSpec type='1' id='602701' add='200' des_value='126136' type_value='0' base='200' para1='502271' description='125136' condition_skill='602700;8' icon='skill2_602701' max_lv='9' name='124136'/>
+  <ItemSpec type='1' id='602702' add='100' des_value='126137' type_value='0' base='100' para1='502272' description='125137' condition_skill='602701;4' icon='skill2_602702' max_lv='6' name='124137'/>
+  <ItemSpec type='1' id='602703' add='300' des_value='126138' type_value='0' base='300' para1='502273' description='125138' condition_skill='602702;2' icon='skill2_602703' max_lv='6' name='124138'/>
+  <ItemSpec type='1' id='602704' add='100|50' des_value='126139' type_value='0' base='100|50' para1='502274' description='125139' condition_skill='602702;2' icon='skill2_602704' max_lv='6' name='124139'/>
+  <ItemSpec type='2' id='602705' add='800|100' des_value='126140' type_value='0' base='2000|1000' para1='升级' condition_point='40' description='125140' icon='skill2_602705' max_lv='3' name='124140'/>
+  <ItemSpec type='1' id='602800' add='100' type_value='0' des_value='126141' base='100' para1='502280' description='125141' icon='skill2_602800' max_lv='20' name='124141'/>
+  <ItemSpec type='1' id='602801' add='200' des_value='126142' type_value='0' base='200' para1='502281' description='125142' condition_skill='602800;8' icon='skill2_602801' max_lv='9' name='124142'/>
+  <ItemSpec type='1' id='602802' add='100' des_value='126143' type_value='0' base='100' para1='502282' description='125143' condition_skill='602801;4' icon='skill2_602802' max_lv='6' name='124143'/>
+  <ItemSpec type='1' id='602803' add='100' des_value='126144' type_value='0' base='100' para1='502283' description='125144' condition_skill='602802;2' icon='skill2_602803' max_lv='6' name='124144'/>
+  <ItemSpec type='1' id='602804' add='200' des_value='126145' type_value='0' base='200' para1='502284' description='125145' condition_skill='602802;2' icon='skill2_602804' max_lv='6' name='124145'/>
+  <ItemSpec type='2' id='602805' add='800|100' des_value='126146' type_value='0' base='2000|1000' para1='交易' condition_point='40' description='125146' icon='skill2_602805' max_lv='3' name='124146'/>
+  <ItemSpec type='1' id='602900' add='100' type_value='0' des_value='126147' base='100' para1='502290' description='125147' icon='skill2_602900' max_lv='20' name='124147'/>
+  <ItemSpec type='1' id='602901' add='100' des_value='126148' type_value='0' base='100' para1='502291' description='125148' condition_skill='602900;8' icon='skill2_602901' max_lv='9' name='124148'/>
+  <ItemSpec type='1' id='602902' add='100' des_value='126149' type_value='0' base='100' para1='502292' description='125149' condition_skill='602901;4' icon='skill2_602902' max_lv='6' name='124149'/>
+  <ItemSpec type='1' id='602903' add='100' des_value='126150' type_value='0' base='100' para1='502293' description='125150' condition_skill='602902;2' icon='skill2_602903' max_lv='6' name='124150'/>
+  <ItemSpec type='1' id='602904' add='50|500' des_value='126151' type_value='0' base='50|500' para1='502294' description='125151' condition_skill='602902;2' icon='skill2_602904' max_lv='6' name='124151'/>
+  <ItemSpec type='2' id='602905' add='800|100' des_value='126152' type_value='0' base='2000|1000' para1='队列取消失败' condition_point='40' description='125152' icon='skill2_602905' max_lv='3' name='124152'/>
+  <ItemSpec type='1' id='603000' add='100' type_value='0' des_value='126153' base='100' para1='502300' description='125153' icon='skill2_603000' max_lv='20' name='124153'/>
+  <ItemSpec type='1' id='603001' add='300' des_value='126154' type_value='0' base='300' para1='502301' description='125154' condition_skill='603000;8' icon='skill2_603001' max_lv='9' name='124154'/>
+  <ItemSpec type='1' id='603002' add='100' des_value='126155' type_value='0' base='100' para1='502302' description='125155' condition_skill='603001;4' icon='skill2_603002' max_lv='6' name='124155'/>
+  <ItemSpec type='1' id='603003' add='100' des_value='126156' type_value='0' base='100' para1='502303' description='125156' condition_skill='603002;2' icon='skill2_603003' max_lv='6' name='124156'/>
+  <ItemSpec type='1' id='603004' add='200' des_value='126157' type_value='0' base='200' para1='502304' description='125157' condition_skill='603002;2' icon='skill2_603004' max_lv='6' name='124157'/>
+  <ItemSpec type='2' id='603005' add='800|100' des_value='126158' type_value='0' base='2000|1000' para1='建筑资源加成' condition_point='40' description='125158' icon='skill2_603005' max_lv='3' name='124158'/>
+  <ItemSpec type='1' id='603100' add='100' type_value='0' des_value='126159' base='100' para1='502310' description='125159' icon='skill2_603100' max_lv='20' name='124159'/>
+  <ItemSpec type='1' id='603101' add='200' des_value='126160' type_value='0' base='200' para1='502311' description='125160' condition_skill='603100;8' icon='skill2_603101' max_lv='9' name='124160'/>
+  <ItemSpec type='1' id='603102' add='100' des_value='126161' type_value='0' base='100' para1='502312' description='125161' condition_skill='603101;4' icon='skill2_603102' max_lv='6' name='124161'/>
+  <ItemSpec type='1' id='603103' add='100' des_value='126162' type_value='0' base='100' para1='502313' description='125162' condition_skill='603102;2' icon='skill2_603103' max_lv='6' name='124162'/>
+  <ItemSpec type='1' id='603104' add='200' des_value='126163' type_value='0' base='200' para1='502314' description='125163' condition_skill='603102;2' icon='skill2_603104' max_lv='6' name='124163'/>
+  <ItemSpec type='2' id='603105' add='800|100' des_value='126164' type_value='0' base='2000|1000' para1='4.重建功能每隔一段时间才能使用一次.' condition_point='40' description='125164' icon='skill2_603105' max_lv='3' name='124164'/>
+  <ItemSpec type='2' id='604200' add='8' type_value='1' des_value='126165' base='20' para1='兵营' description='125165' icon='skill2_604200' max_lv='18' name='124165'/>
+  <ItemSpec type='2' id='604201' add='500' des_value='126166' type_value='0' base='500' para1='马厩' description='125166' condition_skill='604200;8' icon='skill2_604201' max_lv='10' name='124166'/>
+  <ItemSpec type='2' id='604202' add='500' des_value='126167' type_value='0' base='500' para1='靶场' description='125167' condition_skill='604200;8' icon='skill2_604202' max_lv='10' name='124167'/>
+  <ItemSpec type='2' id='604203' add='300' des_value='126168' type_value='0' base='300' para1='战车工坊' description='125168' condition_skill='604201;4|604202;4' icon='skill2_604203' max_lv='8' name='124168'/>
+  <ItemSpec type='2' id='604204' add='2000' des_value='126169' type_value='0' base='2000' para1='校场' description='125169' condition_skill='604203;3' icon='skill2_604204' max_lv='3' name='124169'/>
+  <ItemSpec type='2' id='604205' add='0' des_value='126170' type_value='1' base='1' para1='城堡提供您的帝国的总览，升级城堡可以解锁新的建筑和功能' condition_point='40' description='125170' icon='skill2_604205' max_lv='1' name='124170'/>
+  <ItemSpec type='2' id='604300' add='8' type_value='1' des_value='126171' base='20' para1='战争大厅用来集结你的盟友，你们可以组成一支强大的队伍对敌人发起攻击。升级战争大厅可以提升集结部队士兵数量上限。' description='125171' icon='skill2_604300' max_lv='18' name='124171'/>
+  <ItemSpec type='2' id='604301' add='500' des_value='126172' type_value='0' base='500' para1='阴暗的监狱是关押敌人英雄的好地方，你可以将战斗中俘虏的英雄关押在这里' description='125172' condition_skill='604300;8' icon='skill2_604301' max_lv='10' name='124172'/>
+  <ItemSpec type='2' id='604302' add='500' des_value='126173' type_value='0' base='500' para1='民居可以给你带来丰厚的银币收入，升级民居可以获得更高的产量和存储量' description='125173' condition_skill='604300;8' icon='skill2_604302' max_lv='10' name='124173'/>
+  <ItemSpec type='2' id='604303' add='300' des_value='126174' type_value='0' base='300' para1='行军帐篷是您集结士兵的地方，升级行军帐篷可以获得更高的训练速度和训练量' description='125174' condition_skill='604301;4|604302;4' icon='skill2_604303' max_lv='8' name='124174'/>
+  <ItemSpec type='2' id='604304' add='2000' des_value='126175' type_value='0' base='2000' para1='急救帐篷是您救治伤兵的地方，升级急救帐篷可以获得更多伤兵位置，以便治疗更多的伤兵' description='125175' condition_skill='604303;3' icon='skill2_604304' max_lv='3' name='124175'/>
+  <ItemSpec type='2' id='604305' add='0' des_value='126176' type_value='1' base='1' para1='秘银矿场是生产并存储秘银的地方，升级秘银矿场可以获得更高的产量和容量' condition_point='40' description='125176' icon='skill2_604305' max_lv='1' name='124176'/>
+  <ItemSpec type='2' id='604400' add='8' type_value='1' des_value='126177' base='20' para1='瞭望塔主要有2个功能，包括侦查敌人与了解向你行军的即时信息。' description='125177' icon='skill2_604400' max_lv='18' name='124177'/>
+  <ItemSpec type='2' id='604401' add='500' des_value='126178' type_value='0' base='500' para1='箭塔是您的城防设施，可以在守城时攻击敌人，升级箭塔可以获得更高的属性' description='125178' condition_skill='604400;8' icon='skill2_604401' max_lv='10' name='124178'/>
+  <ItemSpec type='2' id='604402' add='500' des_value='126179' type_value='0' base='500' para1='城墙是您驻扎守城士兵的地方，升级城墙可以提升陷阱的容量和城防值' description='125179' condition_skill='604400;8' icon='skill2_604402' max_lv='10' name='124179'/>
+  <ItemSpec type='2' id='604403' add='300' des_value='126180' type_value='0' base='300' para1='内政厅是您处理政务事件的地方，升级内政厅可以增加政务事件的奖励' description='125180' condition_skill='604401;4|604402;4' icon='skill2_604403' max_lv='8' name='124180'/>
+  <ItemSpec type='2' id='604404' add='2000' des_value='126181' type_value='0' base='2000' para1='奇迹暂未开放，敬请期待' description='125181' condition_skill='604403;3' icon='skill2_604404' max_lv='3' name='124181'/>
+  <ItemSpec type='2' id='604405' add='0' des_value='126182' type_value='1' base='1' para1='兵营是训练步兵的地方，升级兵营可以训练更多新的兵种' condition_point='40' description='125182' icon='skill2_604405' max_lv='1' name='124182'/>
+  <ItemSpec type='2' id='604500' add='8' type_value='1' des_value='126183' base='20' para1='城堡提供您的帝国的总览' description='125183' icon='skill2_604500' max_lv='18' name='124183'/>
+  <ItemSpec type='2' id='604501' add='500' des_value='126184' type_value='0' base='500' para1='市场是联盟成员进行资源交易的地方' description='125184' condition_skill='604500;8' icon='skill2_604501' max_lv='10' name='124184'/>
+  <ItemSpec type='2' id='604502' add='500' des_value='126185' type_value='0' base='500' para1='大使馆提供联盟相关功能' description='125185' condition_skill='604500;8' icon='skill2_604502' max_lv='10' name='124185'/>
+  <ItemSpec type='2' id='604503' add='300' des_value='126186' type_value='0' base='300' para1='学院里面可以研究的各种科技，来全面提升您的帝国' description='125186' condition_skill='604501;4|604502;4' icon='skill2_604503' max_lv='8' name='124186'/>
+  <ItemSpec type='2' id='604504' add='2000' des_value='126187' type_value='0' base='2000' para1='仓库中存储的资源无法被其他人劫掠' description='125187' condition_skill='604503;3' icon='skill2_604504' max_lv='3' name='124187'/>
+  <ItemSpec type='2' id='604505' add='0' des_value='126188' type_value='1' base='1' para1='战争大厅用来集结你的盟友，你们可以组成一支强大的队伍对敌人发起攻击。' condition_point='40' description='125188' icon='skill2_604505' max_lv='1' name='124188'/>
+  <ItemSpec type='2' id='604600' add='8' type_value='1' des_value='126189' base='20' para1='秘银矿场是生产并存储秘银的地方' description='125189' icon='skill2_604600' max_lv='18' name='124189'/>
+  <ItemSpec type='2' id='604601' add='500' des_value='126190' type_value='0' base='500' para1='伐木场是生产并存储木头的地方' description='125190' condition_skill='604600;8' icon='skill2_604601' max_lv='10' name='124190'/>
+  <ItemSpec type='2' id='604602' add='500' des_value='126191' type_value='0' base='500' para1='铁矿场是生产并存储铁矿的地方' description='125191' condition_skill='604600;8' icon='skill2_604602' max_lv='10' name='124191'/>
+  <ItemSpec type='2' id='604603' add='300' des_value='126192' type_value='0' base='300' para1='农田是生产并存储粮食的地方' description='125192' condition_skill='604601;4|604602;4' icon='skill2_604603' max_lv='8' name='124192'/>
+  <ItemSpec type='2' id='604604' add='2000' des_value='126193' type_value='0' base='2000' para1='战争堡垒是您建造防御设施的地方' description='125193' condition_skill='604603;3' icon='skill2_604604' max_lv='3' name='124193'/>
+  <ItemSpec type='2' id='604605' add='0' des_value='126194' type_value='1' base='1' para1='瞭望塔的主要功能是侦查和瞭望向你行军的部队信息' condition_point='40' description='125194' icon='skill2_604605' max_lv='1' name='124194'/>
+  <ItemSpec type='2' id='604700' add='4' type_value='1' des_value='126195' base='10' para1='兵营是训练步兵的地方' description='125195' icon='skill2_604700' max_lv='18' name='124195'/>
+  <ItemSpec type='2' id='604701' add='500' des_value='126196' type_value='0' base='500' para1='马厩是训练骑兵的地方' description='125196' condition_skill='604700;8' icon='skill2_604701' max_lv='10' name='124196'/>
+  <ItemSpec type='2' id='604702' add='500' des_value='126197' type_value='0' base='500' para1='靶场是训练弓兵的地方' description='125197' condition_skill='604700;8' icon='skill2_604702' max_lv='10' name='124197'/>
+  <ItemSpec type='2' id='604703' add='300' des_value='126198' type_value='0' base='300' para1='战车工坊是制造攻城器械的地方' description='125198' condition_skill='604701;4|604702;4' icon='skill2_604703' max_lv='8' name='124198'/>
+  <ItemSpec type='2' id='604704' add='2000' des_value='126199' type_value='0' base='2000' para1='校场是士兵集结的地方' description='125199' condition_skill='604703;3' icon='skill2_604704' max_lv='3' name='124199'/>
+  <ItemSpec type='2' id='604705' add='0' des_value='126200' type_value='1' base='1' para1='升级城堡可以解锁新的建筑和功能' condition_point='40' description='125200' icon='skill2_604705' max_lv='1' name='124200'/>
+  <ItemSpec type='2' id='604800' add='8' type_value='1' des_value='126201' base='20' para1='升级战争大厅可以提升集结部队士兵数量上限' description='125201' icon='skill2_604800' max_lv='18' name='124201'/>
+  <ItemSpec type='2' id='604801' add='500' des_value='126202' type_value='0' base='500' para1='升级监狱可以提升' description='125202' condition_skill='604800;8' icon='skill2_604801' max_lv='10' name='124202'/>
+  <ItemSpec type='2' id='604802' add='500' des_value='126203' type_value='0' base='500' para1='升级民居可以提升银币产量和存储量' description='125203' condition_skill='604800;8' icon='skill2_604802' max_lv='10' name='124203'/>
+  <ItemSpec type='2' id='604803' add='300' des_value='126204' type_value='0' base='300' para1='升级行军帐篷可以提升士兵的训练量和训练速度' description='125204' condition_skill='604801;4|604802;4' icon='skill2_604803' max_lv='8' name='124204'/>
+  <ItemSpec type='2' id='604804' add='2000' des_value='126205' type_value='0' base='2000' para1='升级急救帐篷可以提升可收治伤兵的数目' description='125205' condition_skill='604803;3' icon='skill2_604804' max_lv='3' name='124205'/>
+  <ItemSpec type='2' id='604805' add='0' des_value='126206' type_value='1' base='1' para1='升级秘银矿场可以提升秘银的产量和容量' condition_point='40' description='125206' icon='skill2_604805' max_lv='1' name='124206'/>
+  <ItemSpec type='2' id='604900' add='8' type_value='1' des_value='126207' base='20' para1='升级瞭望塔可以获得更详细的侦查报告和向你行军的即时信息' description='125207' icon='skill2_604900' max_lv='18' name='124207'/>
+  <ItemSpec type='2' id='604901' add='500' des_value='126208' type_value='0' base='500' para1='升级箭塔可以获得更高的属性' description='125208' condition_skill='604900;8' icon='skill2_604901' max_lv='10' name='124208'/>
+  <ItemSpec type='2' id='604902' add='500' des_value='126209' type_value='0' base='500' para1='升级城墙可以提升陷阱的容量和城防值' description='125209' condition_skill='604900;8' icon='skill2_604902' max_lv='10' name='124209'/>
+  <ItemSpec type='2' id='604903' add='300' des_value='126210' type_value='0' base='300' para1='升级内政厅可以增加政务事件的奖励' description='125210' condition_skill='604901;4|604902;4' icon='skill2_604903' max_lv='8' name='124210'/>
+  <ItemSpec type='2' id='604904' add='2000' des_value='126211' type_value='0' base='2000' para1='奇迹暂未开放，敬请期待' description='125211' condition_skill='604903;3' icon='skill2_604904' max_lv='3' name='124211'/>
+  <ItemSpec type='2' id='604905' add='0' des_value='126212' type_value='1' base='1' para1='升级兵营可以解锁更多新的兵种' condition_point='40' description='125212' icon='skill2_604905' max_lv='1' name='124212'/>
+  <ItemSpec type='2' id='606200' add='300' type_value='0' des_value='126213' base='800' para1='解锁短弓手' description='125213' icon='skill2_606200' max_lv='18' name='124213'/>
+  <ItemSpec type='2' id='606201' add='250' des_value='126214' type_value='0' base='250' para1='解锁长弓手' description='125214' condition_skill='606200;8' icon='skill2_606201' max_lv='9' name='124214'/>
+  <ItemSpec type='2' id='606202' add='250' des_value='126215' type_value='0' base='250' para1='解锁弩手' description='125215' condition_skill='606200;8' icon='skill2_606202' max_lv='9' name='124215'/>
+  <ItemSpec type='2' id='606203' add='800' des_value='126216' type_value='0' base='800' para1='解锁劲弩手' description='125216' condition_skill='606201;4|606202;4' icon='skill2_606203' max_lv='8' name='124216'/>
+  <ItemSpec type='2' id='606204' add='1000' des_value='126217' type_value='0' base='1000' para1='解锁精锐长弓手' description='125217' condition_skill='606203;4' icon='skill2_606204' max_lv='4' name='124217'/>
+  <ItemSpec type='2' id='606205' add='1' des_value='126218' type_value='1' base='1' para1='解锁护卫射手' condition_point='30' description='125218' icon='skill2_606205' max_lv='2' name='124218'/>
+  <ItemSpec type='1' id='607000' add='300' type_value='0' des_value='126219' base='300' para1='502500' description='125219' icon='skill2_607000' max_lv='10' name='124219'/>
+  <ItemSpec type='1' id='607001' add='100' des_value='126220' type_value='0' base='100' para1='502501' description='125220' condition_skill='607000;5' icon='skill2_607001' max_lv='9' name='124220'/>
+  <ItemSpec type='1' id='607002' add='100' des_value='126221' type_value='0' base='100' para1='502502' description='125221' condition_skill='607000;5' icon='skill2_607002' max_lv='9' name='124221'/>
+  <ItemSpec type='1' id='607003' add='100' des_value='126222' type_value='0' base='100' para1='502503' description='125222' condition_skill='607001;4' icon='skill2_607003' max_lv='9' name='124222'/>
+  <ItemSpec type='1' id='607004' add='100' des_value='126223' type_value='0' base='100' para1='502504' description='125223' condition_skill='607002;4' icon='skill2_607004' max_lv='9' name='124223'/>
+  <ItemSpec type='1' id='607005' add='300' des_value='126224' type_value='0' base='300' para1='502505' description='125224' condition_skill='607003;4|607004;4' icon='skill2_607005' max_lv='3' name='124224'/>
+  <ItemSpec type='1' id='607006' add='0' des_value='126225' type_value='0' base='300' para1='502506' condition_point='40' description='125225' icon='skill2_607006' max_lv='1' name='124225'/>
+  <ItemSpec type='1' id='607100' add='300' type_value='0' des_value='126226' base='300' para1='502510' description='125226' icon='skill2_607100' max_lv='10' name='124226'/>
+  <ItemSpec type='1' id='607101' add='100' des_value='126227' type_value='0' base='100' para1='502511' description='125227' condition_skill='607100;5' icon='skill2_607101' max_lv='9' name='124227'/>
+  <ItemSpec type='1' id='607102' add='100' des_value='126228' type_value='0' base='100' para1='502512' description='125228' condition_skill='607100;5' icon='skill2_607102' max_lv='9' name='124228'/>
+  <ItemSpec type='1' id='607103' add='100' des_value='126229' type_value='0' base='100' para1='502513' description='125229' condition_skill='607101;4' icon='skill2_607103' max_lv='9' name='124229'/>
+  <ItemSpec type='1' id='607104' add='100' des_value='126230' type_value='0' base='100' para1='502514' description='125230' condition_skill='607102;4' icon='skill2_607104' max_lv='9' name='124230'/>
+  <ItemSpec type='1' id='607105' add='100' des_value='126231' type_value='0' base='100' para1='502515' description='125231' condition_skill='607103;4|607104;4' icon='skill2_607105' max_lv='3' name='124231'/>
+  <ItemSpec type='1' id='607106' add='0' des_value='126232' type_value='0' base='300' para1='502516' condition_point='40' description='125232' icon='skill2_607106' max_lv='1' name='124232'/>
+  <ItemSpec type='1' id='607200' add='100' type_value='0' des_value='126233' base='100' para1='502520' description='125233' icon='skill2_607200' max_lv='10' name='124233'/>
+  <ItemSpec type='1' id='607201' add='100' des_value='126234' type_value='0' base='100' para1='502521' description='125234' condition_skill='607200;5' icon='skill2_607201' max_lv='9' name='124234'/>
+  <ItemSpec type='1' id='607202' add='100' des_value='126235' type_value='0' base='100' para1='502522' description='125235' condition_skill='607200;5' icon='skill2_607202' max_lv='9' name='124235'/>
+  <ItemSpec type='1' id='607203' add='100' des_value='126236' type_value='0' base='100' para1='502523' description='125236' condition_skill='607201;4' icon='skill2_607203' max_lv='9' name='124236'/>
+  <ItemSpec type='1' id='607204' add='100' des_value='126237' type_value='0' base='100' para1='502524' description='125237' condition_skill='607202;4' icon='skill2_607204' max_lv='9' name='124237'/>
+  <ItemSpec type='1' id='607205' add='100' des_value='126238' type_value='0' base='100' para1='502525' description='125238' condition_skill='607203;4|607204;4' icon='skill2_607205' max_lv='3' name='124238'/>
+  <ItemSpec type='1' id='607206' add='0' des_value='126239' type_value='0' base='300' para1='502526' condition_point='40' description='125239' icon='skill2_607206' max_lv='1' name='124239'/>
+  <ItemSpec type='0' id='650000' add='50|50|50' type_value='0' des_value='126000' base='50|50|50' para1='95|96|97' description='125000' icon='skill2_650000' max_lv='20' name='124000'/>
+  <ItemSpec type='0' id='650001' add='100' des_value='126001' type_value='0' base='100' para1='1200' description='125001' condition_skill='650000;10' icon='skill2_650001' max_lv='8' name='124001'/>
+  <ItemSpec type='0' id='650002' add='100' des_value='126002' type_value='0' base='100' para1='1260' description='125002' condition_skill='650000;10' icon='skill2_650002' max_lv='8' name='124002'/>
+  <ItemSpec type='0' id='650003' add='100' des_value='126003' type_value='0' base='100' para1='1240' description='125003' condition_skill='650000;10' icon='skill2_650003' max_lv='8' name='124003'/>
+  <ItemSpec type='0' id='650004' add='100' des_value='126004' type_value='0' base='100' para1='10' description='125004' condition_skill='650001;2|650002;2|650003;2' icon='skill2_650004' max_lv='10' name='124004'/>
+  <ItemSpec type='0' id='650005' des_value='126005' add='200' base='200' type_value='0' para1='126' condition_point='30' description='125005' condition_skill='650004;5' icon='skill2_650005' max_lv='5' name='124005'/>
+  <ItemSpec type='0' id='650006' add='0' des_value='126006' type_value='0' base='10000' para1='122' condition_point='40' description='125006' icon='skill2_650006' max_lv='1' name='124006'/>
+  <ItemSpec type='0' id='650100' add='100' type_value='0' des_value='126007' base='100' para1='1230' description='125007' icon='skill2_650100' max_lv='8' name='124007'/>
+  <ItemSpec type='0' id='650101' add='100' type_value='0' des_value='126008' base='100' para1='1270' description='125008' icon='skill2_650101' max_lv='8' name='124008'/>
+  <ItemSpec type='0' id='650102' add='100' type_value='0' des_value='126009' base='100' para1='1250' description='125009' icon='skill2_650102' max_lv='8' name='124009'/>
+  <ItemSpec type='0' id='650103' add='100' des_value='126010' type_value='0' base='100' para1='11' description='125010' condition_skill='650100;4|650101;4|650102;4' icon='skill2_650103' max_lv='10' name='124010'/>
+  <ItemSpec type='0' id='650104' des_value='126011' add='100' base='100' type_value='0' para1='123' condition_point='20' description='125011' condition_skill='650103;5' icon='skill2_650104' max_lv='10' name='124011'/>
+  <ItemSpec type='0' id='650105' des_value='126012' add='300' base='300' type_value='0' para1='129' condition_point='20' description='125012' condition_skill='650103;5' icon='skill2_650105' max_lv='15' name='124012'/>
+  <ItemSpec type='0' id='650106' add='0' des_value='126013' type_value='0' base='5000' para1='128' condition_point='40' description='125013' icon='skill2_650106' max_lv='1' name='124013'/>
+  <ItemSpec type='0' id='650200' add='100' type_value='1' des_value='126014' base='100' para1='131' description='125014' icon='skill2_650200' max_lv='20' name='124014'/>
+  <ItemSpec type='0' id='650201' add='100' des_value='126015' type_value='0' base='100' para1='113' description='125015' condition_skill='650200;5' icon='skill2_650201' max_lv='6' name='124015'/>
+  <ItemSpec type='0' id='650202' add='100' des_value='126016' type_value='0' base='100' para1='114' description='125016' condition_skill='650200;5' icon='skill2_650202' max_lv='6' name='124016'/>
+  <ItemSpec type='0' id='650203' add='100' des_value='126017' type_value='0' base='100' para1='115' description='125017' condition_skill='650201;2' icon='skill2_650203' max_lv='6' name='124017'/>
+  <ItemSpec type='0' id='650204' add='100' des_value='126018' type_value='0' base='100' para1='116' description='125018' condition_skill='650202;2' icon='skill2_650204' max_lv='6' name='124018'/>
+  <ItemSpec type='0' id='650205' des_value='126019' add='200' base='200' type_value='1' para1='73' condition_point='30' description='125019' condition_skill='650203;2|650204;2' icon='skill2_650205' max_lv='15' name='124019'/>
+  <ItemSpec type='0' id='650206' add='0' des_value='126020' type_value='0' base='2000' para1='121' condition_point='40' description='125020' icon='skill2_650206' max_lv='1' name='124020'/>
+  <ItemSpec type='0' id='650300' add='100' type_value='0' des_value='126021' base='100' para1='133' description='125021' icon='skill2_650300' max_lv='25' name='124021'/>
+  <ItemSpec type='0' id='650301' add='100' des_value='126022' type_value='0' base='100' para1='89' description='125022' condition_skill='650300;5' icon='skill2_650301' max_lv='6' name='124022'/>
+  <ItemSpec type='0' id='650302' add='100' des_value='126023' type_value='0' base='100' para1='90' description='125023' condition_skill='650304;3' icon='skill2_650302' max_lv='6' name='124023'/>
+  <ItemSpec type='0' id='650303' add='100' des_value='126024' type_value='0' base='100' para1='91' description='125024' condition_skill='650301;3' icon='skill2_650303' max_lv='6' name='124024'/>
+  <ItemSpec type='0' id='650304' add='100' des_value='126025' type_value='0' base='100' para1='92' description='125025' condition_skill='650300;5' icon='skill2_650304' max_lv='6' name='124025'/>
+  <ItemSpec type='0' id='650305' add='100' type_value='0' des_value='126026' base='100' para1='93' description='125026' icon='skill2_650305' max_lv='7' name='124026'/>
+  <ItemSpec type='0' id='650306' add='0' des_value='126027' type_value='0' base='2000' para1='134' condition_point='40' description='125027' icon='skill2_650306' max_lv='1' name='124027'/>
+  <ItemSpec type='0' id='650400' add='100' type_value='0' des_value='126028' base='100' para1='98' description='125028' icon='skill2_650400' max_lv='15' name='124028'/>
+  <ItemSpec type='0' id='650401' add='100' des_value='126029' type_value='0' base='100' para1='47' description='125029' condition_skill='650400;5' icon='skill2_650401' max_lv='12' name='124029'/>
+  <ItemSpec type='0' id='650402' add='100' des_value='126030' type_value='0' base='100' para1='138' description='125030' condition_skill='650400;5' icon='skill2_650402' max_lv='12' name='124030'/>
+  <ItemSpec type='0' id='650403' add='300' des_value='126031' type_value='0' base='300' para1='136' description='125031' condition_skill='650401;3' icon='skill2_650403' max_lv='5' name='124031'/>
+  <ItemSpec type='0' id='650404' add='300' des_value='126032' type_value='0' base='300' para1='137' description='125032' condition_skill='650402;3' icon='skill2_650404' max_lv='5' name='124032'/>
+  <ItemSpec type='0' id='650405' add='500' type_value='0' des_value='126033' base='500' para1='111' description='125033' icon='skill2_650405' max_lv='5' name='124033'/>
+  <ItemSpec type='0' id='650406' add='0' des_value='126034' type_value='0' base='2000' para1='111' condition_point='40' description='125034' icon='skill2_650406' max_lv='1' name='124034'/>
+  <ItemSpec type='0' id='650500' add='1000' type_value='1' des_value='126035' base='1000' para1='72' description='125035' icon='skill2_650500' max_lv='9' name='124035'/>
+  <ItemSpec type='0' id='650501' add='100' des_value='126036' type_value='0' base='100' para1='50' description='125036' condition_skill='650500;2' icon='skill2_650501' max_lv='10' name='124036'/>
+  <ItemSpec type='0' id='650502' add='100' des_value='126037' type_value='0' base='100' para1='51' description='125037' condition_skill='650504;4' icon='skill2_650502' max_lv='10' name='124037'/>
+  <ItemSpec type='0' id='650503' add='100' des_value='126038' type_value='0' base='100' para1='52' description='125038' condition_skill='650501;4' icon='skill2_650503' max_lv='10' name='124038'/>
+  <ItemSpec type='0' id='650504' add='100' des_value='126039' type_value='0' base='100' para1='53' description='125039' condition_skill='650500;2' icon='skill2_650504' max_lv='10' name='124039'/>
+  <ItemSpec type='0' id='650505' add='100' type_value='0' des_value='126040' base='100' para1='54' description='125040' icon='skill2_650505' max_lv='14' name='124040'/>
+  <ItemSpec type='0' id='650506' add='0' des_value='126041' type_value='0' base='2000' para1='64' condition_point='40' description='125041' icon='skill2_650506' max_lv='1' name='124041'/>
+  <ItemSpec type='0' id='650600' add='100|100' type_value='0' des_value='126042' base='100|100' para1='1591|1592' description='125042' icon='skill2_650600' max_lv='8' name='124042'/>
+  <ItemSpec type='0' id='650601' add='100|100' type_value='0' des_value='126043' base='100|100' para1='1593|1594' description='125043' icon='skill2_650601' max_lv='8' name='124043'/>
+  <ItemSpec type='0' id='650602' add='100|100' des_value='126044' type_value='0' base='100|100' para1='1595|1596' description='125044' condition_skill='650600;3' icon='skill2_650602' max_lv='8' name='124044'/>
+  <ItemSpec type='0' id='650603' add='100|100' des_value='126045' type_value='0' base='100|100' para1='1595|1596' description='125045' condition_skill='650601;3' icon='skill2_650603' max_lv='8' name='124045'/>
+  <ItemSpec type='0' id='650604' add='50' des_value='126046' type_value='0' base='50' para1='127' description='125046' condition_skill='650602;3|650603;3' icon='skill2_650604' max_lv='12' name='124046'/>
+  <ItemSpec type='0' id='650605' des_value='126047' add='1000' base='1000' type_value='1' para1='125' condition_point='30' description='125047' condition_skill='650604;5' icon='skill2_650605' max_lv='15' name='124047'/>
+  <ItemSpec type='0' id='650606' add='0' des_value='126048' type_value='0' base='1000' para1='67' condition_point='40' description='125048' icon='skill2_650606' max_lv='1' name='124048'/>
+  <ItemSpec type='0' id='650700' add='100' type_value='0' des_value='126049' base='100' para1='1151' description='125049' icon='skill2_650700' max_lv='8' name='124049'/>
+  <ItemSpec type='0' id='650701' add='100' type_value='0' des_value='126050' base='100' para1='1150' description='125050' icon='skill2_650701' max_lv='8' name='124050'/>
+  <ItemSpec type='0' id='650702' add='100' type_value='0' des_value='126051' base='100' para1='12' description='125051' icon='skill2_650702' max_lv='8' name='124051'/>
+  <ItemSpec type='0' id='650703' add='300' des_value='126052' type_value='0' base='300' para1='135' description='125052' condition_skill='650700;2|650701;2|650702;2' icon='skill2_650703' max_lv='10' name='124052'/>
+  <ItemSpec type='0' id='650704' des_value='126053' add='500' base='500' type_value='0' para1='130' condition_point='20' description='125053' condition_skill='650703;3' icon='skill2_650704' max_lv='10' name='124053'/>
+  <ItemSpec type='0' id='650705' des_value='126054' add='100' base='100' type_value='0' para1='124' condition_point='20' description='125054' condition_skill='650703;3' icon='skill2_650705' max_lv='15' name='124054'/>
+  <ItemSpec type='0' id='650706' add='0' des_value='126055' type_value='0' base='5000' para1='77' condition_point='40' description='125055' icon='skill2_650706' max_lv='1' name='124055'/>
+  <ItemSpec type='1' id='652000' add='0' type_value='0' des_value='126056' base='0' para1='502200' description='125056' icon='skill2_652000' max_lv='12' name='124056'/>
+  <ItemSpec type='1' id='652001' add='0' des_value='126057' type_value='0' base='0' para1='502201' description='125057' condition_skill='652000;3' icon='skill2_652001' max_lv='8' name='124057'/>
+  <ItemSpec type='1' id='652002' add='0' des_value='126058' type_value='0' base='0' para1='502202' description='125058' condition_skill='652000;3' icon='skill2_652002' max_lv='8' name='124058'/>
+  <ItemSpec type='1' id='652003' add='0' des_value='126059' type_value='0' base='0' para1='502203' description='125059' condition_skill='652001;2' icon='skill2_652003' max_lv='8' name='124059'/>
+  <ItemSpec type='1' id='652004' add='0' des_value='126060' type_value='0' base='0' para1='502204' description='125060' condition_skill='652002;2' icon='skill2_652004' max_lv='8' name='124060'/>
+  <ItemSpec type='1' id='652005' add='0' des_value='126061' type_value='0' base='0' para1='502205' description='125061' condition_skill='652003;2|652004;2' icon='skill2_652005' max_lv='5' name='124061'/>
+  <ItemSpec type='2' id='652006' des_value='126062' add='0' base='0' type_value='0' para1='{0}' condition_point='20' description='125062' condition_skill='652005;2' icon='skill2_652006' max_lv='5' name='124062'/>
+  <ItemSpec type='2' id='652007' des_value='126063' add='0' base='0' type_value='0' para1='/小时' condition_point='20' description='125063' condition_skill='652005;2' icon='skill2_652007' max_lv='5' name='124063'/>
+  <ItemSpec type='2' id='652008' add='0' des_value='126064' type_value='0' base='0' para1='/容量|等级' condition_point='40' description='125064' icon='skill2_652008' max_lv='1' name='124064'/>
+  <ItemSpec type='1' id='652100' add='0' type_value='0' des_value='126065' base='0' para1='502210' description='125065' icon='skill2_652100' max_lv='12' name='124065'/>
+  <ItemSpec type='1' id='652101' add='0' des_value='126066' type_value='0' base='0' para1='502211' description='125066' condition_skill='652100;3' icon='skill2_652101' max_lv='8' name='124066'/>
+  <ItemSpec type='1' id='652102' add='0' des_value='126067' type_value='0' base='0' para1='502212' description='125067' condition_skill='652100;3' icon='skill2_652102' max_lv='8' name='124067'/>
+  <ItemSpec type='1' id='652103' add='0' des_value='126068' type_value='0' base='0' para1='502213' description='125068' condition_skill='652101;2' icon='skill2_652103' max_lv='8' name='124068'/>
+  <ItemSpec type='1' id='652104' add='0' des_value='126069' type_value='0' base='0' para1='502214' description='125069' condition_skill='652102;2' icon='skill2_652104' max_lv='8' name='124069'/>
+  <ItemSpec type='1' id='652105' add='0' des_value='126070' type_value='0' base='0' para1='502215' description='125070' condition_skill='652103;2|652104;2' icon='skill2_652105' max_lv='5' name='124070'/>
+  <ItemSpec type='2' id='652106' des_value='126071' add='0' base='0' type_value='0' para1='铁矿' condition_point='20' description='125071' condition_skill='652105;2' icon='skill2_652106' max_lv='5' name='124071'/>
+  <ItemSpec type='2' id='652107' des_value='126072' add='0' base='0' type_value='0' para1='粮食' condition_point='20' description='125072' condition_skill='652105;2' icon='skill2_652107' max_lv='5' name='124072'/>
+  <ItemSpec type='2' id='652108' add='0' des_value='126073' type_value='0' base='0' para1='钢|训练量' condition_point='40' description='125073' icon='skill2_652108' max_lv='1' name='124073'/>
+  <ItemSpec type='1' id='652200' add='0' type_value='0' des_value='126074' base='0' para1='502220' description='125074' icon='skill2_652200' max_lv='12' name='124074'/>
+  <ItemSpec type='1' id='652201' add='0' des_value='126075' type_value='0' base='0' para1='502221' description='125075' condition_skill='652200;3' icon='skill2_652201' max_lv='8' name='124075'/>
+  <ItemSpec type='1' id='652202' add='0' des_value='126076' type_value='0' base='0' para1='502222' description='125076' condition_skill='652200;3' icon='skill2_652202' max_lv='8' name='124076'/>
+  <ItemSpec type='1' id='652203' add='0' des_value='126077' type_value='0' base='0' para1='502223' description='125077' condition_skill='652201;2' icon='skill2_652203' max_lv='8' name='124077'/>
+  <ItemSpec type='1' id='652204' add='0' des_value='126078' type_value='0' base='0' para1='502224' description='125078' condition_skill='652202;2' icon='skill2_652204' max_lv='8' name='124078'/>
+  <ItemSpec type='1' id='652205' add='0' des_value='126079' type_value='0' base='0' para1='502225' description='125079' condition_skill='652203;2|652204;2' icon='skill2_652205' max_lv='5' name='124079'/>
+  <ItemSpec type='2' id='652206' des_value='126080' add='0' base='0' type_value='0' para1='税率' condition_point='20' description='125080' condition_skill='652205;2' icon='skill2_652206' max_lv='5' name='124080'/>
+  <ItemSpec type='2' id='652207' des_value='126081' add='0' base='0' type_value='0' para1='帮助减少时间' condition_point='20' description='125081' condition_skill='652205;2' icon='skill2_652207' max_lv='5' name='124081'/>
+  <ItemSpec type='2' id='652208' add='0' des_value='126082' type_value='0' base='0' para1='建造速度|陷阱容量' condition_point='40' description='125082' icon='skill2_652208' max_lv='1' name='124082'/>
+  <ItemSpec type='1' id='652300' add='0' type_value='0' des_value='126083' base='0' para1='502230' description='125083' icon='skill2_652300' max_lv='12' name='124083'/>
+  <ItemSpec type='1' id='652301' add='0' des_value='126084' type_value='0' base='0' para1='502231' description='125084' condition_skill='652300;3' icon='skill2_652301' max_lv='8' name='124084'/>
+  <ItemSpec type='1' id='652302' add='0' des_value='126085' type_value='0' base='0' para1='502232' description='125085' condition_skill='652300;3' icon='skill2_652302' max_lv='8' name='124085'/>
+  <ItemSpec type='1' id='652303' add='0' des_value='126086' type_value='0' base='0' para1='502233' description='125086' condition_skill='652301;2' icon='skill2_652303' max_lv='8' name='124086'/>
+  <ItemSpec type='1' id='652304' add='0' des_value='126087' type_value='0' base='0' para1='502234' description='125087' condition_skill='652302;2' icon='skill2_652304' max_lv='8' name='124087'/>
+  <ItemSpec type='1' id='652305' add='0' des_value='126088' type_value='0' base='0' para1='502235' description='125088' condition_skill='652303;2|652304;2' icon='skill2_652305' max_lv='5' name='124088'/>
+  <ItemSpec type='2' id='652306' des_value='126089' add='0' base='0' type_value='0' para1='[行军信息]会告知向你行军部队所属领主的名称和这支部队的行军目的。' condition_point='20' description='125089' condition_skill='652305;2' icon='skill2_652306' max_lv='5' name='124089'/>
+  <ItemSpec type='2' id='652307' des_value='126090' add='0' base='0' type_value='0' para1='[侦查]可以侦查到对方各种资源的拥有数量。' condition_point='20' description='125090' condition_skill='652305;2' icon='skill2_652307' max_lv='5' name='124090'/>
+  <ItemSpec type='2' id='652308' add='0' des_value='126091' type_value='0' base='0' para1='[行军信息]会告知向你行军的部队来自什么坐标。|[侦查]可以侦查到对方参与防守的部队大致总数。' condition_point='40' description='125091' icon='skill2_652308' max_lv='1' name='124091'/>
+  <ItemSpec type='2' id='654000' add='18' type_value='1' des_value='126092' base='45' para1='城堡' description='125092' icon='skill2_654000' max_lv='12' name='124092'/>
+  <ItemSpec type='2' id='654001' add='600' des_value='126093' type_value='0' base='600' para1='市场' description='125093' condition_skill='654000;3' icon='skill2_654001' max_lv='8' name='124093'/>
+  <ItemSpec type='2' id='654002' add='600' des_value='126094' type_value='0' base='600' para1='大使馆' description='125094' condition_skill='654000;3' icon='skill2_654002' max_lv='8' name='124094'/>
+  <ItemSpec type='2' id='654003' add='600' des_value='126095' type_value='0' base='600' para1='学院' description='125095' condition_skill='654001;2' icon='skill2_654003' max_lv='8' name='124095'/>
+  <ItemSpec type='2' id='654004' add='600' des_value='126096' type_value='0' base='600' para1='仓库' description='125096' condition_skill='654002;2' icon='skill2_654004' max_lv='8' name='124096'/>
+  <ItemSpec type='2' id='654005' add='300' des_value='126097' type_value='0' base='300' para1='战争大厅' description='125097' condition_skill='654003;2|654004;2' icon='skill2_654005' max_lv='9' name='124097'/>
+  <ItemSpec type='2' id='654006' des_value='126098' add='2000' base='2000' type_value='0' para1='监狱' condition_point='20' description='125098' condition_skill='654005;2' icon='skill2_654006' max_lv='3' name='124098'/>
+  <ItemSpec type='2' id='654007' des_value='126099' add='1' base='1' type_value='1' para1='民居' condition_point='20' description='125099' condition_skill='654005;2' icon='skill2_654007' max_lv='3' name='124099'/>
+  <ItemSpec type='2' id='654008' add='0' des_value='126100' type_value='0' base='0' para1='行军帐篷' condition_point='40' description='125100' icon='skill2_654008' max_lv='1' name='124100'/>
+  <ItemSpec type='2' id='654100' add='12' type_value='1' des_value='126101' base='30' para1='秘银矿场' description='125101' icon='skill2_654100' max_lv='12' name='124101'/>
+  <ItemSpec type='2' id='654101' add='200' des_value='126102' type_value='0' base='200' para1='伐木场' description='125102' condition_skill='654100;3' icon='skill2_654101' max_lv='8' name='124102'/>
+  <ItemSpec type='2' id='654102' add='200' des_value='126103' type_value='0' base='200' para1='铁矿场' description='125103' condition_skill='654100;3' icon='skill2_654102' max_lv='8' name='124103'/>
+  <ItemSpec type='2' id='654103' add='300' des_value='126104' type_value='0' base='300' para1='农田' description='125104' condition_skill='654101;2' icon='skill2_654103' max_lv='8' name='124104'/>
+  <ItemSpec type='2' id='654104' add='300' des_value='126105' type_value='0' base='300' para1='战争堡垒' description='125105' condition_skill='654102;2' icon='skill2_654104' max_lv='8' name='124105'/>
+  <ItemSpec type='2' id='654105' add='300' des_value='126106' type_value='0' base='300' para1='瞭望塔' description='125106' condition_skill='654103;2|654104;2' icon='skill2_654105' max_lv='9' name='124106'/>
+  <ItemSpec type='2' id='654106' des_value='126107' add='2000' base='2000' type_value='0' para1='箭塔' condition_point='20' description='125107' condition_skill='654105;2' icon='skill2_654106' max_lv='3' name='124107'/>
+  <ItemSpec type='2' id='654107' des_value='126108' add='1' base='1' type_value='1' para1='城墙' condition_point='20' description='125108' condition_skill='654105;2' icon='skill2_654107' max_lv='3' name='124108'/>
+  <ItemSpec type='2' id='654108' add='0' des_value='126109' type_value='0' base='0' para1='内政厅' condition_point='40' description='125109' icon='skill2_654108' max_lv='1' name='124109'/>
+  <ItemSpec type='2' id='656000' add='300' type_value='0' des_value='126110' base='1000' para1='战争大厅用来集结你的盟友，你们可以组成一支强大的队伍对敌人发起攻击。升级战争大厅可以提升集结部队士兵数量上限。' description='125110' icon='skill2_656000' max_lv='20' name='124110'/>
+  <ItemSpec type='2' id='656001' add='300' des_value='126111' type_value='0' base='300' para1='阴暗的监狱是关押敌人英雄的好地方，你可以将战斗中俘虏的英雄关押在这里' description='125111' condition_skill='656000;8' icon='skill2_656001' max_lv='10' name='124111'/>
+  <ItemSpec type='2' id='656002' add='300' des_value='126112' type_value='0' base='300' para1='民居可以给你带来丰厚的银币收入，升级民居可以获得更高的产量和存储量' description='125112' condition_skill='656000;8' icon='skill2_656002' max_lv='10' name='124112'/>
+  <ItemSpec type='2' id='656003' add='1000' des_value='126113' type_value='0' base='1000' para1='行军帐篷是您集结士兵的地方，升级行军帐篷可以获得更高的训练速度和训练量' description='125113' condition_skill='656001;4|656002;4' icon='skill2_656003' max_lv='10' name='124113'/>
+  <ItemSpec type='2' id='656004' add='1000' des_value='126114' type_value='0' base='1000' para1='急救帐篷是您救治伤兵的地方，升级急救帐篷可以获得更多伤兵位置，以便治疗更多的伤兵' description='125114' condition_skill='656003;4' icon='skill2_656004' max_lv='6' name='124114'/>
+  <ItemSpec type='2' id='656005' des_value='126115' add='1000' base='1000' type_value='0' para1='秘银矿场是生产并存储秘银的地方，升级秘银矿场可以获得更高的产量和容量' condition_point='30' description='125115' condition_skill='656004;2' icon='skill2_656005' max_lv='3' name='124115'/>
+  <ItemSpec type='2' id='656006' add='0' des_value='126116' type_value='1' base='2' para1='伐木场是生产并存储木头的地方，升级伐木场可以获得更高的产量和容量' condition_point='40' description='125116' icon='skill2_656006' max_lv='1' name='124116'/>
+</Group>

@@ -1,0 +1,11 @@
+<Group id='endowment'>
+  <ItemSpec name='103100' open='0' description='103200' effect='53' relation='2,1' site='2,0' value='2;4;6;8;10' levelmax='5' id='20000'/>
+  <ItemSpec name='103101' open='20000;1' description='103201' effect='50' relation='3,1|2,2' site='2,1' value='2;4;6;8;10' levelmax='5' id='20001'/>
+  <ItemSpec name='103100' open='20001;2' description='103200' effect='51' relation='2,2' site='3,1' value='2;4;6;8;10' levelmax='5' id='20002'/>
+  <ItemSpec name='103101' open='20001;3|20002;4' description='103201' effect='52' relation='2,3' site='2,2' value='2;4;6;8;10' levelmax='5' id='20003'/>
+  <ItemSpec name='103100' open='20003;5' description='103200' effect='54' relation='2,4' site='2,3' value='2;4;6;8;10' levelmax='5' id='20004'/>
+  <ItemSpec name='103101' open='20004;5' description='103201' effect='60' site='2,4' value='2;4;6;8;10' levelmax='5' id='20005'/>
+  <ItemSpec name='103100' open='0' description='103200' effect='6' relation='0,1' site='0,0' value='2;4;6;8;10' levelmax='5' id='20006'/>
+  <ItemSpec name='103101' open='20006;1' description='103201' effect='7' relation='0,2' site='0,1' value='2;4;6;8;10' levelmax='5' id='20007'/>
+  <ItemSpec name='103100' open='20007;2' description='103200' effect='4' site='0,2' value='2;4;6;8;10' levelmax='5' id='20008'/>
+</Group>

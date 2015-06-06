@@ -1,0 +1,7 @@
+<Group id='medal'>
+  <ItemSpec achievement='9202' icon_main='medal_1' id='9250' icon_base='medal_1' icon_sub='chenjiu08' name='全面纷争勋章'/>
+  <ItemSpec achievement='9215' icon_main='medal_2' id='9251' icon_base='medal_2' icon_sub='chenjiu08' name='列强勋章'/>
+  <ItemSpec achievement='9221' icon_main='medal_3' id='9252' icon_base='medal_3' icon_sub='chenjiu08' name='博学者勋章'/>
+  <ItemSpec achievement='9226' icon_main='medal_4' id='9253' icon_base='medal_4' icon_sub='chenjiu08' name='大胃王勋章'/>
+  <ItemSpec achievement='9231' icon_main='medal_1' id='9254' icon_base='medal_1' icon_sub='chenjiu08' name='物资达人勋章'/>
+</Group>

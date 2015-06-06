@@ -1,0 +1,405 @@
+<Group id='goods'>
+  <ItemSpec use='1' price_hot='500' page='1' icon='item000' lv_limit='1' alliance_order='4' order_num='801' id='200001' price_all='100000' lv='1' color='2' price='500' type='0' pages='1' name='随机迁城' description='将您的城市随机迁往本国的某个位置' store_order='101'/>
+  <ItemSpec use='0' price_hot='2000' page='1' icon='item001' lv_limit='1' alliance_order='5' order_num='901' id='200002' price_all='400000' lv='1' color='5' price='2000' type='0' pages='1' name='高级迁城' description='将您的城市迁往本王国的任意位置，注意城堡等级达到6级后将不能迁往其他王国' store_order='102'/>
+  <ItemSpec lv='1' type='0' id='200003' order_num='701' color='4' use='0' lv_limit='1' page='1' icon='item002' name='活动迁城' description='可以在活动期间将您的城市迁往战争地带，只可以在活动期间使用'/>
+  <ItemSpec use='0' price_hot='50' page='1' icon='item005' lv_limit='1' alliance_order='11' order_num='1301' id='200004' price_all='10000' lv='1' color='2' price='50' type='0' pages='1' name='行军召回' description='召回您当前正在出征的一支部队，只能对正在前往目的地的部队生效。' store_order='105'/>
+  <ItemSpec lv='1' type='0' id='200005' is_gift='1' price_hot='2000' order_num='601' color='1' use='0' lv_limit='1' page='1' icon='item003' name='新手迁城' description='在城堡等级升到6级之前，可以使用这个道具迁往任意地区'/>
+  <ItemSpec lv='1' type='0' version='1.0.84' id='200010' order_num='112' color='4' use='1' lv_limit='1' page='4' icon='item012' name='火漆信封' description='使用火漆信封后，可以将您的1个物品赠送给其他领主'/>
+  <ItemSpec type='0' id='200015'/>
+  <ItemSpec use='0' price_hot='15' page='4' icon='item008' lv_limit='1' order_num='3701' id='200016' lv='7' type='0' color='3' price='15' description='用来升级箭塔' pages='1' sales='1;15|10;120|100;1100|1000;10000' name='黄金箭' store_order='107'/>
+  <ItemSpec lv='1' type='0' id='200017' sales='1;30|2;71' order_num='3901' use='0' lv_limit='1' icon='temp_icon' name='黄金锁' description='用来升级金库'/>
+  <ItemSpec lv='1' type='0' id='200018' sales='1;30|2;72' order_num='4001' use='0' lv_limit='1' icon='temp_icon' name='铁镣铐' description='用来升级监狱'/>
+  <ItemSpec lv='1' type='0' id='200019' sales='1;30|2;73' order_num='4101' use='0' lv_limit='1' icon='temp_icon' name='神之石' description='用来升级奇迹'/>
+  <ItemSpec use='0' price_hot='5' page='4' icon='item009' lv_limit='1' order_num='3801' id='200020' lv='7' type='0' color='3' price='5' description='用来升级战争大厅' pages='1' sales='1;5|10;40|100;400|1000;4000' name='战争号角' store_order='108'/>
+  <ItemSpec use='1' price_hot='200' page='4' icon='item006' lv_limit='1' alliance_order='16' order_num='4201' id='200021' price_all='40000' lv='1' color='2' price='200' type='0' pages='4' name='领主改名' description='使用该道具可以修改您的昵称' store_order='409'/>
+  <ItemSpec use='1' price_hot='400' page='4' icon='item007' lv_limit='1' alliance_order='17' order_num='4301' id='200026' price_all='80000' lv='1' color='2' price='400' type='0' pages='4' name='更换形象' description='使用该道具可以修改您的领主形象' store_order='410'/>
+  <ItemSpec lv='1' type='0' id='200027' price_hot='30' order_num='2401' color='3' use='1' lv_limit='1' page='3' icon='item508' name='伐木场提升' description='一个最高等级的伐木场产量翻倍持续一天'/>
+  <ItemSpec lv='1' type='0' id='200028' price_hot='30' order_num='2501' color='3' use='1' lv_limit='1' page='3' icon='item511' name='农田提升' description='一个最高等级的农田产量翻倍持续一天'/>
+  <ItemSpec lv='1' type='0' id='200029' price_hot='50' order_num='2601' color='3' use='1' lv_limit='10' page='3' icon='item510' name='铁矿场提升' description='一个最高等级的铁矿场产量翻倍持续一天'/>
+  <ItemSpec lv='1' type='0' id='200030' price_hot='70' order_num='2701' color='3' use='1' lv_limit='15' page='3' icon='item509' name='秘银矿场提升' description='一个最高等级的秘银矿场产量翻倍持续一天'/>
+  <ItemSpec lv='1' type='0' id='200031' price_hot='50' order_num='2304' color='3' use='1' lv_limit='3' page='4' icon='item011' name='祝福' description='使用祝福后可增加一次免费许愿，注意免费许愿没办法保存到第二天'/>
+  <ItemSpec use='1' version='1.0.85' price_hot='500' page='4' icon='item411' lv_limit='1' alliance_order='6' order_num='4501' id='200032' price_all='100000' lv='1' color='2' price='500' type='0' pages='4' name='建筑移动' description='在城堡-详情中进行建筑的移动或交换！' store_order='411'/>
+  <ItemSpec lv='1' type='0' id='200040' price_all='200000' price_hot='1000' name='领主技能重置' order_num='4401' color='2' use='0' lv_limit='1' page='4' icon='item010' alliance_order='8' description='使用这个来重置领主技能'/>
+  <ItemSpec lv='1' type='0' id='200041' is_gift='1' color='3' use='0' lv_limit='1' page='4' icon='icon_material' name='装备材料' description='装备材料'/>
+  <ItemSpec lv='1' type='1' id='200101' price_hot='42' order_num='401' use='1' color='1' lv_limit='1' page='4' icon='item100' description='雇佣建筑工人为你工作8小时' name='建筑契约-8小时' type2='2'/>
+  <ItemSpec use='0' price_hot='150' page='4' icon='item200' lv_limit='1' alliance_order='2' type2='1' pages='4' id='200200' price_all='30000' type='2' lv='1' color='2' price='150' description='减少计时器中1小时剩余时间' order_num='502' name='1小时加速' para='1;1;3600' store_order='401'/>
+  <ItemSpec use='0' price_hot='15' page='4' icon='item200' lv_limit='1' alliance_order='1' type2='1' order_num='501' id='200201' color='0' lv='1' type='2' price_all='3000' name='5分钟加速' description='减少计时器中5分钟剩余时间' para='1;1;300'/>
+  <ItemSpec use='0' price_hot='950' page='4' icon='item200' lv_limit='1' alliance_order='3' type2='1' order_num='503' id='200202' color='3' lv='1' type='2' price_all='190000' name='8小时加速' description='减少计时器中8小时剩余时间' para='1;1;28800'/>
+  <ItemSpec lv='1' type='2' id='200203' order_num='504' price_hot='15' use='0' color='0' para='4;1;300' lv_limit='1' page='4' icon='item203' description='减少治疗计时器中5分钟剩余时间' name='5分钟伤兵恢复加速' type2='4'/>
+  <ItemSpec lv='1' type='2' id='200204' order_num='505' price_hot='280' use='0' color='2' para='4;1;7200' lv_limit='1' page='4' icon='item203' description='减少治疗计时器中2小时剩余时间' name='2小时伤兵恢复加速' type2='4'/>
+  <ItemSpec lv='1' type='2' id='200205' order_num='506' price_hot='15' use='0' color='0' para='6;1;300' lv_limit='1' page='4' icon='item204' description='减少科技研究计时器中5分钟剩余时间' name='5分钟科技研究加速' type2='6'/>
+  <ItemSpec lv='1' type='2' id='200206' order_num='507' price_hot='280' use='0' color='2' para='6;1;7200' lv_limit='1' page='4' icon='item204' description='减少科技研究计时器中2小时剩余时间' name='2小时科技研究加速' type2='6'/>
+  <ItemSpec lv='1' type='2' id='200207' order_num='508' price_hot='15' use='0' color='0' para='3;1;300' lv_limit='1' page='4' icon='item205' description='减少部队训练计时器中5分钟剩余时间' name='5分钟部队训练加速' type2='3'/>
+  <ItemSpec lv='1' type='2' id='200208' order_num='509' price_hot='280' use='0' color='2' para='3;1;7200' lv_limit='1' page='4' icon='item205' description='减少部队训练计时器中2小时剩余时间' name='2小时部队训练加速' type2='3'/>
+  <ItemSpec lv='1' type='2' id='200213' order_num='510' price_hot='15' use='0' color='0' para='8;1;300' lv_limit='1' page='4' icon='item206' description='减少锻造计时器中5分钟剩余时间' name='5分钟锻造加速' type2='8'/>
+  <ItemSpec lv='1' type='2' id='200214' order_num='511' price_hot='280' use='0' color='2' para='8;1;7200' lv_limit='1' page='4' icon='item206' description='减少锻造计时器中2小时剩余时间' name='2小时锻造加速' type2='8'/>
+  <ItemSpec lv='1' type='2' id='200215' order_num='512' price_hot='15' use='0' color='0' para='7;1;300' lv_limit='1' page='4' icon='item207' description='减少建筑建造或者升级计时器中5分钟剩余时间' name='5分钟建筑加速' type2='7'/>
+  <ItemSpec lv='1' type='2' id='200216' order_num='513' price_hot='280' use='0' color='2' para='7;1;7200' lv_limit='1' page='4' icon='item207' description='减少建筑建造或者升级计时器中2小时剩余时间' name='2小时建筑加速' type2='7'/>
+  <ItemSpec lv='1' type='2' id='200217' order_num='514' price_hot='15' use='0' color='0' para='5;1;300' lv_limit='1' page='4' icon='item208' description='减少建造陷阱计时器中5分钟剩余时间' name='5分钟建造陷阱加速' type2='5'/>
+  <ItemSpec lv='1' type='2' id='200218' order_num='515' price_hot='280' use='0' color='2' para='5;1;7200' lv_limit='1' page='4' icon='item208' description='减少建造陷阱计时器中2小时剩余时间' name='2小时建造陷阱加速' type2='5'/>
+  <ItemSpec use='0' price_hot='600' page='4' icon='item201' lv_limit='1' type2='2' pages='1' id='200220' lv='1' color='2' price='600' type='2' description='将行军时间缩短25@，本道具使用后仅生效1次。' name='行军加速' order_num='1401' store_order='103'/>
+  <ItemSpec use='0' price_hot='1000' page='4' icon='item201' lv_limit='1' type2='2' pages='1' id='200221' lv='5' color='4' price='1000' type='2' description='将行军时间缩短50@，本道具使用后仅生效1次。' name='高级行军加速' order_num='1402' store_order='104'/>
+  <ItemSpec use='1' price_hot='40' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200300' type='3' description='使用后获得木材' lv='1' color='1' price='40' order_num='3004' useall='1' name='10,000 木头' para='10000' store_order='310'/>
+  <ItemSpec use='1' price_hot='160' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200301' type='3' description='使用后获得木材' lv='3' color='2' price='160' order_num='3006' useall='1' name='50,000 木头' para='50000' store_order='311'/>
+  <ItemSpec use='1' price_hot='400' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200302' type='3' description='使用后获得木材' lv='5' color='3' price='400' order_num='3007' useall='1' name='150,000 木头' para='150000' store_order='312'/>
+  <ItemSpec use='1' price_hot='1200' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200303' type='3' description='使用后获得木材' lv='10' color='4' price='1200' order_num='3008' useall='1' name='500,000 木头' para='500000' store_order='313'/>
+  <ItemSpec use='1' price_hot='3300' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200304' type='3' description='使用后获得木材' lv='13' color='5' price='3300' order_num='3009' useall='1' name='1,500,000 木头' para='1500000' store_order='314'/>
+  <ItemSpec use='1' price_hot='10000' page='3' icon='item400' lv_limit='1' type2='0' pages='3' id='200305' type='3' description='使用后获得木材' lv='15' color='5' price='10000' order_num='3010' useall='1' name='5,000,000 木头' para='5000000' store_order='315'/>
+  <ItemSpec lv='1' type='3' id='200306' order_num='3001' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item400' description='使用后获得木材' name='1,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='200307' order_num='3002' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item400' description='使用后获得木材' name='2,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='200308' order_num='3003' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item400' description='使用后获得木材' name='4,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='200309' order_num='3005' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item400' description='使用后获得木材' name='30,000 木头' type2='0'/>
+  <ItemSpec use='1' price_hot='40' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200310' type='3' description='使用后获得秘银' lv='15' color='1' price='40' order_num='3304' useall='1' name='400 秘银' para='400' store_order='340'/>
+  <ItemSpec use='1' price_hot='160' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200311' type='3' description='使用后获得秘银' lv='15' color='2' price='160' order_num='3306' useall='1' name='2,000 秘银' para='2000' store_order='341'/>
+  <ItemSpec use='1' price_hot='400' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200312' type='3' description='使用后获得秘银' lv='15' color='3' price='400' order_num='3307' useall='1' name='6,250 秘银' para='6250' store_order='342'/>
+  <ItemSpec use='1' price_hot='1200' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200313' type='3' description='使用后获得秘银' lv='15' color='4' price='1200' order_num='3308' useall='1' name='20,000 秘银' para='20000' store_order='343'/>
+  <ItemSpec use='1' price_hot='3300' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200314' type='3' description='使用后获得秘银' lv='15' color='5' price='3300' order_num='3309' useall='1' name='62,500 秘银' para='62500' store_order='344'/>
+  <ItemSpec use='1' price_hot='10000' page='3' icon='item401' lv_limit='15' type2='1' pages='3' id='200315' type='3' description='使用后获得秘银' lv='15' color='5' price='10000' order_num='3310' useall='1' name='200,000 秘银' para='200000' store_order='345'/>
+  <ItemSpec lv='1' type='3' id='200316' order_num='3301' useall='1' use='1' color='0' para='40' lv_limit='15' page='3' icon='item401' description='使用后获得秘银' name='40 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='200317' order_num='3302' useall='1' use='1' color='0' para='80' lv_limit='15' page='3' icon='item401' description='使用后获得秘银' name='80 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='200318' order_num='3303' useall='1' use='1' color='0' para='160' lv_limit='15' page='3' icon='item401' description='使用后获得秘银' name='160 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='200319' order_num='3305' useall='1' use='1' color='0' para='1250' lv_limit='15' page='3' icon='item401' description='使用后获得秘银' name='1,250 秘银' type2='1'/>
+  <ItemSpec use='1' price_hot='40' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200320' type='3' description='使用后获得铁矿' lv='10' color='1' price='40' order_num='3204' useall='1' name='1,600 铁矿' para='1600' store_order='330'/>
+  <ItemSpec use='1' price_hot='160' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200321' type='3' description='使用后获得铁矿' lv='10' color='2' price='160' order_num='3206' useall='1' name='8,000 铁矿' para='8000' store_order='331'/>
+  <ItemSpec use='1' price_hot='400' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200322' type='3' description='使用后获得铁矿' lv='10' color='3' price='400' order_num='3207' useall='1' name='25,000 铁矿' para='25000' store_order='332'/>
+  <ItemSpec use='1' price_hot='1200' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200323' type='3' description='使用后获得铁矿' lv='10' color='4' price='1200' order_num='3208' useall='1' name='80,000 铁矿' para='80000' store_order='333'/>
+  <ItemSpec use='1' price_hot='3300' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200324' type='3' description='使用后获得铁矿' lv='13' color='5' price='3300' order_num='3209' useall='1' name='250,000 铁矿' para='250000' store_order='334'/>
+  <ItemSpec use='1' price_hot='10000' page='3' icon='item402' lv_limit='10' type2='2' pages='3' id='200325' type='3' description='使用后获得铁矿' lv='15' color='5' price='10000' order_num='3210' useall='1' name='800,000 铁矿' para='800000' store_order='335'/>
+  <ItemSpec lv='1' type='3' id='200326' order_num='3201' useall='1' use='1' color='0' para='150' lv_limit='10' page='3' icon='item402' description='使用后获得铁矿' name='150 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='200327' order_num='3202' useall='1' use='1' color='0' para='300' lv_limit='10' page='3' icon='item402' description='使用后获得铁矿' name='300 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='200328' order_num='3203' useall='1' use='1' color='0' para='600' lv_limit='10' page='3' icon='item402' description='使用后获得铁矿' name='600 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='200329' order_num='3205' useall='1' use='1' color='0' para='5000' lv_limit='10' page='3' icon='item402' description='使用后获得铁矿' name='5,000 铁矿' type2='2'/>
+  <ItemSpec use='1' price_hot='40' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200330' type='3' description='使用后获得粮食' lv='1' color='1' price='40' order_num='3104' useall='1' name='10,000 粮食' para='10000' store_order='320'/>
+  <ItemSpec use='1' price_hot='160' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200331' type='3' description='使用后获得粮食' lv='3' color='2' price='160' order_num='3106' useall='1' name='50,000 粮食' para='50000' store_order='321'/>
+  <ItemSpec use='1' price_hot='400' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200332' type='3' description='使用后获得粮食' lv='5' color='3' price='400' order_num='3107' useall='1' name='150,000 粮食' para='150000' store_order='322'/>
+  <ItemSpec use='1' price_hot='1200' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200333' type='3' description='使用后获得粮食' lv='10' color='4' price='1200' order_num='3108' useall='1' name='500,000 粮食' para='500000' store_order='323'/>
+  <ItemSpec use='1' price_hot='3300' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200334' type='3' description='使用后获得粮食' lv='13' color='5' price='3300' order_num='3109' useall='1' name='1,500,000 粮食' para='1500000' store_order='324'/>
+  <ItemSpec use='1' price_hot='10000' page='3' icon='item403' lv_limit='1' type2='3' pages='3' id='200335' type='3' description='使用后获得粮食' lv='15' color='5' price='10000' order_num='3110' useall='1' name='5,000,000 粮食' para='5000000' store_order='325'/>
+  <ItemSpec lv='1' type='3' id='200336' order_num='3101' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item403' description='使用后获得粮食' name='1,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='200337' order_num='3102' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item403' description='使用后获得粮食' name='2,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='200338' order_num='3103' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item403' description='使用后获得粮食' name='4,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='200339' order_num='3105' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item403' description='使用后获得粮食' name='30,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200340' order_num='3404' price_hot='25' use='1' color='1' para='100' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='100钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200341' order_num='3406' price_hot='125' use='1' color='2' para='500' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='500钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200342' order_num='3407' price_hot='375' use='1' color='3' para='1500' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='1,500钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200343' order_num='3408' price_hot='1250' use='1' color='4' para='5000' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='5,000钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200344' order_num='3409' price_hot='3750' use='1' color='5' para='15000' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='15,000钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200345' order_num='3410' price_hot='12500' use='1' color='5' para='50000' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='50,000钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200346' order_num='3401' price_hot='2' use='1' color='0' para='10' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='10钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200347' order_num='3402' price_hot='5' use='1' color='0' para='20' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='20钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200348' order_num='3403' price_hot='10' use='1' color='0' para='40' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='40钢' type2='4'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200349' order_num='3405' price_hot='75' use='1' color='0' para='300' lv_limit='1' page='3' icon='item408' description='使用后获得钢材' name='300钢' type2='4'/>
+  <ItemSpec use='1' price_hot='150' page='4' icon='item405' lv_limit='1' alliance_order='15' type2='11' pages='4' id='200350' price_all='30000' type='3' description='增加100 VIP点数来提升您的VIP等级' lv='1' color='2' price='150' order_num='1202' useall='1' name='100 VIP点数' para='100' store_order='403'/>
+  <ItemSpec use='1' price_hot='400' page='4' icon='item405' lv_limit='1' type2='11' pages='4' id='200351' type='3' description='增加300 VIP点数来提升您的VIP等级' lv='1' color='3' price='400' order_num='1203' useall='1' name='300 VIP点数' para='300' store_order='404'/>
+  <ItemSpec use='1' price_hot='1000' page='4' icon='item405' lv_limit='1' type2='11' pages='4' id='200352' type='3' description='增加1000 VIP点数来提升您的VIP等级' lv='1' color='4' price='1000' order_num='1204' useall='1' name='1000 VIP点数' para='1000' store_order='405'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200353' order_num='1201' price_hot='15' use='1' color='1' para='10' lv_limit='1' page='4' icon='item405' description='增加10 VIP点数来提升您的VIP等级' name='10 VIP点数' type2='11'/>
+  <ItemSpec lv='1' type='3' id='200360' order_num='201' useall='1' use='1' color='1' para='5' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='5金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200361' order_num='202' useall='1' use='1' color='2' para='10' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='10金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200362' order_num='203' useall='1' use='1' color='2' para='20' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='20金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200363' order_num='204' useall='1' use='1' color='2' para='50' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='50金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200364' order_num='205' useall='1' use='1' color='3' para='100' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='100金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200365' order_num='206' useall='1' use='1' color='3' para='200' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='200金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='200366' order_num='207' useall='1' use='1' color='4' para='1000' lv_limit='1' page='3' icon='item406' description='使用后获得金币' name='1,000 金币' type2='10'/>
+  <ItemSpec use='1' price_hot='250' page='4' icon='item513' lv_limit='1' type2='12' pages='4' id='200370' lv='1' color='3' price='250' type='3' description='激活VIP特权1天' name='VIP1天' order_num='1103' store_order='406'/>
+  <ItemSpec use='1' price_hot='1500' page='4' icon='item513' lv_limit='1' type2='12' pages='4' id='200371' lv='1' color='4' price='1500' type='3' description='激活VIP特权7天' name='VIP7天' order_num='1104' store_order='407'/>
+  <ItemSpec use='1' price_hot='4000' page='4' icon='item513' lv_limit='1' type2='12' pages='4' id='200372' lv='1' color='5' price='4000' type='3' description='激活VIP特权30天' name='VIP30天' order_num='1105' store_order='408'/>
+  <ItemSpec lv='1' type='3' id='200373' order_num='1101' use='1' color='1' lv_limit='1' page='4' icon='item513' description='激活VIP特权30分钟' name='VIP30分钟' type2='12'/>
+  <ItemSpec lv='1' type='3' id='200374' order_num='1102' use='1' color='2' lv_limit='1' page='4' icon='item513' description='激活VIP特权60分钟' name='VIP60分钟' type2='12'/>
+  <ItemSpec lv='1' type='3' id='200380' order_num='2301' price_hot='40' use='1' color='3' para='10' lv_limit='1' page='4' icon='item407' description='使用后恢复领主体力值' name='10体力' type2='13'/>
+  <ItemSpec use='1' price_hot='200' page='4' icon='item407' lv_limit='1' alliance_order='9' type2='13' pages='1' id='200381' price_all='20000' type='3' lv='1' color='4' price='200' description='使用后恢复领主体力值' order_num='2302' name='50体力' para='50' store_order='106'/>
+  <ItemSpec lv='1' type='3' id='200382' order_num='2303' price_hot='400' use='1' color='5' para='100' lv_limit='1' page='4' icon='item407' description='使用后恢复领主体力值' name='100体力' type2='13'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200390' order_num='2202' price_hot='100' use='1' color='2' para='5000' lv_limit='1' page='4' icon='item505' description='使用后使领主立即获得经验' name='5,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200391' order_num='2203' price_hot='400' use='1' color='3' para='20000' lv_limit='1' page='4' icon='item505' description='使用后使领主立即获得经验' name='20,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200392' order_num='2204' price_hot='2000' use='1' color='4' para='100000' lv_limit='1' page='4' icon='item505' description='使用后使领主立即获得经验' name='100,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' useall='1' id='200393' order_num='2201' price_hot='10' use='1' color='0' para='500' lv_limit='1' page='4' icon='item505' description='使用后使领主立即获得经验' name='500领主经验' type2='14'/>
+  <ItemSpec lv='1' type='4' id='200409' order_num='1501' use='1' color='1' lv_limit='1' page='1' icon='item500' description='使您的城市获得1小时的和平状态，保护您的城市不会被他人攻击' name='战争守护1小时' type2='1'/>
+  <ItemSpec use='1' price_hot='500' page='1' icon='item500' lv_limit='1' alliance_order='12' type2='1' pages='2' id='200410' price_all='100000' lv='1' color='2' price='500' type='4' name='战争守护8小时' description='使您的城市获得8小时的和平状态，保护您的城市不会被他人攻击' order_num='1502' store_order='201'/>
+  <ItemSpec use='1' price_hot='1000' page='1' icon='item500' lv_limit='1' type2='1' pages='2' id='200411' lv='5' color='3' price='1000' type='4' description='使您的城市获得24小时的和平状态，保护您的城市不会被他人攻击' name='战争守护24小时' order_num='1503' store_order='202'/>
+  <ItemSpec use='1' price_hot='2500' page='1' icon='item500' lv_limit='1' type2='1' pages='2' id='200412' lv='10' color='4' price='2500' type='4' description='使您的城市获得3天的和平状态，保护您的城市不会被他人攻击' name='战争守护3天' order_num='1504' store_order='203'/>
+  <ItemSpec lv='15' type='4' id='200413' order_num='1505' use='1' color='5' lv_limit='1' page='1' icon='item500' description='使您的城市获得30天的和平状态，保护您的城市不会被他人攻击' name='战争守护30天' type2='1'/>
+  <ItemSpec use='1' price_hot='250' page='1' icon='item501' lv_limit='1' alliance_order='13' type2='2' pages='2' id='200414' price_all='50000' lv='5' color='3' price='250' type='4' name='12小时攻击加成' description='在12小时内增加您所有的单位20@攻击力' order_num='1901' store_order='206'/>
+  <ItemSpec use='1' price_hot='400' page='1' icon='item501' lv_limit='1' type2='2' pages='2' id='200415' lv='10' color='5' price='400' type='4' description='在24小时内增加您所有的单位20@攻击力' name='24小时攻击加成' order_num='1902' store_order='207'/>
+  <ItemSpec use='1' price_hot='250' page='1' icon='item502' lv_limit='1' alliance_order='14' type2='3' pages='2' id='200416' price_all='50000' lv='5' color='3' price='250' type='4' name='12小时防御加成' description='在12小时内增加您所有的单位20@防御力' order_num='1903' store_order='208'/>
+  <ItemSpec use='1' price_hot='400' page='1' icon='item502' lv_limit='1' type2='3' pages='2' id='200417' lv='10' color='5' price='400' type='4' description='在24小时内增加您所有的单位20@防御力' name='24小时防御加成' order_num='1904' store_order='209'/>
+  <ItemSpec use='1' price_hot='500' page='1' icon='item503' lv_limit='1' type2='4' pages='2' id='200418' lv='4' color='3' price='500' type='4' description='24小时内减少25@的粮食消耗' name='24小时少量粮食消耗减少' order_num='2001' store_order='210'/>
+  <ItemSpec use='1' price_hot='2000' page='1' icon='item503' lv_limit='1' type2='4' pages='2' id='200419' lv='5' color='5' price='2000' type='4' description='5天内减少25@的粮食消耗' name='5天少量粮食消耗减少' order_num='2002' store_order='211'/>
+  <ItemSpec use='1' price_hot='2000' page='1' icon='item504' lv_limit='1' type2='4' pages='2' id='200420' lv='10' color='3' price='2000' type='4' description='24小时内减少50@的粮食消耗' name='24小时大量粮食消耗减少' order_num='2003' store_order='212'/>
+  <ItemSpec use='1' price_hot='8000' page='1' icon='item504' lv_limit='1' type2='4' pages='2' id='200421' lv='15' color='5' price='8000' type='4' description='5天内减少50@的粮食消耗' name='5天大量粮食消耗减少' order_num='2004' store_order='213'/>
+  <ItemSpec use='1' price_hot='600' page='1' icon='item506' lv_limit='1' type2='6' pages='2' id='200424' lv='5' color='3' price='600' type='4' description='24小时内阻止敌人侦察您的城市' name='反侦察24小时' order_num='1601' store_order='214'/>
+  <ItemSpec use='1' price_hot='3000' page='1' icon='item506' lv_limit='1' type2='6' pages='2' id='200425' lv='10' color='5' price='3000' type='4' description='7天内阻止敌人侦察您的城市' name='反侦察7天' order_num='1602' store_order='215'/>
+  <ItemSpec use='1' price_hot='200' page='1' icon='item514' lv_limit='1' type2='7' pages='2' id='200426' lv='1' color='2' price='200' type='4' description='让你的部队在受到侦查时显示为双倍数量，效果持续24小时。' name='伪装术' order_num='1801' store_order='216'/>
+  <ItemSpec use='1' price_hot='600' page='3' icon='item507' lv_limit='1' alliance_order='10' type2='8' pages='2' id='200427' price_all='国库' lv='1' color='5' price='600' type='4' name='采集加成' description='24小时内增加50@的基础资源采集速度（金币除外）' order_num='2102' store_order='204'/>
+  <ItemSpec lv='1' type='4' id='200428' order_num='2101' use='1' color='3' lv_limit='1' page='3' icon='item507' description='8小时内增加50@的基础资源采集速度（金币除外）' name='采集加成' type2='8'/>
+  <ItemSpec use='1' price_hot='1500' page='1' icon='item515' lv_limit='1' type2='14' pages='2' id='200450' lv='1' color='3' price='1500' type='4' description='将你的出征上限提高25@，效果持续4小时。' name='25@出征上限提升' order_num='1701' store_order='205'/>
+  <ItemSpec lv='1' type='4' id='200451' order_num='1702' use='1' color='4' lv_limit='1' page='1' icon='item515' description='将你的出征上限提高50@，效果持续4小时。' name='50@出征上限提升' type2='14'/>
+  <ItemSpec lv='3' type='5' id='200500' order_num='2901' color='3' use='1' lv_limit='1' page='3' icon='item603' name='基本资源宝箱' description='一个小型资源宝箱'/>
+  <ItemSpec lv='13' type='5' id='200501' order_num='2902' color='4' use='1' lv_limit='1' page='3' icon='item603' name='资源宝箱' description='一个中型资源宝箱'/>
+  <ItemSpec lv='17' type='5' id='200502' order_num='2903' color='5' use='1' lv_limit='1' page='3' icon='item603' name='专家资源宝箱' description='一个大型资源宝箱'/>
+  <ItemSpec lv='1' type='5' id='200510' price_hot='100' order_num='109' color='3' use='1' lv_limit='1' page='1' icon='item606' name='神秘礼物' description='使用后可获得价值100金币的奖励'/>
+  <ItemSpec lv='1' type='5' id='200511' price_hot='500' order_num='110' color='4' use='1' lv_limit='1' page='1' icon='item606' name='中级神秘礼物' description='使用后可获得价值500金币的奖励'/>
+  <ItemSpec lv='1' type='5' id='200512' price_hot='1500' order_num='111' color='5' use='1' lv_limit='1' page='1' icon='item607' name='高级神秘礼物' description='使用后可获得价值1500金币的奖励'/>
+  <ItemSpec lv='1' type='5' id='200550' price_hot='4850' order_num='105' use='1' color='4' lv_limit='1' para='200002;1|200415;1|200417;1|200220;3|200004;5' page='1' icon='item602' name='攻击宝箱' description='一个中型攻击宝箱'/>
+  <ItemSpec lv='1' type='5' id='200551' price_hot='4300' order_num='106' use='1' color='4' lv_limit='1' para='200002;1|200415;1|200417;1|200450;1' page='1' icon='item602' name='攻击宝箱' description='一个中型攻击宝箱'/>
+  <ItemSpec lv='1' type='5' id='200552' price_hot='4500' order_num='107' use='1' color='4' lv_limit='1' para='200002;1|200450;1|200220;3|200415;1' page='1' icon='item602' name='攻击宝箱' description='一个中型攻击宝箱'/>
+  <ItemSpec lv='1' type='5' id='200553' price_hot='7050' order_num='108' use='1' color='4' lv_limit='1' para='200200;15|200333;2|200303;2' page='1' icon='item601' name='恢复宝箱' description='一个恢复宝箱'/>
+  <ItemSpec lv='1' type='5' id='200560' order_num='2801' color='2' use='1' lv_limit='1' page='3' icon='item603' name='1级资源宝箱' description='拥有少量木头和粮食'/>
+  <ItemSpec lv='1' type='5' id='200561' order_num='2802' color='3' use='1' lv_limit='10' page='3' icon='item603' name='2级资源宝箱' description='拥有少量木头、粮食和铁矿'/>
+  <ItemSpec lv='1' type='5' id='200562' order_num='2803' color='4' use='1' lv_limit='15' page='3' icon='item603' name='3级资源宝箱' description='拥有中量木头、粮食、铁矿和秘银'/>
+  <ItemSpec lv='1' type='5' id='200563' order_num='2804' color='5' use='1' lv_limit='15' page='3' icon='item603' name='4级资源宝箱' description='拥有大量木头、粮食、铁矿和秘银'/>
+  <ItemSpec lv='1' type='5' id='200564' order_num='2801' useall='1' color='2' use='1' lv_limit='1' page='3' icon='item603' name='1级资源宝箱' description='拥有1,000木头和1,000粮食'/>
+  <ItemSpec lv='1' type='5' id='200565' order_num='2802' useall='1' color='3' use='1' lv_limit='10' page='3' icon='item603' name='2级资源宝箱' description='拥有2,800木头、2,800粮食和400铁矿'/>
+  <ItemSpec lv='1' type='5' id='200566' order_num='2803' useall='1' color='4' use='1' lv_limit='15' page='3' icon='item603' name='3级资源宝箱' description='拥有6,100木头、6,100粮食、500铁矿和200秘银'/>
+  <ItemSpec lv='1' type='5' id='200567' order_num='2804' useall='1' color='5' use='1' lv_limit='15' page='3' icon='item603' name='4级资源宝箱' description='拥有30,500木头、30,500粮食、2,500铁矿和1,000秘银'/>
+  <ItemSpec lv='1' type='5' id='200570' order_num='301' color='1' use='1' lv_limit='1' page='4' icon='item605' name='1级叛军击杀礼包' description='打开后有几率获得各种资源和道具'/>
+  <ItemSpec lv='1' type='5' id='200571' order_num='302' color='1' use='1' lv_limit='1' page='4' icon='item605' name='2级叛军击杀礼包' description='打开后有几率获得各种资源和道具'/>
+  <ItemSpec lv='1' type='5' id='200572' order_num='303' color='1' use='1' lv_limit='1' page='4' icon='item605' name='3级叛军击杀礼包' description='打开后有几率获得各种资源和道具'/>
+  <ItemSpec lv='1' type='5' id='200580' order_num='1' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item611' name='火红宝箱' description='从facebook好友的动态收到的火红宝箱，快打开看看吧'/>
+  <ItemSpec lv='1' type='5' id='200581' order_num='1' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item612' name='星蓝宝箱' description='从facebook好友的邀请收到的星蓝宝箱，里面放着好东西'/>
+  <ItemSpec lv='1' type='5' id='200590' order_num='0' color='1' use='1' lv_limit='2' page='1' icon='item605' name='新手礼包' description='一个新手礼包'/>
+  <ItemSpec lv='1' type='5' id='200600' price_hot='200' order_num='102' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item608' name='小材料宝箱' description='使用后随机获得1个白色，或者绿色，或者蓝色材料'/>
+  <ItemSpec lv='1' type='5' id='200601' price_hot='200' order_num='102' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item608' name='小材料宝箱' description='使用后随机获得1个白色，或者绿色，或者蓝色材料'/>
+  <ItemSpec lv='1' type='5' id='200602' price_hot='200' order_num='102' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item608' name='小材料宝箱' description='使用后随机获得1个白色，或者绿色，或者蓝色材料'/>
+  <ItemSpec use='1' price_hot='200' page='4' icon='item608' lv_limit='1' order_num='102' id='200603' lv='1' type='5' color='1' price='200' pages='4' description='使用后随机获得1个白色，或者绿色，或者蓝色材料' useall='1' name='小材料宝箱' store_order='402'/>
+  <ItemSpec lv='1' type='5' order_num='102' id='200610' description='使用后随机获得1个绿色，或者蓝色，或者紫色材料' price_hot='1200' useall='1' use='1' color='3' pages='4' lv_limit='1' page='4' icon='item609' name='材料宝箱' store_order='403'/>
+  <ItemSpec lv='1' type='5' id='200650' order_num='102' useall='1' color='0' use='1' lv_limit='1' page='4' icon='item622' name='青铜联盟礼物' description='使用后获得丰厚的奖励'/>
+  <ItemSpec lv='1' type='5' id='200651' order_num='102' useall='1' color='1' use='1' lv_limit='1' page='4' icon='item621' name='黑铁联盟礼物' description='使用后获得丰厚的奖励'/>
+  <ItemSpec lv='1' type='5' id='200652' order_num='102' useall='1' color='2' use='1' lv_limit='1' page='4' icon='item623' name='白银联盟礼物' description='使用后获得丰厚的奖励'/>
+  <ItemSpec lv='1' type='5' id='200653' order_num='102' useall='1' color='3' use='1' lv_limit='1' page='4' icon='item624' name='黄金联盟礼物' description='使用后获得丰厚的奖励'/>
+  <ItemSpec lv='1' type='5' id='200654' order_num='102' useall='1' color='4' use='1' lv_limit='1' page='4' icon='item625' name='传奇联盟礼物' description='使用后获得丰厚的奖励'/>
+  <ItemSpec use='1' price_hot='5' page='4' icon='item409' lv_limit='1' type2='15' pages='3' id='200700' type='3' description='使用后获得铜币' lv='1' color='0' price='5' order_num='3501' useall='1' name='500铜币' para='500' store_order='350'/>
+  <ItemSpec use='1' price_hot='15' page='4' icon='item409' lv_limit='1' type2='15' pages='3' id='200701' type='3' description='使用后获得铜币' lv='1' color='1' price='15' order_num='3502' useall='1' name='1,500铜币' para='1500' store_order='351'/>
+  <ItemSpec use='1' price_hot='40' page='4' icon='item409' lv_limit='1' type2='15' pages='3' id='200702' type='3' description='使用后获得铜币' lv='1' color='1' price='40' order_num='3503' useall='1' name='4,000铜币' para='4000' store_order='352'/>
+  <ItemSpec use='1' price_hot='80' page='4' icon='item409' lv_limit='1' type2='15' pages='3' id='200703' type='3' description='使用后获得铜币' lv='1' color='2' price='80' order_num='3504' useall='1' name='8,000铜币' para='8000' store_order='353'/>
+  <ItemSpec use='1' price_hot='150' page='4' icon='item409' lv_limit='1' type2='15' pages='3' id='200704' type='3' description='使用后获得铜币' lv='1' color='3' price='150' order_num='3505' useall='1' name='15,000铜币' para='15000' store_order='354'/>
+  <ItemSpec use='1' price_hot='20' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200710' type='3' description='使用后获得龙币' lv='1' color='0' price='20' order_num='3601' useall='1' name='1龙币' para='1' store_order='360'/>
+  <ItemSpec use='1' price_hot='60' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200711' type='3' description='使用后获得龙币' lv='1' color='1' price='60' order_num='3602' useall='1' name='3龙币' para='3' store_order='361'/>
+  <ItemSpec use='1' price_hot='120' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200712' type='3' description='使用后获得龙币' lv='1' color='1' price='120' order_num='3603' useall='1' name='6龙币' para='6' store_order='362'/>
+  <ItemSpec use='1' price_hot='300' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200713' type='3' description='使用后获得龙币' lv='1' color='2' price='300' order_num='3604' useall='1' name='15龙币' para='15' store_order='363'/>
+  <ItemSpec use='1' price_hot='1000' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200714' type='3' description='使用后获得龙币' lv='1' color='3' price='1000' order_num='3605' useall='1' name='50龙币' para='50' store_order='364'/>
+  <ItemSpec use='1' price_hot='4000' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200715' description='使用后获得龙币' lv='1' color='4' type='3' order_num='3606' useall='1' name='200龙币' para='200' store_order='365'/>
+  <ItemSpec use='1' price_hot='20000' page='4' icon='item410' lv_limit='1' type2='16' pages='3' id='200716' description='使用后获得龙币' lv='1' color='5' type='3' order_num='3607' useall='1' name='1,000龙币' para='1000' store_order='366'/>
+  <ItemSpec lv='1' type='8' id='200800' price_all='40000' price_hot='200' name='1级士兵招募' order_num='1001' color='0' use='1' lv_limit='10' page='1' icon='item800' alliance_order='7' description='随机招募1,000名1级士兵（随机兵种），10级城堡以上可使用'/>
+  <ItemSpec lv='1' type='7' id='201010' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item901' name='1级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201011' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item901' name='2级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201012' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item901' name='3级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201013' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item901' name='4级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201014' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item901' name='5级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201015' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item901' name='6级枫木' description='枫木，锻造装备的材料，会使装备拥有特性：加快建筑建造速度。'/>
+  <ItemSpec lv='1' type='7' id='201020' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item902' name='1级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201021' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item902' name='2级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201022' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item902' name='3级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201023' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item902' name='4级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201024' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item902' name='5级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201025' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item902' name='6级水晶' description='水晶，锻造装备的材料，会使装备拥有特性：加快科技研究速度。'/>
+  <ItemSpec lv='1' type='7' id='201030' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item903' name='1级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201031' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item903' name='2级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201032' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item903' name='3级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201033' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item903' name='4级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201034' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item903' name='5级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201035' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item903' name='6级骨头' description='骨头，锻造装备的材料，会使装备拥有特性：增加农田产量。'/>
+  <ItemSpec lv='1' type='7' id='201040' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item904' name='1级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201041' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item904' name='2级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201042' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item904' name='3级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201043' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item904' name='4级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201044' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item904' name='5级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201045' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item904' name='6级布料' description='布料，锻造装备的材料，会使装备拥有特性：提高部队负重。'/>
+  <ItemSpec lv='1' type='7' id='201050' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item905' name='1级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201051' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item905' name='2级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201052' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item905' name='3级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201053' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item905' name='4级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201054' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item905' name='5级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201055' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item905' name='6级石榴石' description='石榴石，锻造装备的材料，会使装备拥有特性：增加陷阱攻击。'/>
+  <ItemSpec lv='1' type='7' id='201060' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item906' name='1级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201061' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item906' name='2级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201062' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item906' name='3级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201063' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item906' name='4级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201064' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item906' name='5级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201065' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item906' name='6级青铜' description='青铜，锻造装备的材料，会使装备拥有特性：增加步兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201070' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item907' name='1级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201071' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item907' name='2级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201072' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item907' name='3级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201073' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item907' name='4级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201074' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item907' name='5级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201075' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item907' name='6级琥珀' description='琥珀，锻造装备的材料，会使装备拥有特性：增加骑兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201080' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item908' name='1级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201081' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item908' name='2级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201082' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item908' name='3级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201083' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item908' name='4级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201084' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item908' name='5级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201085' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item908' name='6级兽角' description='兽角，锻造装备的材料，会使装备拥有特性：增加弓兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201090' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item909' name='1级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201091' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item909' name='2级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201092' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item909' name='3级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201093' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item909' name='4级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201094' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item909' name='5级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201095' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item909' name='6级钴矿石' description='钴矿石，锻造装备的材料，会使装备拥有特性：增加车兵攻击。'/>
+  <ItemSpec lv='1' type='7' id='201100' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item910' name='1级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201101' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item910' name='2级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201102' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item910' name='3级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201103' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item910' name='4级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201104' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item910' name='5级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201105' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item910' name='6级翡翠' description='翡翠，锻造装备的材料，会使装备拥有特性：加快行军速度。'/>
+  <ItemSpec lv='1' type='7' id='201110' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item911' name='1级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201111' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item911' name='2级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201112' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item911' name='3级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201113' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item911' name='4级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201114' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item911' name='5级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201115' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item911' name='6级毛皮' description='毛皮，锻造装备的材料，会使装备拥有特性：增加急救帐篷容纳人数上限。'/>
+  <ItemSpec lv='1' type='7' id='201120' is_show='1' price_hot='100' color='0' use='0' lv_limit='1' icon='item912' name='1级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='7' id='201121' is_show='1' price_hot='400' color='1' use='0' lv_limit='1' icon='item912' name='2级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='7' id='201122' is_show='1' price_hot='1600' color='2' use='0' lv_limit='1' icon='item912' name='3级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='7' id='201123' is_show='1' price_hot='6400' color='3' use='0' lv_limit='1' icon='item912' name='4级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='7' id='201124' is_show='1' price_hot='25600' color='4' use='0' lv_limit='1' icon='item912' name='5级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='7' id='201125' is_show='1' price_hot='解锁民兵' color='5' use='0' lv_limit='1' icon='item912' name='6级草药' description='草药，锻造装备的材料，会使装备拥有特性：加快伤兵恢复速度。'/>
+  <ItemSpec lv='1' type='3' useall='1' id='209000' order_num='1' price_hot='1' use='1' color='1' para='10' lv_limit='1' page='1' icon='item790' description='花费圣诞袜可领取奖励' name='圣诞袜' type2='3'/>
+  <ItemSpec lv='1' type='5' id='209001' price_hot='20' order_num='2' use='1' color='1' lv_limit='1' para='209000;20' page='1' icon='item789' name='圣诞节宝箱1' description='圣诞节及新年特制'/>
+  <ItemSpec lv='1' type='5' id='209002' price_hot='200' order_num='3' use='1' color='2' lv_limit='1' para='209000;200' page='1' icon='item789' name='圣诞节宝箱2' description='圣诞节及新年特制'/>
+  <ItemSpec lv='1' type='5' id='209003' price_hot='1000' order_num='4' use='1' color='3' lv_limit='1' para='209000;1000' page='1' icon='item789' name='圣诞节宝箱3' description='圣诞节及新年特制'/>
+  <ItemSpec lv='1' type='3' id='209170' order_num='1103' use='1' color='3' lv_limit='1' page='1' icon='item788' description='激活VIP特权1天' name='VIP1天' type2='12'/>
+  <ItemSpec lv='1' type='2' id='209200' order_num='502' use='0' color='2' para='1;1;3600' lv_limit='1' page='1' icon='item787' description='减少计时器中1小时剩余时间' name='1小时加速' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209171' order_num='1104' use='1' color='4' lv_limit='1' page='1' icon='item788' description='激活VIP特权7天' name='VIP7天' type2='12'/>
+  <ItemSpec lv='1' type='5' id='209172' order_num='3' useall='1' color='4' use='1' lv_limit='1' page='1' icon='item606' name='情人节礼盒' description='使用后可获得情人节特别奖励！'/>
+  <ItemSpec lv='1' type='5' id='209173' order_num='4' useall='1' color='4' use='1' lv_limit='1' page='1' icon='item791' name='春节宝箱' description='使用后可获得春节特别奖励！'/>
+  <ItemSpec lv='1' type='0' description='可用来兑换活动道具' id='209174' sales='1;10|10;90|100;800' price_hot='10' order_num='1' use='0' color='1' pages='4' lv_limit='1' page='4' icon='item300' name='小丑的手杖' store_order='101'/>
+  <ItemSpec lv='1' type='5' id='209175' order_num='1' useall='1' color='2' use='1' lv_limit='1' page='1' icon='item301' name='惊诧魔盒' description='使用后随机获得1个资源道具、装备材料或金币'/>
+  <ItemSpec lv='1' type='5' id='209176' order_num='1' useall='1' color='3' use='1' lv_limit='1' page='1' icon='item302' name='幻想宝箱' description='使用后极大几率获得稀有装备材料'/>
+  <ItemSpec lv='1' type='5' id='209177' order_num='1' useall='1' color='2' use='1' lv_limit='1' page='1' icon='item303' name='彩蛋' description='使用后获得复活节特别奖励！'/>
+  <ItemSpec lv='1' type='3' id='209300' order_num='3004' useall='1' use='1' color='1' para='10000' lv_limit='1' page='1' icon='item703' description='万圣节特制' name='10,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209301' order_num='3006' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='50,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209302' order_num='3007' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='150,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209303' order_num='3008' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209304' order_num='3009' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='1,500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209305' order_num='3010' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='5,000,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209306' order_num='3001' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='1,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209307' order_num='3002' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='2,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209308' order_num='3003' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='4,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209309' order_num='3005' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item703' description='万圣节特制' name='30,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209310' order_num='3304' useall='1' use='1' color='1' para='400' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='400 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209311' order_num='3306' useall='1' use='1' color='2' para='2000' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='2,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209312' order_num='3307' useall='1' use='1' color='3' para='6250' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='6,250 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209313' order_num='3308' useall='1' use='1' color='4' para='20000' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='20,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209314' order_num='3309' useall='1' use='1' color='5' para='62500' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='62,500 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209315' order_num='3310' useall='1' use='1' color='5' para='200000' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='200,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209316' order_num='3301' useall='1' use='1' color='0' para='40' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='40 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209317' order_num='3302' useall='1' use='1' color='0' para='80' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='80 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209318' order_num='3303' useall='1' use='1' color='0' para='160' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='160 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209319' order_num='3305' useall='1' use='1' color='0' para='1250' lv_limit='15' page='3' icon='item705' description='万圣节特制' name='1,250 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209320' order_num='3204' useall='1' use='1' color='1' para='1600' lv_limit='1' page='3' icon='item704' description='万圣节特制' name='1,600 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209321' order_num='3206' useall='1' use='1' color='2' para='8000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='8,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209322' order_num='3207' useall='1' use='1' color='3' para='25000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='25,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209323' order_num='3208' useall='1' use='1' color='4' para='80000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='80,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209324' order_num='3209' useall='1' use='1' color='5' para='250000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='250,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209325' order_num='3210' useall='1' use='1' color='5' para='800000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='800,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209326' order_num='3201' useall='1' use='1' color='0' para='150' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='150 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209327' order_num='3202' useall='1' use='1' color='0' para='300' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='300 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209328' order_num='3203' useall='1' use='1' color='0' para='600' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='600 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209329' order_num='3205' useall='1' use='1' color='0' para='5000' lv_limit='10' page='3' icon='item704' description='万圣节特制' name='5,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209330' order_num='3104' useall='1' use='1' color='1' para='10000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='10,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209331' order_num='3106' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='50,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209332' order_num='3107' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='150,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209333' order_num='3108' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209334' order_num='3109' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='1,500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209335' order_num='3110' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='5,000,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209336' order_num='3101' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='1,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209337' order_num='3102' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='2,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209338' order_num='3103' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='4,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209339' order_num='3105' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item702' description='万圣节特制' name='30,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209340' order_num='3004' useall='1' use='1' color='1' para='10000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='10,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209341' order_num='3006' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='50,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209342' order_num='3007' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='150,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209343' order_num='3008' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209344' order_num='3009' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='1,500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209345' order_num='3010' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='5,000,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209346' order_num='3001' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='1,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209347' order_num='3002' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='2,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209348' order_num='3003' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='4,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209349' order_num='3005' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item753' description='感恩节特制' name='30,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='0' id='209350' order_num='3104' useall='1' use='1' color='1' para='10000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='10,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209351' order_num='3106' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='50,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209352' order_num='3107' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='150,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209353' order_num='3108' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209354' order_num='3109' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='1,500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209355' order_num='3110' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='5,000,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209356' order_num='3101' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='1,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209357' order_num='3102' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='2,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209358' order_num='3103' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='4,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209359' order_num='3105' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item752' description='感恩节特制' name='30,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209360' order_num='201' useall='1' use='1' color='1' para='5' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='5金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209361' order_num='202' useall='1' use='1' color='2' para='10' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='10金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209362' order_num='203' useall='1' use='1' color='2' para='20' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='20金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209363' order_num='204' useall='1' use='1' color='2' para='50' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='50金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209364' order_num='205' useall='1' use='1' color='3' para='100' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='100金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209365' order_num='206' useall='1' use='1' color='3' para='200' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='200金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209366' order_num='207' useall='1' use='1' color='4' para='1000' lv_limit='1' page='3' icon='item701' description='万圣节特制' name='1,000 金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209370' order_num='201' useall='1' use='1' color='1' para='5' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='5金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209371' order_num='202' useall='1' use='1' color='2' para='10' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='10金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209372' order_num='203' useall='1' use='1' color='2' para='20' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='20金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209373' order_num='204' useall='1' use='1' color='2' para='50' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='50金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209374' order_num='205' useall='1' use='1' color='3' para='100' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='100金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209375' order_num='206' useall='1' use='1' color='3' para='200' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='200金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209376' order_num='207' useall='1' use='1' color='4' para='1000' lv_limit='1' page='3' icon='item750' description='感恩节特制' name='1,000 金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209380' order_num='2301' use='1' color='3' para='10' lv_limit='1' page='1' icon='item700' description='万圣节特制' name='10体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209381' order_num='2302' use='1' color='4' para='50' lv_limit='1' page='1' icon='item700' description='万圣节特制' name='50体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209382' order_num='2303' use='1' color='5' para='100' lv_limit='1' page='1' icon='item700' description='万圣节特制' name='100体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209390' order_num='2201' useall='1' use='1' color='2' para='5000' lv_limit='1' page='4' icon='item751' description='感恩节特制' name='5,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' id='209391' order_num='2202' useall='1' use='1' color='3' para='20000' lv_limit='1' page='4' icon='item751' description='感恩节特制' name='20,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' id='209392' order_num='2203' useall='1' use='1' color='4' para='100000' lv_limit='1' page='4' icon='item751' description='感恩节特制' name='100,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' id='209400' order_num='3004' useall='1' use='1' color='1' para='10000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='10,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209401' order_num='3006' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='50,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209402' order_num='3007' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='150,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209403' order_num='3008' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209404' order_num='3009' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='1,500,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209405' order_num='3010' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='5,000,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209406' order_num='3001' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='1,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209407' order_num='3002' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='2,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209408' order_num='3003' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='4,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209409' order_num='3005' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item781' description='圣诞节及新年特制' name='30,000 木头' type2='0'/>
+  <ItemSpec lv='1' type='3' id='209410' order_num='3304' useall='1' use='1' color='1' para='400' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='400 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209411' order_num='3306' useall='1' use='1' color='2' para='2000' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='2,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209412' order_num='3307' useall='1' use='1' color='3' para='6250' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='6,250 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209413' order_num='3308' useall='1' use='1' color='4' para='20000' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='20,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209414' order_num='3309' useall='1' use='1' color='5' para='62500' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='62,500 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209415' order_num='3310' useall='1' use='1' color='5' para='200000' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='200,000 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209416' order_num='3301' useall='1' use='1' color='0' para='40' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='40 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209417' order_num='3302' useall='1' use='1' color='0' para='80' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='80 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209418' order_num='3303' useall='1' use='1' color='0' para='160' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='160 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209419' order_num='3305' useall='1' use='1' color='0' para='1250' lv_limit='15' page='3' icon='item783' description='圣诞节及新年特制' name='1,250 秘银' type2='1'/>
+  <ItemSpec lv='1' type='3' id='209420' order_num='3204' useall='1' use='1' color='1' para='1600' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='1,600 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209421' order_num='3206' useall='1' use='1' color='2' para='8000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='8,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209422' order_num='3207' useall='1' use='1' color='3' para='25000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='25,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209423' order_num='3208' useall='1' use='1' color='4' para='80000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='80,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209424' order_num='3209' useall='1' use='1' color='5' para='250000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='250,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209425' order_num='3210' useall='1' use='1' color='5' para='800000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='800,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209426' order_num='3201' useall='1' use='1' color='0' para='150' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='150 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209427' order_num='3202' useall='1' use='1' color='0' para='300' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='300 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209428' order_num='3203' useall='1' use='1' color='0' para='600' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='600 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209429' order_num='3205' useall='1' use='1' color='0' para='5000' lv_limit='10' page='3' icon='item782' description='圣诞节及新年特制' name='5,000 铁矿' type2='2'/>
+  <ItemSpec lv='1' type='3' id='209430' order_num='3104' useall='1' use='1' color='1' para='10000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='10,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209431' order_num='3106' useall='1' use='1' color='2' para='50000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='50,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209432' order_num='3107' useall='1' use='1' color='3' para='150000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='150,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209433' order_num='3108' useall='1' use='1' color='4' para='500000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209434' order_num='3109' useall='1' use='1' color='5' para='1500000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='1,500,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209435' order_num='3110' useall='1' use='1' color='5' para='5000000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='5,000,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209436' order_num='3101' useall='1' use='1' color='0' para='1000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='1,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209437' order_num='3102' useall='1' use='1' color='0' para='2000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='2,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209438' order_num='3103' useall='1' use='1' color='0' para='4000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='4,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209439' order_num='3105' useall='1' use='1' color='0' para='30000' lv_limit='1' page='3' icon='item780' description='圣诞节及新年特制' name='30,000 粮食' type2='3'/>
+  <ItemSpec lv='1' type='3' id='209460' order_num='201' useall='1' use='1' color='1' para='5' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='5金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209461' order_num='202' useall='1' use='1' color='2' para='10' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='10金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209462' order_num='203' useall='1' use='1' color='2' para='20' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='20金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209463' order_num='204' useall='1' use='1' color='2' para='50' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='50金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209464' order_num='205' useall='1' use='1' color='3' para='100' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='100金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209465' order_num='206' useall='1' use='1' color='3' para='200' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='200金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209466' order_num='207' useall='1' use='1' color='4' para='1000' lv_limit='1' page='3' icon='item784' description='圣诞节及新年特制' name='1,000 金币' type2='10'/>
+  <ItemSpec lv='1' type='3' id='209480' order_num='2301' use='1' color='3' para='10' lv_limit='1' page='1' icon='item786' description='圣诞节及新年特制' name='10体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209481' order_num='2302' use='1' color='4' para='50' lv_limit='1' page='1' icon='item786' description='圣诞节及新年特制' name='50体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209482' order_num='2303' use='1' color='5' para='100' lv_limit='1' page='1' icon='item786' description='圣诞节及新年特制' name='100体力' type2='13'/>
+  <ItemSpec lv='1' type='3' id='209490' order_num='2201' useall='1' use='1' color='2' para='5000' lv_limit='1' page='4' icon='item785' description='圣诞节及新年特制' name='5,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' id='209491' order_num='2202' useall='1' use='1' color='3' para='20000' lv_limit='1' page='4' icon='item785' description='圣诞节及新年特制' name='20,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='3' id='209492' order_num='2203' useall='1' use='1' color='4' para='100000' lv_limit='1' page='4' icon='item785' description='圣诞节及新年特制' name='100,000领主经验' type2='14'/>
+  <ItemSpec lv='1' type='5' id='209500' order_num='208' useall='1' color='5' use='1' lv_limit='1' page='1' icon='item706' name='104287' description='104294'/>
+  <ItemSpec lv='1' type='5' id='209564' order_num='2801' useall='1' color='2' use='1' lv_limit='1' page='3' icon='item706' name='Lv.1 糖果盒' description='拥有1,000木头和1,000粮食'/>
+  <ItemSpec lv='1' type='5' id='209565' order_num='2802' useall='1' color='3' use='1' lv_limit='10' page='3' icon='item706' name='Lv.2 糖果盒' description='拥有2,800木头、2,800粮食和400铁矿'/>
+  <ItemSpec lv='1' type='5' id='209566' order_num='2803' useall='1' color='4' use='1' lv_limit='15' page='3' icon='item706' name='Lv.3 糖果盒' description='拥有6,100木头、6,100粮食、500铁矿和200秘银'/>
+  <ItemSpec lv='1' type='5' id='209567' order_num='2804' useall='1' color='5' use='1' lv_limit='15' page='3' icon='item706' name='Lv.4 糖果盒' description='拥有30,500木头、30,500粮食、2,500铁矿和1,000秘银'/>
+</Group>

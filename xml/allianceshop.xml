@@ -1,0 +1,33 @@
+<Group id='allianceshop'>
+  <ItemSpec funds='2000' type='0' id='7200' contribution='200' time='30' item='200000'/>
+  <ItemSpec funds='3000' type='0' id='7201' contribution='300' time='60' item='200001'/>
+  <ItemSpec funds='4000' type='0' id='7202' contribution='400' time='90' item='200002'/>
+  <ItemSpec funds='5000' type='0' id='7203' contribution='500' time='120' item='200003'/>
+  <ItemSpec funds='6000' type='0' id='7204' contribution='600' time='150' item='200004'/>
+  <ItemSpec funds='7000' type='0' id='7205' contribution='700' time='180' item='200005'/>
+  <ItemSpec funds='8000' type='1' id='7206' contribution='800' time='210' item='200006'/>
+  <ItemSpec funds='9000' type='1' id='7207' contribution='900' time='240' item='200007'/>
+  <ItemSpec funds='10000' type='1' id='7208' contribution='1000' time='270' item='200100'/>
+  <ItemSpec funds='11000' type='1' id='7209' contribution='1100' time='300' item='200101'/>
+  <ItemSpec funds='12000' type='1' id='7210' contribution='1200' time='330' item='200102'/>
+  <ItemSpec funds='13000' type='1' id='7211' contribution='1300' time='360' item='200200'/>
+  <ItemSpec funds='14000' type='2' id='7212' contribution='1400' time='390' item='200201'/>
+  <ItemSpec funds='15000' type='2' id='7213' contribution='1500' time='420' item='200202'/>
+  <ItemSpec funds='16000' type='2' id='7214' contribution='1600' time='450' item='200203'/>
+  <ItemSpec funds='17000' type='2' id='7215' contribution='1700' time='480' item='200204'/>
+  <ItemSpec funds='18000' type='2' id='7216' contribution='1800' time='510' item='200205'/>
+  <ItemSpec funds='19000' type='3' id='7217' contribution='1900' time='540' item='200206'/>
+  <ItemSpec funds='20000' type='3' id='7218' contribution='2000' time='570' item='200207'/>
+  <ItemSpec funds='21000' type='3' id='7219' contribution='2100' time='600' item='200220'/>
+  <ItemSpec funds='22000' type='3' id='7220' contribution='2200' time='630' item='200221'/>
+  <ItemSpec funds='23000' type='3' id='7221' contribution='2300' time='660' item='200230'/>
+  <ItemSpec funds='24000' type='3' id='7222' contribution='2400' time='690' item='200300'/>
+  <ItemSpec funds='25000' type='4' id='7223' contribution='2500' time='720' item='200301'/>
+  <ItemSpec funds='26000' type='4' id='7224' contribution='2600' time='750' item='200302'/>
+  <ItemSpec funds='27000' type='4' id='7225' contribution='2700' time='780' item='200303'/>
+  <ItemSpec funds='28000' type='4' id='7226' contribution='2800' time='810' item='200304'/>
+  <ItemSpec funds='29000' type='4' id='7227' contribution='2900' time='840' item='200350'/>
+  <ItemSpec funds='30000' type='4' id='7228' contribution='3000' time='870' item='200400'/>
+  <ItemSpec funds='31000' type='4' id='7229' contribution='3100' time='900' item='200400'/>
+  <ItemSpec funds='32000' type='5' id='7230' contribution='3200' time='930' item='200401'/>
+</Group>

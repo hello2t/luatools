@@ -1,0 +1,5 @@
+<Group id='house'>
+  <ItemSpec description='111002' house='111007;111008|111009;111010' icon='ico8000' name='111001' id='8000'/>
+  <ItemSpec description='111004' house='111011;111012|111013;111014' icon='ico8001' name='111003' id='8001'/>
+  <ItemSpec description='111006' house='111015;111016|111017;111018' icon='ico8002' name='111005' id='8002'/>
+</Group>

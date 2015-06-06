@@ -1,0 +1,36 @@
+<Group id='achievement'>
+  <ItemSpec level='1' type='137026' show='1' dialog='137001' para1='5' series='1' icon_sub='quest_Build_icon2' gp_id='CgkIoYzEkosJEAIQAQ' icon_main='quest_Farm_icon1' medal='9250' reward='235000' id='9200'/>
+  <ItemSpec level='2' type='137026' show='1' dialog='137000' para1='5' series='1' icon_sub='quest_Build_icon2' gp_id='CgkIoYzEkosJEAIQAg' icon_main='quest_Sawmill_icon1' medal='9250' reward='235000' id='9201'/>
+  <ItemSpec level='3' type='137026' show='1' dialog='137003' para1='10' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQAw' icon_main='quest_Farm_icon1' medal='9250' reward='235003' id='9202'/>
+  <ItemSpec level='4' type='137026' show='1' dialog='137002' para1='10' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQBA' icon_main='quest_Sawmill_icon1' medal='9250' reward='235003' id='9203'/>
+  <ItemSpec level='5' type='137026' show='1' dialog='137004' para1='10' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQBQ' icon_main='quest_Iron Mine_icon1' medal='9250' reward='235003' id='9204'/>
+  <ItemSpec level='6' type='137026' show='1' dialog='137003' para1='15' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQCg' icon_main='quest_Farm_icon1' medal='9250' reward='235004' id='9205'/>
+  <ItemSpec level='7' type='137026' show='1' dialog='137002' para1='15' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQCw' icon_main='quest_Sawmill_icon1' medal='9250' reward='235004' id='9206'/>
+  <ItemSpec level='8' type='137026' show='1' dialog='137004' para1='15' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQDA' icon_main='quest_Iron Mine_icon1' medal='9250' reward='235004' id='9207'/>
+  <ItemSpec level='9' type='137026' show='1' dialog='137005' para1='15' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQDQ' icon_main='quest_Mithril Mine_icon1' medal='9250' reward='235004' id='9208'/>
+  <ItemSpec level='10' type='137026' show='1' dialog='137003' para1='25' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQDg' icon_main='quest_Farm_icon1' medal='9250' reward='235007' id='9209'/>
+  <ItemSpec level='11' type='137026' show='1' dialog='137002' para1='25' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQDw' icon_main='quest_Sawmill_icon1' medal='9250' reward='235007' id='9210'/>
+  <ItemSpec level='12' type='137026' show='1' dialog='137004' para1='25' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQEA' icon_main='quest_Iron Mine_icon1' medal='9250' reward='235007' id='9211'/>
+  <ItemSpec level='13' type='137026' show='1' dialog='137005' para1='25' series='1' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQEQ' icon_main='quest_Mithril Mine_icon1' medal='9250' reward='235007' id='9212'/>
+  <ItemSpec level='1' type='137027' show='1' dialog='137050' para1='5' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQEg' icon_main='quest_Castle_icon1' medal='9250' reward='235003' id='9213'/>
+  <ItemSpec level='2' type='137027' show='1' dialog='137050' para1='10' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQEw' icon_main='quest_Castle_icon1' medal='9250' reward='235004' id='9214'/>
+  <ItemSpec level='3' type='137027' show='1' dialog='137050' para1='15' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQFA' icon_main='quest_Castle_icon1' medal='9251' reward='235006' id='9215'/>
+  <ItemSpec level='4' type='137027' show='1' dialog='137050' para1='20' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQFQ' icon_main='quest_Castle_icon1' medal='9251' reward='235009' id='9216'/>
+  <ItemSpec level='5' type='137027' show='1' dialog='137050' para1='25' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQFg' icon_main='quest_Castle_icon1' medal='9251' reward='235011' id='9217'/>
+  <ItemSpec level='6' type='137027' show='1' dialog='137050' para1='30' series='2' icon_sub='quest_Upgrade_icon2' gp_id='CgkIoYzEkosJEAIQFw' icon_main='quest_Castle_icon1' medal='9251' reward='235013' id='9218'/>
+  <ItemSpec level='1' type='137030' show='1' dialog='137008' para1='20' series='3' icon_sub='quest_Research_icon2' gp_id='CgkIoYzEkosJEAIQGA' icon_main='quest_College_icon1' medal='9252' reward='235000' id='9219'/>
+  <ItemSpec level='2' type='137030' show='1' dialog='137008' para1='40' series='3' icon_sub='quest_Research_icon2' gp_id='CgkIoYzEkosJEAIQGQ' icon_main='quest_College_icon1' medal='9252' reward='235002' id='9220'/>
+  <ItemSpec level='3' type='137030' show='1' dialog='137008' para1='60' series='3' icon_sub='quest_Research_icon2' gp_id='CgkIoYzEkosJEAIQGg' icon_main='quest_College_icon1' medal='9252' reward='235003' id='9221'/>
+  <ItemSpec level='4' type='137030' show='1' dialog='137008' para1='80' series='3' icon_sub='quest_Research_icon2' gp_id='CgkIoYzEkosJEAIQGw' icon_main='quest_College_icon1' medal='9252' reward='235004' id='9222'/>
+  <ItemSpec level='5' type='137030' show='1' dialog='137008' para1='100' series='3' icon_sub='quest_Research_icon2' gp_id='CgkIoYzEkosJEAIQHA' icon_main='quest_College_icon1' medal='9252' reward='235007' id='9223'/>
+  <ItemSpec level='1' type='137039' show='1' dialog='137017' para1='50000000' series='8' icon_sub='quest_Attack_icon2' gp_id='CgkIoYzEkosJEAIQHQ' icon_main='quest_Farm_icon1' medal='9253' reward='235004' id='9224'/>
+  <ItemSpec level='2' type='137039' show='1' dialog='137017' para1='100000000' series='8' icon_sub='quest_Attack_icon2' gp_id='CgkIoYzEkosJEAIQHg' icon_main='quest_Farm_icon1' medal='9253' reward='235006' id='9225'/>
+  <ItemSpec level='3' type='137039' show='1' dialog='137017' para1='200000000' series='8' icon_sub='quest_Attack_icon2' gp_id='CgkIoYzEkosJEAIQHw' icon_main='quest_Farm_icon1' medal='9253' reward='235007' id='9226'/>
+  <ItemSpec level='4' type='137039' show='1' dialog='137017' para1='500000000' series='8' icon_sub='quest_Attack_icon2' gp_id='CgkIoYzEkosJEAIQIA' icon_main='quest_Farm_icon1' medal='9253' reward='235008' id='9227'/>
+  <ItemSpec level='5' type='137039' show='1' dialog='137017' para1='2000000000' series='8' icon_sub='quest_Attack_icon2' gp_id='CgkIoYzEkosJEAIQIQ' icon_main='quest_Farm_icon1' medal='9253' reward='235009' id='9228'/>
+  <ItemSpec level='1' type='137044' show='1' dialog='137020' para1='100000000' series='11' icon_sub='quest_Collect_icon2' gp_id='CgkIoYzEkosJEAIQIg' icon_main='quest_Farm_icon1' medal='9254' reward='235000' id='9229'/>
+  <ItemSpec level='2' type='137044' show='1' dialog='137020' para1='500000000' series='11' icon_sub='quest_Collect_icon2' gp_id='CgkIoYzEkosJEAIQIw' icon_main='quest_Farm_icon1' medal='9254' reward='235003' id='9230'/>
+  <ItemSpec level='3' type='137044' show='1' dialog='137020' para1='1000000000' series='11' icon_sub='quest_Collect_icon2' gp_id='CgkIoYzEkosJEAIQJA' icon_main='quest_Farm_icon1' medal='9254' reward='235006' id='9231'/>
+  <ItemSpec level='4' type='137044' show='1' dialog='137020' para1='4000000000' series='11' icon_sub='quest_Collect_icon2' icon_main='quest_Farm_icon1' medal='9254' reward='235014' id='9232'/>
+  <ItemSpec level='5' type='137044' show='1' dialog='137020' para1='9999000000' series='11' icon_sub='quest_Collect_icon2' icon_main='quest_Farm_icon1' medal='9254' reward='235006' id='9233'/>
+</Group>

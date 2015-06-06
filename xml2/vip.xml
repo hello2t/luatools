@@ -1,0 +1,12 @@
+<Group id='vip'>
+  <ItemSpec troop='0' iron='4' silver='4' point='0' defense='0' food='4' hurt='0' id='7000' monster='0' march='0' wood='4' body='0' effect='50;4|53;4|52;4|51;4' speedup='6' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='5' silver='5' point='500' defense='0' food='5' hurt='0' id='7001' monster='0' march='0' wood='5' body='10' effect='50;5|53;5|52;5|51;5|106;10' speedup='7' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='6' silver='6' point='1500' defense='0' food='6' hurt='0' id='7002' monster='5' march='0' wood='6' body='12' effect='50;6|53;6|52;6|51;6|106;12|59;5' speedup='9' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='7' silver='7' point='4000' defense='0' food='7' hurt='0' id='7003' monster='8' march='0' wood='7' body='14' effect='50;7|53;7|52;7|51;7|106;14|59;8' speedup='11' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='8' silver='8' point='10000' defense='0' food='8' hurt='0' id='7004' monster='11' march='5' wood='8' body='16' effect='50;8|53;8|52;8|51;8|106;16|59;11|60;5' speedup='13' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='9' silver='9' point='18000' defense='0' food='9' hurt='0' id='7005' monster='14' march='6' wood='9' body='18' effect='50;9|53;9|52;9|51;9|106;18|59;14|60;6' speedup='15' attack='0' health='0'/>
+  <ItemSpec troop='0' iron='10' silver='10' point='30000' defense='0' food='10' hurt='0' id='7006' monster='17' march='7' wood='10' body='20' effect='50;10|53;10|52;10|51;10|106;20|59;17|60;7' speedup='17' attack='0' health='0'/>
+  <ItemSpec troop='1' iron='12' silver='12' point='50000' defense='0' food='12' hurt='0' id='7007' monster='20' march='8' wood='12' body='22' effect='50;12|53;12|52;12|51;12|106;22|59;20|60;8|55;1' speedup='20' attack='0' health='0'/>
+  <ItemSpec troop='1' iron='14' silver='14' point='国库' defense='10' food='14' hurt='0' id='7008' monster='23' march='9' wood='14' body='24' effect='50;14|53;14|52;14|51;14|106;24|59;23|60;9|55;1|1030;10|1010;10' speedup='25' attack='10' health='0'/>
+  <ItemSpec troop='1' iron='16' silver='16' point='240000' defense='15' food='16' hurt='30' id='7009' monster='26' march='10' wood='16' body='26' effect='50;16|53;16|52;16|51;16|106;26|59;26|60;10|55;1|1050;15|1030;15|1010;15|57;30' speedup='30' attack='15' health='15'/>
+</Group>

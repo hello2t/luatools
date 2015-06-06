@@ -6,10 +6,12 @@ local string = string
 local print = print
 local table = table
 
--- local lfs = require("lfs")
+local lfs = require("lfs")
 local util ={}
 
+local lub = require("lub")
 
+ut
 --字符串拆分
 function string.split(input, delimiter)
     input = tostring(input)
@@ -33,6 +35,17 @@ end
 
 function util.run(cmd)
     
+end
+
+function util.language( path)
+    local keyvalue ={}
+    for line in io.lines(path) do 
+        local key,value = string.match(line,"(.-)=(.*)")
+        if key ~= nil then 
+            keyvalue[key] = value
+        end
+    end
+    return keyvalue
 end
 
 
@@ -130,6 +143,7 @@ end
 
 --保存文件
 function util.savefile( path,content,mode )
+    lub.makePath(path)
 	mode = mode or "w+b"
     local file = io.open(path, mode)
     if file then

@@ -1,0 +1,11 @@
+<Group id='battle'>
+  <ItemSpec lose='100' id='用户资料'/>
+  <ItemSpec lose='0' id='杀人数'/>
+  <ItemSpec lose='0' id='VIP'/>
+  <ItemSpec lose='0' id='联盟积分'/>
+  <ItemSpec lose='0' id='天赋：{0}'/>
+  <ItemSpec lose='0' id='送礼'/>
+  <ItemSpec lose='0' id='管理'/>
+  <ItemSpec lose='0' id='评论'/>
+  <ItemSpec lose='0' id='105008'/>
+</Group>

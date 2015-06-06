@@ -1,0 +1,35 @@
+<Group id='alliancescience'>
+  <ItemSpec floor='1' name='115700' description='115750' points='0' donate='3' icon='science_mil_a_11' destip='102200' max_lv='4' id='250000'/>
+  <ItemSpec floor='3' name='115701' description='115750' points='77' donate='4' icon='science_mil_a_11' destip='102200' max_lv='4' id='250100'/>
+  <ItemSpec floor='5' name='115702' description='115750' points='173' donate='5' icon='science_mil_a_11' destip='102200' max_lv='3' id='250200'/>
+  <ItemSpec floor='2' name='115703' description='115751' points='8' donate='5' icon='science_mil_a_2' destip='102205' max_lv='20' id='250300'/>
+  <ItemSpec floor='2' name='115704' description='115752' points='8' donate='5' icon='science_mil_a_3' destip='102205' max_lv='20' id='250400'/>
+  <ItemSpec floor='2' name='115705' description='115753' points='8' donate='5' icon='science_mil_a_4' destip='102205' max_lv='20' id='250500'/>
+  <ItemSpec floor='2' name='115706' description='115754' points='8' donate='5' icon='science_mil_a_5' destip='102205' max_lv='20' id='250600'/>
+  <ItemSpec floor='2' name='115707' description='115755' points='8' donate='5' icon='science_mil_a_7' destip='102205' max_lv='20' id='250700'/>
+  <ItemSpec floor='2' name='115708' description='115756' points='8' donate='5' icon='science_mil_a_8' destip='102205' max_lv='20' id='250800'/>
+  <ItemSpec floor='2' name='115709' description='115757' points='8' donate='5' icon='science_mil_a_9' destip='102205' max_lv='20' id='250900'/>
+  <ItemSpec floor='2' name='115710' description='115758' points='8' donate='5' icon='science_mil_a_10' destip='102205' max_lv='20' id='251000'/>
+  <ItemSpec floor='3' name='115711' description='115759' points='77' donate='4' icon='science_res_a_3' destip='102205' max_lv='20' id='251100'/>
+  <ItemSpec floor='3' name='115712' description='115760' points='77' donate='4' icon='science_res_a_2' destip='102205' max_lv='20' id='251200'/>
+  <ItemSpec floor='3' name='115713' description='115761' points='77' donate='4' icon='science_res_a_7' destip='102205' max_lv='20' id='251300'/>
+  <ItemSpec floor='3' name='115714' description='115762' points='77' donate='4' icon='science_res_a_9' destip='102205' max_lv='20' id='251400'/>
+  <ItemSpec floor='4' name='115715' description='115763' points='148' donate='4' icon='science_def_a_9' destip='102205' max_lv='10' id='251500'/>
+  <ItemSpec floor='1' name='115716' description='115764' points='0' donate='5' icon='science_dev_a_2' destip='102205' max_lv='10' id='251600'/>
+  <ItemSpec floor='3' name='115716' description='115764' points='77' donate='5' icon='science_dev_a_2' destip='102205' max_lv='10' id='251700'/>
+  <ItemSpec floor='2' name='115717' description='115765' points='8' donate='5' icon='650306' destip='102205' max_lv='10' id='251800'/>
+  <ItemSpec floor='4' name='115717' description='115765' points='148' donate='5' icon='650306' destip='102205' max_lv='10' id='251900'/>
+  <ItemSpec floor='3' name='115719' description='115767' points='77' donate='3' icon='652301' destip='102200' max_lv='10' id='252000'/>
+  <ItemSpec floor='3' name='115720' description='115768' points='77' donate='3' icon='652101' destip='102205' max_lv='10' id='252100'/>
+  <ItemSpec floor='5' name='115721' description='115769' points='173' donate='4' icon='604301' destip='102205' max_lv='10' id='252200'/>
+  <ItemSpec floor='5' name='115722' description='115770' points='173' donate='4' icon='604603' destip='102205' max_lv='10' id='252300'/>
+  <ItemSpec floor='3' name='115723' description='115771' points='77' donate='3' icon='650306' destip='102200' max_lv='20' id='252400'/>
+  <ItemSpec floor='4' name='115724' description='115772' points='148' donate='3' icon='650306' destip='102455' max_lv='1' id='252500'/>
+  <ItemSpec floor='4' name='115725' description='115773' points='148' donate='4' icon='650403' destip='102205' max_lv='10' id='252600'/>
+  <ItemSpec floor='4' name='115726' description='115774' points='148' donate='3' icon='650404' destip='102205' max_lv='1' id='252700'/>
+  <ItemSpec floor='4' name='115727' description='115775' points='148' donate='3' icon='650306' destip='102205' max_lv='1' id='252800'/>
+  <ItemSpec floor='5' name='115728' description='115776' points='173' donate='5' icon='604404' destip='102205' max_lv='10' id='252900'/>
+  <ItemSpec floor='1' name='115729' description='115777' points='0' donate='2' icon='603103' destip='102200' max_lv='5' id='253000'/>
+  <ItemSpec floor='2' name='115730' description='115778' points='8' donate='2' icon='604403' destip='102205' max_lv='10' id='253100'/>
+  <ItemSpec floor='1' name='115731' description='115779' points='0' donate='2' icon='604405' destip='102200' max_lv='20' id='253200'/>
+</Group>

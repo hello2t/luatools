@@ -1,0 +1,15 @@
+<Group id='tower'>
+  <ItemSpec description='108713' type='0' tower_icon='lightning' name='108700' id='5000'/>
+  <ItemSpec description='108714' type='1' tower_icon='tree' name='108701' id='5001'/>
+  <ItemSpec description='108715' type='2' tower_icon='barrack' name='108702' id='5002'/>
+  <ItemSpec description='108716' type='3' tower_icon='chest1' name='108703' id='5003'/>
+  <ItemSpec description='108717' type='3' tower_icon='chest2' name='108704' id='5004'/>
+  <ItemSpec description='108718' type='3' tower_icon='chest3' name='108705' id='5005'/>
+  <ItemSpec description='108719' type='3' tower_icon='chest4' name='108706' id='5006'/>
+  <ItemSpec description='108720' type='3' tower_icon='chest5' name='108707' id='5007'/>
+  <ItemSpec description='108721' type='3' tower_icon='chest6' name='108708' id='5008'/>
+  <ItemSpec description='108722' type='3' tower_icon='chest7' name='108709' id='5009'/>
+  <ItemSpec description='108723' type='3' tower_icon='chest8' name='108710' id='5010'/>
+  <ItemSpec description='108724' type='3' tower_icon='chest9' name='108711' id='5011'/>
+  <ItemSpec description='108725' type='3' tower_icon='chest10' name='108712' id='5012'/>
+</Group>

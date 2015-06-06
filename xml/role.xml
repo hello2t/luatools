@@ -1,0 +1,52 @@
+<Group id='role'>
+  <ItemSpec resource='0021' endowment='3' general_exp='20' id='100101' power='22'/>
+  <ItemSpec level_reward='230952' level_num='1|1|1|1|1|1' level_item='200590|200300|200330|200353|200004|200361' endowment='6' general_exp='70' id='100102' power='42'/>
+  <ItemSpec level_reward='230953' level_num='1|1|1|1|1|1' level_item='200300|200330|200353|200004|200564|200361' endowment='9' general_exp='130' id='100103' power='135'/>
+  <ItemSpec level_reward='230954' level_num='1|1|1|1|1|1' level_item='200300|200330|200020|200004|200564|200361' endowment='12' general_exp='200' id='100104' power='333'/>
+  <ItemSpec level_reward='230955' level_num='1|1|1|1|1|1' level_item='200300|200330|200353|200004|200564|200361' endowment='15' general_exp='300' id='100105' power='662'/>
+  <ItemSpec level_reward='230956' level_num='1|1|1|1|1|1' level_item='200300|200330|200353|200004|200564|200361' endowment='18' general_exp='440' id='100106' power='1140'/>
+  <ItemSpec level_reward='230957' level_num='1|1|1|1|1|1' level_item='200300|200330|200353|200004|200427|200361' endowment='21' general_exp='620' id='100107' power='1785'/>
+  <ItemSpec level_reward='230958' level_num='1|1|1|1|1|1' level_item='200300|200330|200353|200004|200418|200361' endowment='24' general_exp='840' id='100108' power='2614'/>
+  <ItemSpec level_reward='230959' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200565|200370|200362' endowment='27' general_exp='1080' id='100109' power='3642'/>
+  <ItemSpec level_reward='230960' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200565|200414|200362' endowment='31' general_exp='1350' id='100110' power='4882'/>
+  <ItemSpec level_reward='230961' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200565|200416|200362' endowment='35' general_exp='1600' id='100111' power='6346'/>
+  <ItemSpec level_reward='230962' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200565|200410|200362' endowment='39' general_exp='1900' id='100112' power='8048'/>
+  <ItemSpec level_reward='230963' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200350|200427|200362' endowment='43' general_exp='2200' id='100113' power='9998'/>
+  <ItemSpec level_reward='230964' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200310|200424|200362' endowment='47' general_exp='2510' id='100114' power='12208'/>
+  <ItemSpec level_reward='230965' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200310|200418|200362' endowment='51' general_exp='3150' id='100115' power='14689'/>
+  <ItemSpec level_reward='230966' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200310|200370|200362' endowment='55' general_exp='3680' id='100116' power='17450'/>
+  <ItemSpec level_reward='230967' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200310|200414|200362' endowment='59' general_exp='4560' id='100117' power='20502'/>
+  <ItemSpec level_reward='230968' level_num='1|1|1|1|1|1' level_item='200309|200339|200320|200310|200416|200362' endowment='63' general_exp='5280' id='100118' power='23853'/>
+  <ItemSpec level_reward='230969' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200410|200362' endowment='67' general_exp='6450' id='100119' power='27514'/>
+  <ItemSpec level_reward='230970' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200350|200362' endowment='72' general_exp='7390' id='100120' power='31493'/>
+  <ItemSpec level_reward='230971' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200350|200362' endowment='77' general_exp='10600' id='100121' power='35799'/>
+  <ItemSpec level_reward='230972' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200427|200362' endowment='82' general_exp='12100' id='100122' power='40440'/>
+  <ItemSpec level_reward='230973' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200424|200362' endowment='87' general_exp='14300' id='100123' power='45425'/>
+  <ItemSpec level_reward='230974' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200418|200362' endowment='92' general_exp='16100' id='100124' power='50761'/>
+  <ItemSpec level_reward='230975' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200370|200362' endowment='97' general_exp='19400' id='100125' power='56458'/>
+  <ItemSpec level_reward='230976' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200414|200362' endowment='102' general_exp='22400' id='100126' power='62522'/>
+  <ItemSpec level_reward='230977' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200416|200362' endowment='107' general_exp='26900' id='100127' power='68960'/>
+  <ItemSpec level_reward='230978' level_num='1|1|1|1|1|1' level_item='200309|200339|200329|200319|200410|200362' endowment='112' general_exp='31000' id='100128' power='75781'/>
+  <ItemSpec level_reward='230979' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='117' general_exp='37100' id='100129' power='82992'/>
+  <ItemSpec level_reward='230980' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='123' general_exp='41800' id='100130' power='90600'/>
+  <ItemSpec level_reward='230981' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200427|200363' endowment='129' general_exp='56600' id='100131' power='98612'/>
+  <ItemSpec level_reward='230982' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200424|200363' endowment='135' general_exp='65100' id='100132' power='107034'/>
+  <ItemSpec level_reward='230983' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200418|200363' endowment='141' general_exp='77300' id='100133' power='115874'/>
+  <ItemSpec level_reward='230984' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200370|200363' endowment='147' general_exp='88600' id='100134' power='125138'/>
+  <ItemSpec level_reward='230985' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200414|200363' endowment='153' general_exp='105000' id='100135' power='134833'/>
+  <ItemSpec level_reward='230986' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200416|200363' endowment='159' general_exp='119000' id='100136' power='144965'/>
+  <ItemSpec level_reward='230987' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200410|200363' endowment='165' general_exp='140000' id='100137' power='155542'/>
+  <ItemSpec level_reward='230988' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='171' general_exp='159000' id='100138' power='166568'/>
+  <ItemSpec level_reward='230989' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='177' general_exp='186000' id='100139' power='178050'/>
+  <ItemSpec level_reward='230990' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='184' general_exp='210000' id='100140' power='189994'/>
+  <ItemSpec level_reward='230991' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200427|200363' endowment='191' general_exp='268000' id='100141' power='202407'/>
+  <ItemSpec level_reward='230992' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200424|200363' endowment='198' general_exp='301000' id='100142' power='215295'/>
+  <ItemSpec level_reward='230993' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200418|200363' endowment='205' general_exp='346000' id='100143' power='228662'/>
+  <ItemSpec level_reward='230994' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200370|200363' endowment='212' general_exp='386000' id='100144' power='242516'/>
+  <ItemSpec level_reward='230995' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200414|200363' endowment='219' general_exp='440000' id='100145' power='256861'/>
+  <ItemSpec level_reward='230996' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200416|200363' endowment='226' general_exp='488000' id='100146' power='271704'/>
+  <ItemSpec level_reward='230997' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200410|200363' endowment='233' general_exp='553000' id='100147' power='287050'/>
+  <ItemSpec level_reward='230998' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='240' general_exp='610000' id='100148' power='302904'/>
+  <ItemSpec level_reward='230999' level_num='1|1|1|1|1|1' level_item='200301|200331|200321|200311|200350|200363' endowment='247' general_exp='687000' id='100149' power='319273'/>
+  <ItemSpec endowment='257' general_exp='754000' id='100150' power='336162'/>
+</Group>

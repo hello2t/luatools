@@ -1,0 +1,91 @@
+<Group id='arms'>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103550' id='107000' icon='ico107000' arm='1' name='103500' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103551' id='107001' icon='ico107001' arm='1' name='103501' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1070021;ico1070022;ico1070023' description='103552' id='107002' icon='ico107002' arm='2' name='103502' featuredescription='103425;103401|103433;103409|103441;103417'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103553' id='107003' icon='ico107003' arm='1' name='103503' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1070021;ico1070022;ico1070023' description='103554' id='107004' icon='ico107004' arm='2' name='103504' featuredescription='103425;103401|103433;103409|103441;103417'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103555' id='107005' icon='ico107005' arm='1' name='103505' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103556' id='107006' icon='ico107006' arm='1' name='103506' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1070021;ico1070022;ico1070023' description='103557' id='107007' icon='ico107007' arm='2' name='103507' featuredescription='103425;103401|103433;103409|103441;103417'/>
+  <ItemSpec featureicon='ico1070021;ico1070022;ico1070023' description='103558' id='107008' icon='ico107008' arm='2' name='103508' featuredescription='103425;103401|103433;103409|103441;103417'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' description='103559' id='107009' icon='ico107009' arm='1' name='103509' featuredescription='103424;103400|103432;103408|103440;103416'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103560' id='107100' icon='ico107100' arm='3' name='103510' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103561' id='107101' icon='ico107101' arm='3' name='103511' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103562' id='107102' icon='ico107102' arm='3' name='103512' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1071031;ico1071032;ico1071033' description='103563' id='107103' icon='ico107103' arm='4' name='103513' featuredescription='103427;103403|103435;103411|103443;103419'/>
+  <ItemSpec featureicon='ico1071031;ico1071032;ico1071033' description='103564' id='107104' icon='ico107104' arm='4' name='103514' featuredescription='103427;103403|103435;103411|103443;103419'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103565' id='107105' icon='ico107105' arm='3' name='103515' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1071031;ico1071032;ico1071033' description='103566' id='107106' icon='ico107106' arm='4' name='103516' featuredescription='103427;103403|103435;103411|103443;103419'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103567' id='107107' icon='ico107107' arm='3' name='103517' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1071031;ico1071032;ico1071033' description='103568' id='107108' icon='ico107108' arm='4' name='103518' featuredescription='103427;103403|103435;103411|103443;103419'/>
+  <ItemSpec featureicon='ico1071001;ico1071002;ico1071003' description='103569' id='107109' icon='ico107109' arm='3' name='103519' featuredescription='103426;103402|103434;103410|103442;103418'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103570' id='107200' icon='ico107200' arm='5' name='103520' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103571' id='107201' icon='ico107201' arm='5' name='103521' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' description='103572' id='107202' icon='ico107202' arm='6' name='103522' featuredescription='103429;103405|103437;103413|103445;103421'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' description='103573' id='107203' icon='ico107203' arm='6' name='103523' featuredescription='103429;103405|103437;103413|103445;103421'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103574' id='107204' icon='ico107204' arm='5' name='103524' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103575' id='107205' icon='ico107205' arm='5' name='103525' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' description='103576' id='107206' icon='ico107206' arm='6' name='103526' featuredescription='103429;103405|103437;103413|103445;103421'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103577' id='107207' icon='ico107207' arm='5' name='103527' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' description='103578' id='107208' icon='ico107208' arm='6' name='103528' featuredescription='103429;103405|103437;103413|103445;103421'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' description='103579' id='107209' icon='ico107209' arm='5' name='103529' featuredescription='103428;103404|103436;103412|103444;103420'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103580' id='107300' icon='ico107300' arm='7' name='103530' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' description='103581' id='107301' icon='ico107301' arm='8' name='103531' featuredescription='103430;103406|103438;103414|103446;103422'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103582' id='107302' icon='ico107302' arm='7' name='103532' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' description='103583' id='107303' icon='ico107303' arm='8' name='103533' featuredescription='103430;103406|103438;103414|103446;103422'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103584' id='107304' icon='ico107304' arm='7' name='103534' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' description='103585' id='107305' icon='ico107305' arm='8' name='103535' featuredescription='103430;103406|103438;103414|103446;103422'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103586' id='107306' icon='ico107306' arm='7' name='103536' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103587' id='107307' icon='ico107307' arm='7' name='103537' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' description='103588' id='107308' icon='ico107308' arm='8' name='103538' featuredescription='103430;103406|103438;103414|103446;103422'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' description='103589' id='107309' icon='ico107309' arm='7' name='103539' featuredescription='103431;103407|103439;103415|103447;103423'/>
+  <ItemSpec arm='1' id='107700'/>
+  <ItemSpec arm='1' id='107701'/>
+  <ItemSpec arm='1' id='107702'/>
+  <ItemSpec arm='1' id='107703'/>
+  <ItemSpec arm='100' name='103532' id='107800'/>
+  <ItemSpec arm='100' name='103532' id='107801'/>
+  <ItemSpec arm='100' name='103532' id='107802'/>
+  <ItemSpec arm='100' name='103532' id='107803'/>
+  <ItemSpec arm='100' name='103532' id='107804'/>
+  <ItemSpec arm='100' name='103532' id='107805'/>
+  <ItemSpec arm='100' name='103532' id='107806'/>
+  <ItemSpec arm='100' name='103532' id='107807'/>
+  <ItemSpec arm='100' name='103532' id='107808'/>
+  <ItemSpec arm='100' name='103532' id='107809'/>
+  <ItemSpec arm='100' name='103532' id='107810'/>
+  <ItemSpec arm='100' name='103532' id='107811'/>
+  <ItemSpec arm='100' name='103532' id='107812'/>
+  <ItemSpec arm='100' name='103532' id='107813'/>
+  <ItemSpec arm='100' name='103532' id='107814'/>
+  <ItemSpec arm='100' name='103532' id='107815'/>
+  <ItemSpec arm='100' name='103532' id='107816'/>
+  <ItemSpec arm='100' name='103532' id='107817'/>
+  <ItemSpec arm='100' name='103532' id='107818'/>
+  <ItemSpec arm='100' name='103532' id='107819'/>
+  <ItemSpec arm='100' name='103532' id='107820'/>
+  <ItemSpec arm='100' name='103532' id='107821'/>
+  <ItemSpec arm='100' name='103532' id='107822'/>
+  <ItemSpec arm='100' name='103532' id='107823'/>
+  <ItemSpec arm='100' name='103532' id='107824'/>
+  <ItemSpec arm='100' name='103532' id='107825'/>
+  <ItemSpec arm='100' name='103532' id='107826'/>
+  <ItemSpec arm='100' name='103532' id='107827'/>
+  <ItemSpec arm='100' name='103532' id='107828'/>
+  <ItemSpec arm='100' name='103532' id='107829'/>
+  <ItemSpec description='103635' icon='ico107910' arm='101' name='103620' id='107900'/>
+  <ItemSpec description='103635' icon='ico107911' arm='101' name='103621' id='107901'/>
+  <ItemSpec description='103635' icon='ico107912' arm='101' name='103622' id='107902'/>
+  <ItemSpec description='103635' icon='ico107913' arm='101' name='103623' id='107903'/>
+  <ItemSpec description='103635' icon='ico107914' arm='101' name='103624' id='107904'/>
+  <ItemSpec description='103637' icon='ico107920' arm='101' name='103625' id='107920'/>
+  <ItemSpec description='103637' icon='ico107921' arm='101' name='103626' id='107921'/>
+  <ItemSpec description='103637' icon='ico107922' arm='101' name='103627' id='107922'/>
+  <ItemSpec description='103637' icon='ico107923' arm='101' name='103628' id='107923'/>
+  <ItemSpec description='103637' icon='ico107924' arm='101' name='103629' id='107924'/>
+  <ItemSpec description='103636' icon='ico107900' arm='101' name='103630' id='107910'/>
+  <ItemSpec description='103636' icon='ico107901' arm='101' name='103631' id='107911'/>
+  <ItemSpec description='103636' icon='ico107902' arm='101' name='103632' id='107912'/>
+  <ItemSpec description='103636' icon='ico107903' arm='101' name='103633' id='107913'/>
+  <ItemSpec description='103636' icon='ico107904' arm='101' name='103634' id='107914'/>
+</Group>

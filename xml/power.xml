@@ -1,0 +1,8 @@
+<Group id='power'>
+  <ItemSpec checkpoint_id='110000|110001|110002|110003|110004' npc_lock='120403' background='power1' id='100000' name='100900' next_id='100001'/>
+  <ItemSpec checkpoint_id='110100|110101|110102|110103|110104|110105|110106|110107|110120' npc_lock='121206' background='power2' id='100001' name='100901' next_id='100002'/>
+  <ItemSpec checkpoint_id='110200|110201|110202|110203|110204|110205|110206|110207|110220' npc_lock='122006' background='power3' id='100002' name='100902' next_id='100003'/>
+  <ItemSpec checkpoint_id='110300|110301|110302|110303|110304|110305|110306|110307|110320' npc_lock='122809' background='power4' id='100003' name='100903' next_id='100004'/>
+  <ItemSpec checkpoint_id='110400|110401|110402|110403|110404|110405|110406|110407|110420' npc_lock='123609' background='power5' id='100004' name='100904' next_id='100005'/>
+  <ItemSpec checkpoint_id='110500|110501|110502|110503|110504|110520' npc_lock='124109' background='power6' id='100005' name='100905' next_id='100006'/>
+</Group>

@@ -1,0 +1,10 @@
+<Group id='recruit'>
+  <ItemSpec cost='0' id='41000'/>
+  <ItemSpec cost='50' id='41001'/>
+  <ItemSpec cost='0' id='41002'/>
+  <ItemSpec cost='100' id='41003'/>
+  <ItemSpec cost='200' id='41004'/>
+  <ItemSpec cost='400' id='41005'/>
+  <ItemSpec cost='800' id='41006'/>
+  <ItemSpec cost='1600' id='41007'/>
+</Group>

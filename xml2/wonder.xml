@@ -1,0 +1,33 @@
+<Group id='wonder'>
+  <ItemSpec position='250;250' wonder_icon='big' id='4000' description='108831' long='3' name='108800'/>
+  <ItemSpec position='10;74' wonder_icon='middle1' id='4001' description='108832' long='1' name='108801'/>
+  <ItemSpec position='46;75' wonder_icon='middle2' id='4002' description='108833' long='1' name='108802'/>
+  <ItemSpec position='85;78' wonder_icon='middle3' id='4003' description='108834' long='1' name='108803'/>
+  <ItemSpec position='84;117' wonder_icon='middle4' id='4004' description='108835' long='1' name='108804'/>
+  <ItemSpec position='85;156' wonder_icon='middle5' id='4005' description='108836' long='1' name='108805'/>
+  <ItemSpec position='84;195' wonder_icon='middle6' id='4006' description='108837' long='1' name='108806'/>
+  <ItemSpec position='84;234' wonder_icon='middle7' id='4007' description='108838' long='1' name='108807'/>
+  <ItemSpec position='123;235' wonder_icon='middle8' id='4008' description='108839' long='1' name='108808'/>
+  <ItemSpec position='162;234' wonder_icon='middle9' id='4009' description='108840' long='1' name='108809'/>
+  <ItemSpec position='201;235' wonder_icon='middle10' id='4010' description='108841' long='1' name='108810'/>
+  <ItemSpec position='387;490' wonder_icon='middle11' id='4011' description='108842' long='1' name='108811'/>
+  <ItemSpec position='388;452' wonder_icon='middle12' id='4012' description='108843' long='1' name='108812'/>
+  <ItemSpec position='393;415' wonder_icon='middle13' id='4013' description='108844' long='1' name='108813'/>
+  <ItemSpec position='358;414' wonder_icon='middle14' id='4014' description='108845' long='1' name='108814'/>
+  <ItemSpec position='321;415' wonder_icon='middle15' id='4015' description='108846' long='1' name='108815'/>
+  <ItemSpec position='284;414' wonder_icon='middle16' id='4016' description='108847' long='1' name='108816'/>
+  <ItemSpec position='247;408' wonder_icon='middle17' id='4017' description='108848' long='1' name='108817'/>
+  <ItemSpec position='248;371' wonder_icon='middle18' id='4018' description='108849' long='1' name='108818'/>
+  <ItemSpec position='247;334' wonder_icon='middle19' id='4019' description='108850' long='1' name='108819'/>
+  <ItemSpec position='248;297' wonder_icon='middle20' id='4020' description='108851' long='1' name='108820'/>
+  <ItemSpec position='490;78' wonder_icon='middle21' id='4021' description='108852' long='1' name='108821'/>
+  <ItemSpec position='454;79' wonder_icon='middle22' id='4022' description='108853' long='1' name='108822'/>
+  <ItemSpec position='418;78' wonder_icon='middle23' id='4023' description='108854' long='1' name='108823'/>
+  <ItemSpec position='385;79' wonder_icon='middle24' id='4024' description='108855' long='1' name='108824'/>
+  <ItemSpec position='353;78' wonder_icon='middle25' id='4025' description='108856' long='1' name='108825'/>
+  <ItemSpec position='330;94' wonder_icon='middle26' id='4026' description='108857' long='1' name='108826'/>
+  <ItemSpec position='330;135' wonder_icon='middle27' id='4027' description='108858' long='1' name='108827'/>
+  <ItemSpec position='329;176' wonder_icon='middle28' id='4028' description='108859' long='1' name='108828'/>
+  <ItemSpec position='330;217' wonder_icon='middle29' id='4029' description='108860' long='1' name='108829'/>
+  <ItemSpec position='301;239' wonder_icon='middle30' id='4030' description='108861' long='1' name='108830'/>
+</Group>

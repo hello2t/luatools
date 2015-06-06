@@ -1,0 +1,17 @@
+<Group id='skill'>
+  <ItemSpec name='103000' id='101000'/>
+  <ItemSpec name='103000' id='101001'/>
+  <ItemSpec name='103000' id='101002'/>
+  <ItemSpec name='103000' id='101003'/>
+  <ItemSpec name='103000' id='101004'/>
+  <ItemSpec name='103000' id='101005'/>
+  <ItemSpec name='103000' id='101006'/>
+  <ItemSpec description='117000' effectArt='1000' name='116000' id='101007'/>
+  <ItemSpec description='117001' effectArt='1000' name='116001' id='101008'/>
+  <ItemSpec description='117002' effectArt='1000' name='116002' id='101009'/>
+  <ItemSpec description='117003' effectArt='1000' name='116003' id='101010'/>
+  <ItemSpec name='103000' id='104000'/>
+  <ItemSpec name='103000' id='104001'/>
+  <ItemSpec name='103000' id='104002'/>
+  <ItemSpec name='103000' id='104003'/>
+</Group>

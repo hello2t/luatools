@@ -1,0 +1,91 @@
+<Group id='arms'>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='最基本的步兵单位，这些部队没有受过有效训练，但他们数量庞大！' id='107000' icon='ico107000' name='民兵' arm='1'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='常备步兵单位，装备优良的盾牌，在部队最前方承担防御任务，高防御且能克制弓兵和弩兵单位！' id='Facebook登陆' icon='icoFacebook登陆' name='步兵' arm='1'/>
+  <ItemSpec featureicon='ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励1;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励2;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励3' featuredescription='长矛;增加对于骑兵的伤害|猛攻;大幅度地提升枪兵的攻击|致命一击;有一定概率造成3倍伤害' description='常备枪兵单位，装备锋利的长矛，高暴击且能克制骑兵单位！' id='绑定facebook账号即可领取奖励，每日还可以获得金币奖励' icon='ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励' name='矛手' arm='2'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='步兵单位，经受过严格的训练，优秀的体质和装备使得剑士可以有效的杀伤弓兵和弩兵单位！' id='你已经领取过绑定奖励，使用facebook账号登陆后可以继续使用这个功能' icon='ico你已经领取过绑定奖励，使用facebook账号登陆后可以继续使用这个功能' name='剑士' arm='1'/>
+  <ItemSpec featureicon='ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励1;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励2;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励3' featuredescription='长矛;增加对于骑兵的伤害|猛攻;大幅度地提升枪兵的攻击|致命一击;有一定概率造成3倍伤害' description='枪兵单位，手持长枪，高暴击几率，可以有效的抵御骑兵单位！' id='107004' icon='ico107004' name='枪兵' arm='2'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='精锐步兵单位，他们因在战场上表现优异而被帝国授予贵族身份，防御力高且能有效克制弓兵和弩兵单位！' id='等级{0}' icon='ico等级{0}' name='贵族剑士' arm='1'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='精锐步兵单位，您的直系卫队，高防御且能克制弓兵和弩兵单位，在所有部队前方担任防御任务！' id='经验值：{0}/{1}' icon='ico经验值：{0}/{1}' name='近卫军' arm='1'/>
+  <ItemSpec featureicon='ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励1;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励2;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励3' featuredescription='长矛;增加对于骑兵的伤害|猛攻;大幅度地提升枪兵的攻击|致命一击;有一定概率造成3倍伤害' description='精锐枪兵单位，身披重甲手持长枪，在战场上是骑兵的噩梦！' id='107007' icon='ico107007' name='重装长枪兵' arm='2'/>
+  <ItemSpec featureicon='ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励1;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励2;ico绑定facebook账号即可领取奖励，每日还可以获得金币奖励3' featuredescription='长矛;增加对于骑兵的伤害|猛攻;大幅度地提升枪兵的攻击|致命一击;有一定概率造成3倍伤害' description='传说级枪兵单位，手持重戟，强大的爆发能力使得他们所向披靡，能有效克制骑兵单位！' id='107008' icon='ico107008' name='戟兵' arm='2'/>
+  <ItemSpec featureicon='ico1070001;ico1070002;ico1070003' featuredescription='盾牌;减少来自于弓兵和弩兵的伤害|铁甲;极大地提高防御|体魄;极大地提高生命' description='传说级步兵单位，没有人知道他们是如何训练而成，只知道他们所过之处血流成河，冲锋在所有部队的最前面！' id='107009' icon='ico107009' name='狂战士' arm='1'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='最基本的骑兵单位，尽管没有受过有效训练，但仍移动迅速且能向敌人后排单位发动冲锋！' id='您已选择了全部好友' icon='ico您已选择了全部好友' name='骑手' arm='3'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='常备骑兵单位，行动迅速且能有效打击敌人后排单位！' id='您的朋友可以帮您打开宝箱，帮的人越多，奖励越多。' icon='ico您的朋友可以帮您打开宝箱，帮的人越多，奖励越多。' name='轻骑兵' arm='3'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='常备骑兵单位，装备重甲，其迅猛的冲锋一直是敌人后排单位的噩梦！' id='全选' icon='ico全选' name='重骑兵' arm='3'/>
+  <ItemSpec featureicon='ico全部取消1;ico全部取消2;ico全部取消3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|资源战;在资源战斗时有攻击加成' description='弓骑兵单位，一种特殊远程单位，行动迅速且能攻击敌人后排，在资源战中有加成！' id='全部取消' icon='ico全部取消' name='弓骑兵' arm='4'/>
+  <ItemSpec featureicon='ico全部取消1;ico全部取消2;ico全部取消3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|资源战;在资源战斗时有攻击加成' description='弓骑兵单位，一种特殊远程单位，受过良好的训练，移动迅速且能攻击敌人后排，在资源战中有加成！' id='没有满足条件的好友邀请' icon='ico没有满足条件的好友邀请' name='骑射手' arm='4'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='精锐骑兵单位，坚定的信仰支撑他们勇猛战斗，移动迅速且能对敌人后排发动冲锋！' id='107105' icon='ico107105' name='圣殿骑士' arm='3'/>
+  <ItemSpec featureicon='ico全部取消1;ico全部取消2;ico全部取消3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|资源战;在资源战斗时有攻击加成' description='精锐弓骑兵单位，一种特殊远程单位，行动迅速且能攻击敌人后排，在资源战中有加成！' id='107106' icon='ico107106' name='重装骑射手' arm='4'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='精锐骑兵单位，忠诚的守护着帝国，却是敌人挥之不去的噩梦！' id='107107' icon='ico107107' name='皇家骑士' arm='3'/>
+  <ItemSpec featureicon='ico全部取消1;ico全部取消2;ico全部取消3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|资源战;在资源战斗时有攻击加成' description='传说级弓骑兵单位，行动迅速且能攻击敌人后排，在资源战中有加成！' id='107108' icon='ico107108' name='突骑射手' arm='4'/>
+  <ItemSpec featureicon='ico您已选择了全部好友1;ico您已选择了全部好友2;ico您已选择了全部好友3' featuredescription='冲锋;有一定概率攻击敌方远程部队|奔袭;极大地提高行军速度|闪避;有一定概率闪避伤害' description='神圣骑士，传说级骑兵单位，拥有坚定的信仰和高超的战斗力！' id='107109' icon='ico107109' name='神圣骑士' arm='3'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='最基本的弓兵单位，可以克制枪兵单位！' id='107200' icon='ico107200' name='短弓手' arm='5'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='常备弓兵单位，装备长弓，攻击频率高且克制枪兵单位！' id='107201' icon='ico107201' name='长弓手' arm='5'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' featuredescription='强击;大幅度地提升弩兵的攻击|瞄准;较大地提高射程|守城;在守城时有攻击加成' description='常备弩兵单位，非常实用的守城单位，高攻击且高暴击！' id='107202' icon='ico107202' name='弩手' arm='6'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' featuredescription='强击;大幅度地提升弩兵的攻击|瞄准;较大地提高射程|守城;在守城时有攻击加成' description='弩兵单位，装备改良过的劲弩，高攻击且高暴击！' id='107203' icon='ico107203' name='劲弩手' arm='6'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='弓兵单位，攻击频率高且能有效克制枪兵单位！' id='107204' icon='ico107204' name='精锐长弓手' arm='5'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='弓兵单位，您的直系卫队，攻击频率高且能有效克制枪兵单位！' id='107205' icon='ico107205' name='护卫射手' arm='5'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' featuredescription='强击;大幅度地提升弩兵的攻击|瞄准;较大地提高射程|守城;在守城时有攻击加成' description='精锐弩兵单位，装备重弩，高攻击且高暴击！' id='107206' icon='ico107206' name='重弩手' arm='6'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='精锐弓兵单位，攻击频率高且能有效克制枪兵单位！' id='107207' icon='ico107207' name='雄鹰射手' arm='5'/>
+  <ItemSpec featureicon='ico1072021;ico1072022;ico1072023' featuredescription='强击;大幅度地提升弩兵的攻击|瞄准;较大地提高射程|守城;在守城时有攻击加成' description='传说级弩兵单位，装备巨弩，攻击高但攻击速度略低于弓兵单位！' id='107208' icon='ico107208' name='巨弩手' arm='6'/>
+  <ItemSpec featureicon='ico1072001;ico1072002' featuredescription='连击;攻击速度提高一倍|穿刺;对步兵以外的兵种有攻击加成|暂空;暂空' description='传说级弓兵单位，他们箭无虚发，是所有枪兵单位的噩梦！' id='107209' icon='ico107209' name='神射手' arm='5'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='最简单的投石器械，尽管射速不高，但超过其他单位的射程使得其可以有效杀伤敌人！' id='107300' icon='ico107300' name='投石器' arm='7'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' featuredescription='装甲;拥有较高的防御值和生命值|负载;极大地负重最高，但是减慢了行军速度|攻城防御;在攻城时有防御加成' description='常备攻城器械，构造简单却实用的攻城武器，可以无视陷阱伤害但是行军缓慢！' id='107301' icon='ico107301' name='冲车' arm='8'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='常备的投石器械，经久耐用，射速不高，射程很远！' id='107302' icon='ico107302' name='投石车' arm='7'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' featuredescription='装甲;拥有较高的防御值和生命值|负载;极大地负重最高，但是减慢了行军速度|攻城防御;在攻城时有防御加成' description='攻城器械，非常实用的攻城武器，可以无视陷阱伤害但是行军缓慢！' id='107303' icon='ico107303' name='攻城锤' arm='8'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='投石器械，射速不高，稳定且射程很远！' id='107304' icon='ico107304' name='重型投石车' arm='7'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' featuredescription='装甲;拥有较高的防御值和生命值|负载;极大地负重最高，但是减慢了行军速度|攻城防御;在攻城时有防御加成' description='精密攻城器械，非常实用的攻城武器，可以无视陷阱伤害但是行军缓慢！' id='107305' icon='ico107305' name='攻城车' arm='8'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='精密投石器械，射速不高，稳定且射程很远，可以无视陷阱伤害但是行军缓慢！' id='107306' icon='ico107306' name='抛石机' arm='7'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='精密器械，射速不高，稳定且射程很远！' id='107307' icon='ico107307' name='弩炮' arm='7'/>
+  <ItemSpec featureicon='ico1073011;ico1073012;ico1073013' featuredescription='装甲;拥有较高的防御值和生命值|负载;极大地负重最高，但是减慢了行军速度|攻城防御;在攻城时有防御加成' description='传说级攻城器械，是世界上最为强大的攻城武器，可以无视陷阱伤害但是行军缓慢！' id='107308' icon='ico107308' name='攻城塔' arm='8'/>
+  <ItemSpec featureicon='ico1073001;ico1073002;ico1073003' featuredescription='重击;极大地提升攻击力，但是攻击速度会减半|蓄力;很大地提高射程|攻城攻击;在攻城时有攻击加成' description='传说级器械，射速不高，稳定且火力强大，绝对是敌人的噩梦！' id='107309' icon='ico107309' name='火炮' arm='7'/>
+  <ItemSpec arm='1' id='107700'/>
+  <ItemSpec arm='1' id='107701'/>
+  <ItemSpec arm='1' id='107702'/>
+  <ItemSpec arm='1' id='107703'/>
+  <ItemSpec name='投石车' arm='100' id='107800'/>
+  <ItemSpec name='投石车' arm='100' id='107801'/>
+  <ItemSpec name='投石车' arm='100' id='107802'/>
+  <ItemSpec name='投石车' arm='100' id='107803'/>
+  <ItemSpec name='投石车' arm='100' id='107804'/>
+  <ItemSpec name='投石车' arm='100' id='107805'/>
+  <ItemSpec name='投石车' arm='100' id='107806'/>
+  <ItemSpec name='投石车' arm='100' id='107807'/>
+  <ItemSpec name='投石车' arm='100' id='107808'/>
+  <ItemSpec name='投石车' arm='100' id='107809'/>
+  <ItemSpec name='投石车' arm='100' id='107810'/>
+  <ItemSpec name='投石车' arm='100' id='107811'/>
+  <ItemSpec name='投石车' arm='100' id='107812'/>
+  <ItemSpec name='投石车' arm='100' id='107813'/>
+  <ItemSpec name='投石车' arm='100' id='107814'/>
+  <ItemSpec name='投石车' arm='100' id='107815'/>
+  <ItemSpec name='投石车' arm='100' id='107816'/>
+  <ItemSpec name='投石车' arm='100' id='107817'/>
+  <ItemSpec name='投石车' arm='100' id='107818'/>
+  <ItemSpec name='投石车' arm='100' id='107819'/>
+  <ItemSpec name='投石车' arm='100' id='107820'/>
+  <ItemSpec name='投石车' arm='100' id='107821'/>
+  <ItemSpec name='投石车' arm='100' id='107822'/>
+  <ItemSpec name='投石车' arm='100' id='107823'/>
+  <ItemSpec name='投石车' arm='100' id='107824'/>
+  <ItemSpec name='投石车' arm='100' id='107825'/>
+  <ItemSpec name='投石车' arm='100' id='107826'/>
+  <ItemSpec name='投石车' arm='100' id='107827'/>
+  <ItemSpec name='投石车' arm='100' id='107828'/>
+  <ItemSpec name='投石车' arm='100' id='107829'/>
+  <ItemSpec description='落石，守城利器，可以克制步兵和枪兵单位！' id='107900' icon='ico107910' name='1级落石' arm='101'/>
+  <ItemSpec description='落石，守城利器，可以克制步兵和枪兵单位！' id='107901' icon='ico107911' name='2级落石' arm='101'/>
+  <ItemSpec description='落石，守城利器，可以克制步兵和枪兵单位！' id='107902' icon='ico107912' name='3级落石' arm='101'/>
+  <ItemSpec description='落石，守城利器，可以克制步兵和枪兵单位！' id='107903' icon='ico107913' name='4级落石' arm='101'/>
+  <ItemSpec description='落石，守城利器，可以克制步兵和枪兵单位！' id='107904' icon='ico107914' name='5级落石' arm='101'/>
+  <ItemSpec description='滚木，守城利器，可以克制弓兵和弩兵单位！' id='107920' icon='ico107920' name='1级滚木' arm='101'/>
+  <ItemSpec description='滚木，守城利器，可以克制弓兵和弩兵单位！' id='107921' icon='ico107921' name='2级滚木' arm='101'/>
+  <ItemSpec description='滚木，守城利器，可以克制弓兵和弩兵单位！' id='107922' icon='ico107922' name='3级滚木' arm='101'/>
+  <ItemSpec description='滚木，守城利器，可以克制弓兵和弩兵单位！' id='107923' icon='ico107923' name='4级滚木' arm='101'/>
+  <ItemSpec description='滚木，守城利器，可以克制弓兵和弩兵单位！' id='107924' icon='ico107924' name='5级滚木' arm='101'/>
+  <ItemSpec description='火箭，守城利器，可以克制骑兵和弓骑兵单位！' id='107910' icon='ico107900' name='1级火箭' arm='101'/>
+  <ItemSpec description='火箭，守城利器，可以克制骑兵和弓骑兵单位！' id='107911' icon='ico107901' name='2级火箭' arm='101'/>
+  <ItemSpec description='火箭，守城利器，可以克制骑兵和弓骑兵单位！' id='107912' icon='ico107902' name='3级火箭' arm='101'/>
+  <ItemSpec description='火箭，守城利器，可以克制骑兵和弓骑兵单位！' id='107913' icon='ico107903' name='4级火箭' arm='101'/>
+  <ItemSpec description='火箭，守城利器，可以克制骑兵和弓骑兵单位！' id='107914' icon='ico107904' name='5级火箭' arm='101'/>
+</Group>

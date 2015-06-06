@@ -1,0 +1,71 @@
+<Group id='sk'>
+  <ItemSpec type='0' id='600000' add='200' type_value='0' base='200' para1='78' description='提高出征部队的负重上限' icon='skill2_600000' max_lv='5' name='部队负重'/>
+  <ItemSpec type='0' id='600100' add='100' type_value='0' base='100' para1='1031|1032' description='提高所有步兵的防御' condition_skill='600000;5' icon='skill2_600100' max_lv='5' name='步兵防御I'/>
+  <ItemSpec type='0' id='600200' add='100' type_value='0' base='100' para1='1041|1042' description='提高所有步兵的生命' condition_skill='600000;5' icon='skill2_600200' max_lv='5' name='步兵生命I'/>
+  <ItemSpec type='0' id='600300' add='100' type_value='0' base='100' para1='1011|1012' description='提高所有步兵的攻击' condition_skill='600100;5|600200;5' icon='skill2_600300' max_lv='5' name='步兵攻击I'/>
+  <ItemSpec type='0' id='600400' add='100' type_value='0' base='100' para1='1013|1014' description='提高所有骑兵的攻击' condition_skill='600300;5' icon='skill2_600400' max_lv='5' name='骑兵攻击I'/>
+  <ItemSpec type='0' id='600500' add='100' type_value='0' base='100' para1='1015|1016' description='提高所有弓兵的攻击' condition_skill='600300;5' icon='skill2_600500' max_lv='5' name='弓兵攻击I'/>
+  <ItemSpec type='0' id='600600' add='100' type_value='0' base='100' para1='1017|1018' description='提高所有车兵的攻击' condition_skill='600300;5' icon='skill2_600600' max_lv='5' name='车兵攻击I'/>
+  <ItemSpec type='0' id='600700' add='100' type_value='0' base='100' para1='1033|1034' description='提高所有骑兵的防御' condition_skill='600400;5' icon='skill2_600700' max_lv='5' name='骑兵防御I '/>
+  <ItemSpec type='0' id='600800' add='100' type_value='0' base='100' para1='1035|1036' description='提高所有弓兵的防御' condition_skill='600500;5' icon='skill2_600800' max_lv='5' name='弓兵防御I'/>
+  <ItemSpec type='0' id='600900' add='100' type_value='0' base='100' para1='1037|1038' description='提高所有车兵的防御' condition_skill='600600;5' icon='skill2_600900' max_lv='5' name='车兵防御I'/>
+  <ItemSpec type='10' id='601000' para1='0' description='主动技能，使所有外出的部队立即返回您的城市。不包括参与组队战斗中的部队。' condition_skill='600700;5|600800;5|600900;5' icon='skill2_601000' max_lv='1' name='立即返回'/>
+  <ItemSpec type='0' id='601100' add='100' type_value='0' base='100' para1='1031|1032' description='提高所有步兵的防御' condition_skill='601000;1' icon='skill2_601100' max_lv='20' name='步兵防御II'/>
+  <ItemSpec type='0' id='601200' add='100' type_value='0' base='100' para1='1041|1042' description='提高所有步兵的生命' condition_skill='601000;1' icon='skill2_601200' max_lv='20' name='步兵生命II'/>
+  <ItemSpec type='0' id='601300' add='100' type_value='0' base='100' para1='1011|1012' description='提高所有步兵的攻击' condition_skill='601100;20|601200;20' icon='skill2_601300' max_lv='20' name='步兵攻击II'/>
+  <ItemSpec type='0' id='601400' add='100' type_value='0' base='100' para1='1013|1014' description='提高所有骑兵的攻击' condition_skill='601300;20' icon='skill2_601400' max_lv='20' name='骑兵攻击II'/>
+  <ItemSpec type='0' id='601500' add='100' type_value='0' base='100' para1='1015|1016' description='提高所有弓兵的攻击' condition_skill='601300;20' icon='skill2_601500' max_lv='20' name='弓兵攻击II'/>
+  <ItemSpec type='0' id='601600' add='100' type_value='0' base='100' para1='1017|1018' description='提高所有车兵的攻击' condition_skill='601300;20' icon='skill2_601600' max_lv='20' name='车兵攻击II'/>
+  <ItemSpec type='0' id='601700' add='100' type_value='0' base='100' para1='1033|1034' description='提高所有骑兵的防御' condition_skill='601400;20' icon='skill2_601700' max_lv='20' name='骑兵防御II '/>
+  <ItemSpec type='0' id='601800' add='100' type_value='0' base='100' para1='1035|1036' description='提高所有弓兵的防御' condition_skill='601500;20' icon='skill2_601800' max_lv='20' name='弓兵防御II'/>
+  <ItemSpec type='0' id='601900' add='100' type_value='0' base='100' para1='1037|1038' description='提高所有车兵的防御' condition_skill='601600;20' icon='skill2_601900' max_lv='20' name='车兵防御II'/>
+  <ItemSpec type='0' id='602000' add='100' type_value='0' base='100' para1='1071|1072' description='减少步兵受到的伤害' condition_skill='601700;20|601800;20|601900;20' icon='skill2_602000' max_lv='20' name='坚盾'/>
+  <ItemSpec type='0' id='602100' add='100' type_value='0' base='100' para1='1043|1044' description='提高所有骑兵的生命' condition_skill='602000;20' icon='skill2_602100' max_lv='20' name='骑兵生命II'/>
+  <ItemSpec type='0' id='602200' add='100' type_value='0' base='100' para1='1045|1046' description='提高所有弓兵的生命' condition_skill='602000;20' icon='skill2_602200' max_lv='20' name='弓兵生命II'/>
+  <ItemSpec type='0' id='602300' add='100' type_value='0' base='100' para1='1047|1048' description='提高所有车兵的生命' condition_skill='602000;20' icon='skill2_602300' max_lv='20' name='车兵生命II'/>
+  <ItemSpec type='2' id='602400' add='200' type_value='0' base='200' para1='101010|101011' description='提高骑兵发动冲锋时造成的伤害' condition_skill='602100;20' icon='skill2_602400' max_lv='20' name='铁骑'/>
+  <ItemSpec type='0' id='602500' add='80' type_value='0' base='80' para1='1065|1066' description='提高弓兵造成的伤害' condition_skill='602200;20' icon='skill2_602500' max_lv='20' name='长弓'/>
+  <ItemSpec type='0' id='602600' add='100' type_value='0' base='100' para1='1207|1208' description='提高车兵在攻城战斗中的攻击力' condition_skill='602300;20' icon='skill2_602600' max_lv='20' name='冲城'/>
+  <ItemSpec type='11' id='602700' para1='0' description='主动技能，使你的部队在下一次出征战斗时可以产生伤兵。如果你的医院不能容纳足够的伤兵，那么依然会造成士兵的死亡。' condition_skill='602400;20|602500;20|602600;20' icon='skill2_602700' max_lv='1' name='救援'/>
+  <ItemSpec type='0' id='610000' add='50' type_value='0' base='50' para1='68' description='建筑物的升级时间缩短' icon='skill2_610000' max_lv='5' name='加速建造I'/>
+  <ItemSpec type='0' id='610100' add='100' type_value='0' base='100' para1='50' description='木头的产量提高' condition_skill='610000;5' icon='skill2_610100' max_lv='5' name='木头生产I'/>
+  <ItemSpec type='0' id='610200' add='100' type_value='0' base='100' para1='53' description='粮食的产量提高' condition_skill='610000;5' icon='skill2_610200' max_lv='5' name='粮食生产I'/>
+  <ItemSpec type='0' id='610300' add='100' type_value='0' base='100' para1='153' description='在世界中采集木材时的采集速度提升' condition_skill='610100;5' icon='skill2_610300' max_lv='5' name='木头采集I'/>
+  <ItemSpec type='0' id='610400' add='100' type_value='0' base='100' para1='154' description='在世界中采集粮食时的采集速度提升' condition_skill='610200;5' icon='skill2_610400' max_lv='5' name='粮食采集I'/>
+  <ItemSpec type='0' id='610500' add='50' type_value='0' base='50' para1='69' description='研究科技的时间缩短' condition_skill='610300;5|610400;5' icon='skill2_610500' max_lv='5' name='研究加速I'/>
+  <ItemSpec type='0' id='610600' add='10000' type_value='1' base='10000' para1='72' description='地窖的容量上限提升' condition_skill='610500;5' icon='skill2_610600' max_lv='5' name='超级地窖I'/>
+  <ItemSpec type='12' id='610700' type_value='2' base='0.5' para1='.5' description='主动技能，使你的所有资源田立即获得{0}小时的产出' condition_skill='610600;5' icon='skill2_610700' max_lv='1' name='丰收'/>
+  <ItemSpec type='0' id='610800' add='100' type_value='0' base='100' para1='50' description='木头的产量提高' condition_skill='610700;1' icon='skill2_610800' max_lv='20' name='木头生产II'/>
+  <ItemSpec type='0' id='610900' add='100' type_value='0' base='100' para1='53' description='粮食的产量提高' condition_skill='610700;1' icon='skill2_610900' max_lv='20' name='粮食生产II'/>
+  <ItemSpec type='0' id='611000' add='100' type_value='0' base='100' para1='52' description='铁矿的产量提高' condition_skill='610700;1' icon='skill2_611000' max_lv='20' name='铁矿生产'/>
+  <ItemSpec type='0' id='611100' add='100' type_value='0' base='100' para1='153' description='在世界中采集木材时的采集速度提升' condition_skill='610800;20' icon='skill2_611100' max_lv='20' name='木头采集II'/>
+  <ItemSpec type='0' id='611200' add='100' type_value='0' base='100' para1='154' description='在世界中采集粮食时的采集速度提升' condition_skill='610900;20' icon='skill2_611200' max_lv='20' name='粮食采集II'/>
+  <ItemSpec type='0' id='611300' add='100' type_value='0' base='100' para1='155' description='在世界中采集铁矿时的采集速度提升' condition_skill='611000;20' icon='skill2_611300' max_lv='20' name='铁矿采集'/>
+  <ItemSpec type='0' id='611400' add='50' type_value='0' base='50' para1='68' description='建筑物的升级时间缩短' condition_skill='611100;20|611200;20|611300;20' icon='skill2_611400' max_lv='20' name='加速建造II'/>
+  <ItemSpec type='0' id='611500' add='50' type_value='0' base='50' para1='69' description='研究科技的时间缩短' condition_skill='611400;20' icon='skill2_611500' max_lv='20' name='研究加速II'/>
+  <ItemSpec type='0' id='611600' add='10000' type_value='1' base='10000' para1='72' description='地窖的容量上限提升' condition_skill='611500;20' icon='skill2_611600' max_lv='20' name='超级地窖II'/>
+  <ItemSpec type='0' id='611700' add='100' type_value='0' base='100' para1='51' description='秘银的产量提高' condition_skill='611600;20' icon='skill2_611700' max_lv='20' name='秘银生产'/>
+  <ItemSpec type='0' id='611800' add='100' type_value='0' base='100' para1='156' description='在世界中采集秘银时的采集速度提升' condition_skill='611600;20' icon='skill2_611800' max_lv='20' name='秘银采集'/>
+  <ItemSpec type='0' id='611900' add='100' type_value='0' base='100' para1='79' description='在世界中采集金币时的采集速度提升' condition_skill='611700;20|611800;20' icon='skill2_611900' max_lv='20' name='金币采集'/>
+  <ItemSpec type='13' id='612000' type_value='2' base='1' para1='501051' description='主动技能，使你城市中所有资源在{0}小时内不会被掠夺' condition_skill='611900;20' icon='skill2_612000' max_lv='1' name='资源保护'/>
+  <ItemSpec type='0' id='620000' add='500' type_value='0' base='500' para1='59' description='攻击怪物时的行军速度提升' icon='skill2_620000' max_lv='5' name='攻打怪物I'/>
+  <ItemSpec type='0' id='620100' add='500' type_value='0' base='500' para1='106' description='领主的体力值恢复速度提升' condition_skill='620000;5' icon='skill2_620100' max_lv='5' name='体力恢复I'/>
+  <ItemSpec type='0' id='620200' add='20' type_value='1' base='20' para1='131' description='单次训练士兵的数量提高' condition_skill='620100;5' icon='skill2_620200' max_lv='5' name='训练数量I'/>
+  <ItemSpec type='0' id='620300' add='50' type_value='0' base='50' para1='67' description='陷阱的制造速度提高' condition_skill='620100;5' icon='skill2_620300' max_lv='5' name='陷阱制造I'/>
+  <ItemSpec type='0' id='620400' add='1000' type_value='1' base='1000' para1='73' description='医院的容量上限提高' condition_skill='620200;5' icon='skill2_620400' max_lv='5' name='医院容量I'/>
+  <ItemSpec type='0' id='620500' add='100' type_value='0' base='100' para1='1154' description='陷阱的攻击力提高' condition_skill='620300;5' icon='skill2_620500' max_lv='5' name='陷阱攻击I'/>
+  <ItemSpec type='0' id='620600' add='50' type_value='0' base='50' para1='66' description='所有士兵的训练速度提高' condition_skill='620400;5|620500;5' icon='skill2_620600' max_lv='5' name='训练速度I'/>
+  <ItemSpec type='14' id='620700' type_value='2' base='50%|60' para1='501050' description='主动技能，使你向盟友行军时的移动速度提升{0}，持续{1}分钟' condition_skill='620600;5' icon='skill2_620700' max_lv='1' name='联盟行军'/>
+  <ItemSpec type='0' id='620800' add='500' type_value='0' base='500' para1='59' description='攻击怪物时的行军速度提升' condition_skill='620700;1' icon='skill2_620800' max_lv='20' name='攻打怪物II'/>
+  <ItemSpec type='0' id='620900' add='100' type_value='0' base='100' para1='60' description='部队出征时的行军速度提升' condition_skill='620800;20' icon='skill2_620900' max_lv='20' name='行军速度'/>
+  <ItemSpec type='0' id='621000' add='20' type_value='1' base='20' para1='131' description='单次训练士兵的数量提高' condition_skill='620900;20' icon='skill2_621000' max_lv='20' name='训练数量II'/>
+  <ItemSpec type='0' id='621100' add='50' type_value='0' base='50' para1='67' description='陷阱的制造速度提高' condition_skill='620900;20' icon='skill2_621100' max_lv='20' name='陷阱制造II'/>
+  <ItemSpec type='0' id='621200' add='1000' type_value='1' base='1000' para1='73' description='医院的容量上限提高' condition_skill='621000;20' icon='skill2_621200' max_lv='20' name='医院容量II'/>
+  <ItemSpec type='0' id='621300' add='100' type_value='0' base='100' para1='1154' description='陷阱的攻击力提高' condition_skill='621100;20' icon='skill2_621300' max_lv='20' name='陷阱攻击II'/>
+  <ItemSpec type='0' id='621400' add='200' type_value='0' base='200' para1='121' description='医院治疗伤兵的速度提高' condition_skill='621200;20' icon='skill2_621400' max_lv='20' name='治疗速度'/>
+  <ItemSpec type='0' id='621500' add='100' type_value='0' base='100' para1='1152' description='箭塔的攻击力提高' condition_skill='621300;20' icon='skill2_621500' max_lv='20' name='箭塔攻击'/>
+  <ItemSpec type='0' id='621600' add='200' type_value='0' base='200' para1='108' description='医院治疗伤兵所需的资源降低' condition_skill='621400;20' icon='skill2_621600' max_lv='20' name='治疗费用'/>
+  <ItemSpec type='0' id='621700' add='150' type_value='0' base='150' para1='1153' description='箭塔的攻击速度提升' condition_skill='621500;20' icon='skill2_621700' max_lv='20' name='急速射击'/>
+  <ItemSpec type='0' id='621800' add='50' type_value='0' base='50' para1='66' description='所有士兵的训练速度提高' condition_skill='621600;20|621700;20' icon='skill2_621800' max_lv='20' name='训练速度II'/>
+  <ItemSpec type='15' id='621900' type_value='2' base='100' para1='100' description='主动技能，立即获得{0}个陷阱。会在你可以建造的最高等级陷阱中随机选择一个类型。' condition_skill='621800;20' icon='skill2_621900' max_lv='1' name='能工巧匠'/>
+</Group>
