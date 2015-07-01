@@ -8,10 +8,22 @@ local table = table
 
 local lfs = require("lfs")
 local util ={}
-
 local lub = require("lub")
 
-ut
+
+-- local lpeg = require "lpeg"
+-- local P = lpeg.P
+-- local C = lpeg.C
+-- local Ct =  lpeg.Ct
+-- local M = lpeg.match
+
+-- function string.split (s, sep)
+--   sep = P(sep)
+--   local elem = C((1 - sep)^0)
+--   local p = lpeg.Ct(elem * (sep * elem)^0)   -- make a table capture
+--   return M(p, s)
+-- end
+
 --字符串拆分
 function string.split(input, delimiter)
     input = tostring(input)
@@ -68,11 +80,14 @@ function util.scanDir( path,depth,fileCallback)
         if file ~= "." and file ~= ".." then
             local f = path..'/'..file
             local attr = lfs.attributes (f)
-            assert (type(attr) == "table")
-            if attr.mode == "directory" and depth >0 then
-                util.scanDir(f,depth-1,fileCallback)
+            if (type(attr) == "table") then 
+                if attr.mode == "directory" and depth >0 then
+                    util.scanDir(f,depth-1,fileCallback)
+                else
+                	fileCallback(f)
+                end
             else
-            	fileCallback(f)
+                util.trace(attr,"error")
             end
         end
     end
@@ -143,7 +158,7 @@ end
 
 --保存文件
 function util.savefile( path,content,mode )
-    lub.makePath(path)
+    -- lub.makePath(path)
 	mode = mode or "w+b"
     local file = io.open(path, mode)
     if file then

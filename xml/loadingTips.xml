@@ -1,8 +1,0 @@
-<Group id='loadingTips'>
-  <ItemSpec level_range='1;10' description='4000005;4000006;4000007' id='1000'/>
-  <ItemSpec level_range='1;15' description='4000003;4000004' id='1001'/>
-  <ItemSpec level_range='1;100' description='4000014' id='1002'/>
-  <ItemSpec level_range='6;20' description='4000010;4000011;4000012;4000013' id='1003'/>
-  <ItemSpec level_range='6;100' description='4000002' id='1004'/>
-  <ItemSpec level_range='11;100' description='4000000;4000001;4000008;4000009;4000015' id='1005'/>
-</Group>

@@ -4,7 +4,7 @@
 --
 local util = require("util")
 local xml = require("xml")
-
+local lub = require("lub")
 
 local cmd = "TexturePacker %s.pvr.ccz --sheet %s.png --algorithm Basic --allow-free-size --no-trim --max-size 4048"
 
@@ -43,13 +43,17 @@ function splitPlist2Images( filePath )
 		-- util.trace(xmlData)
 
 		local images = xmlData[1][2]
-		
+		if images ==nil then 
+			return 
+		end
 		local image = xmlData[1][4][4][1]
 		local imageName 
 		local imageRect 
 		local isRot
-
-		-- util.trace(images)
+		local lastFileName = fileinfo.dirname.. fileinfo.basename.."/"
+		print(lastFileName)
+		lub.makePath(lastFileName)
+		
 		for i,v in ipairs(images) do
 			if i%2==1 then 
 				imageName = v[1]
@@ -66,16 +70,15 @@ function splitPlist2Images( filePath )
 					rect[4]=temp
 					-- rot = rotate
 				end
-
-				local cmd = string.format(cut,fileinfo.dirname..image,tonumber(rect[3])+4,tonumber(rect[4])+4,tonumber(rect[1])-1,tonumber(rect[2])-1,fileinfo.dirname..imageName)
+				local filename = string.gsub(lastFileName ..imageName," ","_")
+				local cmd = string.format(cut,fileinfo.dirname..image,tonumber(rect[3])+4,tonumber(rect[4])+4,tonumber(rect[1])-1,tonumber(rect[2])-1,filename)
+				-- print(cmd)
 				os.execute(cmd)
 				if isRot =="true" then 
-					os.execute(string.format(rotate, fileinfo.dirname..imageName,fileinfo.dirname..imageName))
+					os.execute(string.format(rotate, filename,filename))
 				end
 			end
-			
 		end
-		os.exit()
 	end
 	
 end
@@ -89,6 +92,8 @@ function splitXml( filePath )
 			for k,v in pairs(lang) do
 				xmlstr = xmlstr:gsub(k,v)
 			end
+
+			xmlstr = xmlstr:gsub("|","|\n\r")
 			util.savefile(fileinfo.dirname.."xml2/"..v["id"]..".xml",xmlstr,"w")
 		end
 	end
@@ -99,5 +104,5 @@ end
 
 
 -- util.scanDir("/Users/zj/Desktop/cok",10,filterFile)
--- util.scanDir("/Users/zj/Desktop/cok",10,splitPlist2Images)
-splitXml("database.local.xml")
+-- util.scanDir("/Users/zj/Desktop/cok/World",10,splitPlist2Images)
+-- splitXml("database.local.xml")

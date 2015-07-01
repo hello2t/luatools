@@ -1,8 +1,0 @@
-<Group id='gift'>
-  <ItemSpec description='115084' icon='gift001' name='115078' id='30000'/>
-  <ItemSpec description='115085' icon='gift002' name='115079' id='30100'/>
-  <ItemSpec description='115086' icon='gift003' name='115080' id='30200'/>
-  <ItemSpec description='115087' icon='gift004' name='115081' id='30300'/>
-  <ItemSpec description='115088' icon='gift005' name='115082' id='30400'/>
-  <ItemSpec description='115089' icon='gift006' name='115083' id='30500'/>
-</Group>
