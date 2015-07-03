@@ -17,7 +17,7 @@
 static int _newBuf(lua_State *L){
     size_t l;
     const char * mapdata = luaL_checklstring(L, 1, &l);
-    bitBuf * data = bitBuf_newBuf((uint8_t)l, (uint8_t *)mapdata);
+    bitBuf * data = bitBuf_newBuf((uint32_t)l, (uint8_t *)mapdata);
     
     bitBuf **datap = (bitBuf**)lua_newuserdata(L, sizeof(bitBuf*));
     *datap = data;
@@ -53,7 +53,9 @@ static int _del(lua_State *L){
 
 static int _readInt(lua_State *L){
     bitBuf * bit = _to_bitBuf(L);
+    // printf("readInt  pos:%d  ",bit->rpos);
     uint32_t data =  elias_delta_decode(bit);
+    // printf("%d\n", data);
     lua_pushnumber(L, data);
     return 1;
 }
@@ -68,11 +70,24 @@ static int _writeInt(lua_State *L){
 static int _readUtf8(lua_State *L){
     bitBuf * bit = _to_bitBuf(L);
     char * str = elias_delta_decode_utf8(bit);
-    lua_pushstring(L, str);
+    size_t len = strlen(str);
+    lua_pushlstring(L, str,len);
     free(str);
     return 1;
 }
 
+static int _readIntArray(lua_State *L){
+    bitBuf * bit = _to_bitBuf(L);
+    uint32_t data =  elias_delta_decode(bit);
+
+    lua_createtable(L,data,0);
+    for (int i=0; i<data;i++)
+    {
+        lua_pushnumber(L,elias_delta_decode(bit));
+        lua_rawseti(L,-2,i+1);
+    }
+    return 1;
+}
 
 
 
@@ -101,6 +116,7 @@ int luaopen_map(lua_State *L) {
         {"readString",_readUtf8},
         {"writeString",_writeUtf8},
         {"writeInt", _writeInt},
+        {"readIntArray", _readIntArray},
         {"newBuf", _newBuf},
         {"getString", _getString},
         {"new", _new},

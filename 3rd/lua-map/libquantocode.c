@@ -48,7 +48,7 @@ bitBuf* bitBuf_new(uint32_t size) {
 bitBuf* bitBuf_newBuf(uint32_t size,uint8_t buf[]){
     bitBuf* p = bitBuf_new(size);
     memcpy(p->buf, buf, size);
-    p->pos=size<<3;
+    p->pos=(size<<3);
     return p;
 }
 
@@ -56,20 +56,25 @@ void elias_delta_encode_utf8(const char* str,bitBuf* buf){
     uint32_t len = (uint32_t)strlen(str);
     elias_delta_encode(len,buf);
     
-    for (int i=0; i<=len; i++) {
-        elias_delta_encode((unsigned char)str[i],buf);
+    for (int i=0; i<len; i++) {    
+        elias_delta_encode(str[i],buf);
     }
+    // printf("writeString  pos:%d  len:%d   %s\n",buf->pos,len,str);
 }
 
 
 char * elias_delta_decode_utf8(bitBuf* buf){
+    // printf("read len %d\n", buf->rpos);
     uint32_t len = elias_delta_decode(buf);
     
-    char * str = malloc(len);
-    memset(str, 0, len);
-    for (int i=0; i<=len; i++) {
-        str[i] = (char)elias_delta_decode(buf);
+    char* str = (char*)malloc(len+1);
+    memset(str, 0, len+1);
+    for (int i=0; i<len; i++) {
+        // printf("read len %d\n", buf->rpos);
+        int c = elias_delta_decode(buf);
+        str[i] = c;
     }
+    // printf("readString  pos:%d len:%d   %s \n",buf->rpos,len,str);
     return str;
 }
 
@@ -215,6 +220,7 @@ void elias_delta_encode(uint32_t b, bitBuf* buf) {
     uint32_t bb = b;
     uint32_t m;
     uint8_t l = 0;
+    // printf("writeInt  pos:%d  %d\n",buf->pos,b);
     
 #ifdef EG_DEBUG
     fprintf(stderr,"ed: encoding %d : ", b);
