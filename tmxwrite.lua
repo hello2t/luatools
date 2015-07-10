@@ -103,11 +103,8 @@ end
 
 local function writeData(tb)
 	local str = string.split(tb[1],",")
-	map.writeInt(mapwrite,#str)
+	map.writeIntArray(mapwrite,str)
 	print("writeData:"..#str)
-	for i,v in ipairs(str) do
-		map.writeInt(mapwrite,tonumber(v))
-	end
 end
 
 local function writeLayer(tb)

@@ -14,6 +14,26 @@
 #include "lua-map.h"
 #include "libquantocode.h"
 
+#if defined(WIN32) && !defined(__cplusplus)
+
+#define inline __inline
+
+#endif
+
+
+
+#if LUA_VERSION_NUM < 502
+
+#define luaL_checkinteger luaL_checknumber
+#define lua_rawlen lua_objlen
+#define lua_pushinteger lua_pushnumber
+#endif
+
+
+static const int ADD=2;
+static const int DEL=-2;
+
+
 static int _newBuf(lua_State *L){
     size_t l;
     const char * mapdata = luaL_checklstring(L, 1, &l);
@@ -35,7 +55,7 @@ static inline bitBuf * _to_bitBuf(lua_State *L){
 }
 
 static int _new(lua_State *L){
-    double len = luaL_checknumber(L, 1);
+    double len = luaL_checkinteger(L, 1);
     bitBuf * data = bitBuf_new(len);
     
     bitBuf **datap = (bitBuf**)lua_newuserdata(L, sizeof(bitBuf*));
@@ -53,17 +73,18 @@ static int _del(lua_State *L){
 
 static int _readInt(lua_State *L){
     bitBuf * bit = _to_bitBuf(L);
-    // printf("readInt  pos:%d  ",bit->rpos);
     uint32_t data =  elias_delta_decode(bit);
-    // printf("%d\n", data);
-    lua_pushnumber(L, data);
+    int32_t data2 = data+DEL;
+    // printf("read %d\n", data2);
+    lua_pushnumber(L, data2);
     return 1;
 }
 
 static int _writeInt(lua_State *L){
     bitBuf * bit = _to_bitBuf(L);
-    uint32_t data = luaL_checknumber(L, 2);
-    elias_delta_encode(data, bit);
+    int32_t data = luaL_checkinteger(L, 2) + ADD;
+    // printf("write %zu\n", luaL_checkinteger(L, 2));
+    elias_delta_encode((uint32_t)data, bit);
     return 0;
 }
 
@@ -79,14 +100,34 @@ static int _readUtf8(lua_State *L){
 static int _readIntArray(lua_State *L){
     bitBuf * bit = _to_bitBuf(L);
     uint32_t data =  elias_delta_decode(bit);
-
+    uint32_t i;
     lua_createtable(L,data,0);
-    for (int i=0; i<data;i++)
+    
+    for (i=0; i<data;i++)
     {
-        lua_pushnumber(L,elias_delta_decode(bit));
+        lua_pushinteger(L,elias_delta_decode(bit)+DEL);
         lua_rawseti(L,-2,i+1);
     }
     return 1;
+}
+
+static int _writeIntArray(lua_State *L){
+    bitBuf * bit = _to_bitBuf(L);
+
+    uint32_t size;
+    size=(uint32_t)lua_rawlen(L,-1);
+    elias_delta_encode(size,bit);
+    int32_t data ;
+    int i;
+    for (i = 0; i < size; ++i)
+    {
+        lua_rawgeti(L,-1,i+1);
+        data = luaL_checkinteger(L,-1)+ADD;
+        elias_delta_encode(data,bit);
+        lua_pop(L,1);
+    }
+    lua_pop(L,2);
+    return 0;
 }
 
 
@@ -117,6 +158,7 @@ int luaopen_map(lua_State *L) {
         {"writeString",_writeUtf8},
         {"writeInt", _writeInt},
         {"readIntArray", _readIntArray},
+        {"writeIntArray", _writeIntArray},
         {"newBuf", _newBuf},
         {"getString", _getString},
         {"new", _new},

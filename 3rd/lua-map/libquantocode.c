@@ -53,10 +53,11 @@ bitBuf* bitBuf_newBuf(uint32_t size,uint8_t buf[]){
 }
 
 void elias_delta_encode_utf8(const char* str,bitBuf* buf){
+	uint32_t i;
     uint32_t len = (uint32_t)strlen(str);
     elias_delta_encode(len,buf);
     
-    for (int i=0; i<len; i++) {    
+    for (i=0; i<len; i++) {    
         elias_delta_encode(str[i],buf);
     }
     // printf("writeString  pos:%d  len:%d   %s\n",buf->pos,len,str);
@@ -65,11 +66,13 @@ void elias_delta_encode_utf8(const char* str,bitBuf* buf){
 
 char * elias_delta_decode_utf8(bitBuf* buf){
     // printf("read len %d\n", buf->rpos);
+	uint32_t i;
     uint32_t len = elias_delta_decode(buf);
     
     char* str = (char*)malloc(len+1);
     memset(str, 0, len+1);
-    for (int i=0; i<len; i++) {
+   
+    for (i=0; i<len; i++) {
         // printf("read len %d\n", buf->rpos);
         int c = elias_delta_decode(buf);
         str[i] = c;
@@ -216,7 +219,7 @@ uint32_t elias_gamma_decode(bitBuf *buf) {
 /* Elias Delta encodes the length portion of the elias
  * gamma code using elias gamma */
 
-void elias_delta_encode(uint32_t b, bitBuf* buf) {
+void elias_delta_encode(int32_t b, bitBuf* buf) {
     uint32_t bb = b;
     uint32_t m;
     uint8_t l = 0;
@@ -243,7 +246,7 @@ void elias_delta_encode(uint32_t b, bitBuf* buf) {
 #endif
 }
 
-uint32_t elias_delta_decode(bitBuf *buf) {
+int32_t elias_delta_decode(bitBuf *buf) {
     uint32_t l;
     uint32_t n = 0;
     uint8_t i;
