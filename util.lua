@@ -11,7 +11,7 @@ local util ={}
 
 local lub = require("lub")
 
-ut
+
 --字符串拆分
 function string.split(input, delimiter)
     input = tostring(input)
@@ -131,8 +131,8 @@ function util.rmfile( path )
 end
 
 --读取文件
-function util.readfile( path )
-	local file = io.open(path, "r")
+function util.readfile( path ,mode)
+	local file = io.open(path, mode or "r")
     if file then
         local content = file:read("*a")
         io.close(file)
