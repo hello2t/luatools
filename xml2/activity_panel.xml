@@ -1,5 +1,0 @@
-<Group id='activity_panel'>
-  <ItemSpec type='1' desc='为了选出王国的最强领主，我们将开始一期评选活动，整个活动会分为若干个阶段。所有参加活动并完成每个阶段目标的领主都能得到奖励，但最强领主的荣耀只属于在整个活动中排名第一的人。' id='57000' Advertise_pic='57000_ad1' name='限时比赛' desc_info='超值奖励免费获得！'/>
-  <ItemSpec type='2' id='57001' sort='1' activityid='9006' name='超值月度好礼'/>
-  <ItemSpec type='3' desc='暗黑骑士即将来袭，守住城堡获得奖励！' id='57002' Advertise_pic='57002_ad1' name='联盟活动' desc_info='守住城堡，获得奖励！'/>
-</Group>

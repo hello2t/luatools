@@ -11,7 +11,7 @@ local string_char = string.char
 local string_byte = string.byte
 
 local magic = require('magic');
-local mgc = magic.open( magic.MIME, magic.NO_CHECK_COMPRESS );
+local mgc = magic.open( magic.RAW, magic.NO_CHECK_COMPRESS );
 local rc = mgc:load();
 
 

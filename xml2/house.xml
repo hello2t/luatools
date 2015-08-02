@@ -1,5 +1,0 @@
-<Group id='house'>
-  <ItemSpec id='8000' icon='ico8000' name='111001' description='111002' house='111007;111008|111009;111010'/>
-  <ItemSpec id='8001' icon='ico8001' name='111003' description='111004' house='111011;111012|111013;111014'/>
-  <ItemSpec id='8002' icon='ico8002' name='111005' description='111006' house='111015;111016|111017;111018'/>
-</Group>
