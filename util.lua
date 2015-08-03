@@ -11,6 +11,7 @@ local util ={}
 -- local lub = require("lub")
 
 
+
 -- local lpeg = require "lpeg"
 -- local P = lpeg.P
 -- local C = lpeg.C
@@ -146,8 +147,8 @@ function util.rmfile( path )
 end
 
 --读取文件
-function util.readfile( path )
-	local file = io.open(path, "r")
+function util.readfile( path ,mode)
+	local file = io.open(path, mode or "r")
     if file then
         local content = file:read("*a")
         io.close(file)
@@ -158,7 +159,7 @@ end
 
 --保存文件
 function util.savefile( path,content,mode )
-    -- lub.makePath(path)
+    lub.makePath(path)
 	mode = mode or "w+b"
     local file = io.open(path, mode)
     if file then
