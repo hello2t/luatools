@@ -16,17 +16,20 @@ local rc = mgc:load();
 
 
 function findFile (file)
-	local filedata = util.readfile(file,"rb")
-	local byte1 = string_byte(filedata,1)
-	local byte2 = string_byte(filedata,2)
-	local byte3 = string_byte(filedata,3)
+	-- local filedata = util.readfile(file,"rb")
+	-- local byte1 = string_byte(filedata,1)
+	-- local byte2 = string_byte(filedata,2)
+	-- local byte3 = string_byte(filedata,3)
 
 	-- local fileinfo = util.pathinfo(file)
 	-- print(byte1,byte2,byte3,fileinfo.basename)
-	print( mgc:file( file ) );
+	print( mgc:file( file ) ,file);
 	-- print(string_char(byte1).." "..string_char(byte2).." "..string_char(byte3))
 end
 
 
 
-util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4/Records/facebook.com",10,findFile)
+util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4",10,findFile)
+
+-- util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4/Blobs",10,findFile)
+-- util.scanDir("/Users/zj/Downloads/MaxCrush(v1.1)/Payload/mgame.app/archive",10,findFile)
