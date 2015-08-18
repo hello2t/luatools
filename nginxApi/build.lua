@@ -66,11 +66,15 @@ local function get_description( func )
 end
 
 local function get_snippet( content, trigger, description )
+	local tag = "<scope>source.lua</scope>"
+	if string.find(trigger, "lua") and string.find(trigger, "ngx")==nil then 
+		tag = "<scope>source.nginx</scope>"
+	end 
 	local space = string.rep(" ", 4)
 	local snippet = string.format("<snippet>\n%s\n%s\n%s\n%s\n</snippet>\n",
 		space .. "<content>" .. content .. "</content>",
 		space .. "<tabTrigger>" .. trigger .. "</tabTrigger>",
-		space .. "<scope>source.lua</scope>",
+		space .. tag,
 		space .. "<description>" .. description .. "</description>")
 	return snippet
 end
@@ -112,7 +116,21 @@ local function getConstName(str)
 	if endflag and endflag<start then 
 		endflag = nil
 	end
+	-- print(str)
 	return string.sub(str, start, endflag)
+end
+
+local function getConstDis(str)
+	if string.find(str, "lua") and string.find(str, "ngx")==nil then 
+		local start = string.find(str," ")
+		if start ==nil then 
+			start = 1
+		end
+		str = string.gsub(str,"&lt;","")
+		str = string.gsub(str,"&gt;","")
+		return string.sub(str, start)
+	end
+	return str
 end
 
 local function output_consts( consts, dir )
@@ -120,10 +138,9 @@ local function output_consts( consts, dir )
 		dir = dir .. "/"
 	end
 	for _, const in ipairs(consts) do
-		const = getConstName(const)
-		local snippet = get_snippet("<![CDATA[" .. const .. "]]>", const, const)
+		local snippet = get_snippet("<![CDATA[" .. getConstName(const) .. "]]>", getConstName(const),getConstDis(const))
 
-		local f_name = const .. ".sublime-snippet"
+		local f_name = getConstName(const) .. ".sublime-snippet"
 		local f = io.open(dir .. f_name, "w")
 		f:write(snippet)
 		f:close()

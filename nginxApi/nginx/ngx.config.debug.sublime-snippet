@@ -2,5 +2,5 @@
     <content><![CDATA[ngx.config.debug]]></content>
     <tabTrigger>ngx.config.debug</tabTrigger>
     <scope>source.lua</scope>
-    <description>ngx.config.debug</description>
+    <description>debug = ngx.config.debug</description>
 </snippet>

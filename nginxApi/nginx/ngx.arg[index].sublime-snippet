@@ -2,5 +2,5 @@
     <content><![CDATA[ngx.arg[index]]]></content>
     <tabTrigger>ngx.arg[index]</tabTrigger>
     <scope>source.lua</scope>
-    <description>ngx.arg[index]</description>
+    <description>val = ngx.arg[index]</description>
 </snippet>

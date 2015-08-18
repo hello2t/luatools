@@ -2,5 +2,5 @@
     <content><![CDATA[ngx.header.HEADER]]></content>
     <tabTrigger>ngx.header.HEADER</tabTrigger>
     <scope>source.lua</scope>
-    <description>ngx.header.HEADER</description>
+    <description>value = ngx.header.HEADER</description>
 </snippet>

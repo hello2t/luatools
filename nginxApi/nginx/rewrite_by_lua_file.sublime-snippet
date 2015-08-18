@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[rewrite_by_lua_file]]></content>
     <tabTrigger>rewrite_by_lua_file</tabTrigger>
-    <scope>source.lua</scope>
-    <description>rewrite_by_lua_file</description>
+    <scope>source.nginx</scope>
+    <description> path-to-lua-script-file</description>
 </snippet>

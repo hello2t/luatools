@@ -2,5 +2,5 @@
     <content><![CDATA[ngx.shared.DICT]]></content>
     <tabTrigger>ngx.shared.DICT</tabTrigger>
     <scope>source.lua</scope>
-    <description>ngx.shared.DICT</description>
+    <description>dict = ngx.shared.DICT</description>
 </snippet>

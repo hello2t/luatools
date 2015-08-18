@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[lua_regex_match_limit]]></content>
     <tabTrigger>lua_regex_match_limit</tabTrigger>
-    <scope>source.lua</scope>
-    <description>lua_regex_match_limit</description>
+    <scope>source.nginx</scope>
+    <description> num</description>
 </snippet>
