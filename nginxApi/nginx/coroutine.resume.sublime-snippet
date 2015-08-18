@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ok, ... = coroutine.resum(${1:co}, ${2:...})]]></content>
+    <tabTrigger>coroutine.resume</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(co, ...)</description>
+</snippet>

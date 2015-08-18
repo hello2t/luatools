@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[lua_socket_read_timeout]]></content>
+    <tabTrigger>lua_socket_read_timeout</tabTrigger>
+    <scope>source.lua</scope>
+    <description>lua_socket_read_timeout</description>
+</snippet>

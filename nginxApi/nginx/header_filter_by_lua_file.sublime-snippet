@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[header_filter_by_lua_file]]></content>
+    <tabTrigger>header_filter_by_lua_file</tabTrigger>
+    <scope>source.lua</scope>
+    <description>header_filter_by_lua_file</description>
+</snippet>

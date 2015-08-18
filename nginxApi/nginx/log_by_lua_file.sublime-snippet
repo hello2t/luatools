@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[log_by_lua_file]]></content>
+    <tabTrigger>log_by_lua_file</tabTrigger>
+    <scope>source.lua</scope>
+    <description>log_by_lua_file</description>
+</snippet>

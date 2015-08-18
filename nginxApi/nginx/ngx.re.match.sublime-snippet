@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[captures, err = ngx.re.matc(${1:subject}, ${2:regex}, ${3:options}, ${4:ctx}, ${5:res}, ${6:table})]]></content>
+    <tabTrigger>ngx.re.match</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(subject, regex, options?, ctx?, res_table?)</description>
+</snippet>

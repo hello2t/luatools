@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[tcpsock, err = ngx.req.socke(${1:raw})]]></content>
+    <tabTrigger>ngx.req.socket</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(raw)</description>
+</snippet>

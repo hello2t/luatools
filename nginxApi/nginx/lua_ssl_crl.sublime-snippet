@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[lua_ssl_crl]]></content>
+    <tabTrigger>lua_ssl_crl</tabTrigger>
+    <scope>source.lua</scope>
+    <description>lua_ssl_crl</description>
+</snippet>

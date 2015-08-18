@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[bytes, err = tcpsock:sen(${1:data})]]></content>
+    <tabTrigger>tcpsock:send</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(data)</description>
+</snippet>

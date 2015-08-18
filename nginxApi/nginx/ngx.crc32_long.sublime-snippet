@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[intval = ngx.crc32_lon(${1:str})]]></content>
+    <tabTrigger>ngx.crc32_long</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(str)</description>
+</snippet>

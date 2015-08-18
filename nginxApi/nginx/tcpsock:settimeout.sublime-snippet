@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[tcpsock:settimeou(${1:time})]]></content>
+    <tabTrigger>tcpsock:settimeout</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(time)</description>
+</snippet>
