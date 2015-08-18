@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ok, err = udpsock:sen(${1:data})]]></content>
+    <tabTrigger>udpsock:send</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(data)</description>
+</snippet>

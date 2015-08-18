@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ngx.req.set_body_fil(${1:file}, ${2:name}, ${3:auto}, ${4:clean})]]></content>
+    <tabTrigger>ngx.req.set_body_file</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(file_name, auto_clean?)</description>
+</snippet>

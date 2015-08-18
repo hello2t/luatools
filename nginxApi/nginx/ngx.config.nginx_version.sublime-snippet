@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ngx.config.nginx_version]]></content>
+    <tabTrigger>ngx.config.nginx_version</tabTrigger>
+    <scope>source.lua</scope>
+    <description>ver = ngx.config.nginx_version</description>
+</snippet>

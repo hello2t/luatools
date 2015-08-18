@@ -146,6 +146,15 @@ function util.rmfile( path )
 	os.execute("rm "..path)
 end
 
+function util.copy(src,target)
+    os.execute("cp "..src.." "..target)
+end
+
+function util.rmdir(path)
+    os.execute("rm -rf "..src.." "..target)
+end
+
+
 --读取文件
 function util.readfile( path ,mode)
 	local file = io.open(path, mode or "r")

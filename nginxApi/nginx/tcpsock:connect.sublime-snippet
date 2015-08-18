@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ok, err = tcpsock:connec(${1:unix}, ${2:path}, ${3:to}, ${4:unix}, ${5:domain.socket}, ${6:options}, ${7:table})]]></content>
+    <tabTrigger>tcpsock:connect</tabTrigger>
+    <scope>source.lua</scope>
+    <description>("unix:/path/to/unix-domain.socket", options_table?)</description>
+</snippet>

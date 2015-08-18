@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ngx.shared[name_var]]]></content>
+    <tabTrigger>ngx.shared[name_var]</tabTrigger>
+    <scope>source.lua</scope>
+    <description>dict = ngx.shared[name_var]</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[tcpsock:setoptio(${1:option}, ${2:value})]]></content>
+    <tabTrigger>tcpsock:setoption</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(option, value?)</description>
+</snippet>

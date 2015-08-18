@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ndk.set_var.DIRECTIVE_NAME]]></content>
+    <tabTrigger>ndk.set_var.DIRECTIVE_NAME</tabTrigger>
+    <scope>source.lua</scope>
+    <description>res = ndk.set_var.DIRECTIVE_NAME</description>
+</snippet>

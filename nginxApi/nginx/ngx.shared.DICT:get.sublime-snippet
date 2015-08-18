@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[value, flags = ngx.shared.DICT:ge(${1:key})]]></content>
+    <tabTrigger>ngx.shared.DICT:get</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(key)</description>
+</snippet>

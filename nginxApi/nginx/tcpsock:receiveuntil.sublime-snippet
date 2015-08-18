@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[iterator = tcpsock:receiveunti(${1:pattern}, ${2:options})]]></content>
+    <tabTrigger>tcpsock:receiveuntil</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(pattern, options?)</description>
+</snippet>

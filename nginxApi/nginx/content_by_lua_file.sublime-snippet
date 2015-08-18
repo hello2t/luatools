@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[content_by_lua_file]]></content>
+    <tabTrigger>content_by_lua_file</tabTrigger>
+    <scope>source.nginx</scope>
+    <description> path-to-lua-script-file</description>
+</snippet>
