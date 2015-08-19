@@ -16,6 +16,7 @@ local rc = mgc:load();
 
 
 function findFile (file)
+
 	local fileinfo = util.pathinfo(file)
 	local t =mgc:file( file )
 
@@ -26,6 +27,10 @@ end
 
 
 
+util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4",10,findFile)
+
+-- util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4/Blobs",10,findFile)
+-- util.scanDir("/Users/zj/Downloads/MaxCrush(v1.1)/Payload/mgame.app/archive",10,findFile)
 -- util.scanDir("/Users/zj/Library/Caches/com.apple.Safari/WebKitCache/Version 4/Records/facebook.com",10,findFile)
 
 
