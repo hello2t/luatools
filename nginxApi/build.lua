@@ -128,6 +128,8 @@ local function getConstDis(str)
 		end
 		str = string.gsub(str,"&lt;","")
 		str = string.gsub(str,"&gt;","")
+		str = string.gsub(str,"<;","")
+		str = string.gsub(str,">","")
 		return string.sub(str, start)
 	end
 	return str
@@ -153,6 +155,61 @@ local data = f:read("*all")
 f:close()
 
 local funcs, consts = get_funcs_and_consts(data)
+
+local ex_consts = {
+"ngx.OK",
+"ngx.ERROR", 
+"ngx.AGAIN",
+"ngx.DONE",
+"ngx.DECLINED", 
+"ngx.null",
+"ngx.HTTP_GET",
+"ngx.HTTP_HEAD",
+"ngx.HTTP_PUT",
+"ngx.HTTP_POST",
+"ngx.HTTP_DELETE",
+"ngx.HTTP_OPTIONS",   
+"ngx.HTTP_MKCOL",     
+"ngx.HTTP_COPY",      
+"ngx.HTTP_MOVE",      
+"ngx.HTTP_PROPFIND",  
+"ngx.HTTP_PROPPATCH", 
+"ngx.HTTP_LOCK",      
+"ngx.HTTP_UNLOCK",    
+"ngx.HTTP_PATCH",     
+"ngx.HTTP_TRACE",     
+"ngx.HTTP_OK", 
+"ngx.HTTP_CREATED", 
+"ngx.HTTP_SPECIAL_RESPONSE", 
+"ngx.HTTP_MOVED_PERMANENTLY", 
+"ngx.HTTP_MOVED_TEMPORARILY", 
+"ngx.HTTP_SEE_OTHER", 
+"ngx.HTTP_NOT_MODIFIED", 
+"ngx.HTTP_BAD_REQUEST", 
+"ngx.HTTP_UNAUTHORIZED", 
+"ngx.HTTP_FORBIDDEN", 
+"ngx.HTTP_NOT_FOUND", 
+"ngx.HTTP_NOT_ALLOWED", 
+"ngx.HTTP_GONE", 
+"ngx.HTTP_INTERNAL_SERVER_ERROR", 
+"ngx.HTTP_METHOD_NOT_IMPLEMENTED", 
+"ngx.HTTP_SERVICE_UNAVAILABLE", 
+"ngx.HTTP_GATEWAY_TIMEOUT",  
+"ngx.STDERR",
+"ngx.EMERG",
+"ngx.ALERT",
+"ngx.CRIT",
+"ngx.ERR",
+"ngx.WARN",
+"ngx.NOTICE",
+"ngx.INFO",
+"ngx.DEBUG",
+}
+
+for k,v in pairs(ex_consts) do
+	table.insert(consts, v)
+end
+
 
 os.execute("mkdir nginx")
 

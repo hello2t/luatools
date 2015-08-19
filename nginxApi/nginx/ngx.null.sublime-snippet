@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ngx.null]]></content>
+    <tabTrigger>ngx.null</tabTrigger>
+    <scope>source.lua</scope>
+    <description>ngx.null</description>
+</snippet>
