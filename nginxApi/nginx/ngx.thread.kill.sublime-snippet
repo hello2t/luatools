@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, err = ngx.thread.kil(${1:thread})]]></content>
+    <content><![CDATA[ok, err = ngx.thread.kill(${1:thread})]]></content>
     <tabTrigger>ngx.thread.kill</tabTrigger>
     <scope>source.lua</scope>
     <description>(thread)</description>

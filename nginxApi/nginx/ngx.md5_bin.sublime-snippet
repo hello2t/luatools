@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[digest = ngx.md5_bi(${1:str})]]></content>
+    <content><![CDATA[digest = ngx.md5_bin(${1:str})]]></content>
     <tabTrigger>ngx.md5_bin</tabTrigger>
     <scope>source.lua</scope>
     <description>(str)</description>

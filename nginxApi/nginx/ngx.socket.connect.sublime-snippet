@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[tcpsock, err = ngx.socket.connec(${1:unix}, ${2:path}, ${3:to}, ${4:unix}, ${5:domain.socket})]]></content>
+    <content><![CDATA[tcpsock, err = ngx.socket.connect(${1:unix}, ${2:path}, ${3:to}, ${4:unix}, ${5:domain.socket})]]></content>
     <tabTrigger>ngx.socket.connect</tabTrigger>
     <scope>source.lua</scope>
     <description>("unix:/path/to/unix-domain.socket")</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[data, err = udpsock:receiv(${1:size})]]></content>
+    <content><![CDATA[data, err = udpsock:receive(${1:size})]]></content>
     <tabTrigger>udpsock:receive</tabTrigger>
     <scope>source.lua</scope>
     <description>(size?)</description>

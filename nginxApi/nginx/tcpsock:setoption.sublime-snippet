@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[tcpsock:setoptio(${1:option}, ${2:value})]]></content>
+    <content><![CDATA[tcpsock:setoption(${1:option}, ${2:value})]]></content>
     <tabTrigger>tcpsock:setoption</tabTrigger>
     <scope>source.lua</scope>
     <description>(option, value?)</description>

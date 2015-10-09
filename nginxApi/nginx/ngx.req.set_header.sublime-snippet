@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.req.set_heade(${1:header}, ${2:name}, ${3:header}, ${4:value})]]></content>
+    <content><![CDATA[ngx.req.set_header(${1:header}, ${2:name}, ${3:header}, ${4:value})]]></content>
     <tabTrigger>ngx.req.set_header</tabTrigger>
     <scope>source.lua</scope>
     <description>(header_name, header_value)</description>

@@ -1,0 +1,2110 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>bungle/lua-resty-template</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="bungle/lua-resty-template" name="twitter:title" /><meta content="lua-resty-template - Templating Engine (HTML) for Lua and OpenResty." name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/983257?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/983257?v=3&amp;s=400" property="og:image" /><meta content="bungle/lua-resty-template" property="og:title" /><meta content="https://github.com/bungle/lua-resty-template" property="og:url" /><meta content="lua-resty-template - Templating Engine (HTML) for Lua and OpenResty." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MzQzNTcwNjpkODk1YzM2N2FkYzdmOTQxZjhiZWQ4MWJlNTFkYjA5Njo4M2RjNzg0ZGQ3ZmYyYzcyNGJmY2ZmM2MzNWYyNzU4MmY0MjViODIxNTU5ODc1YmQ4Y2U3YTllYmU5OWM4Yjg1--af6fa0d4ab8101dc583bf664f4c481079da8c50d">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="79CFFC7B:50FE:7B53D:55F81588" name="octolytics-dimension-request_id" /><meta content="3435706" name="octolytics-actor-id" /><meta content="yingnierxiao" name="octolytics-actor-login" /><meta content="f05129d63b1259c84e6291c2be4d442672b05cbca5e0fce8612a247a7ad3917e" name="octolytics-actor-hash" />
+    
+    <meta content="Rails, view, files#disambiguate" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged In">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="yingnierxiao">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="0QlR09rF8YkxXcScjIOE8qnoChrgPd9Z9b/61Bhe55t0GBYjVS54qYAeqxrD430WR2YIPUt1hOX9E0XwOJNEUw==" name="csrf-token" />
+    <meta content="47401d350d1398a6dd8dcbebf30c1740d8f7b424" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-d1b5abdc908e0d7b1177dec08377119b557ebf6285955d1d4b3a49990b7f2f95.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-00d70d23e080bb79c83c3daa18cd186d5eb6c23337129c790e06d2f80df593ad.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="5035d51d213df3fbfbf9a20ba491a891">
+
+      
+  <meta name="description" content="lua-resty-template - Templating Engine (HTML) for Lua and OpenResty.">
+  <meta name="go-import" content="github.com/bungle/lua-resty-template git https://github.com/bungle/lua-resty-template.git">
+
+  <meta content="983257" name="octolytics-dimension-user_id" /><meta content="bungle" name="octolytics-dimension-user_login" /><meta content="17054544" name="octolytics-dimension-repository_id" /><meta content="bungle/lua-resty-template" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="17054544" name="octolytics-dimension-repository_network_root_id" /><meta content="bungle/lua-resty-template" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/bungle/lua-resty-template/commits/master.atom" rel="alternate" title="Recent Commits to lua-resty-template:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bungle/lua-resty-template/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/bungle/lua-resty-template/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+      </div>
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+      <span class="js-socket-channel js-updatable-content"
+        data-channel="notification-changed:yingnierxiao"
+        data-url="/notifications/header">
+      <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
+          <span class="mail-status unread"></span>
+          <span class="octicon octicon-bell"></span>
+</a>  </span>
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus left"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="bungle/lua-resty-template">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/bungle/lua-resty-template/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-s js-menu-target" href="/yingnierxiao"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@yingnierxiao" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/3435706?v=3&amp;s=40" width="20" />
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">yingnierxiao</strong>
+        </div>
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/yingnierxiao" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="/stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wk6SA1ZPVercWc1MZcyyFlMkpEn9sqmfqluAiJxmxdKAFB60SwbZrfinaEFUTXV4uHlAoegfwOezhCcn8ljJ3g==" /></div>
+          <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1+6tYQLr770yRqXUZa2JvQ/Til0Jrtu63ezFivhqVSzIH9/m7sUmU2CJtapD+MhSVJnTqB7CPUseLXxU1/vPdQ==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="17054544" />
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a href="/bungle/lua-resty-template/subscription"
+          class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+          data-ga-click="Repository, click Watch settings, action:files#disambiguate">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Watch
+          </span>
+        </a>
+        <a class="social-count js-social-count" href="/bungle/lua-resty-template/watchers">
+          26
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" type="radio" value="ignore" />
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container on">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bungle/lua-resty-template/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="v4fJgb2zUyU2PEdZiS5hzyy6p5QQPZF9XuYkLfXJtv4F01WjH1/6I3bzRvIlTpCEFCwiATjqD5xkzABddLwQ3A==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar bungle/lua-resty-template"
+        data-ga-click="Repository, click unstar button, action:files#disambiguate; text:Unstar">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/bungle/lua-resty-template/stargazers">
+          150
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bungle/lua-resty-template/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="00JgbO6bC70/e8iIDgTzBt0no4L3KKJ0T6QkmVWPcLoYX4zNINLCw2tagrP+q6/EtfaxwLMCuLOArNJl2NznGg==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star bungle/lua-resty-template"
+        data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/bungle/lua-resty-template/stargazers">
+          150
+        </a>
+</form>  </div>
+
+  </li>
+
+        <li>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bungle/lua-resty-template/fork" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YSxi+4Jq0fWi8jadzQSeW9uFTfgvYCNjdLB4nBqD8q+lt1BMlPZ2vBqtHk2h0rzAneYDDQwOnt9LUImRhCN1bA==" /></div>
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork"
+                title="Fork your own copy of bungle/lua-resty-template to your account"
+                aria-label="Fork your own copy of bungle/lua-resty-template to your account">
+              <span class="octicon octicon-repo-forked"></span>
+              Fork
+            </button>
+            <a href="/bungle/lua-resty-template/network" class="social-count">41</a>
+</form>        </li>
+
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/bungle" class="url fn" itemprop="url" rel="author"><span itemprop="title">bungle</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/bungle/lua-resty-template" data-pjax="#js-repo-pjax-container">lua-resty-template</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/bungle/lua-resty-template/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/bungle/lua-resty-template" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /bungle/lua-resty-template">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/bungle/lua-resty-template/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /bungle/lua-resty-template/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/bungle/lua-resty-template/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /bungle/lua-resty-template/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/bungle/lua-resty-template/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /bungle/lua-resty-template/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/bungle/lua-resty-template/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /bungle/lua-resty-template/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/bungle/lua-resty-template/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /bungle/lua-resty-template/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/bungle/lua-resty-template.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="ssh">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:bungle/lua-resty-template.git" readonly="readonly" aria-label="SSH clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/bungle/lua-resty-template" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+  <div class="clone-options">You can clone with
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WjQ/DTQWC0ssgORSaIcjatXacoJwvhf+pBn06eYjJfHNwqIqdfB4WMHhSKJMVI4yX8D+FNV8y1j1Mz6EcVH40A==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RoY4cNLipb1JN6uJaf4fV7KBXLelUrnZn6OmXu1i1/Voa2YRV6flCA/r3UibWtsRJKvYJZwlhtGoP+31ZMgdQg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="NJY2q8wy2c9blnYZN8jWGs6XXPe29pkUlzUyXyFXiOiUqjt4sq8B1+0oyRtFYvvxMmkL+7rxz2MmImEK0EMEbg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+      <span class="octicon octicon-question"></span>
+    </a>
+  </div>
+    <a href="github-mac://openRepo/https://github.com/bungle/lua-resty-template" class="btn btn-sm sidebar-button" title="Save bungle/lua-resty-template to your computer and use it in GitHub Desktop." aria-label="Save bungle/lua-resty-template to your computer and use it in GitHub Desktop.">
+      <span class="octicon octicon-desktop-download"></span>
+      Clone in Desktop
+    </a>
+
+              <a href="/bungle/lua-resty-template/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of bungle/lua-resty-template as a zip file"
+                 title="Download the contents of bungle/lua-resty-template as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+  <div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Templating Engine (HTML) for Lua and OpenResty.
+    </div>
+
+
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/bungle/lua-resty-template/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              441
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/bungle/lua-resty-template/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/bungle/lua-resty-template/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            6
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/bungle/lua-resty-template/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      1
+    </span>
+    contributor
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/bungle/lua-resty-template/search?l=lua">
+                <span class="color-block language-color" style="background-color:#000080;"></span>
+                <span class="lang">Lua</span>
+                <span class="percent">100.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="Lua 100.0%" style="width:100.0%; background-color:#000080;" itemprop="keywords">Lua</span>
+  </div>
+
+<include-fragment src="/bungle/lua-resty-template/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+  <div class="file-navigation in-mid-page">
+  <a href="/bungle/lua-resty-template/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files"
+        data-ga-click="Repository, find file, location:repo overview">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/bungle/lua-resty-template/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/bungle/lua-resty-template/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.5"
+                 data-name="v1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.5">v1.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.4"
+                 data-name="v1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.4">v1.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.3"
+                 data-name="v1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.3">v1.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.2"
+                 data-name="v1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2">v1.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.1"
+                 data-name="v1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.1">v1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bungle/lua-resty-template/tree/v1.0"
+                 data-name="v1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0">v1.0</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/bungle/lua-resty-template" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">lua-resty-template</span></a></span></span><span class="separator">/</span>
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bungle/lua-resty-template/new/master" class="js-new-blob-form inline-form" data-form-nonce="47401d350d1398a6dd8dcbebf30c1740d8f7b424" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4S+CvOmDp2tThfJiO3r0rfCxd11RVf3fLhXw+gmx+Y7RSVHxYJVVLnObnprp6wepsJLWaJ/1MrcW94qj+88wKQ==" /></div>
+    <button class="btn-link tooltipped tooltipped-e" type="submit"
+      data-disable-with="working…" aria-label="Create a new file in your fork of this project">
+      <span class="js-new-blob-submit octicon octicon-plus"></span>
+    </button>
+</form></div>
+</div>
+
+
+
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/bungle/lua-resty-template/commit/c80bb10ebd950e89b858bada9144640dc0d20098" class="message" data-pjax="true" title="Fixed a typo.">Fixed a typo.</a>
+        
+    </p>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="c80bb10ebd950e89b858bada9144640dc0d20098" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/bungle/lua-resty-template/commit/c80bb10ebd950e89b858bada9144640dc0d20098" class="sha-block" data-pjax>latest commit <span class="sha">c80bb10ebd</span></a>
+
+      <div class="authorship">
+        <img alt="@bungle" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/983257?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/bungle" rel="author">bungle</a></span>
+        authored <time class="updated" datetime="2015-05-26T07:41:54Z" is="relative-time">May 26, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="file-wrap">
+  <a href="/bungle/lua-resty-template/tree/c80bb10ebd950e89b858bada9144640dc0d20098" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bungle/lua-resty-template/tree/master/lib/resty" class="js-directory-link js-navigation-open" id="cadfe2adea9a647f22c8436299e61075-8ae92572d0e915e7a33e7ed8a1618ab573e11beb" title="This path skips through empty directories"><span class="simplified-path">lib/</span>resty</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/bungle/lua-resty-template/commit/c7e75ac7f7f37ecdec7d8487410a7ce602c12b44" class="message" data-pjax="true" title="Release 1.5.">Release 1.5.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-10T10:07:06Z" is="time-ago">Feb 10, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bungle/lua-resty-template/blob/master/CHANGES" class="js-directory-link js-navigation-open" id="e4eb329834da3d36278b1b7d943b3bc9-2aa1616535d13a09083cf14642ac97aacb7de6f7" title="CHANGES">CHANGES</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/bungle/lua-resty-template/commit/285a57d58f9431b2cfb62240161fd049a8d3d49d" class="message" data-pjax="true" title="Update CHANGES">Update CHANGES</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-08T11:08:44Z" is="time-ago">Apr 8, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bungle/lua-resty-template/blob/master/LICENSE" class="js-directory-link js-navigation-open" id="9879d6db96fd29134fc802214163b95a-705317b0c1e83eacb4415dcc8792d9042809fb82" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/bungle/lua-resty-template/commit/c7e75ac7f7f37ecdec7d8487410a7ce602c12b44" class="message" data-pjax="true" title="Release 1.5.">Release 1.5.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-10T10:07:06Z" is="time-ago">Feb 10, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bungle/lua-resty-template/blob/master/README.md" class="js-directory-link js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-be0f537ce15a90d4dd0c68192a36ff78e88cb961" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/bungle/lua-resty-template/commit/c80bb10ebd950e89b858bada9144640dc0d20098" class="message" data-pjax="true" title="Fixed a typo.">Fixed a typo.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T07:41:54Z" is="time-ago">May 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/bungle/lua-resty-template/blob/master/lua-resty-template-dev-1.rockspec" class="js-directory-link js-navigation-open" id="31b0a121fd30acfee614692e7f877609-dcc74040ea0135480a060fb103a7ef1bbfb1930d" title="lua-resty-template-dev-1.rockspec">lua-resty-template-dev-1.rockspec</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/bungle/lua-resty-template/commit/39c12248a8ca5568ae9524361b446ae446ca63d3" class="message" data-pjax="true" title="Changed quoting to normal string quotes.">Changed quoting to normal string quotes.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-08-28T20:02:37Z" is="time-ago">Aug 28, 2014</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-lua-resty-template" class="anchor" href="#lua-resty-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>lua-resty-template</h1>
+
+<p><strong>lua-resty-template</strong> is a compiling (1) (HTML) templating engine for Lua and OpenResty.</p>
+
+<p>(1) with compilation we mean that templates are translated to Lua functions that you may call or <code>string.dump</code> as a binary bytecode blobs to disk that can be later utilized with <code>lua-resty-template</code> or basic <code>load</code> and <code>loadfile</code> standard Lua functions (see also <a href="#template-precompilation">Template Precompilation</a>). Although, generally you don't need to do that as <code>lua-resty-template</code> handles this behind the scenes.</p>
+
+<h2><a id="user-content-hello-world-with-lua-resty-template" class="anchor" href="#hello-world-with-lua-resty-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World with lua-resty-template</h2>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-c">-- Using template.new</span>
+<span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span> <span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">message</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+view:<span class="pl-c1">render</span>()
+<span class="pl-c">-- Using template.render</span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> })</pre></div>
+
+<h5><a id="user-content-viewhtml" class="anchor" href="#viewhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+  &lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h5><a id="user-content-output" class="anchor" href="#output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+  &lt;<span class="pl-ent">h1</span>&gt;Hello, World!&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>The same can be done with inline template string:</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-c">-- Using template string</span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;!DOCTYPE html&gt;</span>
+<span class="pl-s">&lt;html&gt;</span>
+<span class="pl-s">&lt;body&gt;</span>
+<span class="pl-s">  &lt;h1&gt;{{message}}&lt;/h1&gt;</span>
+<span class="pl-s">&lt;/body&gt;</span>
+<span class="pl-s">&lt;/html&gt;<span class="pl-pds">]]</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> })</pre></div>
+
+<h2><a id="user-content-contents" class="anchor" href="#contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contents</h2>
+
+<ul>
+<li><a href="#template-syntax">Template Syntax</a>
+
+<ul>
+<li><a href="#reserved-context-keys-and-remarks">Reserved Context Keys and Remarks</a></li>
+</ul></li>
+<li><a href="#installation">Installation</a>
+
+<ul>
+<li><a href="#using-luarocks-or-moonrocks">Using LuaRocks or Moonrocks</a></li>
+</ul></li>
+<li><a href="#nginx--openresty-configuration">Nginx / OpenResty Configuration</a></li>
+<li><a href="#lua-api">Lua API</a>
+
+<ul>
+<li><a href="#boolean-templatecachingboolean-or-nil">template.caching</a></li>
+<li><a href="#table-templatenewview-layout">template.new</a></li>
+<li><a href="#function-boolean-templatecompileview-key">template.compile</a></li>
+<li><a href="#templaterenderview-context-key">template.render</a></li>
+<li><a href="#string-templateparseview">template.parse</a></li>
+<li><a href="#string-templateprecompileview-path-strip">template.precompile</a></li>
+<li><a href="#templateload">template.load</a></li>
+<li><a href="#templateprint">template.print</a></li>
+</ul></li>
+<li><a href="#template-precompilation">Template Precompilation</a></li>
+<li><a href="#template-helpers">Template Helpers</a></li>
+<li><a href="#usage-examples">Usage Examples</a>
+
+<ul>
+<li><a href="#template-including">Template Including</a></li>
+<li><a href="#views-with-layouts">Views with Layouts</a></li>
+<li><a href="#using-blocks">Using Blocks</a></li>
+<li><a href="#macros">Macros</a></li>
+<li><a href="#calling-methods-in-templates">Calling Methods in Templates</a></li>
+<li><a href="#embedding-angular-or-other-tags--templating-inside-the-templates">Embedding Angular or other tags / templating inside the Templates</a></li>
+<li><a href="#embedding-markdown-inside-the-templates">Embedding Markdown inside the Templates</a></li>
+<li><a href="#lua-server-pages-lsp-with-openresty">Lua Server Pages (LSP) with OpenResty</a></li>
+</ul></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#alternatives">Alternatives</a></li>
+<li><a href="#benchmarks">Benchmarks</a></li>
+<li><a href="#changes">Changes</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+
+<h2><a id="user-content-template-syntax" class="anchor" href="#template-syntax" aria-hidden="true"><span class="octicon octicon-link"></span></a>Template Syntax</h2>
+
+<p>You may use the following tags in templates:</p>
+
+<ul>
+<li><code>{{expression}}</code>, writes result of expression - html escaped</li>
+<li><code>{*expression*}</code>, writes result of expression </li>
+<li><code>{% lua code %}</code>, executes Lua code</li>
+<li><code>{(template)}</code>, includes <code>template</code> file, you may also supply context for include file <code>{(file.html, { message = "Hello, World" } )}</code></li>
+<li><code>{[expression]}</code>, includes <code>expression</code> file (the result of expression), you may also supply context for include file <code>{["file.html", { message = "Hello, World" } ]}</code></li>
+<li><code>{-block-}...{-block-}</code>, wraps inside of a <code>{-block-}</code> to a value stored in a <code>blocks</code> table with a key <code>block</code> (in this case), see <a href="https://github.com/bungle/lua-resty-template#using-blocks">using blocks</a>. Don't use predefined block names <code>verbatim</code> and <code>raw</code>.</li>
+<li><code>{-verbatim-}...{-verbatim-}</code> and <code>{-raw-}...{-raw-}</code> are predefined blocks whose inside is not processed by the <code>lua-resty-template</code> but the content is outputted as is.</li>
+<li><code>{# comments #}</code> everything between <code>{#</code> and <code>#}</code> is considered to be commented out (i.e. not outputted or executed)</li>
+</ul>
+
+<p>From templates you may access everything in <code>context</code> table, and everything in <code>template</code> table. In templates you can also access <code>context</code> and <code>template</code> by prefixing keys.</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt; == &lt;<span class="pl-ent">h1</span>&gt;{{context.message}}&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<h5><a id="user-content-a-word-about-complex-keys-in-context-table" class="anchor" href="#a-word-about-complex-keys-in-context-table" aria-hidden="true"><span class="octicon octicon-link"></span></a>A Word About Complex Keys in Context Table</h5>
+
+<p>Say you have this kind of a context table:</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> ctx <span class="pl-k">=</span> {[<span class="pl-s"><span class="pl-pds">"</span>foo:bar<span class="pl-pds">"</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>foobar<span class="pl-pds">"</span></span>}</pre></div>
+
+<p>And you want to render the <code>ctx["foo:bar"]</code>'s value <code>foobar</code> in your template.  You have to specify it explicitly by referencing the <code>context</code> in your template:</p>
+
+<div class="highlight highlight-html"><pre>{# {*["foo:bar"]*} won't work, you need to use: #}
+{*context["foo:bar"]*}</pre></div>
+
+<p>Or altogether:</p>
+
+<div class="highlight highlight-lua"><pre>template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">{*context["foo:bar"]*}</span>
+<span class="pl-s"><span class="pl-pds">]]</span></span>, {[<span class="pl-s"><span class="pl-pds">"</span>foo:bar<span class="pl-pds">"</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>foobar<span class="pl-pds">"</span></span>})</pre></div>
+
+<h5><a id="user-content-a-word-about-html-escaping" class="anchor" href="#a-word-about-html-escaping" aria-hidden="true"><span class="octicon octicon-link"></span></a>A Word About HTML Escaping</h5>
+
+<p>Only strings are escaped, functions are called without arguments (recursively) and results are returned as is, other types are <code>tostring</code>ified. <code>nil</code>s and <code>ngx.null</code>s are converted to empty strings <code>""</code>.</p>
+
+<p>Escaped HTML characters:</p>
+
+<ul>
+<li><code>&amp;</code> becomes <code>&amp;amp;</code></li>
+<li><code>&lt;</code> becomes <code>&amp;lt;</code></li>
+<li><code>&gt;</code> becomes <code>&amp;gt;</code></li>
+<li><code>"</code> becomes <code>&amp;quot;</code></li>
+<li><code>'</code> becomes <code>&amp;#39;</code></li>
+<li><code>/</code> becomes <code>&amp;#47;</code></li>
+</ul>
+
+<h4><a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h4>
+
+<h5><a id="user-content-lua" class="anchor" href="#lua" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, {
+  title   <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span>,
+  message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>,
+  names   <span class="pl-k">=</span> { <span class="pl-s"><span class="pl-pds">"</span>James<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Jack<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Anne<span class="pl-pds">"</span></span> },
+  jquery  <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;<span class="pl-pds">'</span></span> 
+})</pre></div>
+
+<h5><a id="user-content-viewhtml-1" class="anchor" href="#viewhtml-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>{(header.html)}
+&lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;<span class="pl-ent">ul</span>&gt;
+{% for _, name in ipairs(names) do %}
+    &lt;<span class="pl-ent">li</span>&gt;{{name}}&lt;/<span class="pl-ent">li</span>&gt;
+{% end %}
+&lt;/<span class="pl-ent">ul</span>&gt;
+{(footer.html)}</pre></div>
+
+<h5><a id="user-content-headerhtml" class="anchor" href="#headerhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>header.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;{{title}}&lt;/<span class="pl-ent">title</span>&gt;
+  {*jquery*}
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;</pre></div>
+
+<h5><a id="user-content-footerhtml" class="anchor" href="#footerhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>footer.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h4><a id="user-content-reserved-context-keys-and-remarks" class="anchor" href="#reserved-context-keys-and-remarks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reserved Context Keys and Remarks</h4>
+
+<p>It is adviced that you do not use these keys in your context tables:</p>
+
+<ul>
+<li><code>___</code>, holds the compiled template, if set you need to use <code>{{context.___}}</code></li>
+<li><code>context</code>, holds the current context, if set you need to use <code>{{context.context}}</code></li>
+<li><code>include</code>, holds the include helper function, if set you need to use <code>{{context.include}}</code></li>
+<li><code>layout</code>, holds the layout by which the view will be decorated, if set you need to use <code>{{context.layout}}</code></li>
+<li><code>blocks</code>, holds the blocks, if set you need to use <code>{{context.blocks}}</code> (see: <a href="#using-blocks">using blocks</a>)</li>
+<li><code>template</code>, holds the template table, if set you need to use <code>{{context.template}}</code></li>
+</ul>
+
+<p>In addition to that with <code>template.new</code> you should not overwrite:</p>
+
+<ul>
+<li><code>render</code>, the function that renders a view, obviously ;-)</li>
+</ul>
+
+<p>You should also not <code>{(view.html)}</code> recursively:</p>
+
+<h5><a id="user-content-lua-1" class="anchor" href="#lua-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre>template.<span class="pl-c1">render</span> <span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span></pre></div>
+
+<h5><a id="user-content-viewhtml-2" class="anchor" href="#viewhtml-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>{(view.html)}</pre></div>
+
+<p>You can  load templates from "sub-directories" as well with <code>{(syntax)}</code>:</p>
+
+<h5><a id="user-content-viewhtml-3" class="anchor" href="#viewhtml-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>{(users/list.html)}</pre></div>
+
+<p><strong>Also note that you can provide template either as a file path or as a string. If the file exists, it will be used, otherwise the string is used. See also <a href="#templateload"><code>template.load</code></a>.</strong></p>
+
+<h2><a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Just place <a href="https://github.com/bungle/lua-resty-template/blob/master/lib/resty/template.lua"><code>template.lua</code></a> somewhere in your <code>package.path</code>, preferably under <code>resty</code> directory. If you are using OpenResty, the default location would be <code>/usr/local/openresty/lualib/resty</code>.</p>
+
+<h3><a id="user-content-using-luarocks-or-moonrocks" class="anchor" href="#using-luarocks-or-moonrocks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using LuaRocks or MoonRocks</h3>
+
+<p>If you are using LuaRocks &gt;= 2.2:</p>
+
+<div class="highlight highlight-Shell"><pre>$ luarocks install lua-resty-template</pre></div>
+
+<p>If you are using LuaRocks &lt; 2.2:</p>
+
+<div class="highlight highlight-Shell"><pre>$ luarocks install --server=http://rocks.moonscript.org moonrocks
+$ moonrocks install lua-resty-template</pre></div>
+
+<p>MoonRocks repository for <code>lua-resty-template</code>  is located here: <a href="https://rocks.moonscript.org/modules/bungle/lua-resty-template">https://rocks.moonscript.org/modules/bungle/lua-resty-template</a>.</p>
+
+<h2><a id="user-content-nginx--openresty-configuration" class="anchor" href="#nginx--openresty-configuration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nginx / OpenResty Configuration</h2>
+
+<p>When <code>lua-resty-template</code> is used in context of Nginx / OpenResty there are a few configuration directives that you need to be aware:</p>
+
+<ul>
+<li><code>template_root</code> (<code>set $template_root /var/www/site/templates</code>)</li>
+<li><code>template_location</code> (<code>set $template_location /templates</code>)</li>
+</ul>
+
+<p>If none of these are set in Nginx configuration, <code>ngx.var.document_root</code> (aka root-directive) value is used. If <code>template_location</code> is set, it will be used first, and if the location returns anything but <code>200</code> as a status code, we do fallback to either <code>template_root</code> (if defined) or <code>document_root</code>.</p>
+
+<h5><a id="user-content-using-document_root" class="anchor" href="#using-document_root" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using <code>document_root</code></h5>
+
+<p>This one tries to load file content with Lua code from <code>html</code> directory (relative to Nginx prefix).</p>
+
+<div class="highlight highlight-nginx"><pre><span class="pl-k">http</span> {
+  <span class="pl-k">server</span> {
+    <span class="pl-k">location</span> <span class="pl-en">/ </span>{
+      <span class="pl-k">root</span> html;
+      <span class="pl-k">content_by_lua</span> <span class="pl-s">'</span>
+<span class="pl-s">        local template = require "resty.template"</span>
+<span class="pl-s">        template.render("view.html", { message = "Hello, World!" })</span>
+<span class="pl-s">      '</span>;      
+    }
+  }
+}</pre></div>
+
+<h5><a id="user-content-using-template_root" class="anchor" href="#using-template_root" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using <code>template_root</code></h5>
+
+<p>This one tries to load file content with Lua code from <code>/usr/local/openresty/nginx/html/templates</code> directory.</p>
+
+<div class="highlight highlight-nginx"><pre><span class="pl-k">http</span> {
+  <span class="pl-k">server</span> {
+    <span class="pl-k">set</span> <span class="pl-smi">$template_root</span> /usr/local/openresty/nginx/html/templates;
+    <span class="pl-k">location</span> <span class="pl-en">/ </span>{
+      <span class="pl-k">root</span> html;
+      <span class="pl-k">content_by_lua</span> <span class="pl-s">'</span>
+<span class="pl-s">        local template = require "resty.template"</span>
+<span class="pl-s">        template.render("view.html", { message = "Hello, World!" })</span>
+<span class="pl-s">      '</span>;      
+    }
+  }
+}</pre></div>
+
+<h5><a id="user-content-using-template_location" class="anchor" href="#using-template_location" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using <code>template_location</code></h5>
+
+<p>This one tries to load content with <code>ngx.location.capture</code> from <code>/templates</code> location (in this case this is served with <code>ngx_static</code> module).</p>
+
+<div class="highlight highlight-nginx"><pre><span class="pl-k">http</span> {
+  <span class="pl-k">server</span> {
+    <span class="pl-k">set</span> <span class="pl-smi">$template_location</span> /templates;
+    <span class="pl-k">location</span> <span class="pl-en">/ </span>{
+      <span class="pl-k">root</span> html;
+      <span class="pl-k">content_by_lua</span> <span class="pl-s">'</span>
+<span class="pl-s">        local template = require "resty.template"</span>
+<span class="pl-s">        template.render("view.html", { message = "Hello, World!" })</span>
+<span class="pl-s">      '</span>;      
+    }
+    <span class="pl-k">location</span> <span class="pl-en">/templates </span>{
+      <span class="pl-k">internal</span>;
+      <span class="pl-k">alias</span> html/templates/;
+    }    
+  }
+}</pre></div>
+
+<p><strong>See also <a href="#templateload"><code>template.load</code></a>.</strong></p>
+
+<h2><a id="user-content-lua-api" class="anchor" href="#lua-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua API</h2>
+
+<h4><a id="user-content-boolean-templatecachingboolean-or-nil" class="anchor" href="#boolean-templatecachingboolean-or-nil" aria-hidden="true"><span class="octicon octicon-link"></span></a>boolean template.caching(boolean or nil)</h4>
+
+<p>This function enables or disables template caching, or if no parameters are passed, returns current state of template caching. By default template caching is enabled, but you may want to disable it on development or low-memory situations.</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>   
+<span class="pl-c">-- Get current state of template caching</span>
+<span class="pl-k">local</span> enabled <span class="pl-k">=</span> template.<span class="pl-c1">caching</span>()
+<span class="pl-c">-- Disable template caching</span>
+template.<span class="pl-c1">caching</span>(<span class="pl-c1">false</span>)
+<span class="pl-c">-- Enable template caching</span>
+template.<span class="pl-c1">caching</span>(<span class="pl-c1">true</span>)</pre></div>
+
+<p>Please note that if the template was already cached when compiling a template, the cached version will be returned. You may want to flush cache with <code>template.cache = {}</code> to ensure that your template really gets recompiled.</p>
+
+<h4><a id="user-content-table-templatenewview-layout" class="anchor" href="#table-templatenewview-layout" aria-hidden="true"><span class="octicon octicon-link"></span></a>table template.new(view, layout)</h4>
+
+<p>Creates a new template instance that is used as a (default) context when <code>render</code>ed. A table that gets created has
+only one method <code>render</code>, but the table also has metatable with <code>__tostring</code> defined. See the example below.</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span><span class="pl-s"><span class="pl-pds">"</span>template.html<span class="pl-pds">"</span></span>              <span class="pl-c">-- or</span>
+<span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>) <span class="pl-c">-- or</span>
+<span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span><span class="pl-s"><span class="pl-pds">[[</span>&lt;h1&gt;{{message}}&lt;/h1&gt;<span class="pl-pds">]]</span></span>     <span class="pl-c">-- or</span>
+<span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span>(<span class="pl-s"><span class="pl-pds">[[</span>&lt;h1&gt;{{message}}&lt;/h1&gt;<span class="pl-pds">]]</span></span>, <span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;html&gt;</span>
+<span class="pl-s">&lt;body&gt;</span>
+<span class="pl-s">  {*view*}</span>
+<span class="pl-s">&lt;/body&gt;</span>
+<span class="pl-s">&lt;/html&gt;</span>
+<span class="pl-s"><span class="pl-pds">]]</span></span>)</pre></div>
+
+<h5><a id="user-content-example-1" class="anchor" href="#example-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> view <span class="pl-k">=</span> template.<span class="pl-c1">new</span><span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">message</span>  <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+view:<span class="pl-c1">render</span>()
+<span class="pl-c">-- You may also replace context on render</span>
+view:<span class="pl-c1">render</span>{ title <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span> }
+<span class="pl-c">-- If you want to include view context in  replacement context</span>
+view:<span class="pl-c1">render</span>(<span class="pl-c1">setmetatable</span>({ title <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span> }, { __index <span class="pl-k">=</span> view }))
+<span class="pl-c">-- To get rendered template as a string, you can use tostring</span>
+<span class="pl-k">local</span> result <span class="pl-k">=</span> <span class="pl-c1">tostring</span>(view)</pre></div>
+
+<h4><a id="user-content-function-boolean-templatecompileview-key-plain" class="anchor" href="#function-boolean-templatecompileview-key-plain" aria-hidden="true"><span class="octicon octicon-link"></span></a>function, boolean template.compile(view, key, plain)</h4>
+
+<p>Parses, compiles and caches (if caching is enabled) a template and returns the compiled template as a function that takes context as a parameter and returns rendered template as a string. Optionally you may pass <code>key</code> that is used as a cache key. If cache key is not provided <code>view</code> wil be used as a cache key. If cache key is <code>no-cache</code> the template cache will not be checked and the resulting function will not be cached. You may also optionally pass <code>plain</code> with a value of <code>true</code> if the <code>view</code> is plain text string (this will skip <code>template.load</code> and binary chunk detection in <code>template.parse</code> phase).</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> func <span class="pl-k">=</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>template.html<span class="pl-pds">"</span></span>)          <span class="pl-c">-- or</span>
+<span class="pl-k">local</span> func <span class="pl-k">=</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">[[</span>&lt;h1&gt;{{message}}&lt;/h1&gt;<span class="pl-pds">]]</span></span>)</pre></div>
+
+<h5><a id="user-content-example-2" class="anchor" href="#example-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> func     <span class="pl-k">=</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>)
+<span class="pl-k">local</span> world    <span class="pl-k">=</span> <span class="pl-c1">func</span>{ message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> }
+<span class="pl-k">local</span> universe <span class="pl-k">=</span> <span class="pl-c1">func</span>{ message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, Universe!<span class="pl-pds">"</span></span> }
+<span class="pl-c1">print</span>(world, universe)</pre></div>
+
+<p>Also note the second return value which is a boolean. You may discard it, or use it to determine if the returned function was cached.</p>
+
+<h4><a id="user-content-templaterenderview-context-key-plain" class="anchor" href="#templaterenderview-context-key-plain" aria-hidden="true"><span class="octicon octicon-link"></span></a>template.render(view, context, key, plain)</h4>
+
+<p>Parses, compiles, caches (if caching is enabled) and outputs template either with <code>ngx.print</code> if available, or <code>print</code>. You may optionally also pass <code>key</code> that is used as a cache key. If <code>plain</code> evaluates to <code>true</code>, the <code>view</code> is considered to be plain string template (<code>template.load</code> and binary chunk detection is skipped on <code>template.parse</code>).</p>
+
+<div class="highlight highlight-lua"><pre>template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>template.html<span class="pl-pds">"</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> })          <span class="pl-c">-- or</span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">[[</span>&lt;h1&gt;{{message}}&lt;/h1&gt;<span class="pl-pds">]]</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> })</pre></div>
+
+<h5><a id="user-content-example-3" class="anchor" href="#example-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> })
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, { message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, Universe!<span class="pl-pds">"</span></span> })</pre></div>
+
+<h4><a id="user-content-string-templateparseview-plain" class="anchor" href="#string-templateparseview-plain" aria-hidden="true"><span class="octicon octicon-link"></span></a>string template.parse(view, plain)</h4>
+
+<p>Parses template file or string, and generates a parsed template string. This may come useful when debugging templates. You should note that if you are trying to parse a binary chunk (e.g. one returned with <code>template.compile</code>), <code>template.parse</code> will return that binary chunk as is. If optional parameter <code>plain</code> evaluates to <code>true</code>, the <code>view</code> is considered to be plain string, and the <code>template.load</code> and binary chunk detection is skipped.</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> t1 <span class="pl-k">=</span> template.<span class="pl-c1">parse</span>(<span class="pl-s"><span class="pl-pds">"</span>template.html<span class="pl-pds">"</span></span>)
+<span class="pl-k">local</span> t2 <span class="pl-k">=</span> template.<span class="pl-c1">parse</span>(<span class="pl-s"><span class="pl-pds">[[</span>&lt;h1&gt;{{message}}&lt;/h1&gt;<span class="pl-pds">]]</span></span>)</pre></div>
+
+<h4><a id="user-content-string-templateprecompileview-path-strip" class="anchor" href="#string-templateprecompileview-path-strip" aria-hidden="true"><span class="octicon octicon-link"></span></a>string template.precompile(view, path, strip)</h4>
+
+<p>Precompiles template as a binary chunk. This binary chunk can be written out as a file (and you may use it directly with Lua's <code>load</code> and <code>loadfile</code>). For convenience you may optionally specify <code>path</code> argument to output binary chunk to file. You may also supply <code>strip</code> parameter with value of <code>false</code> to make precompiled templates to have debug information as well (defaults to <code>true</code>).</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> view <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;h1&gt;{{title}}&lt;/h1&gt;</span>
+<span class="pl-s">&lt;ul&gt;</span>
+<span class="pl-s">{% for _, v in ipairs(context) do %}</span>
+<span class="pl-s">    &lt;li&gt;{{v}}&lt;/li&gt;</span>
+<span class="pl-s">{% end %}</span>
+<span class="pl-s">&lt;/ul&gt;<span class="pl-pds">]]</span></span>
+
+<span class="pl-k">local</span> compiled <span class="pl-k">=</span> template.<span class="pl-c1">precompile</span>(view)
+
+<span class="pl-k">local</span> file <span class="pl-k">=</span> <span class="pl-c1">io.open</span>(<span class="pl-s"><span class="pl-pds">"</span>precompiled-bin.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>wb<span class="pl-pds">"</span></span>)
+file:<span class="pl-c1">write</span>(compiled)
+file:<span class="pl-c1">close</span>()
+
+<span class="pl-c">-- Alternatively you could just write (which does the same thing as above)</span>
+template.<span class="pl-c1">precompile</span>(view, <span class="pl-s"><span class="pl-pds">"</span>precompiled-bin.html<span class="pl-pds">"</span></span>)
+
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>precompiled-bin.html<span class="pl-pds">"</span></span>, {
+    title <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Names<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Emma<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>James<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Nicholas<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Mary<span class="pl-pds">"</span></span>
+})</pre></div>
+
+<h4><a id="user-content-templateload" class="anchor" href="#templateload" aria-hidden="true"><span class="octicon octicon-link"></span></a>template.load</h4>
+
+<p>This field is used to load templates. <code>template.parse</code> calls this function before it starts parsing the template (assuming that optional <code>plain</code> argument in <code>template.parse</code> evaluates false (the default). By default there are two loaders in <code>lua-resty-template</code>: one for Lua and the other for Nginx / OpenResty. Users can overwrite this field with their own function. For example you may want to write a template loader function that loads templates from a database.</p>
+
+<p>Default <code>template.load</code> for Lua (attached as template.load when used directly with Lua):</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> <span class="pl-k">function</span> <span class="pl-en">load_lua</span>(<span class="pl-smi">path</span>)
+    <span class="pl-c">-- read_file tries to open file from path, and return its content.</span>
+    <span class="pl-k">return</span> <span class="pl-c1">read_file</span>(path) <span class="pl-k">or</span> path
+<span class="pl-k">end</span></pre></div>
+
+<p>Default <code>template.load</code> for Nginx / OpenResty (attached as template.load when used in context of Nginx / OpenResty):</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> <span class="pl-k">function</span> <span class="pl-en">load_ngx</span>(<span class="pl-smi">path</span>)
+    <span class="pl-k">local</span> file, location <span class="pl-k">=</span> path, ngx.<span class="pl-smi">var</span>.<span class="pl-smi">template_location</span>
+    <span class="pl-k">if</span> file:<span class="pl-c1">sub</span>(<span class="pl-c1">1</span>)  <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span> <span class="pl-k">then</span> file <span class="pl-k">=</span> file:<span class="pl-c1">sub</span>(<span class="pl-c1">2</span>) <span class="pl-k">end</span>
+    <span class="pl-k">if</span> location <span class="pl-k">and</span> location <span class="pl-k">~=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span> <span class="pl-k">then</span>
+        <span class="pl-k">if</span> location:<span class="pl-c1">sub</span>(<span class="pl-k">-</span><span class="pl-c1">1</span>) <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span> <span class="pl-k">then</span> location <span class="pl-k">=</span> location:<span class="pl-c1">sub</span>(<span class="pl-c1">1</span>, <span class="pl-k">-</span><span class="pl-c1">2</span>) <span class="pl-k">end</span>
+        <span class="pl-k">local</span> res <span class="pl-k">=</span> ngx.<span class="pl-smi">location</span>.<span class="pl-c1">capture</span>(location <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span> <span class="pl-k">..</span> file)
+        <span class="pl-k">if</span> res.<span class="pl-smi">status</span> <span class="pl-k">==</span> <span class="pl-c1">200</span> <span class="pl-k">then</span> <span class="pl-k">return</span> res.<span class="pl-smi">body</span> <span class="pl-k">end</span>
+    <span class="pl-k">end</span>
+    <span class="pl-k">local</span> root <span class="pl-k">=</span> ngx.<span class="pl-smi">var</span>.<span class="pl-smi">template_root</span> <span class="pl-k">or</span> ngx.<span class="pl-smi">var</span>.<span class="pl-smi">document_root</span>
+    <span class="pl-k">if</span> root:<span class="pl-c1">sub</span>(<span class="pl-k">-</span><span class="pl-c1">1</span>) <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span> <span class="pl-k">then</span> root <span class="pl-k">=</span> root:<span class="pl-c1">sub</span>(<span class="pl-c1">1</span>, <span class="pl-k">-</span><span class="pl-c1">2</span>) <span class="pl-k">end</span>
+    <span class="pl-c">-- read_file tries to open file from path, and return its content.</span>
+    <span class="pl-k">return</span> <span class="pl-c1">read_file</span>(root <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span> <span class="pl-k">..</span> file) <span class="pl-k">or</span> path
+<span class="pl-k">end</span></pre></div>
+
+<p>As you can see, <code>lua-resty-template</code> always tries (by default) to load a template from a file (or with <code>ngx.location.capture</code>) even if you provided template as a string. <code>lua-resty-template</code>. But if you know that your templates are always strings, and not file paths, you may use <code>plain</code> argument in <code>template.compile</code>, <code>template.render</code>, and <code>template.parse</code> OR replace <code>template.load</code> with the simplest possible template loader there is (but be aware that if your templates use <code>{(file.html)}</code> includes, those are considered as strings too, in this case <code>file.html</code> will be the template string that is parsed) - you could also setup a loader that finds templates in some database system, e.g. Redis:</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-smi">load</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">s</span>) <span class="pl-k">return</span> s <span class="pl-k">end</span></pre></div>
+
+<h4><a id="user-content-templateprint" class="anchor" href="#templateprint" aria-hidden="true"><span class="octicon octicon-link"></span></a>template.print</h4>
+
+<p>This field contains a function that is used on <code>template.render()</code> or <code>template.new("example.html"):render()</code> to output the results. By default this holds either <code>ngx.print</code> (if available) or <code>print</code>. You may want to (and are allowed to) overwrite this field, if you want to use your own output function instead. This is also useful if you are using some other framework, e.g. Turbo.lua (<a href="http://turbolua.org/">http://turbolua.org/</a>).</p>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+
+template.<span class="pl-smi">print</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">s</span>)
+  <span class="pl-c1">print</span>(s)
+  <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">"</span>&lt;!-- Output by My Function --&gt;<span class="pl-pds">"</span></span>)
+<span class="pl-k">end</span></pre></div>
+
+<h2><a id="user-content-template-precompilation" class="anchor" href="#template-precompilation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Template Precompilation</h2>
+
+<p><code>lua-resty-template</code> supports template precompilation. This can be useful when you want to skip template parsing (and Lua interpretation) in production or if you do not want your templates distributed as plain text files on production servers. Also by precompiling, you can ensure that your templates do not contain something, that cannot be compiled (they are syntactically valid Lua). Although templates are cached (even without precompilation), there are some perfomance (and memory) gains. You could integrate template precompilation in your build (or deployment) scripts (maybe as Gulp, Grunt or Ant tasks).</p>
+
+<h5><a id="user-content-precompiling-template-and-output-it-as-a-binary-file" class="anchor" href="#precompiling-template-and-output-it-as-a-binary-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Precompiling template, and output it as a binary file</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> compiled <span class="pl-k">=</span> template.<span class="pl-c1">precompile</span>(<span class="pl-s"><span class="pl-pds">"</span>example.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>example-bin.html<span class="pl-pds">"</span></span>)</pre></div>
+
+<h5><a id="user-content-load-precompiled-template-file-and-run-it-with-context-parameters" class="anchor" href="#load-precompiled-template-file-and-run-it-with-context-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Load precompiled template file, and run it with context parameters</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>example-bin.html<span class="pl-pds">"</span></span>, { <span class="pl-s"><span class="pl-pds">"</span>Jack<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Mary<span class="pl-pds">"</span></span> })</pre></div>
+
+<h2><a id="user-content-template-helpers" class="anchor" href="#template-helpers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Template Helpers</h2>
+
+<p>While <code>lua-resty-template</code> does not have much infrastucture or ways to extend it, you still have a few possibilities that you may try.</p>
+
+<ul>
+<li>Adding methods to global <code>string</code>, and <code>table</code> types (not encouraged, though)</li>
+<li>Wrap your values with something before adding them in context (e.g. proxy-table)</li>
+<li>Create global functions</li>
+<li>Add local functions either to <code>template</code> table or <code>context</code> table</li>
+<li>Use metamethods in your tables</li>
+</ul>
+
+<p>While modifying global types seems convenient, it can have nasty side effects. That's why I suggest you to look at these libraries, and articles first:</p>
+
+<ul>
+<li>Method Chaining Wrapper (<a href="http://lua-users.org/wiki/MethodChainingWrapper">http://lua-users.org/wiki/MethodChainingWrapper</a>)</li>
+<li>Moses (<a href="https://github.com/Yonaba/Moses">https://github.com/Yonaba/Moses</a>)</li>
+<li>underscore-lua (<a href="https://github.com/jtarchie/underscore-lua">https://github.com/jtarchie/underscore-lua</a>)</li>
+</ul>
+
+<p>You could for example add Moses' or Underscore's <code>_</code> to template table or context table.</p>
+
+<h5><a id="user-content-example-4" class="anchor" href="#example-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> _ <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>moses<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-smi">_</span> <span class="pl-k">=</span> _</pre></div>
+
+<p>Then you can use <code>_</code> inside your templates. I created one example template helper that can be found from here:
+<a href="https://github.com/bungle/lua-resty-template/blob/master/lib/resty/template/html.lua">https://github.com/bungle/lua-resty-template/blob/master/lib/resty/template/html.lua</a></p>
+
+<h5><a id="user-content-lua-2" class="anchor" href="#lua-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> html <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template.html<span class="pl-pds">"</span></span>
+
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;ul&gt;</span>
+<span class="pl-s">{% for _, person in ipairs(context) do %}</span>
+<span class="pl-s">    {*html.li(person.name)*}</span>
+<span class="pl-s">{% end %}</span>
+<span class="pl-s">&lt;/ul&gt;</span>
+<span class="pl-s">&lt;table&gt;</span>
+<span class="pl-s">{% for _, person in ipairs(context) do %}</span>
+<span class="pl-s">    &lt;tr data-sort="{{(person.name or ""):lower()}}"&gt;</span>
+<span class="pl-s">        {*html.td{ id = person.id }(person.name)*}</span>
+<span class="pl-s">    &lt;/tr&gt;</span>
+<span class="pl-s">{% end %}</span>
+<span class="pl-s">&lt;/table&gt;<span class="pl-pds">]]</span></span>, {
+    { id <span class="pl-k">=</span> <span class="pl-c1">1</span>, name <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Emma<span class="pl-pds">"</span></span>},
+    { id <span class="pl-k">=</span> <span class="pl-c1">2</span>, name <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>James<span class="pl-pds">"</span></span> },
+    { id <span class="pl-k">=</span> <span class="pl-c1">3</span>, name <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Nicholas<span class="pl-pds">"</span></span> },
+    { id <span class="pl-k">=</span> <span class="pl-c1">4</span> }
+})</pre></div>
+
+<h5><a id="user-content-output-1" class="anchor" href="#output-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">ul</span>&gt;
+    &lt;<span class="pl-ent">li</span>&gt;Emma&lt;/<span class="pl-ent">li</span>&gt;
+    &lt;<span class="pl-ent">li</span>&gt;James&lt;/<span class="pl-ent">li</span>&gt;
+    &lt;<span class="pl-ent">li</span>&gt;Nicholas&lt;/<span class="pl-ent">li</span>&gt;
+    &lt;<span class="pl-ent">li</span> /&gt;
+&lt;/<span class="pl-ent">ul</span>&gt;
+&lt;<span class="pl-ent">table</span>&gt;
+    &lt;<span class="pl-ent">tr</span> <span class="pl-e">data-sort</span>=<span class="pl-s"><span class="pl-pds">"</span>emma<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">td</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>&gt;Emma&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;/<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">tr</span> <span class="pl-e">data-sort</span>=<span class="pl-s"><span class="pl-pds">"</span>james<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">td</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>2<span class="pl-pds">"</span></span>&gt;James&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;/<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">tr</span> <span class="pl-e">data-sort</span>=<span class="pl-s"><span class="pl-pds">"</span>nicholas<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">td</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>3<span class="pl-pds">"</span></span>&gt;Nicholas&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;/<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">tr</span> <span class="pl-e">data-sort</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">td</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span> /&gt;
+    &lt;/<span class="pl-ent">tr</span>&gt;
+&lt;/<span class="pl-ent">table</span>&gt;</pre></div>
+
+<h2><a id="user-content-usage-examples" class="anchor" href="#usage-examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage Examples</h2>
+
+<h3><a id="user-content-template-including" class="anchor" href="#template-including" aria-hidden="true"><span class="octicon octicon-link"></span></a>Template Including</h3>
+
+<p>You may include templates inside templates with <code>{(template)}</code> and <code>{(template, context)}</code> syntax. The first one uses the current context as a context for included template, and the second one replaces it with a new context. Here is example of using includes and passing a different context to include file:</p>
+
+<h5><a id="user-content-lua-3" class="anchor" href="#lua-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>include.html<span class="pl-pds">"</span></span>, { users <span class="pl-k">=</span> {
+    { name <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Jane<span class="pl-pds">"</span></span>, age <span class="pl-k">=</span> <span class="pl-c1">29</span> },
+    { name <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>John<span class="pl-pds">"</span></span>, age <span class="pl-k">=</span> <span class="pl-c1">25</span> }
+}})</pre></div>
+
+<h5><a id="user-content-includehtml" class="anchor" href="#includehtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>include.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">ul</span>&gt;
+{% for _, user in ipairs(users) do %}
+    {(user.html, user)}
+{% end %}
+&lt;/<span class="pl-ent">ul</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h5><a id="user-content-userhtml" class="anchor" href="#userhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>user.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">li</span>&gt;User {{name}} is of age {{age}}&lt;/<span class="pl-ent">li</span>&gt;</pre></div>
+
+<h5><a id="user-content-outut" class="anchor" href="#outut" aria-hidden="true"><span class="octicon octicon-link"></span></a>Outut</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">ul</span>&gt;
+    &lt;<span class="pl-ent">li</span>&gt;User Jane is of age 29&lt;/<span class="pl-ent">li</span>&gt;
+    &lt;<span class="pl-ent">li</span>&gt;User John is of age 25&lt;/<span class="pl-ent">li</span>&gt;
+&lt;/<span class="pl-ent">ul</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h3><a id="user-content-views-with-layouts" class="anchor" href="#views-with-layouts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Views with Layouts</h3>
+
+<p>Layouts (or Master Pages) can be used to wrap a view inside another view (aka layout).</p>
+
+<h5><a id="user-content-lua-4" class="anchor" href="#lua-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+<span class="pl-k">local</span> layout   <span class="pl-k">=</span> template.<span class="pl-c1">new</span><span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>
+layout.<span class="pl-smi">title</span>   <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span>
+layout.<span class="pl-smi">view</span>    <span class="pl-k">=</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>){ message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> }
+layout:<span class="pl-c1">render</span>()
+<span class="pl-c">-- Or like this</span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>, {
+  title <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span>,
+  view  <span class="pl-k">=</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>){ message <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span> }
+})
+<span class="pl-c">-- Or maybe you like this style more</span>
+<span class="pl-c">-- (but please remember that context.view is overwritten on rendering the layout.html)</span>
+<span class="pl-k">local</span> view     <span class="pl-k">=</span> template.<span class="pl-c1">new</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>)
+view.<span class="pl-smi">title</span>     <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">message</span>   <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+view:<span class="pl-c1">render</span>()</pre></div>
+
+<h5><a id="user-content-viewhtml-4" class="anchor" href="#viewhtml-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<h5><a id="user-content-layouthtml" class="anchor" href="#layouthtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>layout.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;{{title}}&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+    {*view*}
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h5><a id="user-content-alternatively-you-can-define-the-layout-in-a-view-as-well" class="anchor" href="#alternatively-you-can-define-the-layout-in-a-view-as-well" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alternatively you can define the layout in a view as well:</h5>
+
+<h5><a id="user-content-lua-5" class="anchor" href="#lua-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> view     <span class="pl-k">=</span> template.<span class="pl-c1">new</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>)
+view.<span class="pl-smi">title</span>     <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">message</span>   <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+view:<span class="pl-c1">render</span>()</pre></div>
+
+<h5><a id="user-content-viewhtml-5" class="anchor" href="#viewhtml-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>{% layout="section.html" %}
+&lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<h5><a id="user-content-sectionhtml" class="anchor" href="#sectionhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>section.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>section<span class="pl-pds">"</span></span>&gt;
+    {*view*}
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h5><a id="user-content-layouthtml-1" class="anchor" href="#layouthtml-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>layout.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;{{title}}&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+    {*view*}
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h5><a id="user-content-output-2" class="anchor" href="#output-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">title</span>&gt;Testing lua-resty-template&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>section<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">h1</span>&gt;Hello, World!&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">div</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h3><a id="user-content-using-blocks" class="anchor" href="#using-blocks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Blocks</h3>
+
+<p>Blocks can be used to move different parts of the views to specific places in layouts. Layouts have placeholders for blocks.</p>
+
+<h5><a id="user-content-lua-6" class="anchor" href="#lua-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> view     <span class="pl-k">=</span> template.<span class="pl-c1">new</span>(<span class="pl-s"><span class="pl-pds">"</span>view.html<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>layout.html<span class="pl-pds">"</span></span>)
+view.<span class="pl-smi">title</span>     <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Testing lua-resty-template blocks<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">message</span>   <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+view.<span class="pl-smi">keywords</span>  <span class="pl-k">=</span> { <span class="pl-s"><span class="pl-pds">"</span>test<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>lua<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>template<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>blocks<span class="pl-pds">"</span></span> }
+view:<span class="pl-c1">render</span>()</pre></div>
+
+<h5><a id="user-content-viewhtml-6" class="anchor" href="#viewhtml-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>view.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">h1</span>&gt;{{message}}&lt;/<span class="pl-ent">h1</span>&gt;
+{-aside-}
+&lt;<span class="pl-ent">ul</span>&gt;
+    {% for _, keyword in ipairs(keywords) do %}
+    &lt;<span class="pl-ent">li</span>&gt;{{keyword}}&lt;/<span class="pl-ent">li</span>&gt;
+    {% end %}
+&lt;/<span class="pl-ent">ul</span>&gt;
+{-aside-}</pre></div>
+
+<h5><a id="user-content-layouthtml-2" class="anchor" href="#layouthtml-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>layout.html</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">title</span>&gt;{*title*}&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">article</span>&gt;
+    {*view*}
+&lt;/<span class="pl-ent">article</span>&gt;
+{% if blocks.aside then %}
+&lt;<span class="pl-ent">aside</span>&gt;
+    {*blocks.aside*}
+&lt;/<span class="pl-ent">aside</span>&gt;
+{% end %}
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h5><a id="user-content-output-3" class="anchor" href="#output-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">title</span>&gt;Testing lua-resty-template blocks&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">article</span>&gt;
+    &lt;<span class="pl-ent">h1</span>&gt;Hello, World!&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">article</span>&gt;
+&lt;<span class="pl-ent">aside</span>&gt;
+    &lt;<span class="pl-ent">ul</span>&gt;
+        &lt;<span class="pl-ent">li</span>&gt;test&lt;/<span class="pl-ent">li</span>&gt;
+        &lt;<span class="pl-ent">li</span>&gt;lua&lt;/<span class="pl-ent">li</span>&gt;
+        &lt;<span class="pl-ent">li</span>&gt;template&lt;/<span class="pl-ent">li</span>&gt;
+        &lt;<span class="pl-ent">li</span>&gt;blocks&lt;/<span class="pl-ent">li</span>&gt;
+    &lt;/<span class="pl-ent">ul</span>&gt;
+&lt;/<span class="pl-ent">aside</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h3><a id="user-content-macros" class="anchor" href="#macros" aria-hidden="true"><span class="octicon octicon-link"></span></a>Macros</h3>
+
+<p><a href="https://github.com/DDarko">@DDarko</a> mentioned in an <a href="https://github.com/bungle/lua-resty-template/issues/5">issue #5</a> that he has a use case where he needs to have macros or parameterized views. That is a nice feature that you can use with <code>lua-resty-template</code>.</p>
+
+<p>To use macros, let's first define some Lua code:</p>
+
+<div class="highlight highlight-lua"><pre>template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">"</span>macro.html<span class="pl-pds">"</span></span>, {
+    item <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>original<span class="pl-pds">"</span></span>,
+    items <span class="pl-k">=</span> { a <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>original-a<span class="pl-pds">"</span></span>, b <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>original-b<span class="pl-pds">"</span></span> } 
+})</pre></div>
+
+<p>And the <code>macro-example.html</code>:</p>
+
+<div class="highlight highlight-lua"><pre>{<span class="pl-k">%</span> <span class="pl-k">local</span> string_macro <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;div&gt;{{item}}&lt;/div&gt;</span>
+<span class="pl-s"><span class="pl-pds">]]</span></span> <span class="pl-k">%</span>}
+{<span class="pl-k">*</span> template.<span class="pl-c1">compile</span>(string_macro)(context) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> template.<span class="pl-c1">compile</span>(string_macro){ item <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>string-macro-context<span class="pl-pds">"</span></span> } <span class="pl-k">*</span>}</pre></div>
+
+<p>This will output:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span>&gt;original&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span>&gt;string-macro-context&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<p>Now let's add function macro, in <code>macro-example.html</code> (you can omit <code>local</code> if you want):</p>
+
+<div class="highlight highlight-lua"><pre>{<span class="pl-k">%</span> <span class="pl-k">local</span> function_macro <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">var, el</span>)
+    el <span class="pl-k">=</span> el <span class="pl-k">or</span> <span class="pl-s"><span class="pl-pds">"</span>div<span class="pl-pds">"</span></span>
+    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;<span class="pl-pds">"</span></span> <span class="pl-k">..</span> el <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>&gt;{{<span class="pl-pds">"</span></span> <span class="pl-k">..</span> var <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>}}&lt;/<span class="pl-pds">"</span></span> <span class="pl-k">..</span> el <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>&gt;<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+<span class="pl-k">end</span> <span class="pl-k">%</span>}
+
+{<span class="pl-k">*</span> template.<span class="pl-c1">compile</span>(<span class="pl-c1">function_macro</span>(<span class="pl-s"><span class="pl-pds">"</span>item<span class="pl-pds">"</span></span>))(context) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> template.<span class="pl-c1">compile</span>(<span class="pl-c1">function_macro</span>(<span class="pl-s"><span class="pl-pds">"</span>a<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>span<span class="pl-pds">"</span></span>))(items) <span class="pl-k">*</span>}</pre></div>
+
+<p>This will output:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span>&gt;original&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">span</span>&gt;original-a&lt;/<span class="pl-ent">span</span>&gt;</pre></div>
+
+<p>But this is even more flexible, let's try another function macro:</p>
+
+<div class="highlight highlight-lua"><pre>{<span class="pl-k">%</span> <span class="pl-k">local</span> <span class="pl-k">function</span> <span class="pl-en">function_macro2</span>(<span class="pl-smi">var</span>)
+    <span class="pl-k">return</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>&lt;div&gt;{{<span class="pl-pds">"</span></span> <span class="pl-k">..</span> var <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>}}&lt;/div&gt;<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>)
+<span class="pl-k">end</span> <span class="pl-k">%</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro2</span> <span class="pl-s"><span class="pl-pds">"</span>item<span class="pl-pds">"</span></span> (context) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro2</span> <span class="pl-s"><span class="pl-pds">"</span>b<span class="pl-pds">"</span></span> (items) <span class="pl-k">*</span>}</pre></div>
+
+<p>This will output:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span>&gt;original&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span>&gt;original-b&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<p>And here is another one:</p>
+
+<div class="highlight highlight-lua"><pre>{<span class="pl-k">%</span> <span class="pl-k">function</span> <span class="pl-en">function_macro3</span>(<span class="pl-smi">var, ctx</span>)
+    <span class="pl-k">return</span> template.<span class="pl-c1">compile</span>(<span class="pl-s"><span class="pl-pds">"</span>&lt;div&gt;{{<span class="pl-pds">"</span></span> <span class="pl-k">..</span> var <span class="pl-k">..</span> <span class="pl-s"><span class="pl-pds">"</span>}}&lt;/div&gt;<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>)(ctx <span class="pl-k">or</span> context)
+<span class="pl-k">end</span> <span class="pl-k">%</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro3</span>(<span class="pl-s"><span class="pl-pds">"</span>item<span class="pl-pds">"</span></span>) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro3</span>(<span class="pl-s"><span class="pl-pds">"</span>a<span class="pl-pds">"</span></span>, items) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro3</span>(<span class="pl-s"><span class="pl-pds">"</span>b<span class="pl-pds">"</span></span>, items) <span class="pl-k">*</span>}
+{<span class="pl-k">*</span> <span class="pl-c1">function_macro3</span>(<span class="pl-s"><span class="pl-pds">"</span>b<span class="pl-pds">"</span></span>, { b <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>b-from-new-context<span class="pl-pds">"</span></span> }) <span class="pl-k">*</span>}</pre></div>
+
+<p>This will output:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span>&gt;original&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span>&gt;original-a&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span>&gt;original-b&lt;/<span class="pl-ent">div</span>&gt;
+&lt;<span class="pl-ent">div</span>&gt;b-from-new-context&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<p>Macros are really flexible. You may have form-renderers and other helper-macros to have a reusable and parameterized template output. One thing you should know is that inside code blocks (between <code>{%</code> and <code>%}</code>) you cannot have <code>%}</code>, but you can work around this using string concatenation <code>"%" .. "}"</code>.</p>
+
+<h3><a id="user-content-calling-methods-in-templates" class="anchor" href="#calling-methods-in-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Calling Methods in Templates</h3>
+
+<p>You can call string methods (or other table functions) in templates too.</p>
+
+<h5><a id="user-content-lua-7" class="anchor" href="#lua-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-c1">render</span>(<span class="pl-s"><span class="pl-pds">[[</span></span>
+<span class="pl-s">&lt;h1&gt;{{header:upper()}}&lt;/h1&gt;</span>
+<span class="pl-s"><span class="pl-pds">]]</span></span>, { header <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>hello, world!<span class="pl-pds">"</span></span> })</pre></div>
+
+<h5><a id="user-content-output-4" class="anchor" href="#output-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">h1</span>&gt;HELLO, WORLD!&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<h3><a id="user-content-embedding-angular-or-other-tags--templating-inside-the-templates" class="anchor" href="#embedding-angular-or-other-tags--templating-inside-the-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Embedding Angular or other tags / templating inside the Templates</h3>
+
+<p>Sometimes you need to mix and match other templates (say client side Javascript templates like Angular) with
+server side lua-resty-templates. Say you have this kind of Angular template:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span> <span class="pl-e">ng-app</span>&gt;
+ &lt;<span class="pl-ent">body</span> <span class="pl-e">ng-controller</span>=<span class="pl-s"><span class="pl-pds">"</span>MyController<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">input</span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>foo<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">button</span> <span class="pl-e">ng-click</span>=<span class="pl-s"><span class="pl-pds">"</span>changeFoo()<span class="pl-pds">"</span></span>&gt;{{buttonText}}&lt;/<span class="pl-ent">button</span>&gt;
+<span class="pl-s1">   &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>angular.js<span class="pl-pds">"</span></span>&gt;</span>
+<span class="pl-s1"> <span class="pl-k">&lt;/</span>body<span class="pl-k">&gt;</span></span>
+<span class="pl-s1"><span class="pl-k">&lt;/</span>html<span class="pl-k">&gt;</span></span></pre></div>
+
+<p>Now you can see that there is <code>{{buttonText}}</code> that is really for Angular templating, and not for lua-resty-template.
+You can fix this by wrapping either the whole code with <code>{-verbatim-}</code> or <code>{-raw-}</code> or only the parts that you want:</p>
+
+<div class="highlight highlight-html"><pre>{-raw-}
+&lt;<span class="pl-ent">html</span> <span class="pl-e">ng-app</span>&gt;
+ &lt;<span class="pl-ent">body</span> <span class="pl-e">ng-controller</span>=<span class="pl-s"><span class="pl-pds">"</span>MyController<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">input</span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>foo<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">button</span> <span class="pl-e">ng-click</span>=<span class="pl-s"><span class="pl-pds">"</span>changeFoo()<span class="pl-pds">"</span></span>&gt;{{buttonText}}&lt;/<span class="pl-ent">button</span>&gt;
+<span class="pl-s1">   &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>angular.js<span class="pl-pds">"</span></span>&gt;</span>
+<span class="pl-s1"> <span class="pl-k">&lt;/</span>body<span class="pl-k">&gt;</span></span>
+<span class="pl-s1"><span class="pl-k">&lt;/</span>html<span class="pl-k">&gt;</span></span>
+<span class="pl-s1">{<span class="pl-k">-</span>raw<span class="pl-k">-</span>}</span></pre></div>
+
+<p>or (see the <code>{(head.html)}</code> is processed by lua-resty-template):</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span> <span class="pl-e">ng-app</span>&gt;
+ {(head.html)}
+ &lt;<span class="pl-ent">body</span> <span class="pl-e">ng-controller</span>=<span class="pl-s"><span class="pl-pds">"</span>MyController<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">input</span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>foo<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>&gt;
+   &lt;<span class="pl-ent">button</span> <span class="pl-e">ng-click</span>=<span class="pl-s"><span class="pl-pds">"</span>changeFoo()<span class="pl-pds">"</span></span>&gt;{-raw-}{{buttonText}}{-raw-}&lt;/<span class="pl-ent">button</span>&gt;
+<span class="pl-s1">   &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>angular.js<span class="pl-pds">"</span></span>&gt;</span>
+<span class="pl-s1"> <span class="pl-k">&lt;/</span>body<span class="pl-k">&gt;</span></span>
+<span class="pl-s1"><span class="pl-k">&lt;/</span>html<span class="pl-k">&gt;</span></span></pre></div>
+
+<p>I'm also looking forward to make it even easier to mix-and-match other templates with server side lua-resty-templates.
+We could for example introduce escape syntax with prefixing the tags with <code>\</code>, so the above example would just go like
+this:</p>
+
+<div class="highlight highlight-html"><pre>...
+&lt;<span class="pl-ent">button</span> <span class="pl-e">ng-click</span>=<span class="pl-s"><span class="pl-pds">"</span>changeFoo()<span class="pl-pds">"</span></span>&gt;\{{buttonText}}&lt;/<span class="pl-ent">button</span>&gt;
+...</pre></div>
+
+<p>But then we would need to possibly support <code>\\{{buttonText}}</code> syntax as well (aka escaping the escape) or you need to
+do <code>{{ "\\" .. buttonText }}</code>. But I kinda like this short escaping syntax, so it might get implemented in a next
+version.</p>
+
+<h3><a id="user-content-embedding-markdown-inside-the-templates" class="anchor" href="#embedding-markdown-inside-the-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Embedding Markdown inside the Templates</h3>
+
+<p>If you want to embed Markdown (and SmartyPants) syntax inside your templates you can do it by using for example <a href="https://github.com/bungle/lua-resty-hoedown"><code>lua-resty-hoedown</code></a> (it depends on LuaJIT). Here is an example of using that:</p>
+
+<h5><a id="user-content-lua-8" class="anchor" href="#lua-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-smi">markdown</span> <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.hoedown<span class="pl-pds">"</span></span>
+
+template.<span class="pl-smi">render</span><span class="pl-s"><span class="pl-pds">[=[</span></span>
+<span class="pl-s">&lt;html&gt;</span>
+<span class="pl-s">&lt;body&gt;</span>
+<span class="pl-s">{*markdown[[</span>
+<span class="pl-s">#Hello, World</span>
+<span class="pl-s"></span>
+<span class="pl-s">Testing Markdown.</span>
+<span class="pl-s">]]*}</span>
+<span class="pl-s">&lt;/body&gt;</span>
+<span class="pl-s">&lt;/html&gt;</span>
+<span class="pl-s"><span class="pl-pds">]=]</span></span></pre></div>
+
+<h5><a id="user-content-output-5" class="anchor" href="#output-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">h1</span>&gt;Hello, World&lt;/<span class="pl-ent">h1</span>&gt;
+
+&lt;<span class="pl-ent">p</span>&gt;Testing Markdown.&lt;/<span class="pl-ent">p</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>You may also add config parameters that are documented in <code>lua-resty-hoedown</code> project. Say you want also to use SmartyPants:</p>
+
+<h5><a id="user-content-lua-9" class="anchor" href="#lua-9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> template <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template<span class="pl-pds">"</span></span>
+template.<span class="pl-smi">markdown</span> <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.hoedown<span class="pl-pds">"</span></span>
+
+template.<span class="pl-smi">render</span><span class="pl-s"><span class="pl-pds">[=[</span></span>
+<span class="pl-s">&lt;html&gt;</span>
+<span class="pl-s">&lt;body&gt;</span>
+<span class="pl-s">{*markdown([[</span>
+<span class="pl-s">#Hello, World</span>
+<span class="pl-s"></span>
+<span class="pl-s">Testing Markdown with "SmartyPants"...</span>
+<span class="pl-s">]], { smartypants = true })*}</span>
+<span class="pl-s">&lt;/body&gt;</span>
+<span class="pl-s">&lt;/html&gt;</span>
+<span class="pl-s"><span class="pl-pds">]=]</span></span></pre></div>
+
+<h5><a id="user-content-output-6" class="anchor" href="#output-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+&lt;<span class="pl-ent">h1</span>&gt;Hello, World&lt;/<span class="pl-ent">h1</span>&gt;
+
+&lt;<span class="pl-ent">p</span>&gt;Testing Markdown with <span class="pl-c1">&amp;ldquo;</span>SmartyPants<span class="pl-c1">&amp;rdquo;&amp;hellip;</span>&lt;/<span class="pl-ent">p</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>You may also want to add caching layer for your Markdowns, or a helper functions instead of placing Hoedown library directly  as a template helper function in <code>template</code>.   </p>
+
+<h3><a id="user-content-lua-server-pages-lsp-with-openresty" class="anchor" href="#lua-server-pages-lsp-with-openresty" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua Server Pages (LSP) with OpenResty</h3>
+
+<p>Lua Server Pages or LSPs is similar to traditional PHP or Microsoft Active Server Pages (ASP) where you can just place source code files in your document root (of your web server) and have them processed by compilers of the respective languages (PHP, VBScript, JScript, etc.). You can emulate quite closely this, sometimes called spaghetti-style of develoment, easily with <code>lua-resty-template</code>. Those that have been doing ASP.NET Web Forms development, know a concept of Code Behind files. There is something similar, but this time we call it Layout in Front here (you may include Lua modules with normal <code>require</code> calls if you wish in LSPs). To help you understand the concepts, let's have a small example:</p>
+
+<h5><a id="user-content-nginxconf" class="anchor" href="#nginxconf" aria-hidden="true"><span class="octicon octicon-link"></span></a>nginx.conf:</h5>
+
+<div class="highlight highlight-nginx"><pre><span class="pl-k">http</span> {
+  <span class="pl-k">init_by_lua</span> <span class="pl-s">'</span>
+<span class="pl-s">    require "resty.core"</span>
+<span class="pl-s">    template = require "resty.template"</span>
+<span class="pl-s">    template.caching(false); -- you may remove this on production</span>
+<span class="pl-s">  '</span>;
+  <span class="pl-k">server</span> {
+    <span class="pl-k">location</span> ~ <span class="pl-sr">\.lsp$ </span>{
+      <span class="pl-k">default_type</span> text/html;
+      <span class="pl-k">content_by_lua</span> <span class="pl-s">'template.render(ngx.var.uri)'</span>;
+    }
+  }
+}</pre></div>
+
+<p>The above configuration creates a global <code>template</code> variable in Lua environment (you may not want that).
+We also created location to match all <code>.lsp</code> files (or locations), and then we just render the template.</p>
+
+<p>Let's imagine that the request is for <code>index.lsp</code>.</p>
+
+<h5><a id="user-content-indexlsp" class="anchor" href="#indexlsp" aria-hidden="true"><span class="octicon octicon-link"></span></a>index.lsp</h5>
+
+<div class="highlight highlight-html"><pre>{%
+layout = "layouts/default.lsp"
+local title = "Hello, World!"
+%}
+&lt;<span class="pl-ent">h1</span>&gt;{{title}}&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<p>Here you can see that this file includes a little bit of a view (<code>&lt;h1&gt;{{title}}&lt;/h1&gt;</code>) in addition to some Lua code that we want to run. If you want to have a pure code file with Layout in Front, then just don't write any view code in this file. The <code>layout</code> variable is already defined in views as documented else where in this documentation. Now let's see the other files too.</p>
+
+<h5><a id="user-content-layoutsdefaultlsp" class="anchor" href="#layoutsdefaultlsp" aria-hidden="true"><span class="octicon octicon-link"></span></a>layouts/default.lsp</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+{(include/header.lsp)}
+&lt;<span class="pl-ent">body</span>&gt;
+{*view*}
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>Here we have a layout to decorate the <code>index.lsp</code>, but we also have include here, so let's look at it.</p>
+
+<h5><a id="user-content-includeheaderlsp" class="anchor" href="#includeheaderlsp" aria-hidden="true"><span class="octicon octicon-link"></span></a>include/header.lsp</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Testing Lua Server Pages&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;</pre></div>
+
+<p>Static stuff here only.</p>
+
+<h5><a id="user-content-output-7" class="anchor" href="#output-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<p>The final output will look like this:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Testing Lua Server Pages&lt;/<span class="pl-ent">title</span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+  &lt;<span class="pl-ent">h1</span>&gt;Hello, World!&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<p>As you can see, <code>lua-resty-template</code> can be quite flexibile and easy to start with. Just place files under your document root and use the normal save-and-refresh style of development. The server will automatically pick the new files and reload the templates (if the caching is turned of) on save.</p>
+
+<p>If you want to pass variables to layouts or includes you can add stuff to context table (in the example below see <code>context.title</code>):</p>
+
+<div class="highlight highlight-html"><pre>{%
+layout = "layouts/default.lsp"
+local title = "Hello, World!"
+context.title = 'My Application - ' .. title
+%}
+&lt;<span class="pl-ent">h1</span>&gt;{{title}}&lt;/<span class="pl-ent">h1</span>&gt;</pre></div>
+
+<h2><a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<h3><a id="user-content-how-do-i-clear-the-template-cache" class="anchor" href="#how-do-i-clear-the-template-cache" aria-hidden="true"><span class="octicon octicon-link"></span></a>How Do I Clear the Template Cache</h3>
+
+<p><code>lua-resty-template</code> automatically caches (if caching is enabled) the resulting template functions in <code>template.cache</code> table. You can clear the cache by issuing <code>template.cache = {}</code>.</p>
+
+<h2><a id="user-content-alternatives" class="anchor" href="#alternatives" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alternatives</h2>
+
+<p>You may also look at these (as alternatives, or to mix them with <code>lua-resty-template</code>):</p>
+
+<ul>
+<li>lua-resty-hoedown (<a href="https://github.com/bungle/lua-resty-hoedown">https://github.com/bungle/lua-resty-hoedown</a>)</li>
+<li>lua-template (<a href="https://github.com/dannote/lua-template">https://github.com/dannote/lua-template</a>)</li>
+<li>etlua (<a href="https://github.com/leafo/etlua">https://github.com/leafo/etlua</a>)</li>
+<li>cgilua (<a href="http://keplerproject.github.io/cgilua/manual.html#templates">http://keplerproject.github.io/cgilua/manual.html#templates</a>)</li>
+<li>orbit (<a href="http://keplerproject.github.io/orbit/pages.html">http://keplerproject.github.io/orbit/pages.html</a>)</li>
+<li>turbolua mustache (<a href="http://turbolua.org/doc/web.html#mustache-templating">http://turbolua.org/doc/web.html#mustache-templating</a>)</li>
+<li>pl.template (<a href="http://stevedonovan.github.io/Penlight/api/modules/pl.template.html">http://stevedonovan.github.io/Penlight/api/modules/pl.template.html</a>)</li>
+<li>lustache (<a href="https://github.com/Olivine-Labs/lustache">https://github.com/Olivine-Labs/lustache</a>)</li>
+<li>luvstache (<a href="https://github.com/james2doyle/luvstache">https://github.com/james2doyle/luvstache</a>)</li>
+<li>luaghetti (<a href="https://github.com/AterCattus/luaghetti">https://github.com/AterCattus/luaghetti</a>)</li>
+<li>lub.Template (<a href="http://doc.lubyk.org/lub.Template.html">http://doc.lubyk.org/lub.Template.html</a>)</li>
+<li>lust (<a href="https://github.com/weshoke/Lust">https://github.com/weshoke/Lust</a>)</li>
+<li>templet (<a href="http://colberg.org/lua-templet/">http://colberg.org/lua-templet/</a>)</li>
+<li>luahtml (<a href="https://github.com/TheLinx/LuaHTML">https://github.com/TheLinx/LuaHTML</a>)</li>
+<li>mixlua (<a href="https://github.com/LuaDist/mixlua">https://github.com/LuaDist/mixlua</a>)</li>
+<li>lutem (<a href="https://github.com/daly88/lutem">https://github.com/daly88/lutem</a>)</li>
+<li>tirtemplate (<a href="https://github.com/torhve/LuaWeb/blob/master/tirtemplate.lua">https://github.com/torhve/LuaWeb/blob/master/tirtemplate.lua</a>)</li>
+<li>cosmo (<a href="http://cosmo.luaforge.net/">http://cosmo.luaforge.net/</a>)</li>
+<li>lua-codegen (<a href="http://fperrad.github.io/lua-CodeGen/">http://fperrad.github.io/lua-CodeGen/</a>)</li>
+<li>groucho (<a href="https://github.com/hanjos/groucho">https://github.com/hanjos/groucho</a>)</li>
+<li>simple lua preprocessor (<a href="http://lua-users.org/wiki/SimpleLuaPreprocessor">http://lua-users.org/wiki/SimpleLuaPreprocessor</a>)</li>
+<li>slightly less simple lua preprocessor (<a href="http://lua-users.org/wiki/SlightlyLessSimpleLuaPreprocessor">http://lua-users.org/wiki/SlightlyLessSimpleLuaPreprocessor</a>)</li>
+<li>ltp (<a href="http://www.savarese.com/software/ltp/">http://www.savarese.com/software/ltp/</a>)</li>
+<li>slt (<a href="https://code.google.com/p/slt/">https://code.google.com/p/slt/</a>)</li>
+<li>slt2 (<a href="https://github.com/henix/slt2">https://github.com/henix/slt2</a>)</li>
+<li>luasp (<a href="http://luasp.org/">http://luasp.org/</a>)</li>
+<li>view0 (<a href="https://bitbucket.org/jimstudt/view0">https://bitbucket.org/jimstudt/view0</a>)</li>
+<li>leslie (<a href="https://code.google.com/p/leslie/">https://code.google.com/p/leslie/</a>)</li>
+<li>fraudster (<a href="https://bitbucket.org/sphen_lee/fraudster">https://bitbucket.org/sphen_lee/fraudster</a>)</li>
+<li>lua-haml (<a href="https://github.com/norman/lua-haml">https://github.com/norman/lua-haml</a>)</li>
+<li>lua-template (<a href="https://github.com/tgn14/Lua-template">https://github.com/tgn14/Lua-template</a>)</li>
+<li>hige (<a href="https://github.com/nrk/hige">https://github.com/nrk/hige</a>)</li>
+<li>lapis html generation (<a href="http://leafo.net/lapis/reference.html#html-generation">http://leafo.net/lapis/reference.html#html-generation</a>)</li>
+</ul>
+
+<p><code>lua-resty-template</code> <em>was originally forked from Tor Hveem's</em> <code>tirtemplate.lua</code> <em>that he had extracted from Zed Shaw's Tir web framework (<a href="http://tir.mongrel2.org/">http://tir.mongrel2.org/</a>). Thank you Tor, and Zed for your earlier contributions.</em></p>
+
+<h2><a id="user-content-benchmarks" class="anchor" href="#benchmarks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Benchmarks</h2>
+
+<p>There is a small microbenchmark located here:
+<a href="https://github.com/bungle/lua-resty-template/blob/master/lib/resty/template/microbenchmark.lua">https://github.com/bungle/lua-resty-template/blob/master/lib/resty/template/microbenchmark.lua</a></p>
+
+<h5><a id="user-content-lua-10" class="anchor" href="#lua-10" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua</h5>
+
+<div class="highlight highlight-lua"><pre><span class="pl-k">local</span> benchmark <span class="pl-k">=</span> <span class="pl-c1">require</span> <span class="pl-s"><span class="pl-pds">"</span>resty.template.microbenchmark<span class="pl-pds">"</span></span>
+benchmark.<span class="pl-c1">run</span>()
+<span class="pl-c">-- You may also pass iteration count (by default it is 1,000)</span>
+benchmark.<span class="pl-c1">run</span>(<span class="pl-c1">100</span>)</pre></div>
+
+<p>Here are some results from my laptop.</p>
+
+<h5><a id="user-content-lua-515--copyright-c-1994-2012-luaorg-puc-rio" class="anchor" href="#lua-515--copyright-c-1994-2012-luaorg-puc-rio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua 5.1.5  Copyright (C) 1994-2012 Lua.org, PUC-Rio</h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.015122
+Compilation Time: 0.056889 (template)
+Compilation Time: 0.000283 (template cached)
+  Execution Time: 0.065662 (same template)
+  Execution Time: 0.007642 (same template cached)
+  Execution Time: 0.089193 (different template)
+  Execution Time: 0.012040 (different template cached)
+  Execution Time: 0.089345 (different template, different context)
+  Execution Time: 0.009352 (different template, different context cached)
+      Total Time: 0.345528
+</code></pre>
+
+<h5><a id="user-content-lua-523--copyright-c-1994-2013-luaorg-puc-rio" class="anchor" href="#lua-523--copyright-c-1994-2013-luaorg-puc-rio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua 5.2.3  Copyright (C) 1994-2013 Lua.org, PUC-Rio</h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.018174
+Compilation Time: 0.057711 (template)
+Compilation Time: 0.000641 (template cached)
+  Execution Time: 0.073134 (same template)
+  Execution Time: 0.008268 (same template cached)
+  Execution Time: 0.073124 (different template)
+  Execution Time: 0.009122 (different template cached)
+  Execution Time: 0.076488 (different template, different context)
+  Execution Time: 0.010532 (different template, different context cached)
+      Total Time: 0.327194
+</code></pre>
+
+<h5><a id="user-content-lua-530--copyright-c-1994-2015-luaorg-puc-rio" class="anchor" href="#lua-530--copyright-c-1994-2015-luaorg-puc-rio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lua 5.3.0  Copyright (C) 1994-2015 Lua.org, PUC-Rio</h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.018946
+Compilation Time: 0.056762 (template)
+Compilation Time: 0.000529 (template cached)
+  Execution Time: 0.073199 (same template)
+  Execution Time: 0.007849 (same template cached)
+  Execution Time: 0.065949 (different template)
+  Execution Time: 0.008555 (different template cached)
+  Execution Time: 0.076584 (different template, different context)
+  Execution Time: 0.009687 (different template, different context cached)
+      Total Time: 0.318060
+</code></pre>
+
+<h5><a id="user-content-luajit-202----copyright-c-2005-2013-mike-pall-httpluajitorg" class="anchor" href="#luajit-202----copyright-c-2005-2013-mike-pall-httpluajitorg" aria-hidden="true"><span class="octicon octicon-link"></span></a>LuaJIT 2.0.2 -- Copyright (C) 2005-2013 Mike Pall. <a href="http://luajit.org/">http://luajit.org/</a></h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.009124
+Compilation Time: 0.029342 (template)
+Compilation Time: 0.000149 (template cached)
+  Execution Time: 0.035011 (same template)
+  Execution Time: 0.003697 (same template cached)
+  Execution Time: 0.066440 (different template)
+  Execution Time: 0.009159 (different template cached)
+  Execution Time: 0.062997 (different template, different context)
+  Execution Time: 0.005843 (different template, different context cached)
+      Total Time: 0.221762
+</code></pre>
+
+<h5><a id="user-content-luajit-210-alpha----copyright-c-2005-2014-mike-pall-httpluajitorg" class="anchor" href="#luajit-210-alpha----copyright-c-2005-2014-mike-pall-httpluajitorg" aria-hidden="true"><span class="octicon octicon-link"></span></a>LuaJIT 2.1.0-alpha -- Copyright (C) 2005-2014 Mike Pall. <a href="http://luajit.org/">http://luajit.org/</a></h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.003742
+Compilation Time: 0.028227 (template)
+Compilation Time: 0.000182 (template cached)
+  Execution Time: 0.034940 (same template)
+  Execution Time: 0.002974 (same template cached)
+  Execution Time: 0.067101 (different template)
+  Execution Time: 0.011551 (different template cached)
+  Execution Time: 0.071506 (different template, different context)
+  Execution Time: 0.007749 (different template, different context cached)
+      Total Time: 0.227972
+</code></pre>
+
+<h5><a id="user-content-resty-resty-001-nginx-version-openresty1772" class="anchor" href="#resty-resty-001-nginx-version-openresty1772" aria-hidden="true"><span class="octicon octicon-link"></span></a>resty (resty 0.01, nginx version: openresty/1.7.7.2)</h5>
+
+<pre><code>Running 1000 iterations in each test
+    Parsing Time: 0.003726
+Compilation Time: 0.035392 (template)
+Compilation Time: 0.000112 (template cached)
+  Execution Time: 0.037252 (same template)
+  Execution Time: 0.003590 (same template cached)
+  Execution Time: 0.058258 (different template)
+  Execution Time: 0.009501 (different template cached)
+  Execution Time: 0.059082 (different template, different context)
+  Execution Time: 0.006612 (different template, different context cached)
+      Total Time: 0.213525
+</code></pre>
+
+<p>I have not yet compared the results against the alternatives.</p>
+
+<h2><a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes</h2>
+
+<p>The changes of every release of this module is recorded in <a href="https://github.com/bungle/lua-resty-template/blob/master/CHANGES">CHANGES</a> file.</p>
+
+<h2><a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><code>lua-resty-template</code> uses three clause BSD license (because it was originally forked from one that uses it).</p>
+
+<pre><code>Copyright (c) 2014, 2015, Aapo Talvensaari
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, this
+  list of conditions and the following disclaimer in the documentation and/or
+  other materials provided with the distribution.
+
+* Neither the name of the {organization} nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</code></pre>
+</article>
+  </div>
+
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.08797s from github-fe124-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2c67e846b237d12dc49d9ba38bef688797518db6c4fc7ec256caf871623c69e4.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-cdf2812e9b014c7112138481f998b4d18770faa142b62ce3c3223fbf481b6a94.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[iterator, err = ngx.re.gmatc(${1:subject}, ${2:regex}, ${3:options})]]></content>
+    <content><![CDATA[iterator, err = ngx.re.gmatch(${1:subject}, ${2:regex}, ${3:options})]]></content>
     <tabTrigger>ngx.re.gmatch</tabTrigger>
     <scope>source.lua</scope>
     <description>(subject, regex, options?)</description>

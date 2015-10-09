@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, err = ngx.prin(${1:...})]]></content>
+    <content><![CDATA[ok, err = ngx.print(${1:...})]]></content>
     <tabTrigger>ngx.print</tabTrigger>
     <scope>source.lua</scope>
     <description>(...)</description>

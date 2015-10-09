@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[newstr = ngx.unescape_ur(${1:str})]]></content>
+    <content><![CDATA[newstr = ngx.unescape_uri(${1:str})]]></content>
     <tabTrigger>ngx.unescape_uri</tabTrigger>
     <scope>source.lua</scope>
     <description>(str)</description>

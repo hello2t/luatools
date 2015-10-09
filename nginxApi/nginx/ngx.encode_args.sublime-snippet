@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[str = ngx.encode_arg(${1:table})]]></content>
+    <content><![CDATA[str = ngx.encode_args(${1:table})]]></content>
     <tabTrigger>ngx.encode_args</tabTrigger>
     <scope>source.lua</scope>
     <description>(table)</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.slee(${1:seconds})]]></content>
+    <content><![CDATA[ngx.sleep(${1:seconds})]]></content>
     <tabTrigger>ngx.sleep</tabTrigger>
     <scope>source.lua</scope>
     <description>(seconds)</description>

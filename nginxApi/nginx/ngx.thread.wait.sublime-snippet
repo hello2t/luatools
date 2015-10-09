@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, res1, res2, ... = ngx.thread.wai(${1:thread1}, ${2:thread2}, ${3:...})]]></content>
+    <content><![CDATA[ok, res1, res2, ... = ngx.thread.wait(${1:thread1}, ${2:thread2}, ${3:...})]]></content>
     <tabTrigger>ngx.thread.wait</tabTrigger>
     <scope>source.lua</scope>
     <description>(thread1, thread2, ...)</description>

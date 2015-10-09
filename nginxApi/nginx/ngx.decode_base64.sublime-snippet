@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[newstr = ngx.decode_base6(${1:str})]]></content>
+    <content><![CDATA[newstr = ngx.decode_base64(${1:str})]]></content>
     <tabTrigger>ngx.decode_base64</tabTrigger>
     <scope>source.lua</scope>
     <description>(str)</description>

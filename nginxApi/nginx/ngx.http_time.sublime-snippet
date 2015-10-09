@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[str = ngx.http_tim(${1:sec})]]></content>
+    <content><![CDATA[str = ngx.http_time(${1:sec})]]></content>
     <tabTrigger>ngx.http_time</tabTrigger>
     <scope>source.lua</scope>
     <description>(sec)</description>

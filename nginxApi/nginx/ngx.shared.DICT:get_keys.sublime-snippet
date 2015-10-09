@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[keys = ngx.shared.DICT:get_key(${1:max}, ${2:count})]]></content>
+    <content><![CDATA[keys = ngx.shared.DICT:get_keys(${1:max}, ${2:count})]]></content>
     <tabTrigger>ngx.shared.DICT:get_keys</tabTrigger>
     <scope>source.lua</scope>
     <description>(max_count?)</description>

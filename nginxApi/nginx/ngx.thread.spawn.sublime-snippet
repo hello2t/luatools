@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[co = ngx.thread.spaw(${1:func}, ${2:arg1}, ${3:arg2}, ${4:...})]]></content>
+    <content><![CDATA[co = ngx.thread.spawn(${1:func}, ${2:arg1}, ${3:arg2}, ${4:...})]]></content>
     <tabTrigger>ngx.thread.spawn</tabTrigger>
     <scope>source.lua</scope>
     <description>(func, arg1, arg2, ...)</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[newval, err = ngx.shared.DICT:inc(${1:key}, ${2:value})]]></content>
+    <content><![CDATA[newval, err = ngx.shared.DICT:incr(${1:key}, ${2:value})]]></content>
     <tabTrigger>ngx.shared.DICT:incr</tabTrigger>
     <scope>source.lua</scope>
     <description>(key, value)</description>

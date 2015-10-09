@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[newstr, n, err = ngx.re.gsu(${1:subject}, ${2:regex}, ${3:replace}, ${4:options})]]></content>
+    <content><![CDATA[newstr, n, err = ngx.re.gsub(${1:subject}, ${2:regex}, ${3:replace}, ${4:options})]]></content>
     <tabTrigger>ngx.re.gsub</tabTrigger>
     <scope>source.lua</scope>
     <description>(subject, regex, replace, options?)</description>

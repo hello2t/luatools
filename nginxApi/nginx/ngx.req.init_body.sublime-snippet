@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.req.init_bod(${1:buffer}, ${2:size})]]></content>
+    <content><![CDATA[ngx.req.init_body(${1:buffer}, ${2:size})]]></content>
     <tabTrigger>ngx.req.init_body</tabTrigger>
     <scope>source.lua</scope>
     <description>(buffer_size?)</description>

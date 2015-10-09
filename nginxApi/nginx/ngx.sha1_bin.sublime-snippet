@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[digest = ngx.sha1_bi(${1:str})]]></content>
+    <content><![CDATA[digest = ngx.sha1_bin(${1:str})]]></content>
     <tabTrigger>ngx.sha1_bin</tabTrigger>
     <scope>source.lua</scope>
     <description>(str)</description>

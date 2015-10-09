@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.req.set_body_dat(${1:data})]]></content>
+    <content><![CDATA[ngx.req.set_body_data(${1:data})]]></content>
     <tabTrigger>ngx.req.set_body_data</tabTrigger>
     <scope>source.lua</scope>
     <description>(data)</description>

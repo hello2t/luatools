@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[... = coroutine.yiel(${1:...})]]></content>
+    <content><![CDATA[... = coroutine.yield(${1:...})]]></content>
     <tabTrigger>coroutine.yield</tabTrigger>
     <scope>source.lua</scope>
     <description>(...)</description>

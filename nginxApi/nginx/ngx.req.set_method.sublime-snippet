@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.req.set_metho(${1:method}, ${2:id})]]></content>
+    <content><![CDATA[ngx.req.set_method(${1:method}, ${2:id})]]></content>
     <tabTrigger>ngx.req.set_method</tabTrigger>
     <scope>source.lua</scope>
     <description>(method_id)</description>

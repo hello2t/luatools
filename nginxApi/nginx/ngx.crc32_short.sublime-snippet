@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[intval = ngx.crc32_shor(${1:str})]]></content>
+    <content><![CDATA[intval = ngx.crc32_short(${1:str})]]></content>
     <tabTrigger>ngx.crc32_short</tabTrigger>
     <scope>source.lua</scope>
     <description>(str)</description>

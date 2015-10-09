@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.shared.DICT:delet(${1:key})]]></content>
+    <content><![CDATA[ngx.shared.DICT:delete(${1:key})]]></content>
     <tabTrigger>ngx.shared.DICT:delete</tabTrigger>
     <scope>source.lua</scope>
     <description>(key)</description>

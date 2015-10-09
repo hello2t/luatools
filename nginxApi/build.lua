@@ -32,9 +32,10 @@ local function get_content( func )
 				table.insert(args, string.format("${%d:%s}", n, arg))
 				n = n + 1
 			end
-			content = string.sub(func, 1, string.find(func, "%(") - 2) .. "(".. table.concat(args, ", ") .. ")"
+			content = string.sub(func, 1, string.find(func, "%(") - 1) .. "(".. table.concat(args, ", ") .. ")"
 		end
 	end
+	-- print(content)
 	return "<![CDATA[" .. content .. "]]>"
 end
 

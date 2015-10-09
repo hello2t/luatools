@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, err = ngx.timer.a(${1:delay}, ${2:callback}, ${3:user}, ${4:arg1}, ${5:user}, ${6:arg2}, ${7:...})]]></content>
+    <content><![CDATA[ok, err = ngx.timer.at(${1:delay}, ${2:callback}, ${3:user}, ${4:arg1}, ${5:user}, ${6:arg2}, ${7:...})]]></content>
     <tabTrigger>ngx.timer.at</tabTrigger>
     <scope>source.lua</scope>
     <description>(delay, callback, user_arg1, user_arg2, ...)</description>

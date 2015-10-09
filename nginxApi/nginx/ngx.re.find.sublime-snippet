@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[from, to, err = ngx.re.fin(${1:subject}, ${2:regex}, ${3:options}, ${4:ctx}, ${5:nth})]]></content>
+    <content><![CDATA[from, to, err = ngx.re.find(${1:subject}, ${2:regex}, ${3:options}, ${4:ctx}, ${5:nth})]]></content>
     <tabTrigger>ngx.re.find</tabTrigger>
     <scope>source.lua</scope>
     <description>(subject, regex, options?, ctx?, nth?)</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[session, err = tcpsock:sslhandshak(${1:reused}, ${2:session}, ${3:server}, ${4:name}, ${5:ssl}, ${6:verify})]]></content>
+    <content><![CDATA[session, err = tcpsock:sslhandshake(${1:reused}, ${2:session}, ${3:server}, ${4:name}, ${5:ssl}, ${6:verify})]]></content>
     <tabTrigger>tcpsock:sslhandshake</tabTrigger>
     <scope>source.lua</scope>
     <description>(reused_session?, server_name?, ssl_verify?)</description>

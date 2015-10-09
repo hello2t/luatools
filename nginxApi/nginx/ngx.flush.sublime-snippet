@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, err = ngx.flus(${1:wait})]]></content>
+    <content><![CDATA[ok, err = ngx.flush(${1:wait})]]></content>
     <tabTrigger>ngx.flush</tabTrigger>
     <scope>source.lua</scope>
     <description>(wait?)</description>

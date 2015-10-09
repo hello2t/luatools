@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[res1, res2, ... = ngx.location.capture_mult(${1:uri}, ${2:options}, ${3:uri}, ${4:options}, ${5:...})]]></content>
+    <content><![CDATA[res1, res2, ... = ngx.location.capture_multi(${1:uri}, ${2:options}, ${3:uri}, ${4:options}, ${5:...})]]></content>
     <tabTrigger>ngx.location.capture_multi</tabTrigger>
     <scope>source.lua</scope>
     <description>({ {uri, options?}, {uri, options?}, ... })</description>

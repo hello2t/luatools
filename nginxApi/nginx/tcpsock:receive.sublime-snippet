@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[data, err, partial = tcpsock:receiv(${1:pattern})]]></content>
+    <content><![CDATA[data, err, partial = tcpsock:receive(${1:pattern})]]></content>
     <tabTrigger>tcpsock:receive</tabTrigger>
     <scope>source.lua</scope>
     <description>(pattern?)</description>

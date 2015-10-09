@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.req.set_ur(${1:uri}, ${2:jump})]]></content>
+    <content><![CDATA[ngx.req.set_uri(${1:uri}, ${2:jump})]]></content>
     <tabTrigger>ngx.req.set_uri</tabTrigger>
     <scope>source.lua</scope>
     <description>(uri, jump?)</description>

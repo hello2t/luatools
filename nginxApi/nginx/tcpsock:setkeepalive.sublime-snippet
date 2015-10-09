@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ok, err = tcpsock:setkeepaliv(${1:timeout}, ${2:size})]]></content>
+    <content><![CDATA[ok, err = tcpsock:setkeepalive(${1:timeout}, ${2:size})]]></content>
     <tabTrigger>tcpsock:setkeepalive</tabTrigger>
     <scope>source.lua</scope>
     <description>(timeout?, size?)</description>

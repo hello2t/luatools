@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[udpsock:settimeou(${1:time})]]></content>
+    <content><![CDATA[udpsock:settimeout(${1:time})]]></content>
     <tabTrigger>udpsock:settimeout</tabTrigger>
     <scope>source.lua</scope>
     <description>(time)</description>

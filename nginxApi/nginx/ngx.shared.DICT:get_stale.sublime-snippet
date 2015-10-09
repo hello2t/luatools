@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[value, flags, stale = ngx.shared.DICT:get_stal(${1:key})]]></content>
+    <content><![CDATA[value, flags, stale = ngx.shared.DICT:get_stale(${1:key})]]></content>
     <tabTrigger>ngx.shared.DICT:get_stale</tabTrigger>
     <scope>source.lua</scope>
     <description>(key)</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[res = ngx.location.captur(${1:uri}, ${2:options})]]></content>
+    <content><![CDATA[res = ngx.location.capture(${1:uri}, ${2:options})]]></content>
     <tabTrigger>ngx.location.capture</tabTrigger>
     <scope>source.lua</scope>
     <description>(uri, options?)</description>

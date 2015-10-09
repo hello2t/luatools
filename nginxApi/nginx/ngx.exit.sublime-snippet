@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[ngx.exi(${1:status})]]></content>
+    <content><![CDATA[ngx.exit(${1:status})]]></content>
     <tabTrigger>ngx.exit</tabTrigger>
     <scope>source.lua</scope>
     <description>(status)</description>
