@@ -77,11 +77,14 @@ end
 
 --扫描目录  找到文件就回调
 function util.scanDir( path,depth,fileCallback)
+    --获取目录下所有的文件
 	for file in lfs.dir(path) do
         if file ~= "." and file ~= ".." then
             local f = path..'/'..file
+            --获取当前文件属性
             local attr = lfs.attributes (f)
             if (type(attr) == "table") then 
+                --如果文件属性是目录 递归遍历这个目录
                 if attr.mode == "directory" and depth >0 then
                     util.scanDir(f,depth-1,fileCallback)
                 else
