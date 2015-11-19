@@ -1,0 +1,3 @@
+[submodule "yingnierxiao"]
+	path = 3rd/lua-imagick
+	url = git@github.com:yingnierxiao/lua-imagick.git
