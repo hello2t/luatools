@@ -1,3 +1,6 @@
 [submodule "yingnierxiao"]
 	path = 3rd/lua-imagick
 	url = git@github.com:yingnierxiao/lua-imagick.git
+[submodule "3rd/lfs"]
+	path = 3rd/lfs
+	url = git@github.com:yingnierxiao/luafilesystem.git
