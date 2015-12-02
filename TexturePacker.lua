@@ -38,7 +38,7 @@ end
 
 local function packimage()
 	print("find files ",#imagelist)
-	local oimg = imagick.open("xc:rgb(0,0,0)")
+	local oimg = imagick.open("xc:rgba(0,0,0,0)")
 	oimg:resize(500,500)
 	local offx = 0 
 	local offy = 0
